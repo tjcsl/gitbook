@@ -90,6 +90,7 @@
     * [GitLab](technologies/ansible/gitlab.md)
   * [Virtualization](technologies/virtualization-stack/README.md)
     * [QEMU](technologies/virtualization-stack/qemu.md)
+    * [Libvirt](technologies/virtualization-stack/libvirt.md)
   * [Advanced Computing](technologies/advanced-computing/README.md)
     * [Slurm](technologies/advanced-computing/slurm.md)
     * [MPI](technologies/advanced-computing/mpi.md)
