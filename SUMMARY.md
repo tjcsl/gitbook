@@ -122,5 +122,6 @@
   * [Data Recovery](procedures/data-recovery.md)
   * [Accounts](procedures/accounts.md)
   * [Communication](procedures/communication.md)
-* [Policies](policies.md)
+* [Policies](policies/README.md)
+  * [Data Release Policy](policies/data-release-policy.md)
 
