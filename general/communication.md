@@ -22,12 +22,30 @@ Some channels include:
 
 ### Applications
 
-Workspace members can add applications to the channels to improve workflows.
+Workspace members can add applications to the channels to improve the SysAdmin's workflow.  Some examples of integrated applications include:
+
+* Sentry: Notifies Sysadmins of errors/events on web applications
+
+{% page-ref page="../technologies/monitoring/sentry.md" %}
+
+* Uptime Robot: Notifies SysAdmins of downtime on critical public-facing CSL-maintained webpages
+
+{% page-ref page="../technologies/monitoring/uptime-robot.md" %}
+
+* Asana: Keeps track of tasks assigned to SysAdmins
+
+{% page-ref page="../technologies/ansible/asana.md" %}
 
 ### Best Practices
 
 * Keep conversations in relevant channels.
   * Don't talk about account recovery in the Signage channel, etc.
+* Don't spam.
+  * Don't make people annoyed with notifications from a channel to the point where they mute the channel
+* Use proper ettiquete and be respectful.
+  * There is no need to be disrespectful in the Slack channels.
+* Keep private conversations in DM
+  * Don't pollute channels with unnecessary messages
 
 ### Roles
 
