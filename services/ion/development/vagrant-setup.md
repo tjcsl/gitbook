@@ -1,3 +1,7 @@
+---
+description: Explains steps to setup Vagrant development environment
+---
+
 # Vagrant Setup
 
 ## Setting up Vagrant

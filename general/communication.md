@@ -6,6 +6,22 @@ Communication is important to the effective functioning of the Lab.  We use Slac
 
 ## Slack
 
+Slack \([https://slack.com](https://slack.com)\) is a proprietary set of tools for team collaboration.  It offers various integration with different services.  We have a workspace at [https://tjcsl.slack.com](https://tjcsl.slack.com).
+
+### Channels
+
+Conversations in Slack are organized into public and private channels.  You can join a public channel by clicking on the`+` icon.
+
+Some channels include:
+
+* \#general: For general discussions
+* \#random: For random discussions
+* \#ion: For discussion of Ion
+* \#director: For discussion of Director
+* Other channels
+
+
+
 ## E-mail
 
 ##  
