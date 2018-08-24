@@ -10,7 +10,7 @@ Slack \([https://slack.com](https://slack.com)\) is a proprietary set of tools f
 
 ### Channels
 
-Conversations in Slack are organized into public and private channels.  You can join a public channel by clicking on the`+` icon.
+Conversations in Slack are organized into public and private channels.  You can join a public channel by clicking on the`+` icon.  Private \(invite-only\) channels require an invite from someone within the channel.  Use invite-only channels for sensitive or non-public discussions.
 
 Some channels include:
 
@@ -18,11 +18,30 @@ Some channels include:
 * \#random: For random discussions
 * \#ion: For discussion of Ion
 * \#director: For discussion of Director
-* Other channels
+* and other channels
 
+### Applications
 
+Workspace members can add applications to the channels to improve workflows.
+
+### Best Practices
+
+* Keep conversations in relevant channels.
+  * Don't talk about account recovery in the Signage channel, etc.
+
+### Roles
+
+Workspace owners have full administrative access to the workspace.  The owners can remove members and change workspace settings.  The lead SysAdmin\(s\) and Faculty Sponsor should be owners and should designate other owners they find necessary.
+
+Workspace members can join, write, and read in public channels..  They can also join, write, and read in invite-only channels.  They can also create new public or invite-only channels.
+
+The workspace membership should be restricted to people with an `@tjhsst.edu` e-mail.
 
 ## E-mail
+
+## IRC
+
+
 
 ##  
 
