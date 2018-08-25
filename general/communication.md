@@ -2,7 +2,7 @@
 
 ## Overview
 
-Communication is important to the effective functioning of the Lab.  We use Slack as our primary form of communication within the Student Systems Administrator program.  Communication through e-mail is used to communicate with various stakeholders in the TJ community.  IRC is used as a fallback form of communication in the event Slack is down.
+Communication is important to the effective functioning of the Lab.  We use Slack as our primary form of communication within the SysAdmins.  Communication through e-mail is used to communicate with various stakeholders in the TJ community.  IRC is used as a fallback form of communication in the event Slack is down.  Sending mass notifications to the whole school is done through Ion announcements.
 
 ## Slack
 
@@ -59,7 +59,33 @@ The workspace membership should be restricted to people with an `@tjhsst.edu` e-
 
 ## E-mail
 
+Communicating with TJ community members is primarily done through email.  The Eighth Period Office, administration, TJ Tech Team, teachers, and students rely on these channels for communicating with the SysAdmin team.  Hence, e-mail services in the CSL \(mail.tjhsst.edu and lists.tjhsst.edu\) are **mission-critical services**.
+
+### Responding to E-mail
+
+TO-DO
+
+###  Lists
+
+#### SysAdmin Mailing List
+
+Most communication directed to the SysAdmins gets sent to [sysadmins@tjhsst.edu](mailto:sysadmins@tjhsst.edu) . This mailing list is restricted to SysAdmins and the Faculty Sponsor.  Ask a mail admin for access if you did not get added to the list.  
+
+{% hint style="info" %}
+If you did not get added to the mailing list, refer the mail admins to the New SysAdmin Onboarding guide.
+{% endhint %}
+
+#### Intranet Mailing List
+
+Most communication related to Ion gets sent to [intranet@tjhsst.edu](mailto:intranet@tjhsst.edu).  This mailing list is restricted to Ion developers.
+
+#### Director Mailing List
+
+Most communication related to Director gets sent to [director@tjhsst.edu](mailto:director@tjhsst.edu).  This mailing list is restricted to Director developers.
+
 ## IRC
+
+## Ion Announcements
 
 
 
