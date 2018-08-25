@@ -41,11 +41,13 @@ Workspace members can add applications to the channels to improve the SysAdmin's
 * Keep conversations in relevant channels.
   * Don't talk about account recovery in the Signage channel, etc.
 * Don't spam.
-  * Don't make people annoyed with notifications from a channel to the point where they mute the channel
-* Use proper ettiquete and be respectful.
+  * Don't make people annoyed with notifications from a channel to the point where they mute the channel.
+* Use proper etiquette and be respectful.
   * There is no need to be disrespectful in the Slack channels.
-* Keep private conversations in DM
-  * Don't pollute channels with unnecessary messages
+* Keep private conversations in DM.
+  * Don't pollute channels with unnecessary messages that could just be communicated directly.
+* Use emotes to react to messages.
+  * This reduces overall clutter and makes it easier to find stuff.
 
 ### Roles
 
