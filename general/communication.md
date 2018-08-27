@@ -61,15 +61,36 @@ The workspace membership should be restricted to people with an `@tjhsst.edu` e-
 
 Communicating with TJ community members is primarily done through email.  The Eighth Period Office, administration, TJ Tech Team, teachers, and students rely on these channels for communicating with the SysAdmin team.  Hence, e-mail services in the CSL \(mail.tjhsst.edu and lists.tjhsst.edu\) are **mission-critical services**.
 
-### Responding to E-mail
+### E-mail Responses
 
-TO-DO
+To keep everyone happy, responding to e-mails quickly is preferred.  
+
+The person who is responsible for responding to an e-mail usually varies on a case-by-case basis and based on various factors.  Some of these factors include:
+
+* Is it a support inquiry, complaint, question, or request?
+* Who sent it and what position to they have?
+* How important is it?
+* Which SysAdmin\(s\) has/have access to the systems necessary to complete the request?
+* How much knowledge does the SysAdmin have of the functional area?
+
+Here are some rough guidelines of who should respond.
+
+* In general, the lead or contact person for a specific functional area should respond to e-mails.
+* If the Eighth Period Office contacts the SysAdmins about Ion, the Ion Lead\(s\) should respond.  In other cases, other Ion admins may respond.  The Ion Lead\(s\) should designate people to respond to inquiries.
+* If the inquiry is from administration, the Lead SysAdmin or appropriate lead/contact person should respond.
+* If the inquiry is about Signage, the Signage Lead or a designee should respond.
+* If the inquiry is about workstations, a workstations admin should respond.
+* If the inquiry is about the cluster, a cluster admin should respond.
+* If the inquiry is about the Remote Access Servers, a RAS admin should respond.
+* If the inquiry is about the website or other site on WWW,, the appropriate SysAdmin should respond.
+* If there is an account inquiry, the appropriate SysAdmin should respond.
+* If a general question can be answered by a SysAdmin, that SysAdmin should respond.
 
 ###  Lists
 
 #### SysAdmin Mailing List
 
-Most communication directed to the SysAdmins gets sent to [sysadmins@tjhsst.edu](mailto:sysadmins@tjhsst.edu) . This mailing list is restricted to SysAdmins and the Faculty Sponsor.  Ask a mail admin for access if you did not get added to the list.  
+Most communication directed to the SysAdmins gets sent to [sysadmins@tjhsst.edu](mailto:sysadmins@tjhsst.edu) . The official list address is `sysadmins@lists.tjhsst.edu`. This mailing list is restricted to SysAdmins and the Faculty Sponsor.  Ask a mail admin for access if you did not get added to the list.  
 
 {% hint style="info" %}
 If you did not get added to the mailing list, refer the mail admins to the New SysAdmin Onboarding guide.
@@ -77,13 +98,28 @@ If you did not get added to the mailing list, refer the mail admins to the New S
 
 #### Intranet Mailing List
 
-Most communication related to Ion gets sent to [intranet@tjhsst.edu](mailto:intranet@tjhsst.edu).  This mailing list is restricted to Ion developers.
+Most communication related to Ion gets sent to [intranet@tjhsst.edu](mailto:intranet@tjhsst.edu).  The official list address is `intranet@lists.tjhsst.edu`. This mailing list is restricted to Ion developers.
 
 #### Director Mailing List
 
-Most communication related to Director gets sent to [director@tjhsst.edu](mailto:director@tjhsst.edu).  This mailing list is restricted to Director developers.
+Most communication related to Director gets sent to [director@lists.tjhsst.edu](mailto:director@lists.tjhsst.edu).  This mailing list is restricted to Director developers.
 
 ## IRC
+
+Internet Relay Chat \(IRC\) is an application layer protocol that facilitates communication in the form of text.  You can read more about the protocol [on Wikipedia](https://en.wikipedia.org/wiki/Irc).  We use Freenode to facilitate communications
+
+### Clients
+
+Multiple clients support IRC.  We recommend one of the clients listed below:
+
+* TheLounge: A modern self-hosted IRC web client.   We host an instance at [lounge.tjhsst.edu](https://lounge.tjhsst.edu) on Director.  Their repository can be found at [https://github.com/thelounge/thelounge](https://github.com/thelounge/thelounge).  Login is done through LDAP.
+* Matrix through matrix-appservice-irc: Matrix is an open network for secure, decentralized communication.  [https://matrix.org](https://matrix.org), it's reference homeserver, hosts a Freenode IRC bridge.  One way to connect to Matrix is through their reference client, Riot \([https://about.riot.im/](https://about.riot.im/)\).  Instructions on how to connect can be found at [https://github.com/matrix-org/matrix-appservice-irc/wiki/End-user-FAQ](https://github.com/matrix-org/matrix-appservice-irc/wiki/End-user-FAQ).  The bridge's repository is located at [https://github.com/matrix-org/matrix-appservice-irc/](https://github.com/matrix-org/matrix-appservice-irc/).
+
+### Channels
+
+### Ettiquete
+
+Using common sense, following server rules, and being respectful is good practice.
 
 ## Ion Announcements
 
