@@ -114,14 +114,36 @@ Multiple clients support IRC.  We recommend one of the clients listed below:
 
 * TheLounge: A modern self-hosted IRC web client.   We host an instance at [lounge.tjhsst.edu](https://lounge.tjhsst.edu) on Director.  Their repository can be found at [https://github.com/thelounge/thelounge](https://github.com/thelounge/thelounge).  Login is done through LDAP.
 * Matrix through matrix-appservice-irc: Matrix is an open network for secure, decentralized communication.  [https://matrix.org](https://matrix.org), it's reference homeserver, hosts a Freenode IRC bridge.  One way to connect to Matrix is through their reference client, Riot \([https://about.riot.im/](https://about.riot.im/)\).  Instructions on how to connect can be found at [https://github.com/matrix-org/matrix-appservice-irc/wiki/End-user-FAQ](https://github.com/matrix-org/matrix-appservice-irc/wiki/End-user-FAQ).  The bridge's repository is located at [https://github.com/matrix-org/matrix-appservice-irc/](https://github.com/matrix-org/matrix-appservice-irc/).
+* Hexchat: A local IRC client.  It is installed on most Linux distros.  Their website is [http://xchat.org/](http://xchat.org/).
 
 ### Channels
 
+* \#tjcsl
+  * Channel for SysAdmins
+* \#tjhsst
+  *  Channel for TJHSST students and composed of alums and current students.
+
 ### Ettiquete
 
-Using common sense, following server rules, and being respectful is good practice.
+Using common sense, following server rules, and being respectful to others is good practice.
+
+### Useful Commands
+
+Most of these are well documented by IRC. 
+
+| Command | Description |
+| :--- | :--- |
+| `/msg NickServ identify <username> <password>` | Authenticate to NickServ |
+| `/msg NickServ register <password> <email>` | Begin registration of current nick |
+| `/join <channel>` | Join a channel |
+
+Sending messages is as easy as writing the message in the appropriate channel. You can reference others in the channel by mentioning their nick.
 
 ## Ion Announcements
+
+Posting general announcements to the TJ community \(such as extended downtime or school-wide announcements\) should generally be done through an Ion announcement.  To approve an announcement, you must be an Ion admin.  You can add an announcement by clicking the big `Add` button at the top of the dashboard.
+
+The announcement should be simple, concise, informative, and attributed to the right person team.
 
 
 
