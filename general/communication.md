@@ -6,7 +6,7 @@ Communication is important to the effective functioning of the Lab.  We use Slac
 
 ## Slack
 
-Slack \([https://slack.com](https://slack.com)\) is a proprietary set of tools for team collaboration.  It offers various integration with different services.  We have a workspace at [https://tjcsl.slack.com](https://tjcsl.slack.com).
+Slack \([https://slack.com](https://slack.com)\) is a proprietary set of tools for team collaboration.  It offers various integration with different services.  We have a workspace at [https://tjcsl.slack.com](https://tjcsl.slack.com).  The CSL's first widespread use of the Slack workspace began in August of 2018.
 
 ### Channels
 
@@ -106,7 +106,7 @@ Most communication related to Director gets sent to [director@lists.tjhsst.edu](
 
 ## IRC
 
-Internet Relay Chat \(IRC\) is an application layer protocol that facilitates communication in the form of text.  You can read more about the protocol [on Wikipedia](https://en.wikipedia.org/wiki/Irc).  We use Freenode to facilitate communications
+Internet Relay Chat \(IRC\) is an application layer protocol that facilitates communication in the form of text.  You can read more about the protocol [on Wikipedia](https://en.wikipedia.org/wiki/Irc).  We use Freenode to facilitate communications.  IRC had been the primary tool for communication among SysAdmins until the switch over to Slack.  
 
 ### Clients
 
@@ -119,7 +119,7 @@ Multiple clients support IRC.  We recommend one of the clients listed below:
 ### Channels
 
 * \#tjcsl
-  * Channel for SysAdmins
+  * Channel for SysAdmins.  It is currently bridged to \#general in Slack.
 * \#tjhsst
   *  Channel for TJHSST students and composed of alums and current students.
 
