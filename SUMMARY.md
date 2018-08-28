@@ -2,8 +2,6 @@
 
 * [TJ CSL](README.md)
 * [Services](services/README.md)
-  * [DNS](services/dns/README.md)
-    * [Updating](services/dns/updating/README.md)
   * [Ion](services/ion/README.md)
     * [Development](services/ion/development/README.md)
       * [Vagrant Setup](services/ion/development/vagrant-setup.md)
@@ -106,6 +104,8 @@
   * [Networking](technologies/networking/README.md)
     * [Cisco](technologies/networking/cisco.md)
     * [OpenVPN](technologies/networking/openvpn.md)
+    * [DNS](technologies/networking/dns/README.md)
+      * [Updating](technologies/networking/dns/updating.md)
   * [Mail](technologies/mail/README.md)
     * [Postfix](technologies/mail/postfix.md)
     * [Dovecot](technologies/mail/dovecot.md)
