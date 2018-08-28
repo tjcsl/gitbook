@@ -2,6 +2,8 @@
 
 * [TJ CSL](README.md)
 * [Services](services/README.md)
+  * [DNS](services/dns/README.md)
+    * [Updating](services/dns/updating/README.md)
   * [Ion](services/ion/README.md)
     * [Development](services/ion/development/README.md)
       * [Vagrant Setup](services/ion/development/vagrant-setup.md)
