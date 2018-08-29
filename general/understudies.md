@@ -18,5 +18,5 @@ At the beginning of each year, interest meetings are scheduled to allow any stud
 
 ## Structure
 
-The structure of the program is fairly flexible to allow for understudies to explore their interested functional areas.  Each understudy is assigned a mentor whose job is to help and guide them through the program.  Most questions and concerns they have about SysAdmin matters should be raised with their mentor.   Each mentor in collaboration with other mentors and in coordination with functional group
+The structure of the program is fairly flexible to allow for understudies to explore their interested functional areas.  Each understudy is assigned a mentor whose job is to help and guide them through the program.  Most questions and concerns they have about SysAdmin matters should be raised with their mentor.   Each mentor in collaboration with other mentor should assign various tasks to their understudies as they see fit.
 
