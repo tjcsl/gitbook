@@ -134,7 +134,7 @@
   * [Communication](general/communication.md)
   * [Understudies](general/understudies.md)
   * [Blame Assignment](general/blame-assignment.md)
-  * [TJHSST Account Guide](general/tjhsst-account-guide.md)
+  * [Account Structure](general/tjhsst-account-guide.md)
 * [Procedures](procedures/README.md)
   * [Data Recovery](procedures/data-recovery.md)
   * [Accounts](procedures/accounts.md)
