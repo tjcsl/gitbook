@@ -30,6 +30,10 @@ The official GitBook documentation can be found [here](https://docs.gitbook.com/
 
 The Lead SysAdmins, Faculty Sponsor, and Documentaiton Lead should be owners/admins of the TJCSL organization.  Other SysAdmins should have write access to the documentation.  The expectation is that you do not violate the trust that is given to you.
 
+## Editing
+
+Editing for GitBook can be done via a git repo or the visual editor.
+
 
 
 
