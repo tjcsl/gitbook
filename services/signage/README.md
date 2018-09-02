@@ -13,3 +13,7 @@ The Signage displays also can show special event information.
 
 The core of Signage runs on Intel Compute Sticks \([official website](https://www.intel.com/content/www/us/en/products/boards-kits/compute-stick.html)\).  
 
+## History
+
+THe first Signage displays were installed around the first release of Ion.
+
