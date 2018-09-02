@@ -1,7 +1,3 @@
----
-description: Guide for SysAdmins.  This is not a guide for students.
----
-
 # Account Structure
 
 There are three different accounts that each TJHSST student has:

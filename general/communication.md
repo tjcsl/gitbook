@@ -34,7 +34,7 @@ Workspace members can add applications to the channels to improve the SysAdmin's
 
 * Asana: Keeps track of tasks assigned to SysAdmins
 
-{% page-ref page="../technologies/ansible/asana.md" %}
+{% page-ref page="../technologies/tools/asana.md" %}
 
 ### Best Practices
 
