@@ -1,6 +1,6 @@
 # GitBook
 
-GitBook is the documentation platform used by the Computer Systems Lab. It is the central hub of knowledge. It is hosted on [gitbook.com](https://gitbook.com), a proprietary platform.
+GitBook is the documentation platform used by the Computer Systems Lab. It is the central hub of knowledge for the Lab and is hosted on [gitbook.com](https://gitbook.com), a proprietary platform.
 
 ## History
 
@@ -20,15 +20,15 @@ The Book used DocBook format for all of its pages \(which is SGML, but mostly lo
 
 GitBook, the website, allows the creation of a GitBook account via e-mail, GItHub, or Google. Every account can be a member of a different organizations which in turn have their own workspaces. Workspaces can be either publicly available or restricted.
 
-The TJCSL organization contains the TJ CSL workspace which contains all of our public documentation for SysAdmins.
+The TJCSL organization contains the TJ CSL workspace which contains all of our public documentation for Sysadmins.
 
 The official GitBook documentation can be found [here](https://docs.gitbook.com/).
 
 ## Access Control
 
-The Lead SysAdmins, Faculty Sponsor, and Documentation Lead should be owners/admins of the TJCSL organization. Other SysAdmins should have write access to the documentation. The expectation is that you do not violate the trust that is given to you.
+The Lead Sysadmins, Faculty Sponsor, and Documentation Lead should be owners/admins of the TJCSL organization. Other Sysadmins should have write access to the documentation. The expectation is that you do not violate the trust that is given to you.
 
 ## Editing
 
-Editing for GitBook can be done via a git repo or the visual editor.
+Editing for GitBook can be done via a git repo or the visual editor.  Changes to the organizational structure \(adding pages, moving pages, removing pages, etc.\) should generally be made through the online visual editor.  
 

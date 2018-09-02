@@ -2,7 +2,7 @@
 
 ## Overview
 
-Communication is important to the effective functioning of the Lab.  We use Slack as our primary form of communication within the SysAdmins.  Communication through e-mail is used to communicate with various stakeholders in the TJ community.  IRC is used as a fallback form of communication in the event Slack is down.  Sending mass notifications to the whole school is done through Ion announcements.
+Communication is important to the effective functioning of the Lab.  We use Slack as our primary form of communication within the Sysadmins.  Communication through e-mail is used to communicate with various stakeholders in the TJ community.  IRC is used as a fallback form of communication in the event Slack is down.  Sending mass notifications to the whole school is done through Ion announcements.
 
 ## Slack
 
@@ -22,17 +22,17 @@ Some channels include:
 
 ### Applications
 
-Workspace members can add applications to the channels to improve the SysAdmin's workflow.  Some examples of integrated applications include:
+Workspace members can add applications to the channels to improve the Sysadmins workflow.  Some examples of integrated applications include:
 
 * Sentry: Notifies Sysadmins of errors/events on web applications
 
 {% page-ref page="../technologies/monitoring/sentry.md" %}
 
-* Uptime Robot: Notifies SysAdmins of downtime on critical public-facing CSL-maintained webpages
+* Uptime Robot: Notifies Sysadmins of downtime on critical public-facing CSL-maintained webpages
 
 {% page-ref page="../technologies/monitoring/uptime-robot.md" %}
 
-* Asana: Keeps track of tasks assigned to SysAdmins
+* Asana: Keeps track of tasks assigned to Sysadmins
 
 {% page-ref page="../technologies/tools/asana.md" %}
 
@@ -51,7 +51,7 @@ Workspace members can add applications to the channels to improve the SysAdmin's
 
 ### Roles
 
-Workspace owners have full administrative access to the workspace.  The owners can remove members and change workspace settings.  The lead SysAdmin\(s\) and Faculty Sponsor should be owners and should designate other owners they find necessary.
+Workspace owners have full administrative access to the workspace.  The owners can remove members and change workspace settings.  The lead Sysadmin\(s\) and Faculty Sponsor should be owners and should designate other owners they find necessary.
 
 Workspace members can join, write, and read in public channels..  They can also join, write, and read in invite-only channels.  They can also create new public or invite-only channels.
 
@@ -59,7 +59,7 @@ The workspace membership should be restricted to people with an `@tjhsst.edu` e-
 
 ## E-mail
 
-Communicating with TJ community members is primarily done through email.  The Eighth Period Office, administration, TJ Tech Team, teachers, and students rely on these channels for communicating with the SysAdmin team.  Hence, e-mail services in the CSL \(mail.tjhsst.edu and lists.tjhsst.edu\) are **mission-critical services**.
+Communicating with TJ community members is primarily done through email.  The Eighth Period Office, administration, TJ Tech Team, teachers, and students rely on these channels for communicating with the Sysadmin team.  Hence, e-mail services in the CSL \(mail.tjhsst.edu and lists.tjhsst.edu\) are **mission-critical services**.
 
 ### E-mail Responses
 
@@ -70,30 +70,30 @@ The person who is responsible for responding to an e-mail usually varies on a ca
 * Is it a support inquiry, complaint, question, or request?
 * Who sent it and what position to they have?
 * How important is it?
-* Which SysAdmin\(s\) has/have access to the systems necessary to complete the request?
-* How much knowledge does the SysAdmin have of the functional area?
+* Which Sysadmin\(s\) has/have access to the systems necessary to complete the request?
+* How much knowledge does the Sysadmin have of the functional area?
 
 Here are some rough guidelines of who should respond.
 
 * In general, the lead or contact person for a specific functional area should respond to e-mails.
-* If the Eighth Period Office contacts the SysAdmins about Ion, the Ion Lead\(s\) should respond.  In other cases, other Ion admins may respond.  The Ion Lead\(s\) should designate people to respond to inquiries.
-* If the inquiry is from administration, the Lead SysAdmin or appropriate lead/contact person should respond.
+* If the Eighth Period Office contacts the Sysadmins about Ion, the Ion Lead\(s\) should respond.  In other cases, other Ion admins may respond.  The Ion Lead\(s\) should designate people to respond to inquiries.
+* If the inquiry is from administration, the Lead Sysadmin or appropriate lead/contact person should respond.
 * If the inquiry is about Signage, the Signage Lead or a designee should respond.
 * If the inquiry is about workstations, a workstations admin should respond.
 * If the inquiry is about the cluster, a cluster admin should respond.
 * If the inquiry is about the Remote Access Servers, a RAS admin should respond.
-* If the inquiry is about the website or other site on WWW,, the appropriate SysAdmin should respond.
-* If there is an account inquiry, the appropriate SysAdmin should respond.
-* If a general question can be answered by a SysAdmin, that SysAdmin should respond.
+* If the inquiry is about the website or other site on WWW,, the appropriate Sysadmin should respond.
+* If there is an account inquiry, the appropriate Sysadmin should respond.
+* If a general question can be answered by a Sysadmin, that Sysadmin should respond.
 
 ###  Lists
 
-#### SysAdmin Mailing List
+#### Sysadmin Mailing List
 
-Most communication directed to the SysAdmins gets sent to [sysadmins@tjhsst.edu](mailto:sysadmins@tjhsst.edu) . The official list address is `sysadmins@lists.tjhsst.edu`. This mailing list is restricted to SysAdmins and the Faculty Sponsor.  Ask a mail admin for access if you did not get added to the list.  
+Most communication directed to the Sysadmins gets sent to [sysadmins@tjhsst.edu](mailto:sysadmins@tjhsst.edu) . The official list address is `sysadmins@lists.tjhsst.edu`. This mailing list is restricted to Sysadmins and the Faculty Sponsor.  Ask a mail admin for access if you did not get added to the list.  
 
 {% hint style="info" %}
-If you did not get added to the mailing list, refer the mail admins to the New SysAdmin Onboarding guide.
+If you did not get added to the mailing list, refer the mail admins to the New Sysadmin Onboarding guide.
 {% endhint %}
 
 #### Intranet Mailing List
@@ -106,7 +106,7 @@ Most communication related to Director gets sent to [director@lists.tjhsst.edu](
 
 ## IRC
 
-Internet Relay Chat \(IRC\) is an application layer protocol that facilitates communication in the form of text.  You can read more about the protocol [on Wikipedia](https://en.wikipedia.org/wiki/Irc).  We use Freenode to facilitate communications.  IRC had been the primary tool for communication among SysAdmins until the switch over to Slack.  
+Internet Relay Chat \(IRC\) is an application layer protocol that facilitates communication in the form of text.  You can read more about the protocol [on Wikipedia](https://en.wikipedia.org/wiki/Irc).  We use Freenode to facilitate communications.  IRC had been the primary tool for communication among Sysadmins until the switch over to Slack.  
 
 ### Clients
 
@@ -119,11 +119,11 @@ Multiple clients support IRC.  We recommend one of the clients listed below:
 ### Channels
 
 * \#tjcsl
-  * Channel for SysAdmins.  It is currently bridged to \#general in Slack.
+  * Channel for Sysadmins.  It is currently bridged to \#general in Slack.
 * \#tjhsst
   *  Channel for TJHSST students and composed of alums and current students.
 
-### Ettiquete
+### Etiquette
 
 Using common sense, following server rules, and being respectful to others is good practice.
 

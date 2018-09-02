@@ -14,9 +14,9 @@ New sysadmins are typically chosen at the end of the school year \(4th quarter\)
 
 ## Becoming an Understudy
 
-At the beginning of each year, interest meetings are scheduled to allow any student to learn about the Lab and the SysAdmin program. An application developed in collaboration between the Faculty Sponsor and senior SysAdmins  is then made available to the student body.  The applications are then reviewed by the Faculty Sponsor and current SysAdmins to select new understudies.
+At the beginning of each year, interest meetings are scheduled to allow any student to learn about the Lab and the Sysadmin program. An application developed in collaboration between the Faculty Sponsor and senior Sysadmins  is then made available to the student body.  The applications are then reviewed by the Faculty Sponsor and current SysAdmins to select new understudies.
 
 ## Structure
 
-The structure of the program is fairly flexible to allow for understudies to explore their interested functional areas.  Each understudy is assigned a mentor whose job is to help and guide them through the program.  Most questions and concerns they have about SysAdmin matters should be raised with their mentor.   Each mentor in collaboration with other mentor should assign various tasks to their understudies as they see fit.
+The structure of the program is fairly flexible to allow for understudies to explore their interested functional areas.  Each understudy is assigned a mentor whose job is to help and guide them through the program.  Most questions and concerns they have about Sysadmin matters should be raised with their mentor.   Each mentor in collaboration with other mentor should assign various tasks to their understudies as they see fit.
 

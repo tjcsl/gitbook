@@ -129,7 +129,7 @@
     * [2018 Purchases](servers/history/2018-purchases.md)
 * [General](general/README.md)
   * [Branding](general/branding.md)
-  * [SysAdmins List](general/sysadmins-list.md)
+  * [Sysadmins List](general/sysadmins-list.md)
   * [Documentation](general/documentation.md)
   * [Communication](general/communication.md)
   * [Understudies](general/understudies.md)
@@ -141,7 +141,7 @@
   * [Communication](procedures/communication.md)
   * [Onboarding](procedures/onboarding/README.md)
     * [New Understudy Onboarding](procedures/onboarding/new-understudy-onboarding.md)
-    * [New SysAdmin Onboarding](procedures/onboarding/new-sysadmin-onboarding.md)
+    * [New Sysadmin Onboarding](procedures/onboarding/new-sysadmin-onboarding.md)
 * [Policies](policies/README.md)
   * [Data Release Policy](policies/data-release-policy.md)
 

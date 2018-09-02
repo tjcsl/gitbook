@@ -1,6 +1,6 @@
-# SysAdmins List
+# Sysadmins List
 
-## Current SysAdmins
+## Current Sysadmins
 
 | Name | Username | Class | Position |
 | :--- | :--- | :--- | :--- |
