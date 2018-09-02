@@ -30,5 +30,5 @@ The Lead Sysadmins, Faculty Sponsor, and Documentation Lead should be owners/adm
 
 ## Editing
 
-Editing for GitBook can be done via a git repo or the visual editor.  Changes to the organizational structure \(adding pages, moving pages, removing pages, etc.\) should generally be made through the online visual editor.  
+Editing for GitBook can be done via a git repo or the visual editor.  Changes to the organizational structure \(adding pages, moving pages, removing pages, etc.\) should generally be made through the online visual editor.  Editing/adding to current documents can be done through mark down.  GitBook-specific features \(page links, hints, tables\) rely on custom solutions that cannot be easily done in Markdown.
 
