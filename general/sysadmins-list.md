@@ -2,11 +2,27 @@
 
 ## Current Sysadmins
 
-| Name | Username | Class | Position |
-| :--- | :--- | :--- | :--- |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+| Name | Username | Position |
+| :--- | :--- | :--- |
+| Omkar Kulkarni | 2019okulkarn | Lead Sysadmin |
+| Dylan Jones | 2019djones | Lead Sysadmin |
+| Jack Duvall | 2019jduvall | Cluster Lead |
+| Keegan Lanzillotta | 2020klanzill | Workstation/WWW/IonTap Lead |
+|  |  |  |
+
+
+
+## Current Leads
+
+| Area | Lead\(s\) |
+| :--- | :--- |
+| Ion | Omkar Kulkarni |
+| Director | Omkar Kulkarni |
+| Workstations | Keegan Lanzillotta |
+| Cluster | Jack Duvall |
+| WWW | Keegan Lanzillotta |
+| Signage | Dylan Jones |
+| IonTap | Keegan Lanzillotta |
 
 ## Previous Student Systems Administrators
 
