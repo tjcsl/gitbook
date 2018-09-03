@@ -7,8 +7,14 @@
 | Omkar Kulkarni | 2019okulkarn | Lead Sysadmin |
 | Dylan Jones | 2019djones | Lead Sysadmin |
 | Jack Duvall | 2019jduvall | Cluster Lead |
+| Alexander Hayden | 2019ahayden | Signage Lead |
 | Keegan Lanzillotta | 2020klanzill | Workstation/WWW/IonTap Lead |
-|  |  |  |
+| Theo Ouzhinski | 2020fouzhins | Documentation Lead |
+| John Beutner | 2020jbeutner | Sysadmin |
+| Parthiv Chigurapati | 2020pchiguru | Sysadmin |
+| Akash Bhave | 2021abhave | Sysadmin |
+| Alexander Black | 2021ablack | Sysadmin |
+| Ryan Kim | 2021rkim | Sysadmin |
 
 
 
@@ -21,7 +27,8 @@
 | Workstations | Keegan Lanzillotta |
 | Cluster | Jack Duvall |
 | WWW | Keegan Lanzillotta |
-| Signage | Dylan Jones |
+| Signage | Alexander Hayden |
+| Documentation | Theo Ouzhinski |
 | IonTap | Keegan Lanzillotta |
 
 ## Previous Student Systems Administrators
