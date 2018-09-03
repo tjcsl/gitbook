@@ -48,3 +48,7 @@ The current deployed Signage displays are named:
 * cs-cafe
 * cs-einstein-a
 
+## Current Setup
+
+Each Signage display has their own Intel Compute Stick which runs Ubuntu Server 16.04 LTS.  Using getty, each Signage display logs in as user and opens up a specific web page on Ion \(`https://ion.tjhsst.edu/eighth/display/<display_name>`\) in Chromium.  The Signage pages use iframes in order to display content.  The code for Signage can be found [here](https://github.com/tjcsl/ion/tree/master/intranet/apps/signage). 
+
