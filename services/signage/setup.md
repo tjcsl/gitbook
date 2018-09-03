@@ -39,9 +39,8 @@ I'm assuming \(hopefully correctly\) that you know how to manage USBs on whateve
 
    *  On a Windows or Mac system, you will have to do this manually by tracing dependencies.
 
-   \*\*\*\*
 
-   **Boot from the OS Install Disk**
+**Boot from the OS Install Disk**
 
    1.  Plug in a keyboard into the Compute Stick
    2.  Plug the Stick into an available monitor
@@ -56,7 +55,6 @@ I'm assuming \(hopefully correctly\) that you know how to manage USBs on whateve
 
         *  We will change the password later on, don't worry
 
-   \*\*\*\*
 
 **Mount the USB**
 
