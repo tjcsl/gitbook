@@ -143,7 +143,7 @@ Sending messages is as easy as writing the message in the appropriate channel. Y
 
 Posting general announcements to the TJ community \(such as extended downtime or school-wide announcements\) should generally be done through an Ion announcement.  To approve an announcement, you must be an Ion admin.  You can add an announcement by clicking the big `Add` button at the top of the dashboard.
 
-The announcement should be simple, concise, informative, and attributed to the right person team.
+The announcement should be simple, concise, informative, and attributed to the right person or team.
 
 
 

@@ -30,7 +30,6 @@ I'm assuming \(hopefully correctly\) that you know how to manage USBs on whateve
    * On Linux or Mac, use the `dd` utility to flash a USB with the OS installer. On Windows, use [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/::) or something to that nature.
    * Example `dd` command: `sudo dd if=ubuntu_server-16.04.iso of=/dev/sdx progress=status`, replacing `sdx` with the actual USB device identifier.
 3. Download the wpa\_supplicant packages and dependencies
-
    * On an Ubuntu system with the same architecture as the Compute Stick \(preferably an existing Compute Stick\), use this command to download `wpa_supplicant` and all of its dependencies:
 
      ```text

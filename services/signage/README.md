@@ -25,13 +25,13 @@ The first Signage displays were installed around the first release of Ion \([sou
 
 ### Signage2
 
-Development of Signage2 began in April of 2017 to serve as a rewrite of Signage1 using Python's Kivy framework.  Various limitations imposed by the Kivy app and slow performance led to the end of development around March of 2018.  
+Development of Signage2 began in April of 2017 to serve as a rewrite of Signage1 using Python's Kivy framework.  Various limitations imposed by Kivy and slow performance led to the end of development around March of 2018.  
 
 _Image omitted because Kivy is bad_
 
 ### Signage 3
 
-Development of Signage3 began in March of 2018 to serve as a rewrite of Signage3 as a webpage hosted on Ion.  Signage3 was deployed on newly-arrived Intel Compute Sticks on April 12, 2018.  Signage3 remains the current Signage deployed throughout the school.
+Development of Signage3 began in March of 2018 to serve as a rewrite of Signage as a webpage hosted on Ion.  Signage3 was deployed on newly-arrived Intel Compute Sticks on April 12, 2018.  Signage3 remains the current Signage deployed throughout the school.
 
 ## List
 
