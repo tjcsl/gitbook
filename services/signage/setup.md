@@ -25,7 +25,7 @@ These steps only have to be done if there are no installation USBs around.
 I'm assuming \(hopefully correctly\) that you know how to manage USBs on whatever computer you are using. If not, just [Google](https://bing.com) it.
 
 1. Download the OS
-   * Head on over to Ubuntu's [website](https://ubuntu.com/download/server) and download .iso for the the latest LTS version \(currently 16.04 LTS\).
+   * Head on over to Ubuntu's [website](https://ubuntu.com/download/server) and download .iso for the the latest LTS version \(at the time of this writing 16.04 LTS\).
 2. Put the OS on a USB
    * On Linux or Mac, use the `dd` utility to flash a USB with the OS installer. On Windows, use [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/::) or something to that nature.
    * Example `dd` command: `sudo dd if=ubuntu_server-16.04.iso of=/dev/sdx progress=status`, replacing `sdx` with the actual USB device identifier.
