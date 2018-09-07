@@ -41,12 +41,12 @@ I'm assuming \(hopefully correctly\) that you know how to manage USBs on whateve
 
 **Get Configuration Files**
 
-There is a GitLab [repo](https://gitlab.tjhsst.edu/2020fouzhins/cs-config) which contains important scripts and config files to setup networking and an Ansible-ready system.
+There is a GitLab [repo](https://gitlab.tjhsst.edu/signage3/cs-config) which contains important scripts and config files to setup networking and an Ansible-ready system.
 
 You should clone it by running within the mounted wpa\_supplicant drive
 
 ```text
-git clone git@gitlab.tjhsst.edu:2020fouzhins/cs-config.git
+git clone git@gitlab.tjhsst.edu:signage3/cs-config.git
 ```
 
 **Boot from the OS Install Disk**
@@ -59,7 +59,7 @@ git clone git@gitlab.tjhsst.edu:2020fouzhins/cs-config.git
 5. At the boot screen, select the USB as the boot device
    * If you can't boot, [Google](https://bing.com) what went wrong.
 6. Follow the on-screen prompts to install Ubuntu Server LTS
-   * Try to install as little extra features as possible
+   * Try to install as few extra features as possible
    * Set the username/password as user/user for easy installing later on.
      * We will change the password later on, don't worry
 
