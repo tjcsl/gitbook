@@ -10,13 +10,13 @@ In the past, Signage was a separate web application from Ion, viewed on Raspberr
 
 Now, Signage is run on Intel Compute Sticks running Ubuntu Server with a minimal GUI.
 
-This guide will show you how to set up a new stick
+This guide will show you how to set up a new stick.
 
 ### Manual Stuff
 
 #### Installing the OS
 
-When you first get one of the [Compute Sticks](https://livedoc.tjhsst.edu/wiki/Compute_Sticks), it should come pre-loaded with Windows 10 by default. If this is not the case, you probably got the wrong version of compute stick \(the Ubuntu ones aren't powerful enough\).
+When you first get one of the [Compute Sticks](https://livedoc.tjhsst.edu/wiki/Compute_Sticks), it should come pre-loaded with Windows 10 by default. If this is not the case, you probably got the wrong version of Compute Stick \(the Ubuntu ones aren't powerful enough\).
 
 **Prepare the Installation USBs**
 
@@ -25,11 +25,11 @@ These steps only have to be done if there are no installation USBs around.
 I'm assuming \(hopefully correctly\) that you know how to manage USBs on whatever computer you are using. If not, just [Google](https://bing.com) it.
 
 1. Download the OS
-   * Head on over to Ubuntu's [website](https://ubuntu.com/download/server) and download .iso for the the latest LTS version \(at the time of this writing 16.04 LTS\).
+   * Head on over to Ubuntu's [website](https://ubuntu.com/download/server) and download the  `.iso` for the the latest LTS version \(at the time of this writing 16.04 LTS\).
 2. Put the OS on a USB
    * On Linux or Mac, use the `dd` utility to flash a USB with the OS installer. On Windows, use [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/::) or something to that nature.
    * Example `dd` command: `sudo dd if=ubuntu_server-16.04.iso of=/dev/sdx progress=status`, replacing `sdx` with the actual USB device identifier.
-3. Download the wpa\_supplicant packages and dependencies
+3. Download the `wpa_supplicant` packages and dependencies
    * On an Ubuntu system with the same architecture as the Compute Stick \(preferably an existing Compute Stick\), use this command to download `wpa_supplicant` and all of its dependencies:
 
      ```text
