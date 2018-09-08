@@ -27,7 +27,7 @@ The example Page shown above is named `Announcements`.
 * Since the page is not an iframe, we leave the `url`field as is.  
 * Since this not an iframe, we can leave the `sandbox` checkbox as is \(for more information about this option read [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\#attr-sandbox](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-sandbox)\).  
 * The `template` field is set to `announcements`, meaning that Ion will try to render `templates/signage/pages/announcements.html`.  
-* The f`unction` field is set to `announcements`, meaning that Ion will use the `announcements` function in `pages.py` as context.  
+* The `function` field is set to `announcements`, meaning that Ion will use the `announcements` function in `pages.py` as context.
 * The `button` field is set to `fa-newspaper-o`, meaning that this Font Awesome icon will be used in the navigation bar.  
 * The `order` field is set to 1, meaning that the button is second on the navigation bar.  The pages should be ordered sequentially.
 * The `strip_links` field is checked off because you should not be able to navigate off a page by clicking a link.  If this functionality is not desired, uncheck the box.
