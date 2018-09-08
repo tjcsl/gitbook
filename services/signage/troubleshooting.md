@@ -6,7 +6,7 @@
 
 **Why can I not access Ion or it says "Access Restricted"?**
 
-First, you should check that you have a network connection.  Second, you should make sure that the IPs of the Signage displays are within the `INTERNAL_IP` range defined in Ion's  production`secret.py`.
+First, you should check that you have a network connection.  Second, you should make sure that the IPs of the Signage displays are within the `INTERNAL_IP` range defined in Ion's  production's `secret.py`.
 
 
 
