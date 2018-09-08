@@ -90,7 +90,7 @@ Here are some rough guidelines of who should respond.
 
 #### Sysadmin Mailing List
 
-Most communication directed to the Sysadmins gets sent to [sysadmins@tjhsst.edu](mailto:sysadmins@tjhsst.edu) . The official list address is `sysadmins@lists.tjhsst.edu`. This mailing list is restricted to Sysadmins and the Faculty Sponsor.  Ask a mail admin for access if you did not get added to the list.  
+Most communication directed to the Sysadmins gets sent to [sysadmins@tjhsst.edu](mailto:sysadmins@tjhsst.edu) . The official list address is `sysadmins@lists.tjhsst.edu`. This mailing list is restricted to Sysadmins and the Faculty Sponsor.  Ask a mail admin for access if you did not get added to the list.
 
 {% hint style="info" %}
 If you did not get added to the mailing list, refer the mail admins to the New Sysadmin Onboarding guide.
@@ -106,7 +106,7 @@ Most communication related to Director gets sent to [director@lists.tjhsst.edu](
 
 ## IRC
 
-Internet Relay Chat \(IRC\) is an application layer protocol that facilitates communication in the form of text.  You can read more about the protocol [on Wikipedia](https://en.wikipedia.org/wiki/Irc).  We use Freenode to facilitate communications.  IRC had been the primary tool for communication among Sysadmins until the switch over to Slack.  
+Internet Relay Chat \(IRC\) is an application layer protocol that facilitates communication in the form of text.  You can read more about the protocol [on Wikipedia](https://en.wikipedia.org/wiki/Irc).  We use Freenode to facilitate communications.  IRC had been the primary tool for communication among Sysadmins until the switch over to Slack.
 
 ### Clients
 
