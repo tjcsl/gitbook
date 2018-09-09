@@ -41,3 +41,49 @@ If you get a `SIOCADDRT: Network is unreachable` error when running `vagrant up`
 
 If you see a `Adding routes to host computer...` message, you probably forgot to start the OpenVPN client.
 
+## Post-Setup
+
+After successfully setting up the Vagrant environment, you will want to actually access your sandbox.
+
+Start by connecting to the Vagrant box using `vagrant ssh`. \(Consider running all of the following in a `screen` or `tmux` session.\) Make sure you’re in the `intranet` directory, and run `python manage.py migrate`. This will set up the Postgres database.
+
+You can then start the built-in Django web server with `fab runserver`. Now that you are running the development server, open a browser to [http://127.0.0.1:8080](http://127.0.0.1:8080) and log in. If it fails, check the output of `manage.py runserver`.
+
+### Setting Up Groups
+
+Currently, there are no default groups set up when you first install Ion. In order to grant yourself administrative privileges, you must be a member of the `admin_all` group.
+
+To create and add yourself to the global administrator group, run the following commands:
+
+```python
+$ ./manage.py shell_plus
+Python 3.5.2 (default, Nov 23 2017, 16:37:01) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.2.1 -- An enhanced Interactive Python. Type '?' for help.
+>>> user = User.objects.get_or_create(username="YOURUSERNAME")[0]
+>>> group = Group.objects.get_or_create(name="admin_all")[0]
+>>> user.groups.add(group)
+>>> user.is_superuser = True
+>>> user.save()
+```
+
+### Connecting and Disconnecting from the VM
+
+When you want to close the VM environment, make sure you have exited out of the ssh session and then run `vagrant suspend`. To resume the session, run `vagrant resume`. Suspending and resuming is significantly faster than halting and starting, and also dumps the contents of the machine’s RAM to disk.
+
+### Setting up Files
+
+You can find a list of file systems at `intranet/apps/files/models.py`. To add these systems so that they appear on the Files page, run the statements found in the file. A sample is shown below:
+
+```python
+$ ./manage.py shell_plus
+Python 3.5.2 (default, Nov 23 2017, 16:37:01) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.2.1 -- An enhanced Interactive Python. Type '?' for help.
+>>> Host.objects.create(name="Computer Systems Lab", code="csl", address="remote.tjhsst.edu", linux=True)
+```
+
+### Increasing RAM
+
+With the default RAM size of 1024MB, you may run into performance constraints. If you encounter signifigant issues, it is recommended to bump the VM’s amount of memory, through VirtualBox Manager, to at least 2GB.
+

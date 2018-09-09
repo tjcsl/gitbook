@@ -1,10 +1,10 @@
 # Signage
 
-**Signage** refers to the set of eleven electronic displays located all over the school. A "Signage" refers to a display that displays useful information maintained by the CSL across the school.
+**Signage** refers to the set of ten electronic displays located all over the school. A "Signage" refers to a display that displays useful information maintained by the CSL across the school.
 
 Currently, each Signage display shows:
 
-* a Schedule
+* a schedule
 * a map of school
 * announcements
 * and a bus map

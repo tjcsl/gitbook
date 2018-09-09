@@ -29,7 +29,6 @@
 | WWW | Keegan Lanzillotta |
 | Signage | Alexander Hayden |
 | Documentation | Theo Ouzhinski |
-| IonTap | Keegan Lanzillotta |
 
 ## Previous Student Systems Administrators
 
