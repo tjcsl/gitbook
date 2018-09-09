@@ -74,3 +74,9 @@ Often it is necessary to reboot Signage displays. To perform a reboot manually, 
 
 To SSH to the Signage displays, a CSL VPN is necessary. Ask a VPN admin to set up a certificate for you.
 
+To SSH without the Signage password, you should add your RSA public key to the `public_keys` folder in the Ansible repo.  Then, you should add the path to that public key to `roles/signage/tasks/main.yml` under `Update authorized_keys`. After that a Signage admin (or you, if you have access to the `signagepi` passcard) should run the playbook.
+
+### Running Ansible
+
+It is a very good idea to keep all changes for the Signage deployment in sync through Ansible. Run `ansible-playbook -K signage.yml` to propogate changes from the Signage playbook to the deployment.
+
