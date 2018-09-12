@@ -2,7 +2,7 @@
 
 ## Setting up Vagrant
 
-Vagrant is used to manage Ion's development environment so that it closely resembles the production environment. To get started, download and install git from [here](https://git-scm.com/downloads).  After that, download and install Virtualbox from [here](https://www.virtualbox.org/wiki/Downloads) and Vagrant from [here](http://docs.vagrantup.com/v2/installation/index.html).  When you're installing Vagrant, you should install it on your host OS.
+Vagrant is used to manage Ion's development environment so that it closely resembles the production environment. To get started, download and install git from [here](https://git-scm.com/downloads) if you are running Windows or git is not installed.  After that, download and install Virtualbox from [here](https://www.virtualbox.org/wiki/Downloads) and Vagrant from [here](http://docs.vagrantup.com/v2/installation/index.html).  When you're installing Vagrant, you should install it on your host OS.
 
 Ensure you have an SSH key set up with GitHub by running `ssh -T git@github.com`. You should be greeted by your username. If not, set up an SSH key with GitHub by following [these instructions](https://help.github.com/articles/generating-an-ssh-key/).
 
