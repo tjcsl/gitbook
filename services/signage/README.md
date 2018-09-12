@@ -35,18 +35,18 @@ Development of Signage3 began in March of 2018 to serve as a rewrite of Signage 
 
 ## List
 
-The current deployed Signage displays are named (and located):
+The current deployed Signage displays are named \(and located\):
 
-* cs-nobel (Nobel commons)
-* cs-curie (Curie commons)
-* cs-galileo (Galileo commons)
-* cs-cafeteria (Cafeteria)
-* cs-gandhi-a (Ghandi commons)
-* cs-audlob (Outside the audlob)
-* cs-library (Library hallway)
-* cs-hopper (Hopper commons)
-* cs-cafe (Cafe commons)
-* cs-einstein-a (Einstein commons)
+* cs-nobel \(Nobel commons\)
+* cs-curie \(Curie commons\)
+* cs-galileo \(Galileo commons\)
+* cs-cafeteria \(Cafeteria\)
+* cs-gandhi-a \(Ghandi commons\)
+* cs-audlob \(Outside the audlob\)
+* cs-library \(Library hallway\)
+* cs-hopper \(Hopper commons\)
+* cs-cafe \(Cafe commons\)
+* cs-einstein-a \(Einstein commons\)
 
 ## Current Setup
 

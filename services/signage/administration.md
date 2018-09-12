@@ -62,7 +62,7 @@ The example Sign shown above is named `Curie Commons` \(and should be deployed t
 
 ### Special Events
 
-Signage is often used to display pages for special events that occur at TJ. Generally, these are just iframes to some outside webpage.  A specific Page should be made for an event.  The `iframe` box should be checked off and a link to the page should be set in the `url` field.  The `template` and `function` fields do not need to be filled out in such case.
+Signage is often used to display pages for special events that occur at TJ. Generally, these are just iframes to some outside webpage. A specific Page should be made for an event. The `iframe` box should be checked off and a link to the page should be set in the `url` field. The `template` and `function` fields do not need to be filled out in such case.
 
 ## Display Administration
 
@@ -74,7 +74,7 @@ Often it is necessary to reboot Signage displays. To perform a reboot manually, 
 
 To SSH to the Signage displays, a CSL VPN is necessary. Ask a VPN admin to set up a certificate for you.
 
-To SSH without the Signage password, you should add your RSA public key to the `public_keys` folder in the Ansible repo.  Then, you should add the path to that public key to `roles/signage/tasks/main.yml` under `Update authorized_keys`. After that a Signage admin (or you, if you have access to the `signagepi` passcard) should run the playbook.
+To SSH without the Signage password, you should add your RSA public key to the `public_keys` folder in the Ansible repo. Then, you should add the path to that public key to `roles/signage/tasks/main.yml` under `Update authorized_keys`. After that a Signage admin \(or you, if you have access to the `signagepi` passcard\) should run the playbook.
 
 ### Running Ansible
 
