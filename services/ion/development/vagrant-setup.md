@@ -85,5 +85,5 @@ IPython 6.2.1 -- An enhanced Interactive Python. Type '?' for help.
 
 ### Increasing RAM
 
-With the default RAM size of 1024MB, you may run into performance constraints. If you encounter signifigant issues, it is recommended to bump the VM’s amount of memory, through VirtualBox Manager, to at least 2GB.
+With any RAM lower than the default 2048MB, you may run into performance constraints. If you encounter signifigant issues, it is recommended to bump the VM’s amount of memory, through VirtualBox Manager, to at least that amount.
 
