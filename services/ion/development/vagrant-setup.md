@@ -87,7 +87,7 @@ IPython 6.2.1 -- An enhanced Interactive Python. Type '?' for help.
 
 With any RAM lower than the default 2048MB, you may run into performance constraints. If you encounter signifigant issues, it is recommended to bump the VM’s amount of memory, through VirtualBox Manager, to at least that amount.
 
-## Justification for Vagrant Setup
+## Reasons for Vagrant Setup
 
-The Ion developers decided to use Vagrant to manage Ion's development environment because it closely modeled Ion's prduction server.  Vagrant also enables the quick creation of VMs with various changes possible.
+The Ion developers decided to use Vagrant to manage Ion's development environment because it closely modeled Ion's production server.  Vagrant also enables the quick creation of VMs with various customizations possible.
 
