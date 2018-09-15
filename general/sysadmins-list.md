@@ -8,9 +8,9 @@
 | Dylan Jones | 2019djones | Lead Sysadmin |
 | Jack Duvall | 2019jduvall | Cluster Lead |
 | Alexander Hayden | 2019ahayden | Signage Lead |
-| Keegan Lanzillotta | 2020klanzill | Workstation/WWW/IonTap Lead |
+| Keegan Lanzillotta | 2020klanzill | Workstation/WWW Lead |
 | Theo Ouzhinski | 2020fouzhins | Documentation Lead |
-| John Beutner | 2020jbeutner | Sysadmin |
+| John Beutner | 2020jbeutner | Assistant Signage Lead |
 | Parthiv Chigurapati | 2020pchiguru | Sysadmin |
 | Akash Bhave | 2021abhave | Sysadmin |
 | Alexander Black | 2021ablack | Sysadmin |
