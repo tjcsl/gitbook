@@ -89,5 +89,5 @@ With any RAM lower than the default 2048MB, you may run into performance constra
 
 ## Reasons for Vagrant Setup
 
-The Ion developers decided to use Vagrant to manage Ion's development environment because it closely modeled Ion's production server.  Vagrant also enables the quick creation of VMs with various customizations possible.
+The Ion developers decided to use Vagrant to manage Ion's development environment because it closely modeled Ion's production server. Vagrant also enables the quick creation of VMs with various customizations possible.
 

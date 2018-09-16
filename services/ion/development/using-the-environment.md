@@ -8,16 +8,50 @@ Now that you have set up your development environment, you should get familiar w
 
 To manage your Vagrant box, you should use the following commands:
 
-| Command | Description |
-| :--- | :--- |
-| `vagrant suspend` | Saves the state of the VM |
-| `vagrant resume` | Resumes the previous state of theVM |
-| `vagrant ssh` | SSHs into the VM |
-| `vagrant reload` | Halts the VM and then brings it back up |
-| `vagrant up` | Brings up the VM according to specified `Vagrantfile` |
-| `vagrant destroy` | \(A DANGEROUS COMMAND\) Stops the VM & permanently destroys the VM and its contents |
-
-### VM
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Command</th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><code>vagrant suspend</code>
+      </td>
+      <td style="text-align:left">Saves the state of the VM</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>vagrant resume</code>
+      </td>
+      <td style="text-align:left">Resumes the previous state of theVM</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>vagrant ssh</code>
+      </td>
+      <td style="text-align:left">SSHs into the VM</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>vagrant reload</code>
+      </td>
+      <td style="text-align:left">Halts the VM and then brings it back up</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>vagrant up</code>
+      </td>
+      <td style="text-align:left">Brings up the VM according to specified <code>Vagrantfile</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>vagrant destroy</code>
+      </td>
+      <td style="text-align:left">
+        <p>(A DANGEROUS COMMAND)</p>
+        <p>Stops the VM & permanently destroys the VM and its contents</p>
+      </td>
+    </tr>
+  </tbody>
+</table>### VM
 
 To manage the Vagrant box within the box, you should use the following commands:
 
