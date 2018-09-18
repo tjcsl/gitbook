@@ -14,7 +14,7 @@ The CSL's documentation is organized into five main sections:
 
 * Services: User-facing services
 * Technologies: Technologies used by the Lab and Sysadmins
-* Servers: Various servers used by the Lab
+* Machines: Various machines \(servers, switches\) used by the Lab
 * General: Anything that doesn't fall under another section
 * Procedures: Various procedures
 
