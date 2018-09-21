@@ -16,7 +16,7 @@ The HPC cluster rack currently has two UPSes, each with a maximum power capacity
 
 \(most likely out of date, change later\)
 
-One Juniper EX4300-48T-AFI 48-port Gigabit Ethernet switch, named [Imply](https://livedoc.tjhsst.edu/wiki/Imply), operates as a top-of-rack switch for the cluster nodes and for the UPSes. The switch is managed and runs JUNOS. It has one EX-UM-4X4SFP 4x10GigabitEthernet uplink module, which connects the switch to the CSL core switch, [Xnor](https://livedoc.tjhsst.edu/wiki/Xnor), over bonded, redundant 10GE fiber optic uplinks. The switch has one 350W power supply.
+One Juniper EX4300-48T-AFI 48-port Gigabit Ethernet switch, named [Imply](../../servers/swtiches/imply), operates as a top-of-rack switch for the cluster nodes and for the UPSes. The switch is managed and runs JUNOS. It has one EX-UM-4X4SFP 4x10GigabitEthernet uplink module, which connects the switch to the CSL core switch, [Xnor](../../servers/switches/xnor), over bonded, redundant 10GE fiber optic uplinks. The switch has one 350W power supply.
 
 ### Compute Units
 
