@@ -8,62 +8,53 @@ Now that you have set up your development environment, you should get familiar w
 
 To manage your Vagrant box, you should use the following commands:
 
+| Command | Description |
+| :--- | :--- |
+
+
+| `vagrant suspend` | Saves the state of the VM |
+| :--- | :--- |
+
+
+| `vagrant resume` | Resumes the previous state of theVM |
+| :--- | :--- |
+
+
+| `vagrant ssh` | SSHs into the VM |
+| :--- | :--- |
+
+
+| `vagrant reload` | Halts the VM and then brings it back up |
+| :--- | :--- |
+
+
+| `vagrant up` | Brings up the VM according to specified `Vagrantfile` |
+| :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Command</th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><code>vagrant suspend</code>
-      </td>
-      <td style="text-align:left">Saves the state of the VM</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>vagrant resume</code>
-      </td>
-      <td style="text-align:left">Resumes the previous state of theVM</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>vagrant ssh</code>
-      </td>
-      <td style="text-align:left">SSHs into the VM</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>vagrant reload</code>
-      </td>
-      <td style="text-align:left">Halts the VM and then brings it back up</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>vagrant up</code>
-      </td>
-      <td style="text-align:left">Brings up the VM according to specified <code>Vagrantfile</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>vagrant destroy</code>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><code>vagrant destroy</code>
+      </th>
+      <th style="text-align:left">
         <p>(A DANGEROUS COMMAND)</p>
         <p>Stops the VM & permanently destroys the VM and its contents</p>
-      </td>
+      </th>
     </tr>
-  </tbody>
-</table>### VM
-
-To manage the Vagrant box within the box, you should use the following commands:
+  </thead>
+  <tbody></tbody>
+</table>To manage the Vagrant box within the box, you should use the following commands:
 
 | Command | Description |
 | :--- | :--- |
 | `workon ion` | Initialize virtualenvwrapper |
-| `fab runserver` | Run a server in development  |
+| `fab runserver` | Run a server in development |
 | `./manage.py migrate` | Migrate the database if not already |
 | `./manage.py shell_plus` | Enter a Python shell |
 | `./manage.py collectstatic` | Collect static files into a directory |
 
-You should ALWAYS make sure `workon ion` has been run after SSH-ing into the VM.  The database should be migrated fairly regularly \(especially after changes in the database/models\) in development. 
+You should ALWAYS make sure `workon ion` has been run after SSH-ing into the VM. The database should be migrated fairly regularly \(especially after changes in the database/models\) in development.
 
 Running `fab runserver` should make the server accessible from `localhost:8080` \(on your host machine's web browser\).
 
@@ -107,7 +98,7 @@ Some useful sub directories of the `intranet` directory include \(as per Django 
 * `test`: Contains the Ion base test suite
 * `utils`: Contains side-wide utilities
 
-All other files in this directory are per Django convention.  If you do not know what they do, Google it.
+All other files in this directory are per Django convention. If you do not know what they do, Google it.
 
 Within the `apps` directory, there are multiple Django apps with descriptive names.
 
