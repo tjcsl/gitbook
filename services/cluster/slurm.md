@@ -8,7 +8,7 @@ Slurm is a free, open-source job scheduler which provides tools and functionalit
 
 ## How do you use it?
 
-Slurm is very user-friendly. However, it requires that you have an account on the HPC Cluster, which you'll need to ask a Student Systems Administrator for. You can either do this in-person in Room 200 \(the CSL\), or by emailing [sysadmins@tjhsst.edu.](mailto:sysadmins@tjhsst.edu) You don't necessarily have to have an academic use for the cluster, but keep in mind that any use of the HPC cluster is bound by the FCPS Acceptable Use Policy, just like the rest of TJ's computing resources, and academic jobs will have priority use of Cluster resources. Once you have had an account created for you, you can begin.
+Slurm is very user-friendly. However, it requires that you have an account on the HPC Cluster, which you'll need to ask a Student Systems Administrator for. You can either do this in-person in Room 200 \(the CSL\), or by emailing [sysadmins@tjhsst.edu](mailto:sysadmins@tjhsst.edu). You don't necessarily have to have an academic use for the cluster, but keep in mind that any use of the HPC cluster is bound by the FCPS Acceptable Use Policy, just like the rest of TJ's computing resources, and academic jobs will have priority use of Cluster resources. Once you have had an account created for you, you can begin.
 
 ### The Login Node
 
@@ -73,7 +73,7 @@ If successful, you should see "srun: jobid \(x\) submitted". You can check on th
 
 `sbatch` allows you to create batch files which specify a job and the resources required for the job and submit that directly to Slurm, instead of passing all the options to `srun`. Here's an example script, and assume you save it as `test.sh`:
 
-```text
+```bash
 #!/bin/bash
 #SBATCH -n 4
 #SBATCH --time=00:30:00
@@ -88,7 +88,7 @@ You could then submit the program to slurm using `sbatch test.sh`. This would te
 
 Sorry, it doesn't work yet.
 
-If it did, and your program outputs graphics, then you need to x-forward \(x is linux graphics\) from the remote machine \(infosphere\) to your machine. To do this, use the `-X` flag when `ssh`-ing all the way to infosphere. Then, you need to use the `--x11` flag when running a slurm command. An example series of commands is listed below:
+If it did, and your program outputs graphics, then you need to X-forward \(X is linux graphics\) from the remote machine \(infosphere\) to your machine. To do this, use the `-X` flag when `ssh`-ing all the way to infosphere. Then, you need to use the `--x11` flag when running a slurm command. An example series of commands is listed below:
 
 ```text
 [you@yourmachine:~]$ ssh -X 20xxyyou@remote.tjhsst.edu
