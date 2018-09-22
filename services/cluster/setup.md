@@ -23,3 +23,4 @@ The preferred method is to use Netboot, but a regular CentOS install stick works
 ## Run the Ansible play
 
 First, make sure you add the node to an existing/new host group that has the `cluster` role. Then, you can just run `ansible-playbook`, sit back, kick your feet up, and wait for the install to finish.
+
