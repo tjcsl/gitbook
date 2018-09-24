@@ -37,7 +37,7 @@ The following is a list of VLANs and the corresponding address spaces for refere
 
 ## 1802
 
-* DMZ \(RAS, etc\)
+* DMZ \(RAS, etc\) \(publicly-facing services\)
 * IPv4: 198.38.18.192/26 \(198.38.18.192-198.38.18.255\)
 * IPv4 Gateway: 198.38.18.254
 * IPv6: 2001:468:cc0:1802::/64
