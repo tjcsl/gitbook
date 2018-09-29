@@ -1,6 +1,6 @@
 # Passcard
 
-The CSL passcard contains the root passwords for all CSL systems. The passcard is maintained in a git repository hosted on GitLab. The repository is maintained by the lead Sysadmins and any questions, concerns or bug reports should be directed his way.
+The CSL passcard contains the root passwords for all CSL systems. The passcard is maintained in a git repository hosted on GitLab. The repository is maintained by the lead Sysadmins and any questions, concerns or bug reports should be directed to them.
 
 ### Requirements
 
@@ -19,7 +19,7 @@ The git repository is accessible via GitLab at [gitlab.tjhsst.edu/sysadmins/pass
 
 ### Using the Passcard
 
-The passcard git repository has a wrapper script \(passcard.py\) along with GPG encrypted passwords individually encrypted in the passwords folder. Since the passwords are individually encrypted, each password is encrypted with the keys of the people who should have access to it. For example, somebody can have access to [Core0](../../machines/switches/core0.md)'s password without having access to [Waitaha](../../machines/ceph/waitaha.md)'s password. You can use gpg yourself and decrypt these passwords, or you can use the wrapper script which does it all for you.
+The passcard git repository has a wrapper script \(passcard.py\) along with GPG encrypted passwords individually encrypted in the passwords folder. Since the passwords are individually encrypted, each password is encrypted with the keys of the people who should have access to it. For example, somebody can have access to [Core0](../../../machines/switches/core0.md)'s password without having access to [Waitaha](../../../machines/ceph/waitaha.md)'s password. You can use gpg yourself and decrypt these passwords, or you can use the wrapper script which does it all for you.
 
   
  For help with the wrapper script, run it without any arguments. Here are the commands you can use:
