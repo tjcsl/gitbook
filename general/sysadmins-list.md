@@ -9,7 +9,7 @@
 | Jack Duvall | 2019jduvall | Cluster Lead |
 | Alexander Hayden | 2019ahayden | Signage Lead |
 | Keegan Lanzillotta | 2020klanzill | Workstation/WWW Lead |
-| Theo Ouzhinski | 2020fouzhins | Documentation Lead |
+| Theo Ouzhinski | 2020fouzhins | Documentation/Security Lead |
 | John Beutner | 2020jbeutner | Assistant Signage Lead |
 | Parthiv Chigurapati | 2020pchiguru | Sysadmin |
 | Akash Bhave | 2021abhave | Sysadmin |
@@ -27,6 +27,7 @@
 | WWW | Keegan Lanzillotta |
 | Signage | Alexander Hayden |
 | Documentation | Theo Ouzhinski |
+| Security | Theo Ouzhinski |
 
 ## Previous Student Systems Administrators
 
