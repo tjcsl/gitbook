@@ -8,11 +8,11 @@ GPG works through a public-private key pair.  Text and data can be encrypted wit
 
 ## Generating
 
-GPG key pairs should be generated and stored on a computer you trust.  Any individual with root access would be able to read the private part of your GPG key pair.  
+GPG key pairs should be generated and stored on a computer you trust.  Any individual with root access would be able to read the private part of your GPG key pair. 
 
 ### Quick
 
-The GnuPG community has more detailed documentation on this but, in essence, to generate your key pair, you need to run the command `gpg --gen-key`.  You will be prompted to enter your name, email address, and private key passphrase.  
+The GnuPG community has more detailed documentation on this but, in essence, to generate your key pair, you need to run the command `gpg --gen-key`.  You will be prompted to enter your name, email address, and private key passphrase.
 
 ### Manual
 
@@ -20,7 +20,7 @@ When generating the key, you may want to specify additional configuration option
 
 ## Exporting
 
-You can view all secret \(private\) keys you have stored on your computer with `gpg --list-secret-keys` and `gpg -K`.  You can view all the public keys you have in your key ring with `gpg --list-keys` or `gpg -k`.  
+You can view all secret \(private\) keys you have stored on your computer with `gpg --list-secret-keys` and `gpg -K`.  You can view all the public keys you have in your key ring with `gpg --list-keys` or `gpg -k`.
 
 An example key can be found below:
 
@@ -45,7 +45,7 @@ You can export your public key in ASCII format \(to send in emails or to other p
 
 ## Receiving
 
-All public keys that are known to you are stored locally in your public key keyring.  You can request these keys with `gpg --keyserver <KEYSERVER URL> --search-keys <SUBSTRING OF NAME/EMAIL>`.  If you have a copy of someone's public key, you can import it with `gpg --import <FILE PATH>`.  
+All public keys that are known to you are stored locally in your public key keyring.  You can request these keys with `gpg --keyserver <KEYSERVER URL> --search-keys <SUBSTRING OF NAME/EMAIL>`.  If you have a copy of someone's public key, you can import it with `gpg --import <FILE PATH>`.
 
 {% hint style="info" %}
 You should generally have all Sysadmin's public keys in your public keyring.  This is useful for determining who is on a passcard \(with `./passcard.py who <SERVER>`\)
