@@ -12,7 +12,7 @@ A server's iLO can be reached in two ways:
 ### Updating Firmware
 
 The version of iLO firmware that the servers ship with does not support access to the OS. The firmware can be updated with through the following steps:
-* [Retreive a copy of the most up-to-date-firmware](google.com/search?q=hp+ilo+5+firmware+update), download a `.exe` version for Windows
+* [Retreive a copy of the most up-to-date-firmware](https://google.com/search?q=hp+ilo+5+firmware+update), download a `.exe` version for Windows
 * Unzip the executable with `unzip` or a similar command
 * Retrieve the `.bin` file from the unzipped executable
 * Access the iLO server you wish to update via the web interface
