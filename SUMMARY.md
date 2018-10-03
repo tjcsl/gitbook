@@ -162,6 +162,7 @@
     * [2018 Purchases](machines/history/2018-purchases.md)
   * [Mapping](machines/mapping/README.md)
     * [VLANs](machines/mapping/vlans.md)
+  * [iLO](machines/iLO.md)
 * [General](general/README.md)
   * [Sysadmins List](general/sysadmins-list.md)
   * [Documentation](general/documentation.md)
