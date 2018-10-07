@@ -6,5 +6,5 @@ If you are contributing for the first time, please read our [documentation guide
 
 For an overview of the Sysadmin program, see the [Sysadmin page](general/).
 
-This is intended for TJHSST Student System Administrators.
+This is intended for TJHSST Student System Administrators only.
 

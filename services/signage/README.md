@@ -52,3 +52,5 @@ The current deployed Signage displays are named \(and located\):
 
 Each Signage display has their own Intel Compute Stick which runs Ubuntu Server 16.04 LTS. Using getty, each Signage display logs in as `user` and opens up a specific web page on Ion \(`https://ion.tjhsst.edu/signage/display/<display_name>`\) in Chromium. The Signage pages can be rendered server-side or as iframes. The code for Signage can be found [here](https://github.com/tjcsl/ion/tree/master/intranet/apps/signage).
 
+
+
