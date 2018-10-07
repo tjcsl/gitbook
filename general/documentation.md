@@ -44,4 +44,5 @@ Here are a few pieces of advice to writing good documentation:
   * Use headers to keep relevant topics.  Also remember to write docs in the write docs.  Good organization makes it easier to find the information that matters the most. 
 * Document what you had wanted to know.
   * When you started interacting/working in a certain area, what pieces of information would you want to know?  Documentation is constantly evolving and needs to be updated to keep up with the latest changes in the Lab.
+* Use explicit commands / source code along with explanations. Clearly differentiate what is generic to the technology versus what is specific to our setup.
 
