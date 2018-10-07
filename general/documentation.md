@@ -25,10 +25,9 @@ There are two ways to contribute to the GitBook documentation:
 * tjcsl.gitbook.io
   * This is the preferred  Ask a GitBook admin for an invite link on Slack if you don't have one.
 * GitHub
-
   * You can open up a pull request to change the documentation.  It will be synced to GitBook once it is merged into master.
 
-In the GitBook web editor, use `Ctrl+/` to display various commands.  Read the GitBook article for more info.
+In the GitBook web editor, use `Ctrl+/` to display various commands. Read the GitBook article for more info.
 
 In the GitHub repo, make commits as you work in Markdown.
 
