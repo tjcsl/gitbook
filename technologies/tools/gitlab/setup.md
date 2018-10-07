@@ -10,7 +10,7 @@
 For various reasons, the Manual Install is recommended over the Ansible Install.
 {% endhint %}
 
-After running Ansible, note that the current script does not contain settings for SMTP. To set up SMTP, in `/etc/gitlab/gitlab.rb`, find the following configuration settings, uncomment the lines and set their values to the ones below:
+After running Ansible, note that the current play does not contain settings for SMTP. To set up SMTP, in `/etc/gitlab/gitlab.rb`, find the following configuration settings, uncomment the lines and set their values to the ones below:
 
 ```text
 gitlab_rails['smtp_enable'] = true
