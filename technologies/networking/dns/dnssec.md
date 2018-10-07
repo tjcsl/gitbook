@@ -1,7 +1,3 @@
----
-description: Domain Name System Security Extensions (DNSSEC)
----
-
 # DNSSEC
 
 ## Background {#background}
