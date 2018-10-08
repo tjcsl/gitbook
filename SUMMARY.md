@@ -2,7 +2,6 @@
 
 * [TJ CSL](README.md)
 * [Services](services/README.md)
-  * [Web Proxy](services/proxy-script.md)
   * [Ion](services/ion/README.md)
     * [Development](services/ion/development/README.md)
       * [Vagrant Setup](services/ion/development/vagrant-setup.md)
@@ -67,7 +66,8 @@
     * [Administration](services/printing/administration.md)
     * [Troubleshooting](services/printing/troubleshooting.md)
   * [WWW](services/www/README.md)
-    * [Sites](services/www/sites.md)
+    * [Sites](services/www/sites/README.md)
+      * [Web Proxy](services/www/sites/proxy-script.md)
     * [Setup](services/www/setup.md)
     * [Administration](services/www/administration.md)
     * [Troubleshooting](services/www/troubleshooting.md)

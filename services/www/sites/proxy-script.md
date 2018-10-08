@@ -4,7 +4,7 @@ The CSL does not run TJ's web proxy service. However, we do serve the proxy auto
 
 #### Proxy Setup Script:
 
-{% file src="../.gitbook/assets/download-3.txt" caption="proxysetup.pac" %}
+{% file src="../../../.gitbook/assets/download-3.txt" caption="proxysetup.pac" %}
 
 
 
