@@ -1,3 +1,7 @@
+---
+description: This section describes Ion development
+---
+
 # Development
 
 {% hint style="info" %}

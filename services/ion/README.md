@@ -1,3 +1,7 @@
+---
+description: This page describes Ion in general
+---
+
 # Ion
 
 Ion \([https://ion.tjhsst.edu](https://ion.tjhsst.edu)\) is the next-generation Intranet system used at TJHSST.  Using Python, Django, Redis, Postgres, and many other technologies, Ion was developed from the ground up to be simple, well-documented, and extensible.

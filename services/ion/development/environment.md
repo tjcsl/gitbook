@@ -1,3 +1,7 @@
+---
+description: This page describes how to interact with the Ion development environment
+---
+
 # Environment
 
 Now that you have set up your development environment, you should get familiar with your environment and the Ion code base.
