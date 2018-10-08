@@ -2,6 +2,7 @@
 
 * [TJ CSL](README.md)
 * [Services](services/README.md)
+  * [Web Proxy](services/proxy-script.md)
   * [Ion](services/ion/README.md)
     * [Development](services/ion/development/README.md)
       * [Vagrant Setup](services/ion/development/vagrant-setup.md)
