@@ -4,7 +4,7 @@
 
 Documentation in the Computer Systems Lab is done through GitBook.
 
-{% page-ref page="../technologies/tools/gitbook.md" %}
+{% page-ref page="../../technologies/tools/gitbook.md" %}
 
 Writing good documentation is key to ensuring that knowledge can continue to be passed onto future Sysadmins.
 
