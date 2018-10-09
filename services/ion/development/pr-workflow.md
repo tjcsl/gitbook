@@ -1,7 +1,3 @@
----
-description: This page describes how to create PRs against Ion
----
-
 # PR Workflow
 
 ## Prerequisites

@@ -1,7 +1,3 @@
----
-description: This page describes the stylistic guidelines for the Ion code base
----
-
 # Style Guide
 
 The Ion code base generally follows the guidelines as set forth by [PEP8](https://www.python.org/dev/peps/pep-0008/).
