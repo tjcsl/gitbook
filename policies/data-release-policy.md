@@ -43,7 +43,7 @@ Data requests that fall into this category _**must**_ **be approved by the facul
 | A parent asks what their child's last 8th period signup was | Restricted Release |
 | A teacher asks how many times a student has been to a particular 8th period | Restricted Release |
 | A student asks who won the last SGA election | Internally Accessible |
-| A journalist aks who won the last SGA election | Restricted Release |
+| A journalist asks who won the last SGA election | Restricted Release |
 | A student asks who they voted for in the last election | General Release |
 | A student asks who is winning the current election | Restricted Release |
 | A teacher asks who is winning the current election | Restricted Release |
