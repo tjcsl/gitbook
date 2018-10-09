@@ -28,6 +28,7 @@
 | Signage | Alexander Hayden |
 | Documentation | Theo Ouzhinski |
 | Security | Theo Ouzhinski |
+| Junior Lead | Keegan Lanzillotta & Theo Ouzhinski |
 
 ## Previous Student Systems Administrators
 
