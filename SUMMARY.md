@@ -135,6 +135,7 @@
     * [NSS](technologies/authentication/nss.md)
     * [SSHD](technologies/authentication/sshd.md)
   * [Storage](technologies/storage/README.md)
+    * [CephFS](technologies/storage/cephfs.md)
     * [AFS](technologies/storage/afs.md)
     * [Ceph](technologies/storage/ceph/README.md)
       * [Setup](technologies/storage/ceph/setup.md)
