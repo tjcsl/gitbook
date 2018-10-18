@@ -16,7 +16,7 @@ The cards used with the system are Mifare Classic 1k cards.
 
 Here is a schematic:
 
-[![MRAC Schematic.png](https://livedoc.tjhsst.edu/images/6/64/MRAC_Schematic.png)](https://livedoc.tjhsst.edu/wiki/File:MRAC_Schematic.png)
+![](../../.gitbook/assets/mrac_schematic.png)
 
 ## Key Format
 
