@@ -8,8 +8,8 @@
 | Dylan Jones | 2019djones | Lead Sysadmin |
 | Jack Duvall | 2019jduvall | Cluster Lead |
 | Alexander Hayden | 2019ahayden | Signage Lead |
-| Keegan Lanzillotta | 2020klanzill | Workstation/WWW Lead |
-| Theo Ouzhinski | 2020fouzhins | Documentation/Security Lead |
+| Keegan Lanzillotta | 2020klanzill | Junior Lead Sysadmin |
+| Theo Ouzhinski | 2020fouzhins | Junior Lead Sysadmin |
 | John Beutner | 2020jbeutner | Assistant Signage Lead |
 | Parthiv Chigurapati | 2020pchiguru | Sysadmin |
 | Akash Bhave | 2021abhave | Sysadmin |
@@ -28,7 +28,6 @@
 | Signage | Alexander Hayden |
 | Documentation | Theo Ouzhinski |
 | Security | Theo Ouzhinski |
-| Junior Lead | Keegan Lanzillotta & Theo Ouzhinski |
 
 ## Previous Student Systems Administrators
 
