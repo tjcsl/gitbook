@@ -189,4 +189,5 @@
     * [New Sysadmin Onboarding](procedures/onboarding/new-sysadmin-onboarding.md)
 * [Policies](policies/README.md)
   * [Data Release Policy](policies/data-release-policy.md)
+  * [Ceph Upgrade Policy](policies/ceph-upgrade-policy.md)
 
