@@ -34,6 +34,7 @@ You will most likely get prompted for your credentials. Enter either your root c
 
 * Under network printers, most likely you will select `App Socket/HP Jet Direct`. You should obtain this information from the printer manual.
 * An example URI is `socket://printer202.csl.tjhsst.edu:9100`.  You should obtain this information from the manual.
+  * Note: The printers should be on the workstation VLAN and connected to a port configured for that VLAN.
 * For name, fill in a descriptive name for the printer.
 * For description, fill in a description of the printer.
 * For location, fill in the location of the printer.
