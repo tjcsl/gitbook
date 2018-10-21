@@ -30,8 +30,9 @@
 | Security | Theo Ouzhinski |
 
 ## Points of Contact
+
 | Group | POC |
-| :---  | :--- |
+| :--- | :--- |
 | Eighth Office | Omkar Kulkarni |
 | SGA | Omkar Kulkarni |
 | Security Office | Keegan Lanzillotta |

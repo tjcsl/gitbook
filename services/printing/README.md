@@ -15,7 +15,6 @@ We currently have three functioning printers:
 * 198.38.18.4 \(in ROom 200\)
   * This is a HP LaserJet P3015
 
-
 ### Ion Printing
 
 There is a web interface to provide printing services on Ion at [https://ion.tjhsst.edu/printing](https://ion.tjhsst.edu/printing). Ion uses the CUPS server at `cups2.csl.tjhsst.edu` to manage jobs. Relevant code can be found [here](https://github.com/tjcsl/ion/tree/master/intranet/apps/printing).
@@ -25,4 +24,6 @@ There is a web interface to provide printing services on Ion at [https://ion.tjh
 Each workstations uses the CUPS server at `cups2.csl.tjhsst.edu` to manage jobs and send them to the printers.
 
 ## Abuse Protection
+
 Jobs are limited to 15 pages. Abuse of printing privileges may result in appropriate punishment as determined by the Faculty Sponsor and lead Sysadmins.
+

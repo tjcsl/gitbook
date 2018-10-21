@@ -1,6 +1,6 @@
 # DNSSEC
 
-## Background {#background}
+## Background <a id="background"></a>
 
 DNSSEC uses [PKI](https://en.wikipedia.org/wiki/Public_key_infrastructure) to ensure the authenticity of DNS results by signing all DNS records for a domain with that domain's DNSSEC certificates.
 
@@ -12,9 +12,9 @@ DNSSEC requires the following DNS Resource Records \(RRs\):
 
 Source: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-setup-dnssec-on-an-authoritative-bind-dns-server--2)​
 
-## Setup {#setup}
+## Setup <a id="setup"></a>
 
-### Master Server {#master-server}
+### Master Server <a id="master-server"></a>
 
 Add the following lines to `/etc/bind/named.conf.options` within the `options` block:
 
@@ -95,9 +95,9 @@ zone "tjhsst.edu" {
 
 Run `rndc reload` to load the edited configuration. To confirm that the RRSIG records are being served properly, `dig A ion.tjhsst.edu. @localhost +dnssec +multiline`. The output's `;; ANSWER SECTION` should contain a `RRSIG` record response below the `A` record response.
 
-### Slave Server {#slave-server}
+### Slave Server <a id="slave-server"></a>
 
-### Domain Name Registrar {#domain-name-registrar}
+### Domain Name Registrar <a id="domain-name-registrar"></a>
 
 For the PKI element of DNSSEC, the keys we generated need to be signed by the domain registrar.
 
