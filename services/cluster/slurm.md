@@ -61,13 +61,13 @@ And now the good stuff: running a job! Slurm provides 3 main methods of doing so
 
 #### `salloc`
 
-Salloc allocates resources for a generic job and, by default, creates a shell with access to those resources. You can specify what resources you want to allocate with command line options \(run `man salloc` to see them all\), but the only one you need for most uses is `-n [number]` which specifies how many cores you want to allocate. You can also specify a command simply by placing it after all command line options \(ex: `salloc -n 4 echo "hello world"`\). This is currently the suggested way to run MPI jobs on the cluster. To run MPI jobs, first you must load the mpi module, as stated above \(`module load mpi`\). After that, simply run `salloc -n [number of cores] mpirun [your program]`. Unfortunately, the displayed name of this job is, by default, just "mpirun", which is not helpful for anyone. To give it a name, pass salloc \(NOT mpirun\) `--job-name=[name]`
+Salloc allocates resources for a generic job and, by default, creates a shell with access to those resources. You can specify what resources you want to allocate with command line options \(run `man salloc` to see them all\), but the only one you need for most uses is `-n [number]` which specifies how many cores you want to allocate. You can also specify a command simply by placing it after all command line options \(ex: `salloc -n 4 echo "hello world"`\). This is currently the suggested way to run MPI jobs on the cluster. To run MPI jobs, first you must load the mpi module, as stated above \(`module load mpi`\). After that, simply run `salloc -n [number of cores] mpiexec [your program]`. Unfortunately, the displayed name of this job is, by default, just "mpiexec", which is not helpful for anyone. To give it a name, pass salloc \(NOT mpirun\) `--job-name=[name]`
 
 #### `srun`
 
-This is the simplest method, and is probably what you want to start out with. All you have to do is run `srun -n (processes) (path_to_program)`, where `(processes)` is the number of instances of your program that you want to run, and `(path_to_program)` is, you guessed it, the path to the program you want to run. If your program is an MPI program, Slurm will automatically pass the appropriate hosts and task amount to your program; you should not use mpirun.
+This is the simplest method, and is probably what you want to start out with. All you have to do is run `srun -n (processes) (path_to_program)`, where `(processes)` is the number of instances of your program that you want to run, and `(path_to_program)` is, you guessed it, the path to the program you want to run. If your program is an MPI program, you should not use `srun`, and instead use the `salloc` method described above.
 
-If successful, you should see "srun: jobid \(x\) submitted". You can check on the status of your job by running `sacct`. You will receive any output of your program to the console. For more resource options, run `man srun` or use the official Slurm documentation.
+If your command is successful, you should see "srun: jobid \(x\) submitted". You can check on the status of your job by running `sacct`. You will receive any output of your program to the console. For more resource options, run `man srun` or use the official Slurm documentation.
 
 #### `sbatch`
 
