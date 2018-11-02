@@ -40,4 +40,3 @@ For speed, the cluster uses a separate user storage system than most other publi
 cp -r /etc/skel /cluster/(username)
 chown -R (username) /cluster/(username)
 ```
-
