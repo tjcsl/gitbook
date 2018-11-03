@@ -1,6 +1,6 @@
 # Ohare
 
-**Centauri** is a Sun Server located in the Machine Room that currently serves as the primary [Kerberos](https://github.com/tjcsl/gitbook/tree/26e0d2d309f709b1f4340c0c7858d913468f4d3b/technologies/authentication/kerberos/README.md) KDC.
+**Ohare** is a Sun Server located in the Machine Room that currently does nothing.
 
 ## Technical Specifications
 

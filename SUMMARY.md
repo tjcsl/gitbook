@@ -103,6 +103,7 @@
     * [Imply](machines/switches/imply.md)
   * [UPS](machines/ups.md)
   * [History](machines/history/README.md)
+    * [2008 Sun AEG](machines/history/2008-sun-aeg.md)
     * [2018 Purchases](machines/history/2018-purchases.md)
   * [Mapping](machines/mapping/README.md)
     * [VLANs](machines/mapping/vlans.md)
