@@ -1,42 +1,26 @@
 # Antipodes
 
-**Antipodes** is a physical server residing the the CSL Machine Room that currently serves [KVM Virtual machines](../services/virtual-machines).
+**Antipodes** is a physical server residing the the CSL Machine Room that currently serves [KVM Virtual machines](../../technologies/virtualization-stack/kvm.md).
 
 ## Virtual Machines on this Host
 
+| Machine |
+| :--- |
+| ras1 |
+| openafs3 |
+| cups2 |
+| mysql1 |
+
 ## Technical Specifications
 
-<table>
-  <tr>
-    <td><b>Server Type</b></td>
-    <td>HP Proliant DL380 G6</td>
-  </tr>
-  <tr>
-    <td><b>CPU</b></td>
-    <td>2x Intel Xeon E5520 Quad-Core @ 2.26 GHz</td>
-  </tr>
-  <tr>
-    <td><b>RAM</b></td>
-    <td>48 GB</td>
-  </tr>
-  <tr>
-    <td><b>Hard Disks</b></td>
-    <td>2x 146GB 2.5in 10K SAS RAID 1</td>
-  </tr>
-  <tr>
-    <td><b>OS</b></td>
-    <td>Ubuntu</td>
-  </tr>
-  <tr>
-    <td><b>Firmware</b></td>
-    <td>P62</td>
-  </tr>
-  <tr>
-    <td><b>iLO Firmware</b></td>
-    <td>2.01</td>
-  </tr>
-  <tr>
-    <td><b>Purchase Date</b></td>
-    <td>October 2009</td>
-  </tr>
-</table>
+| Specification | Description |
+| :--- | :--- |
+| **Server Type** | HP Proliant DL380 G6 |
+| **CPU** | 2x Intel Xeon E5520 Quad-Core @ 2.26 GHz |
+| **RAM** | 48 GB |
+| **Hard Disks** | 2x 146GB 2.5in 10K SAS RAID 1 |
+| **OS** | Ubuntu |
+| **Firmware** | P62 |
+| **iLO Firmware** | 2.01 |
+| **Purchase Date** | October 2009 |
+

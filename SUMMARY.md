@@ -158,6 +158,7 @@
     * [Asana](technologies/tools/asana.md)
   * [Virtualization](technologies/virtualization-stack/README.md)
     * [QEMU](technologies/virtualization-stack/qemu.md)
+    * [KVM](technologies/virtualization-stack/kvm.md)
     * [Libvirt](technologies/virtualization-stack/libvirt.md)
   * [Advanced Computing](technologies/advanced-computing/README.md)
     * [MPI](technologies/advanced-computing/mpi.md)

@@ -4,33 +4,15 @@
 
 ## Technical Specifications
 
-<table>
-  <tr>
-    <td><b>Server Type</b></td>
-    <td>Sun Fire X4150</td>
-  </tr>
-  <tr>
-    <td><b>CPU</b></td>
-    <td>2x Intel Xeon X5460 Quad-Core @ 3.16 GHz</td>
-  </tr>
-  <tr>
-    <td><b>RAM</b></td>
-    <td>24 GB</td>
-  </tr>
-  <tr>
-    <td><b>Hard Disks</b></td>
-    <td>2x 73GB 2.5in 10K SAS RAID 1</td>
-  </tr>
-  <tr>
-    <td><b>OS</b></td>
-    <td>Solaris 10</td>
-  </tr>
-  <tr>
-    <td><b>Purchase Date</b></td>
-    <td>Winter 2008</td>
-  </tr>
-</table>
+| **Server Type** | Sun Fire X4150 |
+| :--- | :--- |
+| **CPU** | 2x Intel Xeon X5460 Quad-Core @ 3.16 GHz |
+| **RAM** | 24 GB |
+| **Hard Disks** | 2x 73GB 2.5in 10K SAS RAID 1 |
+| **OS** | Solaris 10 |
+| **Purchase Date** | Winter 2008 |
 
 ## History
 
-Vega was recieved through the 2008 Sun AEG and was one of the six X4150s initially allocated to run Sun Ray (thin client) services for the Sun Rays around the school. Later, Vega was used to run Understudy VMs using Virtualbox.
+Vega was recieved through the 2008 Sun AEG and was one of the six X4150s initially allocated to run Sun Ray \(thin client\) services for the Sun Rays around the school. Later, Vega was used to run Understudy VMs using Virtualbox.
+
