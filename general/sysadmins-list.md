@@ -29,6 +29,10 @@
 | Documentation | Theo Ouzhinski |
 | Security | Theo Ouzhinski |
 
+## Faculty Sponsor
+
+The Sysadmin Faculty Sponsor is Mr. White (pewhite).
+
 ## Points of Contact
 
 | Group | POC |
