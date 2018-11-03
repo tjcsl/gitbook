@@ -6,10 +6,6 @@
 
 #### Ansible Installation
 
-{% hint style="info" %}
-For various reasons, the Manual Install is recommended over the Ansible Install.
-{% endhint %}
-
 After running Ansible, note that the current play does not contain settings for SMTP. To set up SMTP, in `/etc/gitlab/gitlab.rb`, find the following configuration settings, uncomment the lines and set their values to the ones below:
 
 ```text
@@ -38,8 +34,8 @@ sudo EXTERNAL_URL="http://gitlab.tjhsst.edu" apt-get install gitlab-ee
 
 After running these commands, head to `/etc/gitlab/`
 
-1. Locate `gitlab.rb` in the ansible repository under r`oles/gitlab/files`
-2. In `/etc/gitlab` excecute`sudo mv gitlab.rb gitlab-OLD.rb`
+1. Locate `gitlab.rb` in the ansible repository under `roles/gitlab/files`
+2. In `/etc/gitlab` execute`sudo mv gitlab.rb gitlab-OLD.rb`
 3. Copy the Ansible version of `gitlab.rb` into `/etc/gitlab`.
 
 ### Initial Configuration
@@ -54,7 +50,7 @@ After initial setup, log in using the Standard option as `root`, with the defaul
 
 #### Removing Standard and Sign-Up options
 
-On initial login, note how there were three possible options: LDAP, Standard, and Sign-Up. As we do not use the Standard and Sign-Up options, it is necessary to remove them as following:
+On initial login, note how there were three possible options: LDAP, Standard, and Sign-Up. As we do not use the Standard and Sign-Up options, it is necessary to remove them by following the steps below:
 
 1. Head to the Admin Options, an icon depicting a wrench links here
 2. On the left sidebar, find the Settings option and open the page.

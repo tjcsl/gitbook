@@ -31,7 +31,7 @@
 
 ## Faculty Sponsor
 
-The Sysadmin Faculty Sponsor is Mr. White (pewhite).
+The Sysadmin Faculty Sponsor is Mr. White \(pewhite\).
 
 ## Points of Contact
 

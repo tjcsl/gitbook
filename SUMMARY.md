@@ -156,6 +156,7 @@
     * [GitBook](technologies/tools/gitbook.md)
     * [GitLab](technologies/tools/gitlab/README.md)
       * [Setup](technologies/tools/gitlab/setup.md)
+      * [Updating](technologies/tools/gitlab/updating.md)
     * [Asana](technologies/tools/asana.md)
   * [Virtualization](technologies/virtualization-stack/README.md)
     * [QEMU](technologies/virtualization-stack/qemu.md)
