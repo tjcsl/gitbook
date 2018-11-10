@@ -9,7 +9,7 @@
 | **Server Type** | HP Proliant DL385 |
 | **CPU** | 2x AMD Opteron 280 Dual-Core @ 2.4GHz |
 | **RAM** | 8 GB |
-| **Hard Disks** |  	2X 73GB 2.5in 10K SAS, RAID1 |
+| **Hard Disks** | 2X 73GB 2.5in 10K SAS, RAID1 |
 | **OS** | OpenBSD |
 | **Firmware** | A05 |
 | **iLO Firmware** | 1.94 |
@@ -18,3 +18,4 @@
 ## History
 
 Rockhopper originally was a member of the VM cluster serving Xen Virtual Machines.
+

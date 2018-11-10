@@ -16,3 +16,4 @@
 ## History
 
 Centauri was recieved through the [2008 Sun AEG](../history/2008-sun-aeg.md). It was the first Sun Ray server set up to take over the Sun Ray services from Xray.
+

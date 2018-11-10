@@ -16,3 +16,4 @@
 ## History
 
 Betelegeuse was recieved through the [2008 Sun AEG](../history/2008-sun-aeg.md) and was initially allocated to test updates for the Sun Ray \(thin client\) services. Also served [AFS](../../technologies/storage/afs/) at one point.
+

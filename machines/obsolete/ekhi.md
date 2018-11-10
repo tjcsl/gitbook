@@ -14,3 +14,4 @@ Retired: 3 January 2008
 | **Hard Disks** | 18 GB |
 | **OS** | Sun Solaris 10 |
 | **Purchase Date** | Spring 2005 |
+

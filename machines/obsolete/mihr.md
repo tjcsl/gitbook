@@ -1,6 +1,6 @@
 # Mihr
 
-**Mihr** was a Sun Enterprise 420R server residing in the Sun rack in the Machine Room. This server was running a read-only replicated copy of Sun Directory Server (LDAP for NSS (user information database)). Mihr ran Directory Server redundantly with [Chuku](./chuku.md), another 420R.
+**Mihr** was a Sun Enterprise 420R server residing in the Sun rack in the Machine Room. This server was running a read-only replicated copy of Sun Directory Server \(LDAP for NSS \(user information database\)\). Mihr ran Directory Server redundantly with [Chuku](chuku.md), another 420R.
 
 ## Technical Specifications
 
@@ -16,3 +16,4 @@
 ## History
 
 **Mihr** was one of the donated Sun servers acquired by the CSL in the spring of 2005. It was replaced in 2008 with servers received from Sun through the [Sun Academic Excellence Grant](../history/2008-sun-aeg.md).
+

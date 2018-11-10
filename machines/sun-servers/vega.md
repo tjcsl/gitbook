@@ -16,3 +16,4 @@
 ## History
 
 Vega was recieved through the [2008 Sun AEG](../history/2008-sun-aeg.md) and was one of the six X4150s initially allocated to run Sun Ray \(thin client\) services for the Sun Rays around the school. Later, Vega was used to run Understudy VMs using Virtualbox.
+
