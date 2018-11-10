@@ -9,7 +9,7 @@
   a. You could also sign in as a guest, that just changes the password you use in a later step.
 ![Select Login Category](../.gitbook/assets/linux-wifi-setup-2.png)
 6. Enter your FCPS Student ID and Password
-![Enter Password](../.gitbook/pictures/linux-wifi-setup-3.png)
+![Enter Password](../.gitbook/assets/linux-wifi-setup-3.png)
 7. Navigate to the "Other" network devices
 --PICTURE NEEDED--
 8. Download the certificates
