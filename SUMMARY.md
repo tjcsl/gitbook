@@ -192,7 +192,7 @@
     * [New Sysadmin Onboarding](procedures/onboarding/new-sysadmin-onboarding.md)
 * [Guides](guides/README.md)
   * [Account Provisioning](guides/account-provisioning.md)
-  * [Linux Wifi Setup](linux-wifi-setup.md)
+  * [Linux Wifi Setup](guides/linux-wifi-setup.md)
 * [Policies](policies/README.md)
   * [Data Release Policy](policies/data-release-policy.md)
   * [Upgrade Policy](policies/upgrade-policy.md)
