@@ -1,6 +1,6 @@
-# Ohare
+# Logan
 
-**Ohare** is a Sun Server located in the Machine Room that currently does nothing.
+**Logan** is a Sun Server located in the Machine Room that currently does nothing.
 
 ## Technical Specifications
 
@@ -14,4 +14,4 @@
 
 ## History
 
-Ohare was recieved through the [2008 Sun AEG](../history/2008-sun-aeg.md).
+Logan was recieved through the [2008 Sun AEG](../history/2008-sun-aeg.md).

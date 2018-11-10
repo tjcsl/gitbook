@@ -4,12 +4,12 @@
 2. Open a web browser and navigate to fcps.edu
 3. You should be redirected to a login website
 4. Accept the terms
-![Accept Terms](./pictures/linux-wifi-setup-1.png)
+![Accept Terms](../.gitbook/assets/linux-wifi-setup-1.png)
 5. Select "FCPS Staff and Students"
   a. You could also sign in as a guest, that just changes the password you use in a later step.
-![Select Login Category](./pictures/linux-wifi-setup-2.png)
+![Select Login Category](../.gitbook/assets/linux-wifi-setup-2.png)
 6. Enter your FCPS Student ID and Password
-![Enter Password](./pictures/linux-wifi-setup-3.png)
+![Enter Password](../.gitbook/assets/linux-wifi-setup-3.png)
 7. Navigate to the "Other" network devices
 --PICTURE NEEDED--
 8. Download the certificates
@@ -17,7 +17,7 @@
 9. Now, navigate to your network manager.
 Click on the “Fairfax” wifi network in the list of networks. Enter the information in the box as shown.
 Make sure to select “TLS” as the authentication type and not “TTLS”.
-![Network Manager](./pictures/linux-wifi-setup-6.png)
+![Network Manager](../.gitbook/assets/linux-wifi-setup-6.png)
 10. If you are a cool person who uses `wpa_supplicant`, put this instead in your `/etc/wpa_supplicant/wpa_supplicant-<interface>.conf`
 ```
 network={
