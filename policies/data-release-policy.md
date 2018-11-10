@@ -4,7 +4,7 @@ description: This page describes the CSL policy for releasing data to the public
 
 # Data Release Policy
 
-All requests for data must be made through an email to sysadmins@tjhsst.edu for documentation purposes. There are 4 tiers of data: publicly accessible, internally accessible, general release, and restricted release.
+All requests for data must be made through an email to [sysadmins@tjhsst.edu](mailto:sysadmins@tjhsst.edu) for documentation purposes. There are 4 tiers of data: publicly accessible, internally accessible, general release, and restricted release.
 
 {% hint style="info" %}
 Any type of data that is released must be released **exactly verbatim**, unless approved by the faculty sponsor

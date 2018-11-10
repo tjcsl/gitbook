@@ -1,7 +1,7 @@
 # Linux Wifi Setup
 
 1. Connect to the FCPSonboard network
-2. Open a web browser and navigate to fcps.edu
+2. Open a web browser and navigate to [fcps.edu](https://fcps.edu)
 3. You should be redirected to a login website
 4. Accept the terms
 

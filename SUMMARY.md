@@ -194,7 +194,6 @@
 * [Guides](guides/README.md)
   * [Account Provisioning](guides/account-provisioning.md)
   * [Linux Wifi Setup](guides/linux-wifi-setup.md)
-  * [Signage Setup](guides/signage-setup.md)
 * [Procedures](procedures/README.md)
   * [Data Recovery](procedures/data-recovery.md)
   * [Accounts](procedures/accounts.md)

@@ -4,7 +4,7 @@ Even though we have integrated authentication for accounts, user provisioning st
 
 ## Windows/Active Directory
 
-The Windows IT staff takes care of this. At the time of writing, all users are deleted and recreated at the beginning of every school year. Sysadmins \(starting with the graduating class of 2006\) are moved into a separate ou \(organizational unit\) before this occurs and will have their accounts preserved, but passwords are still subject to expire annually.
+The Windows IT staff takes care of this. Sysadmins \(starting with the graduating class of 2006\) are moved into a separate ou \(organizational unit\) before this occurs and will have their accounts preserved, but passwords are still subject to expire annually.
 
 ## Unix accounts
 
@@ -12,7 +12,8 @@ We have a script called `create_user.sh` that provisions all necessary accounts.
 
 It:
 
-* Generates an LDIF and exporting it
+* Generates an LDIF
+* Export the LDIF
 * Adds the LDIF to openldap1
 * Creates an AFS home directory
 * and resets the Kerberos principal password to the default

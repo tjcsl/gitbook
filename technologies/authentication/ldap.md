@@ -1,6 +1,6 @@
 # LDAP
 
-**OpenLDAP** is the LDAP server currently used to provide both NSS LDAP \(on openldap1 and openldap2\) as well as Iodine's student information database \(on iodine-ldap\). The actual OpenLDAP daemon is called slapd \(Stand-alone LDAP daemon\) and many of the OpenLDAP server management utilities begin with slap \(eg, slapcat, slapadd\) as a result.
+**OpenLDAP** is the LDAP server currently used to provide both NSS LDAP \(on openldap1 and openldap2\). The actual OpenLDAP daemon is called slapd \(Stand-alone LDAP daemon\) and many of the OpenLDAP server management utilities begin with slap \(eg, slapcat, slapadd\) as a result.
 
 ## Installation
 
