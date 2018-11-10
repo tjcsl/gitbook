@@ -1,6 +1,6 @@
 # Setup
 
-CUPS is a standards-based. open-source printing system for Unix-like operating systems. You can read more about CUPS at its [Wikipdia page](https://en.wikipedia.org/wiki/CUPS). The Arch Wiki also has a [good article about it](https://wiki.archlinux.org/index.php/CUPS.).
+Pre-InstallationCUPS is a standards-basedn open-source printing system for Unix-like operating systems. You can read more about CUPS at its [Wikipdia page](https://en.wikipedia.org/wiki/CUPS). The Arch Wiki also has a [good article about it](https://wiki.archlinux.org/index.php/CUPS.).
 
 ## Installation
 
@@ -41,5 +41,5 @@ You will most likely get prompted for your credentials. Enter either your root c
 * You should generally allow connection sharing.
 * For Manufacturer and Model, select the appropriate ones for your printer.
 
-Once your printer has been added, select the dropdown menu and click `Print Test Page` to test if your connection is working. Repeat these steps for any other printers.
+Once your printer has been added, select the drop down menu and click `Print Test Page` to test if your connection is working. Repeat these steps for any other printers.
 

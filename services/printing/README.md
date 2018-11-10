@@ -12,7 +12,7 @@ We currently have three functioning printers:
   * This is a HP LaserJet P3015
 * 198.38.18.3 \(in Room 200C\)
   * This is a HP LaserJet P3015
-* 198.38.18.4 \(in ROom 200\)
+* 198.38.18.4 \(in Room 200\)
   * This is a HP LaserJet P3015
 
 ### Ion Printing
