@@ -2,7 +2,9 @@
 
 Notable for being the last time [Moon](../moon.md) was upgraded.
 
-Note -- this is written in present tense, but should not be taken as such \(for hopefully obvious reasons\).
+{% hint style="info" %}
+This is written in present tense, but should not be taken as such \(for hopefully obvious reasons\).
+{% endhint %}
 
 ## Timeframe
 

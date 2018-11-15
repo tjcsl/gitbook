@@ -2,6 +2,10 @@
 
 Use this page as a checklist for updating usernames \(such as in the case of a legal name change\)
 
+{% hint style="warning" %}
+Only use this page as a cheklist for updating usernames such as in the case of a legal name change
+{% endhint %}
+
 The following items need to be updated when a username change is requested:
 
 1. Active Directory \(handled by Windows IT staff\)
@@ -14,6 +18,7 @@ The following items need to be updated when a username change is requested:
 8. \[NSS LDAP\] \(gecos, homeDirectory\) \(ex: look at `getent passwd bnferrick` and fix it if necessary\)
    * Change username \(uid\) and name \(cn, sn, givenName\) fields
    * If user in in any LDAP groups, make sure to change the memberUid fields to match the new username.
-9. If the user is a sysadmin or has an active CSL principal for some other reason, update the name of that principal as well as any .k5login entries for gaining root
-10. Mail \(the sync script will make a new account, but you have to manually move the old data to the new user's home directory on the mail system\)
+9. Update the user's Kerberos principal
+10. If the user is a Sysadmin, update any `.k5login` entries for gaining root
+11. Postfix/dovecot should create a new mail directory for the user. Migrate old data as necessary.
 

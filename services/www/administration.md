@@ -77,7 +77,7 @@ If all of that doesn't work, it's most likely not a problem with the web server 
 You'll need to be an [AFS admin](../../technologies/storage/afs/administration.md), or ask someone who is, to simply run:
 
 ```text
-pts adduser username web.staging
+pts adduser <USERNAME> web.admins
 ```
 
 This will grant full access to `/afs/csl/web/www`, where the website files are located.

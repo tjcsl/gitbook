@@ -17,5 +17,5 @@ This server has CSL, TJHSST-LAN, and FCPS addresses. It is very locked down comp
 
 ## History
 
-Moon used to be a Sun Fire V100, used for the same purposes as it is now. The V100 moon was a donation from unknown source. It was sent home with CSL admin Jack Breese \(2008\).
+Moon used to be a Sun Fire V100, used for the same purposes as it is now. The V100 moon was a donation from unknown source and was sent home with CSL admin Jack Breese \(2008\).
 
