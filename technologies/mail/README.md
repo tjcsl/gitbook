@@ -3,7 +3,8 @@
 ## Machines which provide this service
 
 ## History
-The current **TJ email system** is an idea originally designed by Aman Gupta (class of '04). The original system was implemented by Andrew Deason (class of '06) with the help of several staff members, including Richard Washer and Susan Beasley. A second mail system, based on Zimbra, was configured by Lee Burton. The latest mail system was designed by Brandon Vargo.
+
+The current **TJ email system** is an idea originally designed by Aman Gupta \(class of '04\). The original system was implemented by Andrew Deason \(class of '06\) with the help of several staff members, including Richard Washer and Susan Beasley. A second mail system, based on Zimbra, was configured by Lee Burton. The latest mail system was designed by Brandon Vargo.
 
 Previously, the CSL only hosted mail for the CSL itself; mail that was only accesible to people with Systems Lab accounts. Today, lab-only mail does not exist anymore, and everyone gets their email off of the same system, all with @tjhsst.edu addresses.
 
@@ -14,13 +15,12 @@ The current mail system consists of two primary email servers as well as a mailm
 When mail is first received by the mail system, it is processed by postfix. If basic spam tests pass, the message is passed to amavisd-new for additional spam processing. If the message passes these tests, it is placed into another internal postfix queue. In general, mail will only be tagged instead of being discarded. At this point, postfix is configured to pass the message to dovecot for delivery. Both servers share a common NFS filestore. Dovecot is configured to handle locking.
 
 ## Authentication/Authorization
+
 Authentication is handled by the kerberos PAM module, similar to most other systems in the lab. Dovecot is configured to user PAM.
 
 Instead of using the Lab's LDAP tree for user information, account information is stored locally on each server in the form of standard UNIX accounts. A mail management script, described below, synchronizes the AD user information with the local UNIX accounts. The UID for the local UNIX account is a hash of the username. This allows each server to run the mail synchronization script independently and not worry about UID conflicts on the shared NFS storage.
 
 ## Postfix
-
-{% page-ref page="postfix" %}
 
 ## Amavis
 
@@ -48,7 +48,7 @@ Logging information is sent to syslog, which typically appends it to /var/log/ma
 
 ## Mailman
 
-E-mail distribution lists are provided on the domain lists.tjhsst.edu by Mailman, a highly popular software package. Most list administration takes place through an easy online interface at https://lists.tjhsst.edu/, though many functions are also available through email, such as list subscription and some message handling.
+E-mail distribution lists are provided on the domain lists.tjhsst.edu by Mailman, a highly popular software package. Most list administration takes place through an easy online interface at [https://lists.tjhsst.edu/](https://lists.tjhsst.edu/), though many functions are also available through email, such as list subscription and some message handling.
 
 ### Configuration
 
@@ -62,11 +62,9 @@ A few daemons must be running for Mailman to function properly. The first is `qr
 
 ## Dovecot
 
-{% page-ref page="dovecot" %}
-
 ## Account Management
 
-See [Account provisioning](../../guides/account-provisioning.md) for information on running the synchronization script.
+See [Account provisioning](https://github.com/tjcsl/gitbook/tree/b18eaea16346c14456040c32aa7980539eedfbc2/guides/account-provisioning.md) for information on running the synchronization script.
 
 The `mail.py` script is a python script responsible for syncing the local user information with the Active Directory user database. This script should be run on all mail servers, even though there is a common file storage.
 
@@ -77,11 +75,12 @@ CSV fields:
 1. The username
 2. The quota, before the multiplication value is taken into effect
 3. Source of the user account
-  * There are two values: ldap and override. A ldap source means the user comes from ldap and user attributes should be overridden on sync. A type of override means the local values should not be replace by those in AD. This is useful for overriding quotas or keeping accounts enabled that would otherwise be disabled.
+   * There are two values: ldap and override. A ldap source means the user comes from ldap and user attributes should be overridden on sync. A type of override means the local values should not be replace by those in AD. This is useful for overriding quotas or keeping accounts enabled that would otherwise be disabled.
 4. Enabled/disabled state
 
 The script is commented, so its internal workings will not be copied here. However, of particular note is the `perform_actions` variable at the top of the parameters section of the script. This variable should be set to 0 for an initial test run, in order to perform a sanity check of the output. The script will print all actions it will perform, including exact commands that it will run. Setting this variable to 1 will result in the script actually running these commands.
 
 ## Storage
 
-They're stored somewhere, that's for sure. During the [[Cephpocalypse]] they were put in local storage on Casey. If you happen to know where all the mail files are stored now, please help by filling this section out!
+They're stored somewhere, that's for sure. During the \[\[Cephpocalypse\]\] they were put in local storage on Casey. If you happen to know where all the mail files are stored now, please help by filling this section out!
+

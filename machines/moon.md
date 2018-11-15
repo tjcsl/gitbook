@@ -7,9 +7,9 @@ This server has CSL, TJHSST-LAN, and FCPS addresses. It is very locked down comp
 ## Technical Specifications
 
 | Field | Value |
-| :---- | :---- |
+| :--- | :--- |
 | **Server Type** | Sun Fire V215 |
-| **CPU** | Sun UltraSPARC-IIIi (1.5 GHz) |
+| **CPU** | Sun UltraSPARC-IIIi \(1.5 GHz\) |
 | **RAM** | 2 GB |
 | **Hard Disks** | 2x 73 GB RAID 1 |
 | **OS** | Solaris 10 |
@@ -17,4 +17,5 @@ This server has CSL, TJHSST-LAN, and FCPS addresses. It is very locked down comp
 
 ## History
 
-Moon used to be a Sun Fire V100, used for the same purposes as it is now. The V100 moon was a donation from unknown source. It was sent home with CSL admin Jack Breese (2008).
+Moon used to be a Sun Fire V100, used for the same purposes as it is now. The V100 moon was a donation from unknown source. It was sent home with CSL admin Jack Breese \(2008\).
+

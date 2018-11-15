@@ -1,9 +1,6 @@
 # OpenVPN
 
-Useful to access all the CSL machines from the comfort of your own home! Running [ansible] plays, ssh-ing without having to hop on [RAS] first, OpenVPN makes everything a breeze!
-
-[ansible]: ../tools/ansible.md
-[RAS]: ../../services/remote-access/README.md
+Useful to access all the CSL machines from the comfort of your own home! Running [ansible](../tools/ansible.md) plays, ssh-ing without having to hop on [RAS](../../services/remote-access/) first, OpenVPN makes everything a breeze!
 
 ## History
 
@@ -15,7 +12,7 @@ The rest of this page is left for posterity, should we need it in the future.s
 
 If you can connect to the VPN successfully, but are having issues accessing other machines, try running the following command on the server:
 
-```
+```text
 /etc/init.d/net.tap0 restart
 ```
 
@@ -23,7 +20,7 @@ If you can connect to the VPN successfully, but are having issues accessing othe
 
 Run the commands below, first setting the `$USERNAME` variable to the username of the person you are generating the certificates for.
 
-```
+```text
 USERNAME=<username>
 cd /root/
 ./add_vpn_user --no-passphrase $USERNAME
@@ -37,8 +34,9 @@ cp 2017ewang/openvpn.conf $USERNAME/
 
 Edit openvpn.conf and replace 2017ewang with the username of the person you are generating the certificates for. Then,
 
-```
+```text
 zip -r $USERNAME.zip $USERNAME
 ```
 
 Finally, give USERNAME.zip to the user.
+
