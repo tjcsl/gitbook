@@ -1,6 +1,6 @@
 # Setup
 
-Pre-InstallationCUPS is a standards-basedn open-source printing system for Unix-like operating systems. You can read more about CUPS at its [Wikipdia page](https://en.wikipedia.org/wiki/CUPS). The Arch Wiki also has a [good article about it](https://wiki.archlinux.org/index.php/CUPS.).
+CUPS is a standards-based open-source printing system for Unix-like operating systems. You can read more about CUPS at its [Wikipdia page](https://en.wikipedia.org/wiki/CUPS). The Arch Wiki also has a [good article about it](https://wiki.archlinux.org/index.php/CUPS.).
 
 ## Installation
 

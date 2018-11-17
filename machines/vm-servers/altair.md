@@ -1,12 +1,16 @@
 # Altair
 
-**Altair** is a physical server residing the the CSL Machine Room that currently serves [KVM Virtual machines](../../technologies/virtualization-stack/kvm.md).
+**Altair** is a physical server residing in the CSL Machine Room that currently serves [KVM Virtual machines](../../technologies/virtualization-stack/kvm.md).
 
 ## Virtual Machines on this Host
 
+| Machine |  |
+| :--- | :--- |
+| None |  |
+
 ## Technical Specifications
 
-| Specification | Description |
+| Field | Value |
 | :--- | :--- |
 | **Server Type** | Sun Fire X4150 |
 | **CPU** | 2x Intel Xeon X5460 Quado-Core @ 3.16 GHz |

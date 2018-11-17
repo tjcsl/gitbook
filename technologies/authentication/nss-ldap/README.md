@@ -1,4 +1,4 @@
-# NSS LDAP
+# NSS
 
 LDAP is the system currently used to store NSS \(Name Service Switch\) information for the UNIX passwd and group databases. It serves as a centralized supplement/replacement for the information stored in `/etc/passwd` and `/etc/group` including usernames, uids, homedirectory locations, group memberships, and login shells.
 

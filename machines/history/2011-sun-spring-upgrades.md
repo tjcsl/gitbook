@@ -1,6 +1,6 @@
 # 2011 Sun Upgrades
 
-Notable for being the last time [Moon](../moon.md) was upgraded.
+Notable for being the last time [Moon](../other/moon.md) was upgraded.
 
 {% hint style="info" %}
 This is written in present tense, but should not be taken as such \(for hopefully obvious reasons\).
@@ -30,7 +30,7 @@ The work occurring on [Vega](../sun-servers/vega.md) will occur during the week,
 
 ### Moon
 
-[Moon](../moon.md) will be upgraded Monday evening. A short outage is expected to occur to reboot into the new disk boot environment.
+[Moon](../other/moon.md) will be upgraded Monday evening. A short outage is expected to occur to reboot into the new disk boot environment.
 
 ## Dulles/Seatac
 
@@ -82,5 +82,5 @@ Virtualbox will be upgraded from 3.0.8 to 4.0.4, or whatever the latest stable v
 
 ### Moon
 
-The version of Solaris installed on [Moon](../moon.md) will be Live Upgraded to update 9 and the latest patches will be installed.
+The version of Solaris installed on [Moon](../other/moon.md) will be Live Upgraded to update 9 and the latest patches will be installed.
 

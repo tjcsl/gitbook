@@ -1,4 +1,4 @@
 # Wumpus
 
-`wumpus` is a Ceph server that was aquired in 2018.
+**wumpus** is a Ceph server that was acquired in 2018.
 

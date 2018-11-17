@@ -5,7 +5,7 @@
 ## Technical Specifications
 
 | Field | Value |
-| :---- | :---- |
+| :--- | :--- |
 | **Server Type** | HP Proliant DL380 G6 |
 | **CPU** | 2x Intel Xeon E5540 Hexa-Core @ 2.53 GHz |
 | **RAM** | 24 GB |
@@ -15,6 +15,7 @@
 
 ## History
 
-Auckland was previously named Gandalf and was one of three servers running VMware ESXi used to host JCIRN (CTRL+F on <https://washingtonexec.com/2013/01/dr-glazer-principal-of-thomas-jefferson-high-school-for-science-and-technology-kicks-off-washingtonexec-stem-council-discusses-building-tomorrows-leaders/>). JCIRN was abandoned after Dr. Glazer left TJ at the end of the 2016-2017 school year.
+Auckland was previously named Gandalf and was one of three servers running VMware ESXi used to host JCIRN.
 
 In 2017-2018, Gandalf was used to run the official TJHSST Othello Tournament.
+

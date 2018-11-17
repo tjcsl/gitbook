@@ -1,6 +1,6 @@
 # Chatham
 
-**Chatham** is a physical server residing the the CSL Machine Room that currently serves [KVM Virtual machines](../../technologies/virtualization-stack/kvm.md).
+**Chatham** is a physical server residing in the CSL Machine Room that currently serves [KVM Virtual machines](../../technologies/virtualization-stack/kvm.md).
 
 ## Virtual Machines on this Host
 
@@ -11,7 +11,7 @@
 
 ## Technical Specifications
 
-| **Specification** | Description |
+| **Field** | Value |
 | :--- | :--- |
 | **Server Type** | HP Proliant DL380 G6 |
 | **CPU** | 2x Intel Xeon E5540 Quad-Core @ 2.53 GHz |

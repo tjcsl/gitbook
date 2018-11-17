@@ -74,7 +74,7 @@ If all of that doesn't work, it's most likely not a problem with the web server 
 
 ### Granting a user access to edit the website
 
-You'll need to be an [AFS admin](../../technologies/storage/afs/administration.md), or ask someone who is, to simply run:
+You'll need to be an [AFS admin](), or ask someone who is, to simply run:
 
 ```text
 pts adduser <USERNAME> web.admins

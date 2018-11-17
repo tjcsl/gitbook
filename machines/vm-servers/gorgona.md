@@ -1,6 +1,6 @@
 # Gorgona
 
-**Gorgona** is a physical server residing the the CSL Machine Room that currently serves [KVM Virtual machines](../../technologies/virtualization-stack/kvm.md).
+**Gorgona** is a physical server residing in the CSL Machine Room that currently serves [KVM Virtual machines](../../technologies/virtualization-stack/kvm.md).
 
 ## Virtual Machines on this Host
 
@@ -13,7 +13,7 @@
 
 ## Technical Specifications
 
-| **Specification** | Description |
+| **Field** | Value |
 | :--- | :--- |
 | **Server Type** | HP Proliant DL380 G6 |
 | **CPU** | 2x Intel Xeon X5670 Hexa-Core @ 2.93 GHz |
