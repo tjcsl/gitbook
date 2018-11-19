@@ -1,6 +1,6 @@
 # Sirius
 
-**Sirius** is a Sun Server located in the Machine Room.
+**Sirius** is a Sun Server located in the Machine Room.  Sirius is configured to run a ceph mon.
 
 ## Technical Specifications
 
@@ -10,7 +10,7 @@
 | **CPU** | 2x Intel Xeon X5460 Quad-Core @ 3.16 GHz |
 | **RAM** | 24 GB |
 | **Hard Disks** | 2x 73GB 2.5in 10K SAS RAID 1 |
-| **OS** | Solaris 10 |
+| **OS** | Ubuntu 18.04 |
 | **Purchase Date** | Winter 2008 |
 
 ## History
