@@ -55,29 +55,31 @@ Director uses [postgres1](../../technologies/dbs/postgresql.md) and [mysql1](../
     -   @director hard nproc 100 - Limit all sites to a maximum of 100 processes.
     -   @director hard as 4000000 - Limit all site processes to a maximum of 4G memory.
 -   /web
-    -   NFS share, mounted on [Ras1](/Ras1 "wikilink") and [Ras2](/Ras2 "wikilink") under /web
+    -   NFS share, mounted on ras under /web # This does not exist atm
     -   Kerberos Authentication
     -   /etc/exports - NFS Server Configuration
 
 Installed Software
 ------------------
 
-`apt-get install -y sshpass`
-`apt-get install -y htop tmux screen git at`
-`apt-get install -y sqlite3`
-`curl -sL `[`https://deb.nodesource.com/setup_6.x`](https://deb.nodesource.com/setup_6.x)` | sudo -E bash -`
-`apt-get install -y nodejs npm`
-`apt-get install -y golang-go`
-`apt-get install -y ruby-full`
-`apt-get install -y php7.0-mbstring php7.0-xml php7.0-mysql php7.0-pgsql php7.0-sqlite php7.0-gd php7.0-ldap php7.0-curl php7.0-mcrypt php7.0-zip composer`
-`apt-get install -y default-jdk default-jre scala`
-`apt-get install -y python-pip python3-pip`
-`apt-get install -y imagemagick`
-`apt-get install -y haskell-platform`
-`apt-get install -y mysql-client`
-`pip install Flask Django requests numpy`
-`pip3 install Flask Django requests numpy`
-`npm install -g pm2`
+```
+apt-get install -y sshpass
+apt-get install -y htop tmux screen git at
+apt-get install -y sqlite3
+curl -sL [https://deb.nodesource.com/setup_6.x](https://deb.nodesource.com/setup_6.x) | sudo -E bash -
+apt-get install -y nodejs npm
+apt-get install -y golang-go
+apt-get install -y ruby-full
+apt-get install -y php7.0-mbstring php7.0-xml php7.0-mysql php7.0-pgsql php7.0-sqlite php7.0-gd php7.0-ldap php7.0-curl php7.0-mcrypt php7.0-zip composer
+apt-get install -y default-jdk default-jre scala
+apt-get install -y python-pip python3-pip
+apt-get install -y imagemagick
+apt-get install -y haskell-platform
+apt-get install -y mysql-client
+pip install Flask Django requests numpy
+pip3 install Flask Django requests numpy
+npm install -g pm2
+```
 
 -   OpenCV
 -   MediaWiki Parsoid
