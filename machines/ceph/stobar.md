@@ -1,6 +1,6 @@
 # Stobar
 
-**stobar** is a G10 HPE server that was acquired in 2018.  Stobar is currently part of the lab's main ceph cluster.
+**stobar** is a G10 HPE server that was acquired in 2018. Stobar is currently part of the lab's main ceph cluster.
 
 ## Technical Specifications
 

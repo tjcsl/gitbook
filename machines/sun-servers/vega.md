@@ -1,6 +1,6 @@
 # Vega
 
-**Vega** is a Sun Server located in the Machine Room.  Vega is configured to run a ceph mon.
+**Vega** is a Sun Server located in the Machine Room. Vega is configured to run a ceph mon.
 
 ## Technical Specifications
 

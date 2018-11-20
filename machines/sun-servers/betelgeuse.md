@@ -1,6 +1,6 @@
 # Betelgeuse
 
-**Betelgeuse** is a Sun Server located in the Machine Room that currently does nothing.  It also has no networking, making it useless.
+**Betelgeuse** is a Sun Server located in the Machine Room that currently does nothing. It also has no networking, making it useless.
 
 ## Technical Specifications
 

@@ -1,6 +1,6 @@
 # Sirius
 
-**Sirius** is a Sun Server located in the Machine Room.  Sirius is configured to run a ceph mon.
+**Sirius** is a Sun Server located in the Machine Room. Sirius is configured to run a ceph mon.
 
 ## Technical Specifications
 
