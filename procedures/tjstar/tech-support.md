@@ -1,7 +1,3 @@
----
-description: The CSL also runs tech support on the day of tjSTAR.
----
-
 # Tech Support
 
 ### Planning and Organization

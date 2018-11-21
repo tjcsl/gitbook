@@ -1,7 +1,3 @@
----
-description: How to run tjSTAR signups and tech support
----
-
 # tjSTAR
 
 The CSL is responsible for running signups and tech support for the annual tjSTAR, which usually happens in late May or early June.
