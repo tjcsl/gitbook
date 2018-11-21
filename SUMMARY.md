@@ -130,6 +130,7 @@
   * [Printing](technologies/cups/README.md)
     * [CUPS](technologies/cups/cups.md)
   * [Monitoring](technologies/monitoring/README.md)
+    * [Grafana](technologies/monitoring/grafana.md)
     * [Sentry](technologies/monitoring/sentry.md)
     * [Uptime Robot](technologies/monitoring/uptime-robot.md)
     * [Observium](technologies/monitoring/observium.md)
