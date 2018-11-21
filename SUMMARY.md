@@ -207,6 +207,7 @@
   * [Account Provisioning](procedures/account-provisioning.md)
   * [Username Changes](procedures/username-changes.md)
   * [Virtual Machine Creation](procedures/vm-creation.md)
+  * [tjSTAR](procedures/tjstar.md)
   * [Communication](procedures/communication.md)
   * [Onboarding](procedures/onboarding/README.md)
     * [New Understudy Onboarding](procedures/onboarding/new-understudy-onboarding.md)
