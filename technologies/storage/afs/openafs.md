@@ -1,6 +1,6 @@
 # OpenAFS
 
-
+The implementation of AFS that the syslab uses.
 
 ## Notes
 

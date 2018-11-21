@@ -1,5 +1,7 @@
 # AFS Directory Structure
 
+This list documents the current state of AFS directories in the CSL. For a more up-to-date list, perhaps ssh into RAS1 or RAS2 and `ls /afs/csl` yourself.
+
 ## General Conventions
 
 Usually, if a mount point is read-only, then there will be another read-write mount point with the same name with dot in front of the name. For example, the mount point /afs/csl/service is read-only, but /afs/csl/.service is read-write. Both of those mount points are the same volume (service), but one is a read-only copy, and thus more likely to be available.
@@ -14,31 +16,7 @@ This is the read-only mount point for `root.cell` for our cell. `/afs/.csl.tjhss
 
 ### `archive/`
 
-This contains mountpoints for various volumes that are no longer used in day-to-day operations but that we want to continue to be accessible.
-
-#### `cronos/`
-
-All of the home directories before the lab switched to AFS (the old fileserver was called 'cronos', and served data with NFS). They are still around so that their web-docs are still available, so we do not break links.
-
-#### `i1/`
-
-Data files for the original [Intranet](../../../services/ion/README.md).
-
-#### `legacy/`
-
-Deactivated websites are remounted here in subfolders corresponding to their old subdomain.
-
-#### `web.XXX/`
-
-These are various old versions of the main tjhsst.edu website.
-
-### `common/`
-
-This contains shared directories for various groups and functions.
-
-### `fcps/`
-
-Home directories for non-TJHSST FCPS students/staff. They are separated into sub-directories by site.
+This should contain mountpoints for various volumes that are no longer used in day-to-day operations but that we want to continue to be accessible. Currently non-existent, we probably lost them lol.
 
 ### `parents/`
 
@@ -52,88 +30,34 @@ Staff home directories for accounts that authenticate against the windows server
 
 Student home directories for accounts that authenticate against the windows servers are stored here, each separated by graduation year.
 
-### `user/`
+* #### `alumni/`
 
-Legacy user home directories from when CSL user accounts were separate from the rest of the school.
+  Dedicated folder for alumni.
+
+* #### `dropbox/`
+
+  Where students taking a class in the CSL can drop their code to turn it in.
 
 ### `web/`
 
-Data for various web services. Many of the sub-directories here correspond to a subdomain http://<directory>.tjhsst.edu/, although some newer websites do not (see [Director](../../../services/director/README.md) and [Othello](../../../services/othello/README.md))
+Data for various web services. The sub-directories here used to correspond to a subdomain http://<directory>.tjhsst.edu/, although now all our newer websites are run through an nginx proxy that redirects traffic to the correct VM. See [Nginx](../../web/nginx/md), [Director](../../../services/director/README.md),  and [Othello](../../../services/othello/README.md) for more details.
 
-#### `sitemap/`
+* #### `www/` and `www.backup/`
 
-Contains information for the sitemap for the legacy Krysalis system.
+  Data files for the main website under the [www](../../../services/web/README.md) subdomain (since deprecated). Other web subdomains (such as arts, activities, sports, etc.) also have their own directories in web/.
 
-#### `www/`
+* #### `academics/` and `academics.backup/`
 
-Data files for the main website under the [www](../../../services/www/README.md) subdomain (since deprecated). Other web subdomains (such as arts, activities, sports, etc.) also have their own directories in web/.
+  Ran the old https://academics.tjhsst.edu club websites. Currently obsolete, since replaced by [Director](../../../services/director/README.md).
 
-#### `webadmin/`
+* #### `web-docs/`
 
-Data files for the [webadmin] application. See the [webadmin] article for information on the subdirectories here.
+  Peter Morasca, former Systems Administrator for the Windows domain, has some files in here. idk what for or why, but they're probably obsolete.
 
 ### `service/`
 
-FINISH THIS
+Various administrative scripts and files used to be stored here. Now it's much fewer than before, [NFS](https://en.wikipedia.org/wiki/Network_File_System) (now not used either) and [CephFS](../cephfs.md).
 
-#### `belltab/`
+### `slt/`
 
-
-
-#### `music/`
-
-
-
-#### `sound/`
-
-
-
-#### `bind/`
-
-
-
-#### `mailman/`
-
-
-
-#### `postfix/`
-
-
-
-#### `httpd.intranet/`
-
-
-
-#### `convert/`
-
-
-
-#### `emperor_stuff/`
-
-
-
-#### `images/`
-
-
-
-#### `imaging/`
-
-
-
-#### `logs/`
-
-
-
-#### `matlab/`
-
-
-
-#### `sysadmins/`
-
-
-
-#### `haa/`
-
-
-
-### `tokenizer/`
+Storage for student councils of each grade can place files to share between themselves and with the rest of the populace. Since unused in favor of Google Docs (<em>\*shakes fist at clouds\*</em>).
