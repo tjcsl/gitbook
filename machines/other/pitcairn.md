@@ -1,6 +1,6 @@
 # Pitcairn
 
-**Pitcairn** is a physical machine residing in the CSL Machine room. It currently acts as ns1, our main \[DNS\] and \[DHCP\] server.
+**Pitcairn** is a physical machine residing in the CSL Machine room. It currently acts as ns1, our main [DNS](../../technologies/networking/dns/) and [DHCP](../../technologies/networking/dhcp.md) server.
 
 ## Technical Specifications
 
