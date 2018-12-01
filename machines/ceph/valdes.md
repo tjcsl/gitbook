@@ -1,6 +1,6 @@
 # Valdes
 
-**Valdes** is a physical server residing in the CSL Machine Room that will serve the backup [Ceph](../../technologies/storage/ceph/README.md) array.
+**Valdes** is a physical server residing in the CSL Machine Room that will serve the backup [Ceph](../../technologies/storage/ceph/) array.
 
 | **Field** | Value |
 | :--- | :--- |
@@ -10,3 +10,4 @@
 | **Hard Disks** | 2x 146GB 2.5in 10K SAS RAID 1 |
 | **OS** | Ubuntu |
 | **Purchase Date** | Unknown |
+

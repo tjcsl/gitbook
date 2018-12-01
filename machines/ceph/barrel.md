@@ -1,6 +1,6 @@
 # Barrel
 
-**Barrel** is a physical server residing in the CSL Machine Room that will serve the backup [Ceph](../../technologies/storage/ceph/README.md) array.
+**Barrel** is a physical server residing in the CSL Machine Room that will serve the backup [Ceph](../../technologies/storage/ceph/) array.
 
 | **Field** | Value |
 | :--- | :--- |
@@ -10,5 +10,4 @@
 | **Hard Disks** | 2x 146GB 2.5in 10K SAS RAID 1 |
 | **OS** | Ubuntu |
 | **Purchase Date** | March 2014 |
-
 
