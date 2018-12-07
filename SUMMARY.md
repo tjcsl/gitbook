@@ -168,7 +168,7 @@
     * [Valdes](machines/ceph/valdes.md)
   * [HPC Cluster](machines/hpc-cluster/README.md)
     * [Zoidberg](machines/hpc-cluster/zoidberg.md)
-  * [Borg Cluster](machines/borg-cluster/README.md)
+  * [Borg Cluster](machines/borg-cluster.md)
   * [Other](machines/other/README.md)
     * [ASM](machines/other/asm.md)
     * [Duke](machines/other/duke.md)
@@ -228,3 +228,4 @@
 * [Policies](policies/README.md)
   * [Data Release Policy](policies/data-release-policy.md)
   * [Upgrade Policy](policies/upgrade-policy.md)
+
