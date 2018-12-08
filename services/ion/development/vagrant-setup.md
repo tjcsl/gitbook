@@ -15,19 +15,17 @@ $ git clone git@github.com:tjcsl/ion.git intranet
 $ cd intranet
 ```
 
-In the `config` directory, copy the file `devconfig.json.sample` to `devconfig.json` and edit the properties in `devconfig.json` as appropriate. Ensure `ssh_key` is set to the same SSH key registered with GitHub \(e.g. `id_rsa`\).
+In the `config` directory, copy the file `devconfig.json.sample` to `devconfig.json` and edit the properties in `devconfig.json` as appropriate. Ensure `ssh_key` is set to the same SSH key registered with GitHub \(e.g. `id_rsa`\). Also make sure that `use_nfs` is set to `true` and `use_vpn` is set to `false`. This will prevent connecting to the CSL VPN.
 
 {% hint style="info" %}
 The other values specified in `devconfig.json` are optional. The `ldap_simple_bind_password` is not needed and is a remnant of the old LDAP-based authentication scheme.
 {% endhint %}
 
-Run `vagrant plugin install vagrant-vbguest vagrant-bindfs` If you are on Windows, also run `vagrant plugin install vagrant-winnfsd`
-
-The `Vagrantfile` should be edited to prevent connecting to the VPN. `setup_host` on line 38 should be commented and line 70 should be set to `config.vm.synced_folder ".", "/vagrant-nfs", type: :nfs, nfs_udp: false`.
-
 {% hint style="info" %}
-Connecting to the CSL VPN may be necessary to test Kerberos authentication or other functionality that requires connection to CSL services. In that case, `setup_host` should remain noncommented.
+Connecting to the CSL VPN may be necessary to test Kerberos authentication or other functionality that requires connection to CSL services. In that case, `use_vpn` should be set to `true`.
 {% endhint %}
+
+Run `vagrant plugin install vagrant-vbguest vagrant-bindfs` If you are on Windows, also run `vagrant plugin install vagrant-winnfsd`.
 
 Run `vagrant up && vagrant reload` and wait while the development environment is set up. When asked to select a network interface for bridging, enter the number corresponding to one that is active. To automatically select this interface in the future, set the "network\_interface" key in `devconfig.json` to the name of the interface you selected \(e.g. `"en0: Wi-Fi (AirPort)"`\). There may be repeated warnings similar to "`Remote connection disconnect` on the second `vagrant up`. After several minutes they will stop. Once the provisioning process is complete, run `vagrant ssh` to log in to the development box.
 
