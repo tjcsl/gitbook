@@ -23,3 +23,6 @@ The version of iLO firmware that the servers ship with does not support access t
 
 Flashing the iLO firmware _will_ reboot the iLO, but will **NOT** reboot the server.
 
+## Password Limitations
+
+HP has these really weird password limitations on iLOs.  For HP iLO 5 (as of firmware version 1.35), it accepts any length password for a reset but only stores the first 39 characters (so you have to use the first 39 to login0.  (*Really annoying*). For HP ilO 2, they just have a 20 character limitation.
