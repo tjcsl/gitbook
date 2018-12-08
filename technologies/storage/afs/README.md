@@ -22,7 +22,7 @@ Fun fact: This actually takes up a large part of our virtual machine capacity.
 
 ## AFS Backup
 
-All volumes are backed up daily by a crontab on [openafs1](../../../machines/vm-servers/gorgona.md). The crontab runs a script which backs up web2.0\*, web.\*, 2014.\*, 2015.\*, 2016.\*, 2017.\*, staff.\*, user.\*, and parents.\*, along with some alumni sysadmins' homedirs.
+We don't have any running backups \(which is bad\). Used to be backed up via a daily cron job.
 
 ## External Link
 

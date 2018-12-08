@@ -4,11 +4,11 @@ This page describes how to set up AFS on a server. If you are looking for the cl
 
 {% page-ref page="client.md" %}
 
-TL;DR use ansible for both clients and servers.
+TL;DR: use ansible for both clients and servers.
 
 ## Packages
 
-On Ubuntu:
+On Ubuntu, the following packages are needed for it to operate.
 
 * `openafs-modules-dkms`
 * `openafs-krb5`
@@ -18,9 +18,15 @@ On Ubuntu:
 
 ## Configuration
 
-The ansible play mentions something about vicepa and vicepb mounted on virtual disks `/dev/vdb` and `/dev/vdc` respectively. I have no idea what they are for, but they get ext4 formatted and mounted every time the play runs.
+The QEMU configuration files for the OpenAFS servers have three disks attached to each server:
 
-The configuration files `CellServDB` and `UserList` are copied to `/etc/openafs/server/CellServDB`, then the following commands are run:
+* `openafs<NUMBER>` \(attached as `/dev/vda`\) which contains the root partition.
+* `openafs<NUMBER>-vicepa` \(attached as `/dev/vdb`\) which contains the `vicepa` partition and is mounted as `/vicepa`.
+* `openafs<NUMBER>-vicepb` \(attached as `/dev/vdc`\) which contains the `vicepb` partition and is mounted as `/vicepb`.
+
+The disks themselves are stored in [Ceph](../ceph/).
+
+The configuration files `CellServDB` and `UserList` are copied to `/etc/openafs/server`, then the following commands are run:
 
 * Create the **ptserver** process:
 
@@ -67,7 +73,7 @@ Note: these commands should only be run once, when creating a new OpenAFS server
 
 ### Sample `UserList`
 
-Entries correspond to [Kerberos](../../authentication/kerberos.md) principals.
+Entries correspond to [Kerberos](../../authentication/kerberos.md) principals of administrators who should be able to run `bos` and `vos`.
 
 ```text
 2019okulkarn.admin
@@ -76,5 +82,5 @@ Entries correspond to [Kerberos](../../authentication/kerberos.md) principals.
 
 ## Automation
 
-Like it says at the beginning, [the ansible repo on gitlab](https://gitlab.tjhsst.edu/sysadmins/ansible/blob/master/roles/openafs-server/tasks/main.yml) is the practically the ultimate source of authority for configuring OpenAFS. This document exists to provide a summary of the `openafs-server` play in case something happens to the repo.
+Like it says at the beginning, [the ansible repo on GitLab](https://gitlab.tjhsst.edu/sysadmins/ansible/blob/master/roles/openafs-server/tasks/main.yml) is the ultimate source of authority for configuring OpenAFS. This document exists to provide a summary of the `openafs-server` play in case something happens to the repo.
 

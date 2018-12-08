@@ -20,15 +20,11 @@ sudo apt install openafs-modules-dkms
 
 See the [DKMS manual](https://linux.die.net/man/8/dkms) for more details about dynamic kernel modules.
 
-### Gentoo
-
-The ebuild is named `openafs-kernel`. Make sure the `/usr/src/linux` symlink points to the sources of the kernel you are currently using, and emerge `openafs-kernel`.
-
 ## `afsd`
 
-After the kernel module is installed, then just install the OpenAFS client program like normal \(`sudo apt install openafs openafs-client` on debian-based systems\), and configure it.
+After the kernel module is installed, then just install the OpenAFS client program like normal \(`sudo apt install openafs openafs-client` on Debian-based systems\), and configure it.
 
-The Cache Manager attempts to store every file accessed in its local cache, to speed things up. If a file in its cache becomes old, it is the server's responsibility to notify the client of this \(to break the callback to the client\). This is why in OpenAFS, reads are generally must faster than writes.
+The Cache Manager attempts to store every file accessed in its local cache, to speed things up. If a file in its cache becomes old, it is the server's responsibility to notify the client of this \(to break the callback to the client\). This is why in OpenAFS, reads are generally much faster than writes.
 
 ### Configuration
 
@@ -40,7 +36,7 @@ The configuration file `/etc/openafs/afs.conf` is used by the Debian specific in
 * `AFS_DYNROOT`: Specifies whether or not the cell mount points in /afs/ should be dynamically populated according to the cells that are present in /etc/openafs/CellServDB.
 * `AFS_FAKESTAT`: Specifies whether or not the client fakes stat\(2\) on directories under certain conditions, so the client doesn't have to look it up every time, which can take a while.
 
-Most of the configuration should be done automatically by the `openafs-client` ansible role. Look at it in [gitlab](https://gitlab.tjhsst.edu/sysadmins/ansible/blob/master/roles/openafs-client/tasks/main.yml) for better info.  
+Most of the configuration should be done automatically by the `openafs-client` ansible role. Look at it in [GitLab](https://gitlab.tjhsst.edu/sysadmins/ansible/blob/master/roles/openafs-client/tasks/main.yml) for better info.  
 Summary of the play:
 
 * Installs the `ppa:openafs/stable` for Ubuntu
@@ -52,8 +48,8 @@ Summary of the play:
   * `libpam-afs-session`
 * Copies pre-configured versions of `/etc/openafs/ThisCell`, `/etc/openafs/cacheinfo`, and `/etc/openafs/CellServDB`
 * Adds `pam_afs_session.so` to pam
-  * `session optional pam_afs_session.so always_aklog` in the common session options file
-* Copies the AFS Admin binaries \(idk how effective this is\)
+  * `session optional pam_afs_session.so always_aklog` in the `comon-session` PAM options file \(to allow people to access their AFS files after login\)
+* Copies useful AFS binaries
 
 #### Sample `ThisCell`
 
@@ -67,7 +63,9 @@ Wow. Feel underwhelmed please.
 
 #### Sample `cacheinfo`
 
-Not as underwhelming because there's actually stuff going on here. Still just one line though.
+Not as underwhelming because there's actually stuff going on here. Still just one line though.  
+
+This file contains the location of the cache directory \(where all of the OpenAFS cache is stored\) and then the size of the cache in kilobytes.
 
 ```text
 /afs:/var/cache/openafs:10000000
@@ -85,8 +83,4 @@ Same as the server's version:
 198.38.16.24    #openafs4.csl.tjhsst.edu
 198.38.16.25    #openafs5.csl.tjhsst.edu
 ```
-
-### Cache
-
-The OpenAFS cache is usually \(in Debian\) located in `/var/cache/openafs/`. This is specified, along with the size of the cache, in `/etc/openafs/cacheinfo`. ~~It is important to note that an OpenAFS cache can only be run on top of an ext2 or ext3 filesystem on Linux. It will become corrupted if you try any other filesystem on it on Linux.~~ &lt;-- only on REALLY old versions of Linux, we're talking about pre-1.6. ext4 should be fine.
 

@@ -1,5 +1,9 @@
 # Cross-Cell Authentication
 
+{% hint style="info" %}
+**THIS PAGE IS OBSOLETE AND CONTAINS HISTORICAL INFORMATION.**
+{% endhint %}
+
 **OpenAFS Cross-cell** authentication is currently used so all students can access portions of AFS file space \(for temporarily relocated netware files\).
 
 The process by which this occurs is mostly automatic, but the local cell giving access \(CSL.TJHSST.EDU in our case\), must create the group system:authuser@foreign.cell where foreign.cell is the foreign cell; in our case, LOCAL.TJHSST.EDU. So, first, the group system:authuser@local.tjhsst.edu must be created.
