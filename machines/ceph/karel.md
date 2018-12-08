@@ -1,6 +1,6 @@
 # Karel
 
-**karel** is a G10 HPE server that was acquired in 2018. Karel is currently part of the lab's Ceph cluster, running both a ceph server and the ceph mon.
+**karel** is a G10 HPE server that was acquired in 2018. Karel is currently part of the lab's Ceph cluster, running both a Ceph server and the Ceph mon.
 
 ## Technical Specifications
 
