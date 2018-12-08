@@ -33,7 +33,7 @@ sub   rsa4096/0x46FB05EE18EBA895 2018-01-03 [E]
 
 In this example, `0x67198197EBDE4957` is the key ID. By default, most installations of GnuPG will default to the short format which in this case is `EBDE4957`.
 
-GPG keys are shared publicly through GPG public key servers. Most of them automatically synchronize changes between each other. Popular key servers include `pgp.mit.edu`, `keys.gnupg.net`, and `keyserver.ubuntu.com`. A pool of many key servers can be referenced with `pool.sks-keyservers.net`.
+GPG keys are shared publicly through GPG public key servers. Most of them automatically synchronize changes between each other. Popular key servers include `keys.gnupg.net` and `keyserver.ubuntu.com`. A pool of many key servers can be referenced with `pool.sks-keyservers.net`.
 
 {% hint style="info" %}
 Once a key is on a public key server, it cannot be removed. IDs, signatures, and expiration dates can be added to keys on the key servers but not removed.
