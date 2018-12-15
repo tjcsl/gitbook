@@ -1,3 +1,7 @@
+---
+description: Describes a server hosting OSDs for the production Ceph cluster.
+---
+
 # Wumpus
 
 **wumpus** is a G10 HPE server that was acquired in 2018. It is not currently part of the lab's main Ceph clustere, but is scheduled to be used as such.

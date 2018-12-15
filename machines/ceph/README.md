@@ -6,6 +6,5 @@ The current set of G10 Ceph servers was aquired in 2018. Each server has 32GB of
 
 The current Ceph servers were purchased in the summer of 2018 along with [Overlord](../vm-servers/overlord.md), [Torch](../vm-servers/torch.md), and [Waverider](../vm-servers/waverider.md) \(see [2018 Server Purchases](../history/2018-purchases.md)\).
 
-After the events of the [Cephpocalypse](../history/2018-cephpocalypse.md), karel, wumpus, and stobar became the new Ceph cluster. For a period of time, wumpus was running Ubuntu 16.04 LTS, leading to high latencies on the entire cluster.  The ability to take it down \(in the middle of a school day\) to upgrade it \(to 18.04 LTS with a newer kernel\) is a testament to the fault-tolerancy and redundancy of Ceph.
-
+After the events of the [Cephpocalypse](../history/2018-cephpocalypse.md), karel, wumpus, and stobar became the new Ceph cluster. For a period of time, wumpus was running Ubuntu 16.04 LTS, leading to high latencies on the entire cluster. The ability to take it down \(in the middle of a school day\) to upgrade it \(to 18.04 LTS with a newer kernel\) is a testament to the fault-tolerancy and redundancy of Ceph.
 
