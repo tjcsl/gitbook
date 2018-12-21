@@ -6,7 +6,7 @@ description: Apocalypse is a Supermicro SC847 in a multipathed JBOD configuratio
 
 ### Technical Specifications
 
-| **Field** | Value |
+| | |
 | :--- | :--- |
 | Array Type |  Supermicro SC847 E26-RJBOD1 |
 | Hard Disks | 35 |
