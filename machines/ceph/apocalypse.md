@@ -6,7 +6,7 @@ description: Apocalypse is a Supermicro SC847 in a multipathed JBOD configuratio
 
 ### Technical Specifications
 
-| Array Type |  |
+| **Field** | Value |
 | :--- | :--- |
 | Array Type |  Supermicro SC847 E26-RJBOD1 |
 | Hard Disks | 35 |
@@ -35,8 +35,9 @@ Below are the WWIDs for each of the HDDs installed in Apocalypse. If a drive fai
 
 #### Front
 
-| 5000C50055DF0F1C | 5000C50055DF9D44 | 5000C50042012E70 | 5000C500558C5A0C |
+| | | | |
 | :--- | :--- | :--- | :--- |
+| 5000C50055DF0F1C | 5000C50055DF9D44 | 5000C50042012E70 | 5000C500558C5A0C |
 | 5000C500420343AC | 5000C50042012F1C | 5000C500558C64B8 | 5000C500420A3408 |
 | 5000C500420A3284 | 5000C500420A0920 | 5000C500420139FC | 50000C0F0119C010 |
 | 50000C0F0115E6F0 | 50000C0F01B6D988 | 0PY13ZGA | 50000C0F0119C014 |
@@ -45,8 +46,9 @@ Below are the WWIDs for each of the HDDs installed in Apocalypse. If a drive fai
 
 #### Back
 
-| Power Supplies | Blank | Blank | Blank |
+| | | | |
 | :--- | :--- | :--- | :--- |
+| Power Supplies | Blank | Blank | Blank |
 | Power Supplies | Blank | Blank | Blank |
 | Power Supplies | Blank | Blank | Blank |
 | Blank | Blank | Blank | Blank |
