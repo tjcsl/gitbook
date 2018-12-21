@@ -86,8 +86,8 @@
     * [LDAP](technologies/authentication/ldap.md)
     * [NSS](technologies/authentication/nss-ldap/README.md)
       * [NSS LDAP Templates](technologies/authentication/nss-ldap/templates.md)
-    * [SSHD](technologies/authentication/sshd.md)
-      * [SSH Passwordless Login](technologies/authentication/ssh-passwordless-login.md)
+    * [SSHD](technologies/authentication/sshd/README.md)
+      * [SSH Passwordless Login](technologies/authentication/sshd/ssh-passwordless-login.md)
   * [Storage](technologies/storage/README.md)
     * [CephFS](technologies/storage/cephfs.md)
     * [AFS](technologies/storage/afs/README.md)
@@ -162,6 +162,7 @@
     * [Betelgeuse](machines/sun-servers/betelgeuse.md)
     * [Ohare](machines/sun-servers/ohare.md)
   * [Ceph](machines/ceph/README.md)
+    * [Apocalypse](machines/ceph/apocalypse.md)
     * [Karel](machines/ceph/karel.md)
     * [Stobar](machines/ceph/stobar.md)
     * [Wumpus](machines/ceph/wumpus.md)
@@ -231,3 +232,4 @@
 * [Policies](policies/README.md)
   * [Data Release Policy](policies/data-release-policy.md)
   * [Upgrade Policy](policies/upgrade-policy.md)
+

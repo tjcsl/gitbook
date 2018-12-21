@@ -1,9 +1,3 @@
----
-description: >-
-  Describes a server hosting a monitor, a manger, the MDS, and OSDs for the
-  production Ceph cluster.
----
-
 # Karel
 
 **karel** is a G10 HPE server that was acquired in 2018. Karel is currently part of the lab's Ceph cluster, running both a Ceph server and the Ceph mon.
