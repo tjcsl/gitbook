@@ -1,6 +1,6 @@
 # Valdes
 
-**Valdes** is a physical server residing in the CSL Machine Room that will serve the backup [Ceph](../../technologies/storage/ceph/) array.
+**Valdes** is a physical server residing in the CSL Machine Room that serves as an OSD for the failover Ceph cluster. It is connected to the [Apocalypse](https://documentation.tjhsst.edu/~/drafts/-LUIelKxKvZvHk4r0XQO/primary/machines/ceph/apocalypse) storage array.
 
 | **Field** | Value |
 | :--- | :--- |

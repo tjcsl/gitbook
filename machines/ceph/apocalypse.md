@@ -4,21 +4,21 @@ description: Apocalypse is a Supermicro SC847 in a multipathed JBOD configuratio
 
 # Apocalypse
 
-### Technical Specifications
+## Technical Specifications
 
-| | |
+|  |  |
 | :--- | :--- |
-| Array Type |  Supermicro SC847 E26-RJBOD1 |
+| Array Type | Supermicro SC847 E26-RJBOD1 |
 | Hard Disks | 35 |
-| Data Interface |  4x SFF-8088 SAS connectors \(2 + 2 configuration\) |
+| Data Interface | 4x SFF-8088 SAS connectors \(2 + 2 configuration\) |
 | Mgmt Interface | None |
 | Purchase Date | December 2012 |
 
-### Information
+## Information
 
 Apocalypse is a multipathed SAS storage array. This means that each drive has two SAS paths via two separate backplane modules. It also means that Apocalypse requires dual-ported SAS drives in order to take advantage of the redundant paths. There are a total of four SAS connectors on the back. The bottom two are redundant connections to the front SAS backplane and the top two are redundant connections to the rear SAS backplane.
 
-### Population
+## Population
 
 The Apocalypse array contains the following disk groups:
 
@@ -29,13 +29,13 @@ The Apocalypse array contains the following disk groups:
 
   3 200-gigabyte HGST HUSMM1620ASS200 solid state drives \(currently unused\)
 
-### Harddrive WWIDs
+## Harddrive WWIDs
 
 Below are the WWIDs for each of the HDDs installed in Apocalypse. If a drive fails, the below table can be used to identify the location of the failed drive and replace it.
 
-#### Front
+### Front
 
-| | | | |
+|  |  |  |  |
 | :--- | :--- | :--- | :--- |
 | 5000C50055DF0F1C | 5000C50055DF9D44 | 5000C50042012E70 | 5000C500558C5A0C |
 | 5000C500420343AC | 5000C50042012F1C | 5000C500558C64B8 | 5000C500420A3408 |
@@ -44,9 +44,9 @@ Below are the WWIDs for each of the HDDs installed in Apocalypse. If a drive fai
 | 50000C0F01BE7CDC | 50000C0F01B6D20C | 0PY13LZA | 0PY13M1A |
 | 5000cca24260ef7c | 5000cca242623e88 | 5000cca2425ff9d0 | 5000cca242623d40 |
 
-#### Back
+### Back
 
-| | | | |
+|  |  |  |  |
 | :--- | :--- | :--- | :--- |
 | Power Supplies | Blank | Blank | Blank |
 | Power Supplies | Blank | Blank | Blank |

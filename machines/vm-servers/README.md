@@ -10,7 +10,7 @@ Although VM servers have existed for multiple years in the Lab, complete virtual
 
 Various services are not virtualized at this time and probably should never be.
 
-* [NTP](../../technologies/ntp.md) is an extremely critical machine since it provides time for the whole Lab.
+* [NTP](../../technologies/networking/ntp.md) is an extremely critical machine since it provides time for the whole Lab.
 * [ns1](../../technologies/networking/dns/) is not virtualized because it provides DNS to not only VMS but also to the main Ceph backend
 * [centauri ](../sun-servers/centauri.md)is not virtualized because it provides critical authentication services to the rest of the Lab \(and also the VM hosts themselves\)
 

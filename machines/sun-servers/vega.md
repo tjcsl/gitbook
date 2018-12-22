@@ -1,6 +1,12 @@
 # Vega
 
-**Vega** is a Sun Server located in the Machine Room. Vega is configured to run a ceph mon.
+**Vega** is a Sun Server located in the Machine Room that serves [KVM Virtual Machines](../../technologies/virtualization-stack/kvm.md) on local storage.
+
+## Virtual Machines on this Host <a id="virtual-machines-on-this-host"></a>
+
+| Machine | ​ |
+| :--- | :--- |
+| ceph-mon2 |  |
 
 ## Technical Specifications
 
@@ -15,5 +21,5 @@
 
 ## History
 
-Vega was recieved through the [2008 Sun AEG](../history/2008-sun-aeg.md) and was one of the six X4150s initially allocated to run Sun Ray \(thin client\) services for the Sun Rays around the school. Later, Vega was used to run Understudy VMs using Virtualbox. It is notable for being the first VM host to get completley provisioned with [Ansible](../../technologies/tools/ansible.md).
+Vega was recieved through the [2008 Sun AEG](../history/2008-sun-aeg.md) and was one of the six X4150s initially allocated to run Sun Ray \(thin client\) services for the Sun Rays around the school. Later, Vega was used to run Understudy VMs using Virtualbox. It is notable for being the first VM host to get completely provisioned with [Ansible](../../technologies/tools/ansible.md).
 

@@ -1,6 +1,6 @@
 # Barrel
 
-**Barrel** is a physical server residing in the CSL Machine Room that will serve the backup [Ceph](../../technologies/storage/ceph/) array.
+**Barrel** is a physical server residing in the CSL Machine Room that serves as an OSD node for the failover Ceph cluster.  It is connected to the [Apocalypse](apocalypse.md) storage array.
 
 | **Field** | Value |
 | :--- | :--- |
