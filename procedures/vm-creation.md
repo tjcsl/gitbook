@@ -1,7 +1,5 @@
 # Virtual Machine Creation
 
-~~Ask someone else and they tell u lol~~
-
 1. Ensure that you have root access to a VM server(link).
 2. Log in to the VM server as root
 3. Ensure that the VM server is able to connect to Ceph by running `ceph --user libvirt -s`
