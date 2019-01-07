@@ -1,6 +1,6 @@
 # Administration
 
-Everything on the cluster is managed through Ansible plays. This guide will show you how to use those plays, and how to add new ones.
+Everything on the cluster is managed through [Ansible](../../technologies/tools/ansible.md) plays. This guide will show you how to use those plays, and how to add new ones.
 
 ## Organization
 
@@ -64,12 +64,12 @@ ansible-playbook -i hosts --ask-vault-pass clustermaster.yml
 
 ## Current concerns
 
-These are problems with the cluster present at the time of documentation \(2018\). If you can fix them, good job!
+These are problems with the cluster present at the time of documentation \(Jan 2019\). If you can fix them, good job!
 
-* borg nodes aren't set up with GSS authentication by default, maybe something to do with custom `krb5.conf`
 * X11 forwarding doesn't work, problem with slurm. See [this bug report](https://bugs.schedmd.com/show_bug.cgi?id=5692).
-* NFS isn't mounted by default, extra ansible command needs to be run on reboot \(`ansible {hostgroup} [-k] -m command -a "mount -a"`\).
-* `hpcgpu`, better known as `zoidberg`, absolutely fails at sssd. Might consider removing it from the cluster and having it be it's own special machine b/c people can already log it w/o having account.
-* Some borg nodes cannot netboot correctly.
-* `hpc7` and `hpc11` are super offline.
+* Sometimes the mounts come offline, and an extra ansible command needs to be run on reboot \(`ansible {hostgroup} [-k] -m command -a "mount -a"`\).
+* Some borg nodes can't netboot. Minimal issue, as a regular [CentOS](../../technologies/servers/centos.md) install stick works fine.
+* `zoidberg`Sis currently being routed through the [Workstation](../workstations/) VLAN in order to get networking due to the below problem.
+* The HPC rack can't get DHCP addresses, and most attempts at static IPs fail as well. The nodes currently up are fine as long as they don't get rebooted.
+* `hpc7` and `hpc11` are super offline \(have been for a while now\), `hpc9`is offline due to the above issue \(was rebooted\).
 

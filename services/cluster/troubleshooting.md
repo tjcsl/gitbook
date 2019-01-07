@@ -1,6 +1,6 @@
 # Troubleshooting
 
-A big handy FAQ for all y'all Qs.
+A big handy FAQ for all y'alls' Qs.
 
 ## Using
 
