@@ -1,6 +1,8 @@
 # Ceph
 
-The current set of G10 Ceph servers was aquired in 2018. Each server has 32GB of RAM, an 8-core AMD EPYC processor, 12 4TB hard drives, and two 400GB SSDs. See [here](../../technologies/storage/ceph/) for more info on how they are configured.
+The current set of G10 Ceph servers \(karel, wumpus, and stobar\) was acquired in 2018. Each server has 64GB of RAM, an 8-core AMD EPYC processor, 12 4TB hard drives, and two 400GB SSDs. See [here](../../technologies/storage/ceph/) for more info on how they are configured.
+
+[Waitaha](waitaha.md), [Barrel](barrel.md), and [Valdes](valdes.md) make up the failover Ceph cluster.  The OSD disks themselves are on the [Apocalypse](apocalypse.md) array.
 
 ## History
 

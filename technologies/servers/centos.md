@@ -2,7 +2,7 @@
 
 [CentOS](https://www.centos.org/) is a stable Linux distribution derived from the sources of the popular [RedHat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux).
 
-The CSL only has a few servers running on CentOS; namely, [The Cluster](https://github.com/tjcsl/gitbook/tree/bf09f6bb28bae9f2c7fbfbc3adc86ac82130c565/cluster/README.md). The rest run on [Ubuntu Server](ubuntu-server.md).
+The CSL only has a few servers running on CentOS; namely, [The Cluster](../../services/cluster/). The rest run on [Ubuntu Server](ubuntu-server.md).
 
 ## Notable Features
 

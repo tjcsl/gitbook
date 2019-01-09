@@ -1,6 +1,14 @@
+---
+description: Describes the old OpenAFS backup system
+---
+
 # Backups
 
-The **OpenAFS backup system** consists of three main programs: **buserver**, **backup**, and **butc**. Currently, _**WE HAVE NO BACKUPS AND THIS IS BAD**_. Please see this documentation for guidance for how to set up a backup system.
+{% hint style="danger" %}
+_**WE DO NOT HAVE ANY BACKUPS OF AFS AS DESCRIBED HERE**_
+{% endhint %}
+
+The **OpenAFS backup system** consists of three main programs: **buserver**, **backup**, and **butc**. Please see this documentation for guidance for how to set up a backup system.
 
 ## buserver
 

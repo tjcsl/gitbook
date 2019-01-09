@@ -1,6 +1,10 @@
+---
+description: Describes troubleshooting steps for OpenAFS
+---
+
 # Troubleshooting
 
-Sorry, you're own your own bucko.
+**OpenAFS is so SLOWWW.  How do I make it faster?**
 
-At least, until someone who experiences a problem documents something. That could be you!
+Sorry, the speed limitation is just an architectural problem with OpenAFS.  You can adjust the cache to store more information but that only helps so much \(just make sure to not let the partition that contains the cache to become full\).
 

@@ -41,7 +41,7 @@ The file server stores it's data in the /vicepX \(i.e. `/vicepa`, `/vicepb`, etc
 Technically, there also exists a back end for the Windows operating system, but the OpenAFS Windows server is not as actively maintained as the Linux one.
 
 {% hint style="info" %}
-OpenAFS on Windows is only limited to Microsoft Windows 2000, XP, 2003, XP64, Vista \(all editions\), Server 2008 \(all editions\), Windows 7 \(all editions\), Server 2008 R2 \(all editions\), Windows 8.x \(amd64, x86\), and Server 2012 \(all editions\) \(as of December 2018\).
+OpenAFS on Windows is limited to Microsoft Windows 2000, XP, 2003, XP64, Vista \(all editions\), Server 2008 \(all editions\), Windows 7 \(all editions\), Server 2008 R2 \(all editions\), Windows 8.x \(amd64, x86\), and Server 2012 \(all editions\) \(as of December 2018\).
 {% endhint %}
 
 ### Volume Server
