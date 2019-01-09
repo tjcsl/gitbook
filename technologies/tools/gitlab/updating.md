@@ -3,7 +3,7 @@
 GitLab releases updates to its Enterprise Edition software very regularly.  A major upgrade is always released the 22nd of every month.
 
 {% hint style="warning" %}
-Please keep in mind the CSL[ upgrade guidelines](../../../policies/upgrade-policy.md) for production systems when deciding whether to upgrade GitLab.  When in doubt. ask someone more experienced and BACKUP DATA.
+Please keep in mind the CSL[ upgrade guidelines](../../../policies/upgrade-policy.md) for production systems when deciding whether to upgrade GitLab.  When in doubt, ask someone more experienced and BACKUP DATA.
 {% endhint %}
 
 To perform an upgrade,
