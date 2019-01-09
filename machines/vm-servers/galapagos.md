@@ -20,7 +20,7 @@
 | **CPU** | 2x Intel Xeon E5540 Quad-Core @ 2.26 GHz |
 | **RAM** | 24 GB |
 | **Hard Disks** | 2x 146GB 2.5in 10K SAS RAID 1 |
-| **OS** | Ubuntu |
+| **OS** | Ubuntu 16.04 |
 | **Firmware** | P62 |
 | **iLO Firmware** | 2.09 |
 | **Purchase Date** | March 2014 |

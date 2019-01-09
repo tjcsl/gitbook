@@ -16,6 +16,6 @@
 | **CPU** |  |
 | **RAM** |  |
 | **Hard Disks** |  |
-| **OS** | Ubuntu |
+| **OS** | Ubuntu 18.04 |
 | **Purchase Date** | Summer 2018 |
 

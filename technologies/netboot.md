@@ -1,3 +1,0 @@
-# Netboot
-
-<https://netboot.xyz/>

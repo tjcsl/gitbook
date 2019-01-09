@@ -6,7 +6,8 @@
 
 | Machine |  |
 | :--- | :--- |
-| None |  |
+| ceph-mon1 |  |
+| monitor |  |
 
 ## Technical Specifications
 
@@ -16,7 +17,7 @@
 | **CPU** | 2x Intel Xeon X5460 Quado-Core @ 3.16 GHz |
 | **RAM** | 24 GB |
 | **Hard Disks** | 2x 73 GB 2.5in 10 SAS, RAID 1 |
-| **OS** | Ubuntu |
+| **OS** | Ubuntu 16.04 |
 | **Purchase Date** | Winter 2008 |
 
 ## History

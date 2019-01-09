@@ -16,6 +16,6 @@
 | **CPU** | AMD EPYC 7301 16-Core Processor @ 1.1 GHz |
 | **RAM** | 32 GB |
 | **Hard Disks** | 4x1.2-TB 10K 2.5 SAS |
-| **OS** | Ubuntu |
+| **OS** | Ubuntu 18.04 |
 | **Purchase Date** | Summer 2018 |
 
