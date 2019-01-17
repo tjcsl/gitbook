@@ -69,6 +69,9 @@
       * [Web Proxy](services/www/sites/proxy-script.md)
     * [Setup](services/www/setup.md)
     * [Troubleshooting](services/www/troubleshooting.md)
+  * [Othello](services/othello/README.md)
+    * [Setup](services/othello/setup.md)
+    * [Administration](services/othello/administration.md)
 * [Technologies](technologies/README.md)
   * [Web](technologies/web/README.md)
     * [Nginx](technologies/web/nginx.md)
@@ -230,4 +233,3 @@
 * [Policies](policies/README.md)
   * [Data Release Policy](policies/data-release-policy.md)
   * [Upgrade Policy](policies/upgrade-policy.md)
-
