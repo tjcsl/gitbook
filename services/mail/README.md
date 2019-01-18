@@ -4,7 +4,7 @@ Your TJHSST Email Account is accessible form anywhere in the world with an Inter
 
 ## TJ Webmail
 
-The easiest way to access your TJ Email is to use the TJ Webmail System at <https://webmail.tjhsst.edu>. This is powered by the free and powerful Roundcube Messaging System. To log in, simply enter your TJ username and password.
+The easiest way to access your TJ Email is to use the TJ Webmail System at <https://webmail.tjhsst.edu>. This is powered by the free and powerful RainLoop webmail system. To log in, simply enter your TJ username and password.
 
 ## From a Mail Client
 
