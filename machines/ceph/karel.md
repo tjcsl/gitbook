@@ -14,3 +14,11 @@
 | **OS** | Ubuntu 18.04 |
 | **Purchase Date** | Summer 2018 |
 
+## Network
+
+| **Attribute** | Value |
+| :--- | :--- |
+|iLO MAC Address | D0:67:26:CC:02:F4 |
+|iLO hostname | karel-ilo |
+|iLO IPv4 | 198.38.23.96/25 |
+|Host MAC Addresses | D0:67:26:CC:02:F[6-9] |
