@@ -43,6 +43,7 @@
     * [Setup](services/workstations/setup.md)
     * [Administration](services/workstations/administration.md)
     * [Troubleshooting](services/workstations/troubleshooting.md)
+  * [Mail](services/mail/README.md)
   * [Signage](services/signage/README.md)
     * [Setup](services/signage/setup.md)
     * [Administration](services/signage/administration.md)
