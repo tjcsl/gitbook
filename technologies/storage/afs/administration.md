@@ -1,7 +1,3 @@
----
-description: Describes administration of OpenAFS
----
-
 # Administration
 
 OpenAFS is an implementation of the Andrew File System. It is used to store home directories for student and staff. There are currently five active storage servers \(`openafs[1-5]`\) .

@@ -1,7 +1,3 @@
----
-description: Describes client setup for OpenAFS
----
-
 # Client Setup
 
 This page describes the configuration steps necessary to set up an [OpenAFS](client.md) client. For server setup, see:

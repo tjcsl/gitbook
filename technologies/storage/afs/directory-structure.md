@@ -1,7 +1,3 @@
----
-description: Describes OpenAFS' directory structure
----
-
 # Directory Structure
 
 This list documents the current state of AFS directories in the CSL. For a more up-to-date list, perhaps ssh into a [Remote Access](../../../services/remote-access/) server and `ls /afs/csl` yourself.

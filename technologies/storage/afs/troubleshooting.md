@@ -1,7 +1,3 @@
----
-description: Describes troubleshooting steps for OpenAFS
----
-
 # Troubleshooting
 
 **OpenAFS is so SLOWWW.  How do I make it faster?**

@@ -1,1 +1,2 @@
-# Othello Administration
+# Administration
+

@@ -1,7 +1,3 @@
----
-description: Describes the old OpenAFS backup system
----
-
 # Backups
 
 {% hint style="danger" %}

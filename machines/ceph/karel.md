@@ -18,7 +18,8 @@
 
 | **Attribute** | Value |
 | :--- | :--- |
-|iLO MAC Address | D0:67:26:CC:02:F4 |
-|iLO hostname | karel-ilo |
-|iLO IPv4 | 198.38.23.96/25 |
-|Host MAC Addresses | D0:67:26:CC:02:F[6-9] |
+| iLO MAC Address | D0:67:26:CC:02:F4 |
+| iLO hostname | karel-ilo |
+| iLO IPv4 | 198.38.23.96/25 |
+| Host MAC Addresses | D0:67:26:CC:02:F\[6-9\] |
+

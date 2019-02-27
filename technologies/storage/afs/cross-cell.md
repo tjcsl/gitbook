@@ -1,7 +1,3 @@
----
-description: Describes an obsolete form of cross-cell authentication
----
-
 # Cross-Cell Authentication
 
 {% hint style="info" %}
