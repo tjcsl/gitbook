@@ -232,6 +232,7 @@
     * [New Understudy Structure](procedures/onboarding/new-understudy-onboarding.md)
     * [New Sysadmin Onboarding](procedures/onboarding/new-sysadmin-onboarding.md)
 * [Guides](guides/README.md)
+  * [Using sshuttle](guides/using-sshuttle.md)
   * [Linux Wifi Setup](guides/linux-wifi-setup.md)
   * [VNC Usage](guides/how-to-use-vnc.md)
   * [Changing your Password](guides/changing-your-password.md)
