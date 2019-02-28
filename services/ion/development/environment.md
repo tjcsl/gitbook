@@ -39,7 +39,7 @@ To manage your Vagrant box, you should use the following commands:
       </th>
       <th style="text-align:left">
         <p>(A DANGEROUS COMMAND)</p>
-        <p>Stops the VM & permanently destroys the VM and its contents</p>
+        <p>Stops the VM &amp; permanently destroys the VM and its contents</p>
       </th>
     </tr>
   </thead>

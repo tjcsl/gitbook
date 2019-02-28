@@ -32,10 +32,6 @@ Workspace members can add applications to the channels to improve the Sysadmins 
 
 {% page-ref page="../technologies/monitoring/uptime-robot.md" %}
 
-* Asana: Keeps track of tasks assigned to Sysadmins
-
-{% page-ref page="../technologies/tools/asana.md" %}
-
 ### Best Practices
 
 * Keep conversations in relevant channels.
