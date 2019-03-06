@@ -21,7 +21,7 @@ During the [Cephpocalypse](../history/2018-cephpocalypse.md), ASM was used as a 
 
 ## Trivia
 
-* ASM is currently the only computer in the CSL running Arch Linux \(besides 2019jduvall's and 2019djones' and 2019ahayden's personal laptops\)
+* ASM is currently the only computer in the CSL running Arch Linux \(besides a majority of Sysadmin personal laptops\)
 * Despite having two GPUs, the pioneer workstations can occasionally outperform it simply due to having newer GPUs
 * It is completely and utterly wrong to write ASM's name in lowercase text
 
