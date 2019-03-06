@@ -177,6 +177,7 @@
   * [Other](machines/other/README.md)
     * [ASM](machines/other/asm.md)
     * [Duke](machines/other/duke.md)
+    * [Agni](machines/other/agni.md)
     * [Auckland](machines/other/auckland.md)
     * [Cayman](machines/other/cayman.md)
     * [Pitcairn](machines/other/pitcairn.md)
