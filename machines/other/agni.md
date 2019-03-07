@@ -12,8 +12,9 @@
 | **Hard Disks** | 2x 250GB 3.5in 7200RPM SATA |
 | **Graphics Card** | Sun XVR-300 + Sun XVR-2500 |
 | **OS** | OpenBSD |
-| **Purchase Date** | Winter 2008 | 
+| **Purchase Date** | Winter 2008 |
 
 ## History
 
-Agni was received as a part of the 2008 Sun Academic Excellence Grant and was originally used as an emergency access workstation running Solaris 10 (it did not rely on Kerberos or AFS). Later it became the Lab's backup server running OpenSolaris. 
+Agni was received as a part of the 2008 Sun Academic Excellence Grant and was originally used as an emergency access workstation running Solaris 10 \(it did not rely on Kerberos or AFS\). Later it became the Lab's backup server running OpenSolaris.
+

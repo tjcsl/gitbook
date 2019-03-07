@@ -1,6 +1,6 @@
 # Duke
 
-**Duke** is a custom workstation residing in Room 202. It's primary purpose is to be a high-performance workstation for senior research.
+**Duke** is a custom workstation residing in Room 202. Its primary purpose is to be a high-performance workstation for senior research.
 
 ## Technical specifications
 
