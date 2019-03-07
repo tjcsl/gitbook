@@ -11,7 +11,7 @@
 | Keegan Lanzillotta | 2020klanzill | Junior Lead Sysadmin |
 | Theo Ouzhinski | 2020fouzhins | Junior Lead Sysadmin |
 | John Beutner | 2020jbeutner | Assistant Signage Lead |
-| Parthiv Chigurapati | 2020pchiguru | Sysadmin |
+| Parthiv Chigurupati | 2020pchiguru | Sysadmin |
 | Akash Bhave | 2021abhave | Sysadmin |
 | Alexander Black | 2021ablack | Sysadmin |
 | Ryan Kim | 2021rkim | Sysadmin |
