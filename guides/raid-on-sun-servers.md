@@ -2,6 +2,8 @@
 
 This is a "tutorial" for setting up RAID arrays on the sun servers.
 
+Oracle *has* [documentation](https://docs.oracle.com/cd/E19902-01/html/835-0796/wm2wosig.gjxrc.html) on this process, but apparently not for the version of the BIOS that our machines run.
+
 ## Before you begin
 
 Put the drives you want to create the array out of in the server, then reboot to access the BIOS RAID menu.
