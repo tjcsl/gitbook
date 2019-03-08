@@ -236,6 +236,7 @@
   * [Linux Wifi Setup](guides/linux-wifi-setup.md)
   * [VNC Usage](guides/how-to-use-vnc.md)
   * [Changing your Password](guides/changing-your-password.md)
+  * [Configuring RAID on a sun server](guides/raid-on-sun-servers.md)
 * [Policies](policies/README.md)
   * [Data Release Policy](policies/data-release-policy.md)
   * [Upgrade Policy](policies/upgrade-policy.md)

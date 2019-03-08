@@ -45,6 +45,10 @@ Then, you should `cd` to the place you have cloned your Ansible repository, and 
 ansible-playbook -i hosts --ask-vault-pass <target_play>.yml
 ```
 
+{% hint style="warning" %}
+Before ansible can be run on a remote host, the remote host must have python installed.
+{% endhint %}
+
 You will usually need access to the `ansible_vault` password in [Passcard](../authentication/passcard/) before you can run any important plays, as a module in `auth` needs to access an encrypted file. For more `ansible-playbook` options, you should run `ansible-playbook --help`.
 
 ### Advanced usage
