@@ -34,5 +34,5 @@ The passcard git repository has a wrapper script \(passcard.py\) along with GPG 
 
 Changes to the passcard locally will be pushed automatically by the script to the GitLab repository.
 
-There is also a file `sysadmin_keys.txt` in the repository that contains GPG keys for each of the Sysadmins, as well as the faculty sponsor. Import them at your own risk, but if you wish to import all of them, you can do that with `cat sysadmin_keys.txt | grep -v '#' | sed 's/(0x[0-9A-Za-z]+).*/\1/' | xargs gpg --recv-keys` on a Linux system.
+There is also a file `sysadmin_keys.txt` in the repository that contains GPG keys for each of the Sysadmins, as well as the faculty sponsor. Import them at your own risk, but if you wish to import all of them, you can do that with `cat sysadmin_keys.txt | grep -v '#' | grep -Po "0x[0-9A-Za-z]+" | xargs gpg --recv-keys` on a Linux system.
 
