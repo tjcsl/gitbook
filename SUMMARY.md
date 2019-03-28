@@ -55,12 +55,12 @@
     * [Setup](services/remote-access/setup.md)
     * [Administration](services/remote-access/administration.md)
   * [Cluster](services/cluster/README.md)
+    * [FAQ](services/cluster/FAQ.md)
     * [Setup](services/cluster/setup.md)
     * [Administration](services/cluster/administration.md)
     * [Slurm](services/cluster/slurm.md)
     * [Slurm Administration](services/cluster/slurm-administration.md)
     * [Borg](services/cluster/borg.md)
-    * [Troubleshooting](services/cluster/troubleshooting.md)
   * [Printing](services/printing/README.md)
     * [Setup](services/printing/setup.md)
     * [Troubleshooting](services/printing/troubleshooting.md)
@@ -240,4 +240,3 @@
 * [Policies](policies/README.md)
   * [Data Release Policy](policies/data-release-policy.md)
   * [Upgrade Policy](policies/upgrade-policy.md)
-

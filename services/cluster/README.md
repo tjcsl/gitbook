@@ -46,9 +46,8 @@ Aside from the GPUs, it has two Intel Xeon E5-2620 v3 8-core 2.4GHz processors a
 
 ## Configuration
 
-The cluster's infrastructure is managed using the Ansible configuration management system. The Ansible plays are located in the [Ansible repository on GitLab](https://gitlab.tjhsst.edu/sysadmins/ansible), under the files `hpc.yml`, `hpcgpu.yml`, and `clustermaster.yml`.
+The cluster's infrastructure is managed using the Ansible configuration management system. The Ansible plays are located in the [Ansible repository on GitLab](https://gitlab.tjhsst.edu/sysadmins/ansible), under the files `hpc.yml`, `hpcgpu.yml`, `ibm.yml`, `ibmgpu.yml`, and `clustermaster.yml`.
 
-As previously mentioned, an NFS share \(`/cluster`\) stored on the Ceph cluster and exported from [Waitaha](../../machines/ceph/waitaha.md) \(as `/exports/cluster`\) contains user home directories, which are shared between cluster nodes and the login VM. Users are expected to login to the login VM \(infosphere\) to run jobs using SLURM.
+The [CephFS](../../technologies/storage/cephfs.md) mount `/cluster` contains user home directories, which are shared between cluster nodes and the login VM. Users are expected to login to the login VM \(infosphere\) to run jobs using SLURM.
 
 Speaking of SLURM \(the Simple Linux Utility for Resource Management\), Slurm is the utility used for job control and submission. Users log in to infosphere, run some simple commands, specifying what they want to run, how many resources it should have, priority, and other optional arguments, and SLURM takes care of allocating cluster resources for them, and provides job accounting so users know the status of their jobs. More information at our [Slurm docs](slurm.md).
-

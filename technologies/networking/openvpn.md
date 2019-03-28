@@ -4,9 +4,7 @@ Useful to access all the CSL machines from the comfort of your own home! Running
 
 ## History
 
-We used to have OpenVPN access until ~~the Great Firewall of~~ FCPS decided to indiscriminately block all OpenVPN traffic through some sort of Packet Inspection starting in Fall 2018. We are currently in the process of finding a workaround, or getting permission to have our VPN unblocked. In the meantime, [sshuttle](https://sshuttle.readthedocs.io/en/stable/) looks nice.
-
-The rest of this page is left for posterity, should we need it in the future.s
+We used to have unfettered OpenVPN access until ~~the Great Firewall of~~ FCPS decided to indiscriminately block all OpenVPN traffic through some sort of Packet Inspection starting in Fall 2018. Fortunately, we were able to get an exception for the CSL's OpenVPN server, so as of Spring 2019 it is back up.
 
 ## Troubleshooting
 
@@ -17,6 +15,10 @@ If you can connect to the VPN successfully, but are having issues accessing othe
 ```
 
 ## Creating Certificates
+
+{% hint style="warning" %}
+2019djones changed the 
+{% endhint %}
 
 Run the commands below, first setting the `$USERNAME` variable to the username of the person you are generating the certificates for.
 
@@ -39,4 +41,3 @@ zip -r $USERNAME.zip $USERNAME
 ```
 
 Finally, give USERNAME.zip to the user.
-
