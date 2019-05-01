@@ -17,7 +17,7 @@ If you can connect to the VPN successfully, but are having issues accessing othe
 ## Creating Certificates
 
 {% hint style="warning" %}
-2019djones changed the 
+2019djones changed the
 {% endhint %}
 
 Run the commands below, first setting the `$USERNAME` variable to the username of the person you are generating the certificates for.
@@ -41,3 +41,4 @@ zip -r $USERNAME.zip $USERNAME
 ```
 
 Finally, give USERNAME.zip to the user.
+

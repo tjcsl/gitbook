@@ -23,6 +23,7 @@ This role:
 * Copies correct cluster krb5.conf
 
 What it doesn't do anymore:
+
 * Installs and builds custom cluster software
 
 All the software installation routines have been broken up into their own roles, all prefixed like `cluster-*`.
@@ -86,3 +87,4 @@ These are problems with the cluster present at the time of documentation \(March
 * The HPC rack can't get DHCP addresses, ~~and most attempts at static IPs fail as well.~~ but it looks like setting a static ip through `/etc/sysconfig/network/ifcfg-bond0` works. The nodes currently up are fine as long as they don't get rebooted.
 * `hpc7` and `hpc11` are super offline \(have been for a while now\), `hpc9`is offline due to the above issue \(was rebooted\).
 * X11 forwarding doesn't work, problem with slurm. See [this bug report](https://bugs.schedmd.com/show_bug.cgi?id=5692).
+

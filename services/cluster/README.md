@@ -51,3 +51,4 @@ The cluster's infrastructure is managed using the Ansible configuration manageme
 The [CephFS](../../technologies/storage/cephfs.md) mount `/cluster` contains user home directories, which are shared between cluster nodes and the login VM. Users are expected to login to the login VM \(infosphere\) to run jobs using SLURM.
 
 Speaking of SLURM \(the Simple Linux Utility for Resource Management\), Slurm is the utility used for job control and submission. Users log in to infosphere, run some simple commands, specifying what they want to run, how many resources it should have, priority, and other optional arguments, and SLURM takes care of allocating cluster resources for them, and provides job accounting so users know the status of their jobs. More information at our [Slurm docs](slurm.md).
+
