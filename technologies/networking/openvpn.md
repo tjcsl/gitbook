@@ -17,28 +17,15 @@ If you can connect to the VPN successfully, but are having issues accessing othe
 ## Creating Certificates
 
 {% hint style="warning" %}
-2019djones changed the
+2019djones changed the OpenVPN server to generate `.ovpn` files in Spring 2019.
 {% endhint %}
 
 Run the commands below, first setting the `$USERNAME` variable to the username of the person you are generating the certificates for.
 
-```text
+```bash
 USERNAME=<username>
 cd /root/
-./add_vpn_user --no-passphrase $USERNAME
-mkdir $USERNAME
-cp /etc/ssl/keys/$USERNAME.crt $USERNAME/
-cp /etc/ssl/keys/$USERNAME.key $USERNAME/
-cp 2017ewang/ca.crt $USERNAME/
-cp 2017ewang/ta.key $USERNAME/
-cp 2017ewang/openvpn.conf $USERNAME/
+./quick_add_vpn_user $USERNAME
 ```
 
-Edit openvpn.conf and replace 2017ewang with the username of the person you are generating the certificates for. Then,
-
-```text
-zip -r $USERNAME.zip $USERNAME
-```
-
-Finally, give USERNAME.zip to the user.
-
+After running the script and selecting the defaults, the `.ovpn` file will appear as `$USERNAME.ovpn`. That file is the only file necessary to connect with an OpenVPN client.
