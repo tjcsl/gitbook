@@ -29,3 +29,4 @@ cd /root/
 ```
 
 After running the script and selecting the defaults, the `.ovpn` file will appear as `$USERNAME.ovpn`. That file is the only file necessary to connect with an OpenVPN client.
+

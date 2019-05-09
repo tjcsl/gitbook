@@ -9,7 +9,7 @@ To use the passcard system, you must have the following:
 *  Git
 *  GPG
 *  A GPG key
-  *  Public key should be signed by a lead Sysadmin or by someone with all the lead Sysadmins in their trustnet and also stored on a public keyserver
+  *  If you are using the official CSL passcard, the public key should be signed by a lead Sysadmin or by someone with all the lead Sysadmins in their trustnet and also stored on a public keyserver.
 *  Python3
   *  To use the wrapper script
 
