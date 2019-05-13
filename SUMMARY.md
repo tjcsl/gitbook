@@ -174,9 +174,11 @@
   * [HPC Cluster](machines/hpc-cluster/README.md)
     * [Zoidberg](machines/hpc-cluster/zoidberg.md)
   * [Borg Cluster](machines/borg-cluster.md)
+  * [Compute Sticks](machines/compute-sticks.md)
   * [Other](machines/other/README.md)
     * [ASM](machines/other/asm.md)
     * [Duke](machines/other/duke.md)
+    * [Snowy](machines/other/snowy.md)
     * [Agni](machines/other/agni.md)
     * [Auckland](machines/other/auckland.md)
     * [Cayman](machines/other/cayman.md)
@@ -245,4 +247,3 @@
 * [Policies](policies/README.md)
   * [Data Release Policy](policies/data-release-policy.md)
   * [Upgrade Policy](policies/upgrade-policy.md)
-
