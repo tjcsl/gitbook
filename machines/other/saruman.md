@@ -1,6 +1,6 @@
-# Auckland
+# Saruman
 
-**Auckland** is a physical machine residing in the CSL Machine Room. It currently does nothing.
+**Saruman** is a physical machine residing in the CSL Machine Room. It currently does nothing. (Purpose TBD)
 
 ## Technical Specifications
 
@@ -15,7 +15,5 @@
 
 ## History
 
-Auckland was previously named Gandalf and was one of three servers running VMware ESXi used to host JCIRN.
-
-In 2017-2018, Gandalf was used to run the official TJHSST Othello Tournament.
+Saruman was previously named cayman (and before 2017-18 saruman) and was one of three servers running VMware ESXi used to host JCIRN.
 
