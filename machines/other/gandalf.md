@@ -1,6 +1,6 @@
 # Gandalf
 
-**Gandalf** is a physical machine residing in the CSL Machine Room. It currently does nothing. (In planning for AS)
+**Gandalf** is a physical machine residing in the CSL Machine Room. It currently does nothing. \(In planning for AS\)
 
 ## Technical Specifications
 
@@ -15,7 +15,7 @@
 
 ## History
 
-Gandalf was previously named auckland (and before 2017-18 gandalf) and was one of three servers running VMware ESXi used to host JCIRN.
+Gandalf was previously named auckland \(and before 2017-18 gandalf\) and was one of three servers running VMware ESXi used to host JCIRN.
 
 In 2017-2018, Gandalf was used to run the official TJHSST Othello Tournament.
 

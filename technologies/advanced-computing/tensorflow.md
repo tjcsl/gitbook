@@ -1,17 +1,16 @@
 # Tensorflow
 
-
 **Tensorflow** is a powerful compute-graph based software allowing high-performance neural networks to be constructed in Python. It's specific strength is in seamless GPU execution.
 
 ## Which Machines
 
- * [ASM](../../machines/other/asm.md)
- * [Duke](../../machines/other/duke.md)
- * [Snowy](../../machines/other/snowy.md)
- * [Zoidberg](../../machines/hpc-cluster/zoidberg.md)
- * GPU-enabled nodes in the [Borg Cluster](../../machines/borg-cluster.md)
+* [ASM](../../machines/other/asm.md)
+* [Duke](../../machines/other/duke.md)
+* [Snowy](../../machines/other/snowy.md)
+* [Zoidberg](../../machines/hpc-cluster/zoidberg.md)
+* GPU-enabled nodes in the [Borg Cluster](../../machines/borg-cluster.md)
 
-Only Duke and Zoidberg are publicly accessible. For the rest of the machines, you must either use [Slurm](../../services/cluster/slurm.md) (for the Borg Cluster) or get a custom login from the Sysadmin in charge of the machine.
+Only Duke and Zoidberg are publicly accessible. For the rest of the machines, you must either use [Slurm](../../services/cluster/slurm.md) \(for the Borg Cluster\) or get a custom login from the Sysadmin in charge of the machine.
 
 ## Example Program
 
@@ -105,3 +104,4 @@ with tf.Session() as sess:
     plt.legend()
     plt.show()
 ```
+
