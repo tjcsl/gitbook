@@ -2,7 +2,7 @@
 
 ## Fido
 
-Fido is the Gigabit Ethernet switch connected to [Fiordland](server-configuration/#fiordland).
+Fido is the Gigabit Ethernet switch connected to [Fiordland](server-configuration-1/server-configuration.md#fiordland).
 
 ### Technical Specifications
 
