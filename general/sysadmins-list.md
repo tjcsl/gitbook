@@ -26,18 +26,18 @@
 
 | Area | Lead\(s\) |
 | :--- | :--- |
-| ​[Ion](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/general/structure/organization#ion)​ | Omkar Kulkarni |
-| ​[Director](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/general/structure/organization#director)​ | Omkar Kulkarni |
-| ​[Storage](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/general/structure/organization#storage)​ | Dylan Jones |
-| ​[Workstations](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/services/workstations)​ | John Beutner |
-| ​[Cluster](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/services/cluster)​ | Jack Duvall |
-| ​[Web Content/WWW](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/general/structure/organization#web-services)​ | Keegan Lanzillotta |
-| ​[Signage](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/services/signage)​ | Alexander Hayden |
-| ​[Documentation](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/general/documentation)​ | Theo Ouzhinski |
+| ​[Ion](../services/ion/)​ | Omkar Kulkarni |
+| ​[Director](../services/director/)​ | Omkar Kulkarni |
+| ​[Storage](../technologies/storage/)​ | Dylan Jones |
+| ​[Workstations](../services/workstations/)​ | John Beutner |
+| ​[Cluster](../services/cluster/)​ | Jack Duvall |
+| ​[Web Content/WWW](../services/www/)​ | Keegan Lanzillotta |
+| ​[Signage](../services/signage/)​ | Alexander Hayden |
+| ​[Documentation](documentation/)​ | Theo Ouzhinski |
 | Security | Theo Ouzhinski |
 | Automation | Theo Ouzhinski |
 | Advanced Computing Hardware | Parthiv Chigurupati |
-| ​[Printing](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/services/printing)​ | Alexander Black |
+| ​[Printing](../services/printing/)​ | Alexander Black |
 
 ## Teams <a id="teams"></a>
 
