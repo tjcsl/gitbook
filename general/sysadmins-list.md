@@ -1,6 +1,6 @@
 # Sysadmins List
 
-## Current Sysadmins
+## Current Sysadmins <a id="current-sysadmins"></a>
 
 | Name | Username | Position |
 | :--- | :--- | :--- |
@@ -11,25 +11,44 @@
 | Keegan Lanzillotta | 2020klanzill | Junior Lead Sysadmin |
 | Theo Ouzhinski | 2020fouzhins | Junior Lead Sysadmin |
 | John Beutner | 2020jbeutner | Assistant Signage Lead |
-| Parthiv Chigurupati | 2020pchiguru | Sysadmin |
-| Akash Bhave | 2021abhave | Sysadmin |
-| Alexander Black | 2021ablack | Sysadmin |
+| Parthiv Chigurupati | 2020pchiguru | Advanced Computing Hardware Lead |
+| Akash Bhave | 2021abhave | Website Team Member |
+| Alexander Black | 2021ablack | Printing Lead |
 | Ryan Kim | 2021rkim | Sysadmin |
+| Vikram Raghu | 2021vraghu | Website Team Member |
+| Shreepa Parthaje | 2021sparthaj | Sysadmin |
+| Anup Bagali | 2021abagali | Sysadmin |
+| Ethan Nguyen | 2021enguyen | Sysadmin |
+| Shreyas Mayya | 2022smayya | Sysadmin |
+| Lauren Delwiche | 2022ldelwich | Website Team Member |
 
-## Current Leads
+## Current Leads <a id="current-leads"></a>
 
 | Area | Lead\(s\) |
 | :--- | :--- |
-| Ion | Omkar Kulkarni |
-| Director | Omkar Kulkarni |
-| Workstations | Keegan Lanzillotta |
-| Cluster | Jack Duvall |
-| WWW | Keegan Lanzillotta |
-| Signage | Alexander Hayden |
-| Documentation | Theo Ouzhinski |
+| ​[Ion](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/general/structure/organization#ion)​ | Omkar Kulkarni |
+| ​[Director](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/general/structure/organization#director)​ | Omkar Kulkarni |
+| ​[Storage](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/general/structure/organization#storage)​ | Dylan Jones |
+| ​[Workstations](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/services/workstations)​ | John Beutner |
+| ​[Cluster](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/services/cluster)​ | Jack Duvall |
+| ​[Web Content/WWW](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/general/structure/organization#web-services)​ | Keegan Lanzillotta |
+| ​[Signage](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/services/signage)​ | Alexander Hayden |
+| ​[Documentation](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/general/documentation)​ | Theo Ouzhinski |
 | Security | Theo Ouzhinski |
+| Automation | Theo Ouzhinski |
+| Advanced Computing Hardware | Parthiv Chigurupati |
+| ​[Printing](https://app.gitbook.com/@tjcsl/s/project/~/drafts/-L_sXpqTnGtufFWCXIp1/primary/services/printing)​ | Alexander Black |
 
-## Faculty Sponsor
+## Teams <a id="teams"></a>
+
+| Team Name | Members |
+| :--- | :--- |
+| Ion | Omkar Kulkarni, Theo Ouzhinski, Akash Bhave |
+| Director | Omkar Kulkarni, Theo Ouzhinski |
+| TJ Website | Keegan Lanzillotta, John Beutner, Akash Bhave, Vikram Raghu, Lauren Delwiche |
+| Storage | Dylan Jones, Theo Ouzhinski |
+
+## Faculty Sponsor <a id="faculty-sponsor"></a>
 
 The Sysadmin Faculty Sponsor is Mr. White \(pewhite\).
 
@@ -79,6 +98,8 @@ Below is legacy information from Livedoc when it pertains to before the Class of
 * Fox Wilson, Class of 2016
 * James Woglom, Class of 2016
 * Samuel Damashek, Class of 2017
+* Omkar Kulkarni, Class of 2019
+* Dylan Jones, Class of 2019
 
 ### Webmasters/Intranet maintainers
 
@@ -102,6 +123,7 @@ Below is legacy information from Livedoc when it pertains to before the Class of
 * Eric Wang, Class of 2017
 * James Houghton, Class of 2017
 * Naitian Zhou, Class of 2018
+* Omkar Kulkarni, Class of 2019
 
 ### Full Student Systems Administrators
 
@@ -197,6 +219,8 @@ Below is legacy information from Livedoc when it pertains to before the Class of
 * Haicheng Charles Zhao, Class of 2017
 * Naitian Zhou, Class of 2018
 * William Zhang, Class of 2018
+* Jack Duvall, Class of 2019
+* Alexander Hayden, Class of 2019
 
 ### Underclassmen Systems Administrators
 

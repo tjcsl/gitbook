@@ -1,3 +1,7 @@
+---
+description: Describe the CSL's printing infrastructure
+---
+
 # Printing
 
 ## Printing

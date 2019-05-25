@@ -1,3 +1,7 @@
+---
+description: Describe the Director website management platform
+---
+
 # Director
 
 **Director**, also known as **web3**, is a website management interface for student and activity websites. It was created during the 2016-17 school year, and is currently used by many of the web application development classes.

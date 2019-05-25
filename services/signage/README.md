@@ -1,3 +1,7 @@
+---
+description: Describe the CSL Signage displays
+---
+
 # Signage
 
 **Signage** refers to the set of ten electronic displays located all over the school. A "Signage" refers to a display that displays useful information maintained by the CSL across the school.

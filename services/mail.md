@@ -1,3 +1,7 @@
+---
+description: Describe the TJ mail service
+---
+
 # Mail
 
 Your TJHSST Email Account is accessible form anywhere in the world with an Internet connection. You can use any of the following methods to access it.
