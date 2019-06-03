@@ -47,6 +47,7 @@
   * [Signage](services/signage/README.md)
     * [Setup](services/signage/setup.md)
     * [Administration](services/signage/administration.md)
+    * [Monitoring](services/signage/monitoring.md)
     * [Troubleshooting](services/signage/troubleshooting.md)
     * [Experimental](services/signage/experimental/README.md)
       * [IonTap](services/signage/experimental/iontap.md)
