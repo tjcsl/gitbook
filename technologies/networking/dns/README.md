@@ -18,7 +18,17 @@ A recursive nameserver has no knowledge or records of its own, but rather, resol
 
 ## CSL Layout
 
-Both recursive and authoritative DNS for tjhsst.edu are currently provided by [ns1](../../../machines/other/pitcairn.md) and [ns2](../../../machines/vm-servers/galapagos.md). ns1 should always be a physical machine \(we learned that the hard way\), ns2 can be a VM. The both run ISC BIND \(Berkeley Internet Name Daemon\), sometimes called `named` which is the name of the daemon. See [DNS/Configuration](https://github.com/tjcsl/gitbook/tree/18cc2e82d3caa412ad66cf2e3bbb58e8389843c4/technologies/networking/dns/configuration.md) for details on the configuration layout and how to make changes.
+Both recursive and authoritative DNS for tjhsst.edu are currently provided by [ns1](../../../machines/other/pitcairn.md) and [ns2](../../../machines/vm-servers/galapagos.md). ns1 should always be a physical machine \(we learned that the hard way\), ns2 can be a VM. The both run ISC BIND \(Berkeley Internet Name Daemon\), sometimes called `named` which is the name of the daemon. 
+
+## Configuration Layout
+
+* `db/` - contains standard Nameserver zone files
+  * `db/localhost` - the zone file for the localhost zone
+  * `db/0.0.127.in-addr.arpa` - the zone file for the 127.0.0.0/8 subnet
+* `named.ca` - bootstraps the nameserver with the addresses of the root nameservers
+* `named.conf` - the main named configuration file
+* `tjhsst/` - tjhsst forward and reverse zone files
+* `tjhsst.conf` - included by named.conf; configuration for TJ zones
 
 ## Record Types
 

@@ -6,8 +6,6 @@ Knowledge of Git and basic Linux commands is a prerequisite for Ion development.
 
  Before continuing, you should probably read about Ion's architecture.
 
-{% page-ref page="../architecture/" %}
-
 Before continuing, it would also be useful to know Python, Django, and the client-server model \(or at least have documentation, references, and tutorials available\).
 
 ## Resources

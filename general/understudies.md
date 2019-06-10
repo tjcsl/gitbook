@@ -1,6 +1,6 @@
 # Understudies
 
-The Student Systems Administrator Understudy program is designed to help prepare interested students as Systems Administrator.  The Understudy program has existed in the Lab since before the creation of Livedoc.
+The Student Systems Administrator Understudy program is designed to help prepare interested students to be Systems Administrator.  The Understudy program has existed in the Lab since before the creation of Livedoc.
 
 ## History
 

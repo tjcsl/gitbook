@@ -56,7 +56,7 @@ After your PR has been submitted, an Ion maintainer will review your PR.  They c
 * closing the PR
 * or requesting changes to the PR
 
-If your PR has been approved, there is no need to take any further action unless requested to.  The maintainer may wait for other maintainers to review your the code or may immediatley merge the PR.
+If your PR has been approved, there is no need to take any further action unless requested to.  The maintainer may wait for other maintainers to review your the code or may immediately merge the PR.
 
 If the PR has been closed, the reason is generally described by the closing maintainer.  
 

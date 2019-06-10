@@ -12,6 +12,8 @@ Currently, we have 3 OSD servers and 3 monitor/manager/metadata servers in the C
 
 ## Architecture
 
+A Ceph promo video is available [here](https://www.youtube.com/watch?v=0bdIcqgAbKQ).
+
 Ceph is composed of four different daemons: monitors, managers, object storage daemons, and metadata server daemons.  The backend storage layer is called the Reliable Autonomous Distributed Object Store \(RADOS\).
 
  Ceph was developed from the ground up to protect against hardware failures and corruption by distributing data across multiple hard drives hosted on multiple servers. The data written to each hard drive is managed by an object storage daemon \(OSD\) and the state of the cluster is managed by a set of monitors \(mon\). Using a state-of-the art algorithm, data is stored in various placement groups \(PGs\) which are replicated across multiple OSDs and served out to appropriate clients by the monitors.
