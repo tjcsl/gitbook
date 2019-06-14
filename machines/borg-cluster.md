@@ -17,5 +17,5 @@ Every node in the cluster has the same specifications:
 
 ## Trivia
 
-Every node in the borg cluster is named after a constellation. This makes all them really, really hard to remember \(even harder than the [HPC Cluster](hpc-cluster/) names!\) except for by their number.
+Every node in the borg cluster is alternatively named after a constellation. This makes all them really, really hard to remember \(even harder than the [HPC Cluster](hpc-cluster/) names!\) except for by their number.
 
