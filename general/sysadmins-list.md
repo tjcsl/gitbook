@@ -4,13 +4,9 @@
 
 | Name | Username | Position |
 | :--- | :--- | :--- |
-| Omkar Kulkarni | 2019okulkarn | Lead Sysadmin |
-| Dylan Jones | 2019djones | Lead Sysadmin |
-| Jack Duvall | 2019jduvall | Cluster Lead |
-| Alexander Hayden | 2019ahayden | Signage Lead |
-| Keegan Lanzillotta | 2020klanzill | Junior Lead Sysadmin |
-| Theo Ouzhinski | 2020fouzhins | Junior Lead Sysadmin |
-| John Beutner | 2020jbeutner | Assistant Signage Lead |
+| Keegan Lanzillotta | 2020klanzill | Lead Sysadmin |
+| Theo Ouzhinski | 2020fouzhins | Lead Sysadmin & Infrastructure Lead |
+| John Beutner | 2020jbeutner | Academic Services/Workstations/Signage Lead |
 | Parthiv Chigurupati | 2020pchiguru | Advanced Computing Hardware Lead |
 | Akash Bhave | 2021abhave | Website Team Member |
 | Alexander Black | 2021ablack | Printing Lead |
@@ -26,13 +22,13 @@
 
 | Area | Lead\(s\) |
 | :--- | :--- |
-| ​[Ion](../services/ion/)​ | Omkar Kulkarni |
-| ​[Director](../services/director/)​ | Omkar Kulkarni |
-| ​[Storage](../technologies/storage/)​ | Dylan Jones |
+| ​[Ion](../services/ion/)​ | Theo Ouzhinski |
+| ​[Director](../services/director/)​ | Theo Ouzhinski |
+| ​[Storage](../technologies/storage/)​ | Theo Ouzhinski |
 | ​[Workstations](../services/workstations/)​ | John Beutner |
-| ​[Cluster](../services/cluster/)​ | Jack Duvall |
+| ​[Cluster](../services/cluster/)​ | TBD |
 | ​[Web Content/WWW](../services/www/)​ | Keegan Lanzillotta |
-| ​[Signage](../services/signage/)​ | Alexander Hayden |
+| ​[Signage](../services/signage/)​ | John Beutner |
 | ​[Documentation](documentation/)​ | Theo Ouzhinski |
 | Security | Theo Ouzhinski |
 | Automation | Theo Ouzhinski |
@@ -43,10 +39,10 @@
 
 | Team Name | Members |
 | :--- | :--- |
-| Ion | Omkar Kulkarni, Theo Ouzhinski, Akash Bhave |
-| Director | Omkar Kulkarni, Theo Ouzhinski |
+| Ion | Theo Ouzhinski, John Beutner |
+| Director | Theo Ouzhinski |
 | TJ Website | Keegan Lanzillotta, John Beutner, Akash Bhave, Vikram Raghu, Lauren Delwiche |
-| Storage | Dylan Jones, Theo Ouzhinski |
+| Storage | Theo Ouzhinski |
 
 ## Faculty Sponsor <a id="faculty-sponsor"></a>
 
