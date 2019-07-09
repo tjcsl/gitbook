@@ -42,36 +42,5 @@ The current system mainly uses a Master/Action key system to control the list of
 
 To add a card, take a blank or old unused card, and issue the Add Key command using the Master and Action keys. **Print and put on the card a label with the ID of the user who the card is being issued to \(such as 2017sdamashe\).** In addition, **connect to the Raspberry Pi and edit the key file - after the key of the new card, add the user ID on the same line** \(the line should look like "&lt;64 characters&gt; 2017sdamashe" for me\). This is for key accountability; each access is logged to the system.
 
-## Access
-
-### Issuing Access
-
-Access to the Machine Room may be issued to authorized users that meet one of these requirements:
-
-1. User is a student systems administrator of the TJHSST Computer Systems Lab.
-2. User has full root access on a production system in the Machine Room.
-3. User is a teacher or staff member of TJHSST who originally has access to the Machine Room through a normal key. Note that a normal key will still function in the Machine Room door lock.
-
-### Use of Access
-
-An authorized user may:
-
-* Enter the Machine Room.
-* Allow a non-authorized individual\(s\) to accompany the authorized user into the Machine Room only if the individual\(s\) needs to interact with systems in the Machine Room, and only with permission of a current student systems administrator. This non-authorized individual must be escorted by the authorized user \(i.e. they cannot be left alone in the Machine Room\).
-
-Outside visitors touring the school are allowed to tour the Machine Room. A student systems administrator or TJHSST staff member must be present to supervise the visitor's actions. The visitor should NOT receive an access card for the duration of their visit.
-
-Contractors and other maintenance individuals that require access to the Machine Room for a length of time greater than one day may be issued an access card for the duration of their visit. They must return the access card to the CSL immediately after completion of predetermined task.
-
-### Revoking Access
-
-Access to the Machine Room may be revoked if:
-
-* User gives/shares an access card to/with other non-authorized individual \(this does not include allowing non-authorized individual\(s\) access to the machine room for temporary reasons\).
-* User violates the TJHSST Computer Systems Lab Policy, TJHSST Network User Guidelines, or FCPS Acceptable Use Policy.
-* User graduates from/leaves \(students/staff\) TJHSST. This is usually June of the graduation year for students.
-
-### The Policy
-
 This policy may be modified for certain special cases at any time. The CSL director or teacher has the final word on any conflict.
 

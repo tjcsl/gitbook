@@ -1,4 +1,4 @@
-# Servers
+# Operating Systems
 
 The CSL currently runs two separate operating systems on its servers:
 

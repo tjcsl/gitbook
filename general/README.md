@@ -14,8 +14,8 @@ We are:
 
 * **Responsible:** We take great pride in our systems and its high availability.  We recognize that many community members rely on our services as part of their daily life, and we strive to ensure that our services remain available for their use.
 * **Collaborative:** Teamwork and collaboration are important for us to serve our mission.  Thus, we strive to maintain a collaborative culture.  No one can do anything alone.
-* **Open Source**: To prevent vendor lock-in and contribute to the "shared interests of humanity", we take great pride in supporting and using open source and free-software projects and technologies.  To the extent possible, we aim to use free software in the Lab, together with software that promotes open standards and interoperability.
-* **Results-Oriented:** We expect Sysadmins to take ownership on tasks they are assigned to and be proactive about seeing them through.  
+* **Open Source**: To prevent vendor lock-in and contribute to the "shared interests of humanity", we take great pride in supporting, contributing to, and using open source and free software projects and technologies.  To the extent possible, we aim to use free software in the Lab, together with software that promotes open standards and interoperability.
+* **Results-Oriented:** We expect Sysadmins to take ownership of tasks they are assigned to and be proactive about seeing them through.  
 * **Iterative**: We know that our services, infrastructure, configuration, and architecture always have room for improvement, and we believe in the power of constant iteration. We empower individual Sysadmins to raise concerns, propose improvements, test improvements in a controlled fashion, and research ways to improve the Lab's services, architecture, software, or infrastructure.
 * **Respectful:** We are respectful of others background and beliefs, treating each other with dignity and respect.
 * **Deliberative:** We recognize the critical importance of careful decision-making, especially as it applies to our infrastructure.  Therefore, we take great care to listen to all perspectives and consider all implications before making decisions.

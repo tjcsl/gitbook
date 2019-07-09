@@ -4,7 +4,7 @@ Maintainers of the Ion repository are responsible for the effective functioning 
 
 ## Responsibilities
 
-Ion maintainers need to ensure that the code base remains good quality and ensures that nothing will break.
+Ion maintainers need to ensure that the code base remains good quality and nothing will break.
 
 Maintainers have the following responsibilities:
 

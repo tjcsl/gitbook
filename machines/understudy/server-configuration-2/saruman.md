@@ -1,6 +1,6 @@
 # Saruman
 
-**Saruman** is a physical machine residing in the CSL [Machine Room](../../../general/machine-room.md). It currently serves as one of the [Understudy ](../)servers, along with [Fiordland]().  
+**Saruman** is a physical machine residing in the CSL [Machine Room](../../../general/machine-room.md). It currently serves as one of the [Understudy ](../)servers, along with [Fiordland](fiordland.md).  
 
 ## Technical Specifications
 

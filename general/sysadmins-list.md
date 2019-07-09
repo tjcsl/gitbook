@@ -1,11 +1,11 @@
 # Sysadmins List
 
-## Current Sysadmins <a id="current-sysadmins"></a>
+## Current Sysadmins  <a id="current-sysadmins"></a>
 
 | Name | Username | Position |
 | :--- | :--- | :--- |
-| Keegan Lanzillotta | 2020klanzill | Lead Sysadmin |
 | Theo Ouzhinski | 2020fouzhins | Lead Sysadmin & Infrastructure Lead |
+| Keegan Lanzillotta | 2020klanzill | Lead Sysadmin |
 | John Beutner | 2020jbeutner | Academic Services/Workstations/Signage Lead |
 | Parthiv Chigurupati | 2020pchiguru | Advanced Computing Hardware Lead |
 | Akash Bhave | 2021abhave | Website Team Member |
@@ -18,7 +18,7 @@
 | Shreyas Mayya | 2022smayya | Sysadmin |
 | Lauren Delwiche | 2022ldelwich | Website Team Member |
 
-## Current Leads <a id="current-leads"></a>
+## Current Leads  <a id="current-leads"></a>
 
 | Area | Lead\(s\) |
 | :--- | :--- |
@@ -35,7 +35,7 @@
 | Advanced Computing Hardware | Parthiv Chigurupati |
 | ​[Printing](../services/printing/)​ | Alexander Black |
 
-## Teams <a id="teams"></a>
+## Teams  <a id="teams"></a>
 
 | Team Name | Members |
 | :--- | :--- |
@@ -44,7 +44,7 @@
 | TJ Website | Keegan Lanzillotta, John Beutner, Akash Bhave, Vikram Raghu, Lauren Delwiche |
 | Storage | Theo Ouzhinski |
 
-## Faculty Sponsor <a id="faculty-sponsor"></a>
+## Faculty Sponsor  <a id="faculty-sponsor"></a>
 
 The Sysadmin Faculty Sponsor is Mr. White \(pewhite\).
 
@@ -52,8 +52,8 @@ The Sysadmin Faculty Sponsor is Mr. White \(pewhite\).
 
 | Group | POC |
 | :--- | :--- |
-| Eighth Office | Omkar Kulkarni |
-| SGA | Omkar Kulkarni |
+| Eighth Office | Theo Ouzhinski |
+| SGA | Theo Ouzhinski |
 | Security Office | Keegan Lanzillotta |
 
 ## Previous Student Systems Administrators

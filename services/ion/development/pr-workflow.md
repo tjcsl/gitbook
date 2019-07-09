@@ -35,10 +35,10 @@ You should not make PRs changing various unrelated portions of the code.  For ex
 After pushing your proposed changes to your own personal fork, it is time for you to open a PR.
 
 * Head over to your fork and navigate to your branch via the drop down menu.  At the top of your code, you should see a button called "Pull request".  After you click it, you should see the opening of PR page.
-* On this page, ensure your head fork is set to the branch with your changes, while the base fork is set to the Ion repository and **dev** branch.
+* On this page, ensure your head fork is set to the branch with your changes, while the base fork is set to the Ion repository's `dev` branch.
 
 {% hint style="warning" %}
-The _only_ people should open PRs with the master branch as the base branch should be individuals with push access to at least the _dev_ branch.  These PRs against against the master branch should use the dev branch as the head fork.
+The _only_ people should open PRs with the `master` branch as the base branch should be individuals with push access to at least the _dev_ branch.  These PRs against against the master branch should use the `dev` branch as the head fork.
 {% endhint %}
 
 * You must see a green check mark indicating that branch is able to merge.  If it is not, you should rebase and make the branch mergeable before proceeding.

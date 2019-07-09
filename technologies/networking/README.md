@@ -1,8 +1,6 @@
 # Networking
 
-## Networking
-
-## The Layer System
+## The OSI Layer System
 
 There is lots and lots of stuff here, but it's covered more succinctly and completely on [Wikipedia](http://en.wikipedia.org/wiki/OSI_model). However this will be left here since it is generally more applicable to the Systems Lab.
 

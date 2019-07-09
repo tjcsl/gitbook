@@ -79,7 +79,7 @@ These are problems with the cluster present at the time of documentation \(March
 
 * The cluster plays fail on new machines, needing to be run multiple times before going all the way through. Try to be better.
 * Sometimes the mounts come offline, and an extra ansible command needs to be run on reboot \(`ansible {hostgroup} [-k] -m command -a "mount -a"`\).
-* Some borg nodes can't netboot. Minimal issue, as a regular [CentOS](../../technologies/servers/centos.md) install stick works fine.
+* Some borg nodes can't netboot. Minimal issue, as a regular [CentOS](../../technologies/operating-systems/centos.md) install stick works fine.
 * Some borg nodes now aren't getting DHCP either.
 * Graphics card compatability on Borg nodes is super spotty. Moving around cards until they work in a node.
 * Dylan said to look at DHCP forwarding on [Imply](../../machines/switches/imply.md) to attempt to fix HPC issue.

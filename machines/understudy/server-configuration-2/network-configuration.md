@@ -20,7 +20,7 @@ After that, execute these commands \(assuming `enp3s1f1`\):
 The specific IP address of the server can be broken down into four parts:
 
 1. `198.38` - This first part is the CSL network ID.
-2. `21` - this represents the Understudy VLAN \(see [VLANs](../../mapping/vlans.md) for more information\).
+2. `21` - this represents the Understudy VLAN \(see [VLANs](../../vlans.md) for more information\).
 3. `113` - this could be any number between 0 through 127, inclusive, except 126 \(which is the gateway IP address\).
 4. `/25` - this creates a subnet that limits the size of the network to 128 addresses.
 

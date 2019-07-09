@@ -6,11 +6,11 @@ Work among the Sysadmins are split among a variety of teams, each working on a s
 
 ### Ion
 
-The Ion team is responsible for the administration, maintenance, and development of [Ion](../../services/ion/).
+The Ion team is responsible for the administration, maintenance, and development of [Ion](../services/ion/).
 
 ### Director
 
-The Director team is responsible for the administration, maintenance, and development of [Director](../../services/director/).  They also are responsible for ensuring the high availability of websites hosted on Director.
+The Director team is responsible for the administration, maintenance, and development of [Director](../services/director/).  They also are responsible for ensuring the high availability of websites hosted on Director.
 
 ### Web Services
 
@@ -22,35 +22,35 @@ The Mail team is responsible for maintaining TJ's mail servers, list servers, an
 
 ### Signage
 
-The Signage team is responsible for maintaining TJ's [Signage displays](../../services/signage/).  They work closely with the Ion team in this regard.
+The Signage team is responsible for maintaining TJ's [Signage displays](../services/signage/).  They work closely with the Ion team in this regard.
 
 ### Networking
 
-The Networking team is responsible for managing the [CSL's network infrastructure](../../technologies/networking/), including switches, networking connections, [OpenVPN](../../technologies/networking/openvpn.md), [NTP](../../technologies/networking/ntp.md), [DNS](../../technologies/networking/dns/), and [DHCP](../../technologies/networking/dhcp.md).  They are responsible for the smooth flow of network traffic.  They are also the point persons when diagnosing networking connections on CSL systems.
+The Networking team is responsible for managing the [CSL's network infrastructure](../technologies/networking/), including switches, networking connections, [OpenVPN](../technologies/networking/openvpn.md), [NTP](../technologies/networking/ntp.md), [DNS](../technologies/networking/dns/), and [DHCP](../technologies/networking/dhcp.md).  They are responsible for the smooth flow of network traffic.  They are also the point persons when diagnosing networking connections on CSL systems.
 
 ### Monitoring
 
-The Monitoring team is responsible for [observability in the CSL](../../technologies/monitoring/), including logging, alerts, and metrics.  They are responsible for maintaining systems that provide monitoring capability such as [Grafana](../../technologies/monitoring/grafana.md) and Prometheus.
+The Monitoring team is responsible for [observability in the CSL](../technologies/monitoring/), including logging, alerts, and metrics.  They are responsible for maintaining systems that provide monitoring capability such as [Grafana](../technologies/monitoring/grafana.md) and Prometheus.
 
 ### Storage
 
-The Storage team is responsible for the storage of data in the Lab including [Ceph](../../technologies/storage/ceph/) and [OpenAFS](../../technologies/storage/afs/openafs.md).  They are also responsible for the CSL's data backups.
+The Storage team is responsible for the storage of data in the Lab including [Ceph](../technologies/storage/ceph/) and [OpenAFS](../technologies/storage/afs/openafs.md).  They are also responsible for the CSL's data backups.
 
 ### Documentation
 
-The Documentation team is responsible for accurate, comprehensive, and well-written documentation for the Sysadmins.  They assist and strongly encourage other teams in documenting everything in both our [Runbooks](../documentation/#runbooks) and this [Docsite](../documentation/).
+The Documentation team is responsible for accurate, comprehensive, and well-written documentation for the Sysadmins.  They assist and strongly encourage other teams in documenting everything in both our [Runbooks](documentation/#runbooks) and this [Docsite](documentation/).
 
 ### Academic Services
 
-The Academic Services team is responsible for maintaining software that is used by TJHSST classes.  This includes [Othello](../../services/othello/), the TJHSST AI Grader, and Tin.  Due to the presence of many services, there may be a sub-team for each service.
+The Academic Services team is responsible for maintaining software that is used by TJHSST classes.  This includes [Othello](../services/othello/), the TJHSST AI Grader, and Tin.  Due to the presence of many services, there may be a sub-team for each service.
 
 ### Printing
 
-The Printing team is responsible for [printing operations in the Lab](../../services/printing/), including the CUPS server and the printers.
+The Printing team is responsible for [printing operations in the Lab](../services/printing/), including the CUPS server and the printers.
 
 ### Cluster
 
-The Cluster team is responsible for maintaing [TJ's clusters](../../services/cluster/) \(Borg and HPC\).
+The Cluster team is responsible for maintaing [TJ's clusters](../services/cluster/) \(Borg and HPC\).
 
 ### Advanced Computing Hardware
 
@@ -58,7 +58,7 @@ The Advanced Computing Hardware Team is responsible for the maintenance of hardw
 
 ### Understudy Coordinator
 
-The Understudy Coordinator is responsible for leading the [Understudy program](../understudies.md).  The Coordinator is responsible for primarily planning the structure and activities with the Understudy program.
+The Understudy Coordinator is responsible for leading the [Understudy program](understudies.md).  The Coordinator is responsible for primarily planning the structure and activities with the Understudy program.
 
 ## Infrastructure Lead
 
@@ -104,7 +104,7 @@ In another sense, the Lead Sysadmins are the Presidents.  They may appoint Junio
 
 ### Senior Sysadmins
 
-Senior Sysadmins are sysadmins who are seniors.  By virtue of being a senior, they have no additional rights or responsibilities. Instead, by virtue of having served in the Lab for a long time, they often have the most experience in a specific area.
+Senior Sysadmins are sysadmins who are seniors.  By virtue of being a senior, they have no additional rights or responsibilities. Instead, by virtue of having served in the Lab for a long time, they often have the most experience in a specific area and offer a valuable perspective.
 
 ## Team Structure
 

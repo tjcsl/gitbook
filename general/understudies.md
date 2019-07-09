@@ -14,7 +14,7 @@ New sysadmins are typically chosen at the end of the school year \(4th quarter\)
 
 ## Becoming an Understudy
 
-At the beginning of each year, interest meetings are scheduled to allow any student to learn about the Lab and the Sysadmin program. An application developed in collaboration between the Faculty Sponsor and the Sysadmins is then made available to the student body.  The applications are then reviewed by the Faculty Sponsor and current SysAdmins to select new understudies.
+Sometime before Spring Break, interest meetings are scheduled to allow any student to learn about the Lab and the Sysadmin program. An application developed in collaboration between the Faculty Sponsor and the Sysadmins is then made available to the student body.  The applications are then reviewed by the Faculty Sponsor and current Sysadmins to select new understudies.
 
 ## Structure
 

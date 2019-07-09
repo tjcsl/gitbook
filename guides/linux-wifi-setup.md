@@ -1,3 +1,7 @@
+---
+description: Describes how to set up wifi on a Linux machine
+---
+
 # Linux Wifi Setup
 
 1. Connect to the FCPSonboard network

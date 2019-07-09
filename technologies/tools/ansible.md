@@ -33,7 +33,7 @@ dictionary-key:
 
 ## CSL's Role Management
 
-There are two roles that should be applied to almost every machine: `common` and `auth`. `common` installs a good suite of common utilities, and `auth` allows the machine to have [Kerberos](../authentication/kerberos.md) login. Other than that, we usually assign our roles on a per-group basis, although that isn't too modular. [AFS](../storage/afs/) support has its own role, but unfortunately [CephFS](../storage/cephfs.md) doesn't yet.
+There are two roles that should be applied to almost every machine: `common` and `auth`. `common` installs a good suite of common utilities, and `auth` allows the machine to have [Kerberos](../authentication/kerberos.md) login. Other than that, we usually assign our roles on a per-group basis, although that isn't too modular. [AFS](../storage/afs/) support has its own role, but unfortunately [CephFS](../storage/ceph/cephfs.md) doesn't yet.
 
 ## Running Ansible
 
@@ -55,7 +55,7 @@ You will usually need access to the `ansible_vault` password in [Passcard](../au
 
 The Ansible plays for running the [Cluster](../../services/cluster/) are very complicated and take advantage of some cool things Ansible has to offer.
 
-The first thing is the `when` directive, added to the end of any module, specifying when a module should be run. Just like in `common` and `auth`, different package managers with different packages names are used on different systems, but by only running `apt` when on [Ubuntu](../servers/ubuntu-server.md) and `yum` when on [CentOS](../servers/centos.md), we can account for that.
+The first thing is the `when` directive, added to the end of any module, specifying when a module should be run. Just like in `common` and `auth`, different package managers with different packages names are used on different systems, but by only running `apt` when on [Ubuntu](../operating-systems/ubuntu-server.md) and `yum` when on [CentOS](../operating-systems/centos.md), we can account for that.
 
 The other thing is the `--extra_vars` flag the `ansible-playbook` command. You can pass in a variable to make the play do a fresh install of all built-from-source packages, uninstall a previous version of a package, and I would say more but that's about it. You should read the play to figure out how that works.
 

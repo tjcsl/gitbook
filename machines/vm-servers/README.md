@@ -4,7 +4,7 @@
 
 ## Reasoning
 
-Although VM servers have existed for multiple years in the Lab, complete virtualization of critical services occurred the summer of 2017.  The reason for this was to allow services to be brought up quickly.  In addition, our current VM setup permits us to bring up new machines more quickly and fully utilize [RBD block storage as our storage backend](../ceph/).
+Although VM servers have existed for multiple years in the Lab, complete virtualization of critical services occurred in the summer of 2017.  The reason for this was to allow services to be brought up quickly.  In addition, our current VM setup permits us to bring up new machines more quickly and fully utilize [RBD block storage as our storage backend](../ceph/).
 
 ## Exceptions
 

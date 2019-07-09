@@ -6,7 +6,7 @@ Communication is important to the effective functioning of the Lab. We use Slack
 
 ## Slack
 
-Slack \([https://slack.com](https://slack.com)\) is a proprietary set of tools for team collaboration. It offers various integration with different services. We have a workspace at [https://tjcsl.slack.com](https://tjcsl.slack.com). The CSL's first widespread use of the Slack workspace began in August of 2018. Slack became the official form of communication by Omkar Kulkarni's decision.
+Slack \([https://slack.com](https://slack.com)\) is a proprietary set of tools for team collaboration. It offers various integration with different services. We have a workspace at [https://tjcsl.slack.com](https://tjcsl.slack.com). The CSL's first widespread use of the Slack workspace began in August of 2018. Slack became the official form of communication under the direction of Omkar Kulkarni.
 
 ### Channels
 
@@ -18,19 +18,21 @@ Some channels include:
 * \#random: For random discussions
 * \#ion: For discussion of Ion
 * \#director: For discussion of Director
+* \#sysadmins \(private\): For internal Sysadmin-only discussions
+* \#notifications \(private\): For 
 * and other channels
 
 ### Applications
 
-Workspace members can add applications to the channels to improve the Sysadmins workflow. Some examples of integrated applications include:
+Workspace members can add applications to the channels to improve the workflow of the Sysadmins. Some examples of integrated applications include:
 
 * Sentry: Notifies Sysadmins of errors/events on web applications
 
-{% page-ref page="../technologies/monitoring/sentry.md" %}
+{% page-ref page="../../technologies/monitoring/sentry.md" %}
 
-* Uptime Robot: Notifies Sysadmins of downtime on critical public-facing CSL-maintained webpages
+* Uptime Robot: Notifies Sysadmins of downtime on critical public-facing CSL maintained webpages
 
-{% page-ref page="../technologies/monitoring/uptime-robot.md" %}
+{% page-ref page="../../technologies/monitoring/uptime-robot.md" %}
 
 ### Best Practices
 
@@ -47,7 +49,7 @@ Workspace members can add applications to the channels to improve the Sysadmins 
 
 ### Roles
 
-Workspace owners have full administrative access to the workspace. The owners can remove members and change workspace settings. The lead Sysadmin\(s\) and Faculty Sponsor should be owners and should designate other owners they find necessary.
+Workspace owners have full administrative access to the workspace. The owners can remove members and change workspace settings. The lead Sysadmin\(s\) and Faculty Sponsor should be owners and should designate other owners they find necessary. The Faculty Sponsor should be "Primary Owner".
 
 Workspace members can join, write, and read in public channels.. They can also join, write, and read in invite-only channels. They can also create new public or invite-only channels.
 
@@ -69,18 +71,7 @@ The person who is responsible for responding to an e-mail usually varies on a ca
 * Which Sysadmin\(s\) has/have access to the systems necessary to complete the request?
 * How much knowledge does the Sysadmin have of the functional area?
 
-Here are some rough guidelines of who should respond.
-
-* In general, the lead or contact person for a specific functional area should respond to e-mails.
-* If the Eighth Period Office contacts the Sysadmins about Ion, the Ion Lead\(s\) should respond.  In other cases, other Ion admins may respond.  The Ion Lead\(s\) should designate people to respond to inquiries.
-* If the inquiry is from administration, the Lead Sysadmin or appropriate lead/contact person should respond.
-* If the inquiry is about Signage, the Signage Lead or a designee should respond.
-* If the inquiry is about workstations, a workstations admin should respond.
-* If the inquiry is about the cluster, a cluster admin should respond.
-* If the inquiry is about the Remote Access Servers, a RAS admin should respond.
-* If the inquiry is about the website or other site on WWW,, the appropriate Sysadmin should respond.
-* If there is an account inquiry, the appropriate Sysadmin should respond.
-* If a general question can be answered by a Sysadmin, that Sysadmin should respond.
+In general, the lead or contact person for a specific functional area should respond to e-mails.
 
 ### Lists
 
@@ -89,16 +80,16 @@ Here are some rough guidelines of who should respond.
 Most communication directed to the Sysadmins gets sent to [sysadmins@tjhsst.edu](mailto:sysadmins@tjhsst.edu) . The official list address is `sysadmins@lists.tjhsst.edu`. This mailing list is restricted to Sysadmins and the Faculty Sponsor. Ask a mail admin for access if you did not get added to the list.
 
 {% hint style="info" %}
-If you did not get added to the mailing list, refer the mail admins to the New Sysadmin Onboarding guide.
+If you did not get added to the mailing list, refer the mail admins to the new sysadmins onboarding issue on `sysadmins/infrastructure/access-requests`.
 {% endhint %}
 
 #### Intranet Mailing List
 
-Most communication related to Ion gets sent to [intranet@tjhsst.edu](mailto:intranet@tjhsst.edu). The official list address is `intranet@lists.tjhsst.edu`. This mailing list is restricted to Ion developers.
+Most communication related to Ion gets sent to [intranet@tjhsst.edu](mailto:intranet@tjhsst.edu). The official list address is `intranet@lists.tjhsst.edu`. This mailing list is restricted to Intranet administrators.
 
 #### Director Mailing List
 
-Most communication related to Director gets sent to [director@lists.tjhsst.edu](mailto:director@lists.tjhsst.edu). This mailing list is restricted to Director developers.
+Most communication related to Director gets sent to [director@lists.tjhsst.edu](mailto:director@lists.tjhsst.edu). This mailing list is restricted to Director administrators..
 
 ## IRC
 
@@ -115,9 +106,9 @@ Multiple clients support IRC. We recommend one of the clients listed below:
 ### Channels
 
 * \#tjcsl
-  * Channel for Sysadmins.  It is currently bridged to \#general in Slack.
+  * Channel for Sysadmins
 * \#tjhsst
-  * Channel for TJHSST students and composed of alums and current students.
+  * Channel for TJHSST students, past and present. and  it is composed of alums and current students.
 
 ### Etiquette
 

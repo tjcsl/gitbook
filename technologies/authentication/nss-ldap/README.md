@@ -14,17 +14,11 @@ Upon reception of the [Sun Academic Excellence Grant](../../../machines/history/
 
 ## Current
 
-NSS LDAP is currently used by nearly all \*NIX systems managed by the CSL . It is run using OpenLDAP from the VMs [openldap1](../../../machines/vm-servers/galapagos.md) and [openldap2](../../../machines/sun-servers/vega.md).
+NSS LDAP is currently used by nearly all \*NIX systems managed by the CSL. It is run using OpenLDAP from the VMs [openldap1](../../../machines/vm-servers/galapagos.md) and [openldap2](../../../machines/sun-servers/vega.md).
 
 ## LDAP Server Software
 
 OpenLDAP's slapd is currently run in one-way replication on openldap1 \(master\) and openldap2. It can integrate with nsswitch to provide all NSS databases although we currently only use it for the passwd and group databases. For detailed installation and configuration notes, see [OpenLDAP](../ldap.md).
-
-### Service IP Caveats
-
-The service IP for NSS LDAP is 198.38.16.59 \(ldap-sun.tjhsst.edu is the hostname; it remains what it is for historical reasons\). Note that neither openldap1 nor openldap2 will automatically grab this IP at boot. This IP must be manually added. This is so that the IP can be moved during maintenance; for example, if openldap1 is down for maintenance, the IP is moved to openldap2 so correctly configured clients will query openldap2 instead. If openldap1 is rebooted as part of maintenance, it will not also snag the IP as it comes up and cause a network service conflict.
-
-In the event that there is a complete power outage and both systems are rebooted, obviously the IP will not be assigned to either of them at boot. Correctly configured clients will not be impacted as they will rapidly timeout 198.38.16.59 and fall back on openldap1 and openldap2 IP addresses.
 
 ## Directory Structure
 

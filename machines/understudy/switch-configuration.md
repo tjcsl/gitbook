@@ -2,7 +2,7 @@
 
 ## Fido
 
-Fido is the Gigabit Ethernet switch connected to [Fiordland]().
+Fido is the Gigabit Ethernet switch connected to [Fiordland](server-configuration-2/fiordland.md) and [Saruman](server-configuration-2/saruman.md).
 
 ### Technical Specifications
 
@@ -14,7 +14,7 @@ Fido is the Gigabit Ethernet switch connected to [Fiordland]().
 
 ## Access the Switch
 
-Plug an Ethernet cable into the port on the front of the switch labeled "SERIAL". Connect the other end of the cable into a USB-to-Ethernet adapter and plug that into Fiordland. Then, from the server, type `sudo screen /dev/ttyUSB0` to access Fido over serial. If the screen goes fully black, you might need to hit ENTER a couple times so that the prompt shows up.
+Plug an Ethernet cable into the port on the front of the switch labeled "SERIAL". Connect the other end of the cable into a USB-to-Ethernet adapter and plug that into Fiordland. Then, from the server, type `sudo screen /dev/ttyUSB0 9600` to access Fido over serial. If the screen goes fully black, you might need to hit ENTER a couple times so that the prompt shows up.
 
 If the prompt says `fido#`, you're good to go. If it says `fido>`, you'll need to type `enable`. The password for the switch is on passcard.
 

@@ -88,6 +88,10 @@ vos release students.20XX
 
 ## Historical Provisioning
 
+{% hint style="danger" %}
+This method is completely obsolete.
+{% endhint %}
+
 The update\_nssldap.sh script \(authored by William Yang; see [NSS LDAP](https://github.com/tjcsl/gitbook/tree/0ed8086a38339b7cf231d8d987eae570d21ccd8f/technologies/authentication/nss-ldap/README.md)\) handled user provisioning in [AFS](../technologies/storage/afs/) and [NSS LDAP](https://github.com/tjcsl/gitbook/tree/0ed8086a38339b7cf231d8d987eae570d21ccd8f/technologies/authentication/nss-ldap/README.md) It depends on Identity Synchronization for Windows \(ISW\) to be working properly. Because of the way AD accounts are recreated every year, it was recommended to follow this procedure when it was time to create accounts every fall. The idsync command below was part of ISW and was located in `/opt/SUNWisw/bin` on the ISW server \(usually the primary NSS LDAP server\). All idsync commands are required to have options `-D -w -q`. For our purposes, we used `-D 'cn=Directory Manager' -w - -q -`
 
 **Requirements**
