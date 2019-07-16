@@ -33,7 +33,13 @@ sub   rsa4096/0x46FB05EE18EBA895 2018-01-03 [E]
 
 In this example, `0x67198197EBDE4957` is the key ID. By default, most installations of GnuPG will default to the short format which in this case is `EBDE4957`.
 
-GPG keys are shared publicly through GPG public key servers. Most of them automatically synchronize changes between each other. Popular key servers include `keys.gnupg.net` and `keyserver.ubuntu.com`. A pool of many key servers can be referenced with `pool.sks-keyservers.net`.
+You can export your public key in ASCII format \(to send in emails or to other people\) with `gpg --export --armor <SUBSTRING OF NAME/EMAIL OR KEY ID>`.
+
+## Keyservers
+
+{% hint style="warning" %}
+GPG keys are shared publicly through GPG public key servers. However, due to [https://www.google.com/search?hl=en&q=sks%20attack](https://gist.github.com/rjhansen/67ab921ffb4084c865b3618d6955275f), we caution against synchronizing against the main Synchronizing Key Servers.  If you need to 
+{% endhint %}
 
 {% hint style="info" %}
 Once a key is on a public key server, it cannot be removed. IDs, signatures, and expiration dates can be added to keys on the key servers but not removed.
@@ -41,11 +47,9 @@ Once a key is on a public key server, it cannot be removed. IDs, signatures, and
 
 You can send your key \(or any other key in your keyring\) to a key server by running `gpg --keyserver <KEYSERVER URL> --send-keys <KEY ID>`.
 
-You can export your public key in ASCII format \(to send in emails or to other people\) with `gpg --export --armor <SUBSTRING OF NAME/EMAIL OR KEY ID>`.
-
 ## Receiving
 
-All public keys that are known to you are stored locally in your public key keyring. You can request these keys with `gpg --keyserver <KEYSERVER URL> --search-keys <SUBSTRING OF NAME/EMAIL>`. If you have a copy of someone's public key, you can import it with `gpg --import <FILE PATH>`.
+All public keys that are known to you are stored locally in your public key keyring. If you have a copy of someone's public key, you can import it with `gpg --import <FILE PATH>`.
 
 {% hint style="info" %}
 You should generally have all Sysadmin's public keys in your public keyring. This is useful for determining who is on a passcard \(with `./passcard.py who <SERVER>`\)
@@ -59,5 +63,5 @@ Do not sign someone's key unless you are sure that it is their key. Signing keys
 
 When you sign someone's public key, you are vouching for their identity and the key's validity. The initial purpose of signing public key's was to create a network of trust. The Sysadmins have their own network of trust. Each sysadmin should have a trust path to other sysadmins \(this may not always be the case but is general good practice\).
 
-To sign someone's public key, run `gpg -u <SUBSTRING OF YOUR NAME/EMAIL OR YOUR KEY ID> --sign-key <SUBSTRING OF OTHER'S NAME/EMAIL>`. You will be prompted to confirm your signature. You can then send the signed key to a key server with `--send-keys` described above.
+To sign someone's public key, run `gpg -u <SUBSTRING OF YOUR NAME/EMAIL OR YOUR KEY ID> --sign-key <SUBSTRING OF OTHER'S NAME/EMAIL>`. You will be prompted to confirm your signature. You can then export and commit it to the passcard repository.
 
