@@ -1,5 +1,5 @@
 ---
-description: Describe the TJ mail service
+description: The TJ mail service
 ---
 
 # Mail

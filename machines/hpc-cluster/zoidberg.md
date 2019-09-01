@@ -16,5 +16,5 @@
 
 ## Trivia
 
-Zoidberg currently has a [workstation](../../services/workstations/) IP and is plugged into the workstation [VLAN]() by means of a long ethernet cable because the networking to the HPC cluster is broken \("it's fine if they can't DHCP" no it friggin isn't "well if they don't have static IPs then they're mis-managed" seriously?? also static IPs didn't seem to work anyway\).
+Zoidberg currently has a [workstation](../../services/workstations.md) IP and is plugged into the workstation [VLAN]() by means of a long ethernet cable because the networking to the HPC cluster is broken \("it's fine if they can't DHCP" no it friggin isn't "well if they don't have static IPs then they're mis-managed" seriously?? also static IPs didn't seem to work anyway\).
 

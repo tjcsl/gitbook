@@ -1,5 +1,5 @@
 ---
-description: Describe the CSL's printing infrastructure
+description: The CSL's printing infrastructure
 ---
 
 # Printing
@@ -7,6 +7,8 @@ description: Describe the CSL's printing infrastructure
 ## Printing
 
 Printing is a production service offered by the Computer Systems Lab. We provide the means for students to print from Ion and the CSL workstations.
+
+The contact person for the printing service and associated infrastructure is [the Printing Lead](../../general/sysadmins-list.md#current-leads).
 
 ### Printers
 

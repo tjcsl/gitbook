@@ -2,7 +2,7 @@
 
 Ubuntu Server is a Linux distribution developed by Canonical Inc., noted for its stability and ease of use. You can find out more on [the Ubuntu Wiki](https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes).
 
-Almost all of the CSL runs on Ubuntu Server, except for [Workstations](../../services/workstations/) which run Ubuntu Desktop, [The Cluster](../../services/cluster/) which runs [CentOS](centos.md), and certain critical servers which run \*BSD.
+Almost all of the CSL runs on Ubuntu Server, except for [Workstations](../../services/workstations.md) which run Ubuntu Desktop, [The Cluster](../../services/cluster/) which runs [CentOS](centos.md), and certain critical servers which run \*BSD.
 
 ## Notable Features
 

@@ -2,7 +2,7 @@
 
 The **Andrew File System** is the network file system used by the Computer Systems Lab. It is a networked file system with a global namespace, and is in use among many universities and companies.
 
-AFS currently runs all of the student home directories for the [workstations](../../../services/workstations/), and is under consideration for being dropped in favor of [CephFS](../ceph/cephfs.md).
+AFS currently runs all of the student home directories for the [workstations](../../../services/workstations.md), and is under consideration for being dropped in favor of [CephFS](../ceph/cephfs.md).
 
 ## Implementations
 

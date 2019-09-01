@@ -1,5 +1,5 @@
 ---
-description: Describe the TJ Intranet platform as a whole
+description: The TJ Intranet platform
 ---
 
 # Ion
@@ -21,4 +21,8 @@ Ion was completely student-built and was the senior researech project of James W
 ## Architecture
 
 Ion is a Django application backed by a PostgreSQL database and using redis to perform in-memory caching.  
+
+## Contributing
+
+The contact person for Intranet is the [Intranet Lead](../../general/sysadmins-list.md#current-leads).
 

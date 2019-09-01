@@ -1,6 +1,6 @@
 # Django
 
-**Django** is a Python web framework designed for enterprise-scale application. [Ion](../../services/ion/), [Director](../../services/director/), and [Othello](../../services/othello/) are all Django applications.
+**Django** is a Python web framework designed for enterprise-scale application. [Ion](../../services/ion/), [Director](../../services/director/), and [Othello](../../services/academic-services/othello/) are all Django applications.
 
 For more information about the framework itself, see the Django website at [https://www.djangoproject.com/](https://www.djangoproject.com/).
 

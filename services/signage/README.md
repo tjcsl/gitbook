@@ -1,5 +1,5 @@
 ---
-description: Describe the CSL Signage displays
+description: The CSL Signage displays
 ---
 
 # Signage
@@ -18,6 +18,8 @@ The Signage displays also can show special event information.
 The latest version of Signage is **Signage3**.
 
 The core of Signage runs on Intel Compute Sticks \([official website](https://www.intel.com/content/www/us/en/products/boards-kits/compute-stick.html)\) running Ubuntu 16.04 LTS.
+
+The contact person for Signage is [the Signage Lead](../../general/sysadmins-list.md#current-leads) \(or, in the Lead's absence, the Intranet Lead\).
 
 ## History
 

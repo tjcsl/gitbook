@@ -1,5 +1,5 @@
 ---
-description: This page describes the CSL policy for releasing data to the public
+description: Policy for releasing data
 ---
 
 # Data Release Policy

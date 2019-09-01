@@ -1,3 +1,7 @@
+---
+description: Policy for upgrading CSL systems
+---
+
 # Upgrade Policy
 
 ## General

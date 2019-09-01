@@ -1,12 +1,18 @@
 ---
-description: Describe the Director website management platform
+description: The Director website management platform
 ---
 
 # Director
 
 **Director**, also known as **web3**, is a website management interface for student and activity websites. It was created during the 2016-17 school year, and is currently used by many of the web application development classes.
 
-The application was created to provide a secure, beginner friendly, and highly customizable website hosting platform. To achieve this goal, many features, including a web terminal and online editor, were implemented. The project has been completely [student-built](https://director.tjhsst.edu/about), and was the senior research project of [Eric Wang](user:2017ewang/README.md).
+The application was created to provide a secure, beginner friendly, and highly customizable website hosting platform. To achieve this goal, many features, including a web terminal and online editor, were implemented. The project has been completely [student-built](https://director.tjhsst.edu/about), and was the senior research project of Eric Wang \(class of 2017\).
+
+The contact person for Director is [the Director Lead.](../../general/sysadmins-list.md#current-leads)
+
+{% hint style="info" %}
+Director is undergoing[ a rewrite](./#rewrite).
+{% endhint %}
 
 ## Technologies Used
 
@@ -92,4 +98,8 @@ npm install -g pm2
 * [Help Guide](https://director.tjhsst.edu/guide)
 * [About/Credits](https://director.tjhsst.edu/about)
 * [Director on GitHub](https://github.com/tjcsl/director)
+
+## Rewrite
+
+Director is undergoing a rewrite. For information and learn how to help, join `#director` or contact the Director Lead.
 

@@ -1,4 +1,4 @@
-# Changing your Password
+# Password Changes
 
 This is a guide on how to change your _**CSL**_ password, and contains some good information for changing other peoples' _**CSL**_ passwords too \(but only if you have access\).
 

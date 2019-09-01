@@ -1,5 +1,5 @@
 ---
-description: Describe the CSL's clusters
+description: The CSL's clusters
 ---
 
 # Cluster

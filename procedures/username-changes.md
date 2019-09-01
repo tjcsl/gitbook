@@ -3,7 +3,7 @@
 Use this page as a checklist for updating usernames \(such as in the case of a legal name change\)
 
 {% hint style="warning" %}
-Only use this page as a cheklist for updating usernames such as in the case of a legal name change
+Only use this page as a checklist for updating usernames such as in the case of a legal name change
 {% endhint %}
 
 The following items need to be updated when a username change is requested:

@@ -25,17 +25,23 @@
 | ​[Ion](../services/ion/)​ | Theo Ouzhinski |
 | ​[Director](../services/director/)​ | Theo Ouzhinski |
 | ​[Storage](../technologies/storage/)​ | Theo Ouzhinski |
-| ​[Workstations](../services/workstations/)​ | John Beutner |
+| Networking | Keegan Lanzillotta |
+| ​[Workstations](../services/workstations.md)​ | John Beutner |
 | ​[Cluster](../services/cluster/)​ | TBD |
 | ​[Web Content/WWW](../services/www/)​ | Keegan Lanzillotta |
 | ​[Signage](../services/signage/)​ | John Beutner |
-| ​[Documentation](documentation/)​ | Theo Ouzhinski |
+| ​[Documentation](documentation/)​ | TBD |
 | Security | Theo Ouzhinski |
 | Automation | Theo Ouzhinski |
 | Advanced Computing Hardware | Parthiv Chigurupati |
 | ​[Printing](../services/printing/)​ | Alexander Black |
+| Monitoring | TBD |
+| Academic Services | John Beutner |
+| Understudy | TBD |
 
-## Teams  <a id="teams"></a>
+## Team Membership <a id="teams"></a>
+
+All teams and their responsibilities are [available here](organization.md).
 
 | Team Name | Members |
 | :--- | :--- |
@@ -46,15 +52,18 @@
 
 ## Faculty Sponsor  <a id="faculty-sponsor"></a>
 
-The Sysadmin Faculty Sponsor is Mr. White \(pewhite\).
+The Sysadmin Faculty Sponsor is Mr. White \(`pewhite`\).
 
 ## Points of Contact
 
 | Group | POC |
 | :--- | :--- |
-| Eighth Office | Theo Ouzhinski |
-| SGA | Theo Ouzhinski |
+| Eighth Period Office | Theo Ouzhinski |
+| SGA \(Elections\) | Theo Ouzhinski |
+| SGA \(Other Matters\) | Keegan Lanzillotta |
 | Security Office | Keegan Lanzillotta |
+| Web Development Classes | Theo Ouzhinski |
+| CSL Lab Directors | [Mr. White](sysadmins-list.md#faculty-sponsor) |
 
 ## Previous Student Systems Administrators
 

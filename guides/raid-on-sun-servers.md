@@ -1,6 +1,6 @@
-# Configuring RAID on a sun server
+# Sun Server RAID Configuration
 
-This is a "tutorial" for setting up RAID arrays on the sun servers.
+This is a "tutorial" for setting up RAID arrays on the Sun servers.
 
 Oracle _has_ [documentation](https://docs.oracle.com/cd/E19902-01/html/835-0796/wm2wosig.gjxrc.html) on this process, but apparently not for the version of the BIOS that our machines run.
 

@@ -83,7 +83,7 @@ These are problems with the cluster present at the time of documentation \(March
 * Some borg nodes now aren't getting DHCP either.
 * Graphics card compatability on Borg nodes is super spotty. Moving around cards until they work in a node.
 * Dylan said to look at DHCP forwarding on [Imply](../../machines/switches/imply.md) to attempt to fix HPC issue.
-* `zoidberg` is currently being routed through the [Workstation](../workstations/) VLAN in order to get networking due to the below problem.
+* `zoidberg` is currently being routed through the [Workstation](../workstations.md) VLAN in order to get networking due to the below problem.
 * The HPC rack can't get DHCP addresses, ~~and most attempts at static IPs fail as well.~~ but it looks like setting a static ip through `/etc/sysconfig/network/ifcfg-bond0` works. The nodes currently up are fine as long as they don't get rebooted.
 * `hpc7` and `hpc11` are super offline \(have been for a while now\), `hpc9`is offline due to the above issue \(was rebooted\).
 * X11 forwarding doesn't work, problem with slurm. See [this bug report](https://bugs.schedmd.com/show_bug.cgi?id=5692).

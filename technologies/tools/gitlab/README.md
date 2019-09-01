@@ -1,6 +1,6 @@
 # GitLab
 
-**GitLab** is a MIT-licensed, web-based Git repository manager that provides issue tracking, code hosting, and Continuous Integration \(CI\)/Continuous Development \(CD\). The CSL uses GitLab to host Git repositories for the sysadmins \(excluding the public repositories for [GitBook](../gitbook.md), [Ion](../../../services/ion/), [Director](../../../services/director/), and [Othello](../../../services/othello/)\). The website for the developers behind GitLab can be found at [gitlab.com](https://gitlab.com) and the CSL's self-hosted version can be found at [gitlab.tjhsst.edu](https://gitlab.tjhsst.edu).
+**GitLab** is a MIT-licensed, web-based Git repository manager that provides issue tracking, code hosting, and Continuous Integration \(CI\)/Continuous Development \(CD\). The CSL uses GitLab to host Git repositories for the sysadmins \(excluding the public repositories for [GitBook](../gitbook.md), [Ion](../../../services/ion/), [Director](../../../services/director/), and [Othello](../../../services/academic-services/othello/)\). The website for the developers behind GitLab can be found at [gitlab.com](https://gitlab.com) and the CSL's self-hosted version can be found at [gitlab.tjhsst.edu](https://gitlab.tjhsst.edu).
 
 ## History
 

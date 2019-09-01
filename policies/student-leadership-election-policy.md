@@ -1,3 +1,7 @@
+---
+description: Policy for managing student leadership elections via Intranet
+---
+
 # Election Policy
 
 ## Introduction

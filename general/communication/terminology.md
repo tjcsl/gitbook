@@ -15,6 +15,7 @@ Bad:
 * SYSAdmins
 * sysadmins
 * Student Admins
+* SYSADMINS
 
 _When referring to the Computer Systems Lab:_
 

@@ -1,3 +1,7 @@
+---
+description: Policy for managing CSL accounts
+---
+
 # Account Policy
 
 ## Introduction

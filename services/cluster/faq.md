@@ -5,7 +5,7 @@ Because I'm tired of explaining the same things over and over again
 ## Using the Cluster
 
 * How do I get my code on the cluster?
-  1. From a [workstation](../workstations/) with your code on it:
+  1. From a [workstation](../workstations.md) with your code on it:
 
      ```bash
      scp -rp folder_with_your_code/ infosphere:~
@@ -13,7 +13,7 @@ Because I'm tired of explaining the same things over and over again
 
   2. Your code is now on infosphere
 * Where do I go to run code on the cluster?
-  * From [RAS](../remote-access/) or a [workstation](../workstations/):
+  * From [RAS](../remote-access/) or a [workstation](../workstations.md):
 
     ```bash
     ssh infosphere

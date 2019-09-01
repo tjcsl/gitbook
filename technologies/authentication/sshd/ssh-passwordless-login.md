@@ -1,6 +1,6 @@
 # SSH Passwordless Login
 
-**SSH Passwordless Login** is set up on all CSL [workstations](../../../services/workstations/) and the [remote access servers](../../../services/remote-access/) in order to seamlessly SSH into different machines without having to type in you password every time. This is achieved using GSSAPI and [Kerberos](../kerberos.md).
+**SSH Passwordless Login** is set up on all CSL [workstations](../../../services/workstations.md) and the [remote access servers](../../../services/remote-access/) in order to seamlessly SSH into different machines without having to type in you password every time. This is achieved using GSSAPI and [Kerberos](../kerberos.md).
 
 ## Common Problems
 

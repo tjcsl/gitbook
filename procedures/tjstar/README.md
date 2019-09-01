@@ -1,5 +1,9 @@
 # tjSTAR
 
+{% hint style="info" %}
+The status of our involvement in tjSTAR is up in the air \(as of the 2018-2019 school year\)
+{% endhint %}
+
 The CSL is responsible for running signups and tech support for the annual tjSTAR, which usually happens in late May or early June.
 
 > The name of the conference should be tjSTAR, not tjStar \(that just doesn't make sense -- STAR is short for _Symposium to Advance Research_.

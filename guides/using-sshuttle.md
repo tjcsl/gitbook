@@ -2,7 +2,7 @@
 description: Describes how to access to the CSL network from your laptop via sshuttle
 ---
 
-# Using sshuttle
+# sshuttle Usage
 
 We use sshuttle to access the CSL network on our own computers without having to be connected to a remote access server.
 

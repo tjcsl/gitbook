@@ -1,6 +1,6 @@
 # Gorgona
 
-**Gorgona** is a physical server residing in the CSL Machine Room that currently serves [KVM Virtual machines](../../technologies/virtualization-stack/kvm.md).
+**Gorgona** is a physical server residing in the CSL Machine Room that currently serves [KVM Virtual machines]().
 
 ## Virtual Machines on this Host
 

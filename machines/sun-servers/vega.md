@@ -1,6 +1,6 @@
 # Vega
 
-**Vega** is a Sun Server located in the Machine Room that serves [KVM Virtual Machines](../../technologies/virtualization-stack/kvm.md) on local storage.
+**Vega** is a Sun Server located in the Machine Room that serves [KVM Virtual Machines]() on local storage.
 
 ## Virtual Machines on this Host <a id="virtual-machines-on-this-host"></a>
 

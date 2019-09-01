@@ -42,7 +42,7 @@ The Documentation team is responsible for accurate, comprehensive, and well-writ
 
 ### Academic Services
 
-The Academic Services team is responsible for maintaining software that is used by TJHSST classes.  This includes [Othello](../services/othello/), the TJHSST AI Grader, and Tin.  Due to the presence of many services, there may be a sub-team for each service.
+The Academic Services team is responsible for maintaining software that is used by TJHSST classes.  This includes [Othello](../services/academic-services/othello/), the TJHSST AI Grader, and Tin.  Due to the presence of many services, there may be a sub-team for each service.
 
 ### Printing
 
