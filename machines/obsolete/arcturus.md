@@ -1,5 +1,9 @@
 # Arcturus
 
+{% hint style="warning" %}
+This page contains information on systems that are in happy retirement from the Computer Systems Lab.
+{% endhint %}
+
 **Arcturus** is a big big SPARC server. Simply put, arcturus is a high-performance computing \(HPC\) server. It is also a Sun Ray server for HPC projects \(separate from the primary Sun Ray FailOver Group \(FOG\)\).
 
 ## Technical Specifications

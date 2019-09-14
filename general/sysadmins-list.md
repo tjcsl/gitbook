@@ -4,7 +4,7 @@
 
 | Name | Username | Position |
 | :--- | :--- | :--- |
-| Theo Ouzhinski | 2020fouzhins | Lead Sysadmin & Infrastructure Lead |
+| Theo Ouzhinski | 2020touzhins | Lead Sysadmin & Infrastructure Lead |
 | Keegan Lanzillotta | 2020klanzill | Lead Sysadmin |
 | John Beutner | 2020jbeutner | Academic Services/Workstations/Signage Lead |
 | Parthiv Chigurupati | 2020pchiguru | Advanced Computing Hardware Lead |
@@ -45,10 +45,12 @@ All teams and their responsibilities are [available here](organization.md).
 
 | Team Name | Members |
 | :--- | :--- |
-| Ion | Theo Ouzhinski, John Beutner |
-| Director | Theo Ouzhinski |
-| TJ Website | Keegan Lanzillotta, John Beutner, Akash Bhave, Vikram Raghu, Lauren Delwiche |
-| Storage | Theo Ouzhinski |
+| Ion | Theo Ouzhinski \(Lead\), John Beutner \(Deputy\) |
+| Director | Theo Ouzhinski \(Lead\), John Beutner \(Deputy\) |
+| TJ Website  | Theo Ouzhinski \(BDFAY\), Keegan Lanzillotta \(Supervisor\), John Beutner \(Supervisor\), Akash Bhave, Vikram Raghu, Lauren Delwiche |
+| Storage | Theo Ouzhinski \(Lead\) |
+| Workstations | John Beutner \(Lead\) |
+| Networking | Keegan Lanzillotta \(Lead\) |
 
 ## Faculty Sponsor  <a id="faculty-sponsor"></a>
 
@@ -63,7 +65,7 @@ The Sysadmin Faculty Sponsor is Mr. White \(`pewhite`\).
 | SGA \(Other Matters\) | Keegan Lanzillotta |
 | Security Office | Keegan Lanzillotta |
 | Web Development Classes | Theo Ouzhinski |
-| CSL Lab Directors | [Mr. White](sysadmins-list.md#faculty-sponsor) |
+| CSL Lab Directors | [Mr. White](sysadmins-list.md#faculty-sponsor)/Theo Ouzhinski |
 
 ## Previous Student Systems Administrators
 

@@ -1,5 +1,9 @@
 # Sol
 
+{% hint style="warning" %}
+This page contains information on systems that are in happy retirement from the Computer Systems Lab.
+{% endhint %}
+
 **Sol** used to reside in the old Sun rack in the machine room. It previously served as one of the AP CS Sun Ray servers. Until its retirement, it has served various roles at various points in time including [NSS LDAP](../../technologies/authentication/nss-ldap/) server, Secure Global Desktop server, CUPS server, mirror, and Sun NFS admin volume server.
 
 ## Technical Specifications

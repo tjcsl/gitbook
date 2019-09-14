@@ -1,5 +1,9 @@
 # Chuku
 
+{% hint style="warning" %}
+This page contains information on systems that are in happy retirement from the Computer Systems Lab.
+{% endhint %}
+
 **Chuku** was a Sun Enterprise 420R server residing in the Sun rack in the Machine Room. This server ran the primary Sun Direcotry Server \(LDAP\) and Identity Synchronization for Windows for NSS \(user information databases\). Chuku ran Directory Server redundantly with [Mihr](mihr.md), another 420R.
 
 ## Technical Specifications

@@ -1,5 +1,9 @@
 # Ekhi
 
+{% hint style="warning" %}
+This page contains information on systems that are in happy retirement from the Computer Systems Lab.
+{% endhint %}
+
 **Ekhi** was a Sun Microsystems server donated to the CSL in the spring of 2004. Ekhi was sent home with Myles Maxfield, an ex-sysadmin who graduated in 2007. It's main purpose was a training server for Sun admins.
 
 Retired: 3 January 2008

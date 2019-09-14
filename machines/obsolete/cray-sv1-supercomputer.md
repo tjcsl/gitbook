@@ -1,5 +1,9 @@
 # Cray SV1 Supercomputer
 
+{% hint style="warning" %}
+This page contains information on systems that are in happy retirement from the Computer Systems Lab.
+{% endhint %}
+
 The **Cray SV1 Supercomputer** \(**Cray** or **Seymour** \([https://en.wikipedia.org/wiki/Seymour\_Cray](https://en.wikipedia.org/wiki/Seymour_Cray)\)\) used to be our supercomputer. Now, its shell can be found near the AudLob by the bus signage.
 
 ## History

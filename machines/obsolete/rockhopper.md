@@ -1,5 +1,7 @@
 # Rockhopper
 
+This page contains information on systems that are in happy retirement from the Computer Systems Lab.
+
 **Rockhopper** used to reside in the CSL Machine Room, and served as the SSL management server and CRL responder until its happy retirement in 2017.
 
 ## Technical Specifications
