@@ -8,15 +8,15 @@
 | Keegan Lanzillotta | 2020klanzill | Lead Sysadmin |
 | John Beutner | 2020jbeutner | Academic Services/Workstations/Signage Lead |
 | Parthiv Chigurupati | 2020pchiguru | Advanced Computing Hardware Lead |
-| Akash Bhave | 2021abhave | Website Team Member |
-| Alexander Black | 2021ablack | Printing Lead |
-| Ryan Kim | 2021rkim | Sysadmin |
-| Vikram Raghu | 2021vraghu | Website Team Member |
-| Shreepa Parthaje | 2021sparthaj | Sysadmin |
-| Anup Bagali | 2021abagali | Sysadmin |
-| Ethan Nguyen | 2021enguyen | Sysadmin |
-| Shreyas Mayya | 2022smayya | Sysadmin |
-| Lauren Delwiche | 2022ldelwich | Website Team Member |
+| Akash Bhave | 2021abhave | Web Team Member |
+| Alexander Black | 2021ablack | Printing Lead/Cluster Co-Lead |
+| Ryan Kim | 2021rkim | Documentation Lead/Networking Team Member |
+| Vikram Raghu | 2021vraghu | Web Team Member |
+| Shreepa Parthaje | 2021sparthaj | Cluster Co-Lead |
+| Anup Bagali | 2021abagali | Monitoring Team Member |
+| Ethan Nguyen | 2021enguyen | Monitoring Team Member |
+| Shreyas Mayya | 2022smayya | Monitoring Team Member |
+| Lauren Delwiche | 2022ldelwich | Web Team Member |
 
 ## Current Leads  <a id="current-leads"></a>
 
@@ -27,17 +27,17 @@
 | ​[Storage](../technologies/storage/)​ | Theo Ouzhinski |
 | Networking | Keegan Lanzillotta |
 | ​[Workstations](../services/workstations.md)​ | John Beutner |
-| ​[Cluster](../services/cluster/)​ | TBD |
+| ​[Cluster](../services/cluster/)​ | Alexander Black/Shreepa Parthaje |
 | ​[Web Content/WWW](../services/www/)​ | Keegan Lanzillotta |
 | ​[Signage](../services/signage/)​ | John Beutner |
-| ​[Documentation](documentation/)​ | TBD |
+| ​[Documentation](documentation/)​ | Ryan Kim |
 | Security | Theo Ouzhinski |
 | Automation | Theo Ouzhinski |
 | Advanced Computing Hardware | Parthiv Chigurupati |
 | ​[Printing](../services/printing/)​ | Alexander Black |
 | Monitoring | TBD |
 | Academic Services | John Beutner |
-| Understudy | TBD |
+| Understudy | Alexander Black |
 
 ## Team Membership <a id="teams"></a>
 
@@ -45,12 +45,15 @@ All teams and their responsibilities are [available here](organization.md).
 
 | Team Name | Members |
 | :--- | :--- |
-| Ion | Theo Ouzhinski \(Lead\), John Beutner \(Deputy\) |
-| Director | Theo Ouzhinski \(Lead\), John Beutner \(Deputy\) |
-| TJ Website  | Theo Ouzhinski \(BDFAY\), Keegan Lanzillotta \(Supervisor\), John Beutner \(Supervisor\), Akash Bhave, Vikram Raghu, Lauren Delwiche |
-| Storage | Theo Ouzhinski \(Lead\) |
+| Ion | Theo Ouzhinski \(Lead\), John Beutner \(Deputy\), Vikram Raghu, Akash Bhave, Lauren Delwiche |
+| Director | Theo Ouzhinski \(Lead\), John Beutner \(Deputy\), Vikram Raghu, Akash Bhave, Lauren Delwiche |
+| TJ Website  | Keegan Lanzillotta \(Supervisor\), John Beutner \(Supervisor\), Akash Bhave, Vikram Raghu, Lauren Delwiche |
+| Storage | Theo Ouzhinski \(Lead\), Anup Bagali |
 | Workstations | John Beutner \(Lead\) |
-| Networking | Keegan Lanzillotta \(Lead\) |
+| Networking | Keegan Lanzillotta \(Lead\), Ryan Kim, Anup Bagali |
+| Monitoring | Theo Ouzhinski \(Interim Lead\), Anup Bagali, Shreyas Mayya, Ethan Nguyen |
+| Cluster | Alexander Black \(Co-Lead\), Shreepa Parthaje \(Co-Lead\), Ethan Nguyen \(Deputy\) |
+| Documentation | Ryan Kim \(Lead\) |
 
 ## Faculty Sponsor  <a id="faculty-sponsor"></a>
 

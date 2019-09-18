@@ -63,6 +63,7 @@
     * [Django](technologies/web/django.md)
     * [PHP-FPM](technologies/web/php-fpm.md)
     * [Node.js](technologies/web/node.js.md)
+    * [Supervisord](technologies/web/supervisord.md)
   * [DBs](technologies/dbs/README.md)
     * [PostgreSQL](technologies/dbs/postgresql.md)
     * [MySQL](technologies/dbs/mysql.md)
