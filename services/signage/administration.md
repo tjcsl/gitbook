@@ -44,7 +44,7 @@ Each Sign is defined within a `Sign` model. Within Django admin, define the:
 * `img_path`: A URL to an image to display on the main schedule page.  Leave at the default for the default TJ image \(required\)
 * `lock_page`: A `Page` that should be the only page displayed \(if not set all pages will be displayed\)
 * `pages`: A `ManyToManyField` containing all pages to be rendered on the Sign \(required\)
-* _\[Not Implemented\]_ `default_page`: A `Page` that will be reverted to after a period of time
+* `default_page`: A `Page` that will be reverted to after a period of time
 
 Example:
 
