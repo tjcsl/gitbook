@@ -13,7 +13,7 @@
 | Ryan Kim | 2021rkim | Documentation Lead/Networking Team Member |
 | Vikram Raghu | 2021vraghu | Web Team Member |
 | Shreepa Parthaje | 2021sparthaj | Cluster Co-Lead |
-| Anup Bagali | 2021abagali | Monitoring Team Member |
+| Anup Bagali | 2021abagali | Networking Team Member/Monitoring Team Member |
 | Ethan Nguyen | 2021enguyen | Monitoring Team Member |
 | Shreyas Mayya | 2022smayya | Monitoring Team Member |
 | Lauren Delwiche | 2022ldelwich | Web Team Member |
@@ -55,6 +55,15 @@ All teams and their responsibilities are [available here](organization.md).
 | Cluster | Alexander Black \(Co-Lead\), Shreepa Parthaje \(Co-Lead\), Ethan Nguyen \(Deputy\) |
 | Documentation | Ryan Kim \(Lead\) |
 
+## Workgroups <a id="workgroups"></a>
+Workgroups are groups of related teams that work closely together due to the nature of their work.
+
+| Workgroup | Teams |
+| :--- | :--- |
+| Web Presence | Web Services, Ion, Director, Academic Services |
+| Hardware | Infrastructure, Networking, Printing, Advanced Computing Hardware |
+| Advanced Computing | Advanced Computing Hardware, Cluster, Academic Services |
+
 ## Faculty Sponsor  <a id="faculty-sponsor"></a>
 
 The Sysadmin Faculty Sponsor is Mr. White \(`pewhite`\).
@@ -77,6 +86,7 @@ Below is legacy information from Livedoc when it pertains to before the Class of
 {% endhint %}
 
 ### Head Student Systems Administrators
+These alumni were head/lead Sysadmins in the Lab in the past.
 
 * Manish Tuteja \(mtuteja\), Class of 1989
 * Paul Hargrove \(phargrov\), Class of 1990
@@ -112,6 +122,7 @@ Below is legacy information from Livedoc when it pertains to before the Class of
 * Dylan Jones, Class of 2019
 
 ### Webmasters/Intranet maintainers
+These alumni managed a version of Intranet or websites in the past.
 
 * Joanna Yun \(jyun\), Class of 1995
 * Roger Braunstein \(rbraunst\), Class of 1999
@@ -136,6 +147,7 @@ Below is legacy information from Livedoc when it pertains to before the Class of
 * Omkar Kulkarni, Class of 2019
 
 ### Full Student Systems Administrators
+These alumni were full-fledged Student Systems Administrator.
 
 * Jon Blocksom \(jblockso\), Class of 1991
 * Joel Winstead \(jwinstea\), Class of 1994
@@ -233,11 +245,13 @@ Below is legacy information from Livedoc when it pertains to before the Class of
 * Alexander Hayden, Class of 2019
 
 ### Underclassmen Systems Administrators
+These alumni were head/lead Sysadmins in the Lab in the past.
 
 * Menelik Yilma \(myilma\), Class of 2000
 * William Tsui \(wtsui\), Class of 2002
 
 ### "Morasca helpers"
+These alumni assisted Mr. Morasca with the Lab in the past.
 
 * Davey Dandar \(ddandar\), Class of 1995
 * Ari Heitner \(aheitner\), Class of 1998
@@ -245,6 +259,7 @@ Below is legacy information from Livedoc when it pertains to before the Class of
 * Justin Wienckowski \(jwiencko\), Class of 1998
 
 ### "Legacy lab helpers"
+These alumni helped run the lab in the past.
 
 * Vincent Del Vecchio \(vdelvecc\), Class of 1990
 * Kara Schumacher \(kschumac\), Class of 1993

@@ -81,7 +81,7 @@ The Infrastructure Lead is **NOT** a person who takes on all responsibility.  In
 **Qualifications:**
 
 * Has an extraordinary knowledge of the Lab and the relationship between its software, services, and technologies
-* Has a broad range of expertise touching various aspects of the Lab's infrastructure
+* Has a broad range of expertise working with various aspects of the Lab's infrastructure
 * Has shown an extraordinary level of dedication to the program and its mission/values
 * Is organized
 
