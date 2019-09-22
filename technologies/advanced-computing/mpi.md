@@ -1,6 +1,6 @@
 # MPI
 
-We don't really use **MPI** for any day-to-day tasks in the CSL, but it's important to know how it works to support some of the high-powered Senior Research projects going on [The Cluster](../../services/cluster/)
+We don't really use **MPI** for any day-to-day tasks in the CSL, but it's important to know how it works to support some of the high-powered Senior Research projects going on [The Cluster](../../services/cluster/) and Parallel Computing labs.
 
 ## Example MPI Program
 
