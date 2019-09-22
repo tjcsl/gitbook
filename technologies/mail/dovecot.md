@@ -4,3 +4,6 @@ Dovecot proves IMAPs, POPs, and sieve support, in addition to being the local ma
 
 Dovecot also supports quotas. If a user is over their soft quota, dovecot will give a warning but still store the message. If a user exceeds their hard quota, the mail message will be rejected.
 
+The Dovecot documentation can be found at https://www.dovecot.org/documentation.
+
+Source code for Dovecot can be found [on GitHub](https://github.com/dovecot/core).
