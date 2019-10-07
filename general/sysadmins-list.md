@@ -1,6 +1,6 @@
 # Sysadmins List
 
-## Current Sysadmins  <a id="current-sysadmins"></a>
+## Current Sysadmins <a id="current-sysadmins"></a>
 
 | Name | Username | Position |
 | :--- | :--- | :--- |
@@ -18,7 +18,7 @@
 | Shreyas Mayya | 2022smayya | Monitoring Team Member |
 | Lauren Delwiche | 2022ldelwich | Web Team Member |
 
-## Current Leads  <a id="current-leads"></a>
+## Current Leads <a id="current-leads"></a>
 
 | Area | Lead\(s\) |
 | :--- | :--- |
@@ -47,7 +47,7 @@ All teams and their responsibilities are [available here](organization.md).
 | :--- | :--- |
 | Ion | Theo Ouzhinski \(Lead\), John Beutner \(Deputy\), Vikram Raghu, Akash Bhave, Lauren Delwiche |
 | Director | Theo Ouzhinski \(Lead\), John Beutner \(Deputy\), Vikram Raghu, Akash Bhave, Lauren Delwiche |
-| TJ Website  | Keegan Lanzillotta \(Supervisor\), John Beutner \(Supervisor\), Akash Bhave, Vikram Raghu, Lauren Delwiche |
+| TJ Website | Keegan Lanzillotta \(Supervisor\), John Beutner \(Supervisor\), Akash Bhave, Vikram Raghu, Lauren Delwiche |
 | Storage | Theo Ouzhinski \(Lead\), Anup Bagali |
 | Workstations | John Beutner \(Lead\) |
 | Networking | Keegan Lanzillotta \(Lead\), Ryan Kim, Anup Bagali |
@@ -56,6 +56,7 @@ All teams and their responsibilities are [available here](organization.md).
 | Documentation | Ryan Kim \(Lead\) |
 
 ## Workgroups <a id="workgroups"></a>
+
 Workgroups are groups of related teams that work closely together due to the nature of their work.
 
 | Workgroup | Teams |
@@ -64,7 +65,7 @@ Workgroups are groups of related teams that work closely together due to the nat
 | Hardware | Infrastructure, Networking, Printing, Advanced Computing Hardware |
 | Advanced Computing | Advanced Computing Hardware, Cluster, Academic Services |
 
-## Faculty Sponsor  <a id="faculty-sponsor"></a>
+## Faculty Sponsor <a id="faculty-sponsor"></a>
 
 The Sysadmin Faculty Sponsor is Mr. White \(`pewhite`\).
 
@@ -86,6 +87,7 @@ Below is legacy information from Livedoc when it pertains to before the Class of
 {% endhint %}
 
 ### Head Student Systems Administrators
+
 These alumni were head/lead Sysadmins in the Lab in the past.
 
 * Manish Tuteja \(mtuteja\), Class of 1989
@@ -122,6 +124,7 @@ These alumni were head/lead Sysadmins in the Lab in the past.
 * Dylan Jones, Class of 2019
 
 ### Webmasters/Intranet maintainers
+
 These alumni managed a version of Intranet or websites in the past.
 
 * Joanna Yun \(jyun\), Class of 1995
@@ -147,6 +150,7 @@ These alumni managed a version of Intranet or websites in the past.
 * Omkar Kulkarni, Class of 2019
 
 ### Full Student Systems Administrators
+
 These alumni were full-fledged Student Systems Administrator.
 
 * Jon Blocksom \(jblockso\), Class of 1991
@@ -245,12 +249,14 @@ These alumni were full-fledged Student Systems Administrator.
 * Alexander Hayden, Class of 2019
 
 ### Underclassmen Systems Administrators
+
 These alumni were head/lead Sysadmins in the Lab in the past.
 
 * Menelik Yilma \(myilma\), Class of 2000
 * William Tsui \(wtsui\), Class of 2002
 
 ### "Morasca helpers"
+
 These alumni assisted Mr. Morasca with the Lab in the past.
 
 * Davey Dandar \(ddandar\), Class of 1995
@@ -259,6 +265,7 @@ These alumni assisted Mr. Morasca with the Lab in the past.
 * Justin Wienckowski \(jwiencko\), Class of 1998
 
 ### "Legacy lab helpers"
+
 These alumni helped run the lab in the past.
 
 * Vincent Del Vecchio \(vdelvecc\), Class of 1990

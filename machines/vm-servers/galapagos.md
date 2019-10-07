@@ -1,6 +1,6 @@
 # Galapagos
 
-**Galapagos** is a physical server residing in the CSL Machine Room that currently serves [KVM Virtual machines]().
+**Galapagos** is a physical server residing in the CSL Machine Room that currently serves [KVM Virtual machines](../../technologies/virtualization-stack/).
 
 ## Virtual Machines on this Host
 

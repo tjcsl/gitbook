@@ -3,9 +3,10 @@
 At the heart of the mail system is the excellent mail server Postfix. It was chosen over alternatives for its robustness, ease of configuration, and ease of use.
 
 ## Upstream Documentation
-http://www.postfix.org/docs.html contains a variety of how-tos and FAQS. In general, this documentation and reputable resources on the Internet are enough to diagnose any issue with Postfix.
 
-Source code for postfix is available at https://github.com/vdukhovni/postfix.
+[http://www.postfix.org/docs.html](http://www.postfix.org/docs.html) contains a variety of how-tos and FAQS. In general, this documentation and reputable resources on the Internet are enough to diagnose any issue with Postfix.
+
+Source code for postfix is available at [https://github.com/vdukhovni/postfix](https://github.com/vdukhovni/postfix).
 
 ## Configuration
 
@@ -50,10 +51,9 @@ Causes Postfix to reload its configuration files and restart processes nicely.
 Typically the daemon is started and stopped with `systemctl start postfix` and `systemctl stop postfix`.
 
 Other commands of interest include:
+
 * `mailq`, which lists all mail currently stored in the queue. You can also get this list with `postqueue -p`. If you want this list in json, you can run `postqueue -j`.
-
 * `postmap -s`, which allows administrators to view all database elements
-
 * `postalias -s /etc/aliases`, which shows a list of all aliases in `/etc/aliases`
 
 ## Logging

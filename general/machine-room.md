@@ -4,14 +4,15 @@
 This information is imported from Livedoc
 {% endhint %}
 
-### Overview
+## Overview
 
 The **Machine Room** is the isolated glass room in the center of the lab. Most of the essential servers are housed in the Machine Room.
 
-### Structure
-The dimensions of this room are (FILL IN).
+## Structure
 
-### General Machine Room Rules
+The dimensions of this room are \(FILL IN\).
+
+## General Machine Room Rules
 
 In general, sysadmins and faculty are the only people who actually have business in the machine room, and not too many other people. However, if you have guests, students with service requests, or underclassmen working on some project or other, it's okay to make exceptions.
 
