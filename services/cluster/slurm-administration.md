@@ -2,6 +2,8 @@
 
 This page is intended to serve as a guide for Sysadmins who need to administrate the Slurm system running on the HPC cluster. If you're a regular user, this information probably won't be very interesting to you.
 
+Here is a Slurm quickstart from their developers: [https://slurm.schedmd.com/quickstart.html](https://slurm.schedmd.com/quickstart.html)
+
 ## Accounts vs Users
 
 The Slurm accounting system separates the ideas of Accounts and Users, which is slightly confusing at first. When you look at it from the higher-level functioning of Slurm though, these concepts make sense.
@@ -40,4 +42,14 @@ For speed, the cluster uses a separate user storage system than most other publi
 cp -r /etc/skel /cluster/(username)
 chown -R (username) /cluster/(username)
 ```
+
+## Partitions/Nodes
+
+Slurm has a system of partitions that help segment work.
+
+In our setup, we have two partitions \`compute\` and `gpu`.
+
+
+
+
 

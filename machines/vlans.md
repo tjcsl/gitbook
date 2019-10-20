@@ -55,7 +55,7 @@ The following is a list of VLANs and the corresponding address spaces for refere
 
 * Cluster
 * IPv4: 198.38.20.0/25 \(198.38.20.0-198.38.20.127\)
-* IPv4 Gateway: 198.38.20.126 (gateway-2000.csl.tjhsst.edu)
+* IPv4 Gateway: 198.38.20.126 \(gateway-2000.csl.tjhsst.edu\)
 * IPv6: 2001:468:cc0:2000::/64
 * IPv6 Gateway: 2001:468:cc0:2000::/64
 

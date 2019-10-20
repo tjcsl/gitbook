@@ -49,9 +49,9 @@ JOBID  PARTITION   NAME     USER    ST      TIME   NODES  NODELIST(REASON)
 
 ### Creating Programs to Run of the HPC Cluster
 
-The HPC Cluster is comprised of 64-bit CentOS Linux systems. While you can run any old Linux program on the Cluster, to take advantage of the parallel processing capability that the Cluster has, it's _highly_ recommended to make use of a parallel programming interface. If you're taking or have taken Parallel Computing, you will know how to write and compile a program which uses MPI. If you aren't, [http://condor.cc.ku.edu/~grobe/docs/intro-MPI-C.shtml](http://condor.cc.ku.edu/~grobe/docs/intro-MPI-C.shtml) is a good introduction to MPI in C. See below for instructions on running an MPI program on the cluster.
+The HPC Cluster is comprised of 64-bit CentOS Linux or Ubuntu Server systems. While you can run any old Linux program on the Cluster, to take advantage of the parallel processing capability that the Cluster has, it's _highly_ recommended to make use of a parallel programming interface. If you're taking or have taken Parallel Computing, you will know how to write and compile a program which uses MPI. If you aren't, [http://condor.cc.ku.edu/~grobe/docs/intro-MPI-C.shtml](http://condor.cc.ku.edu/~grobe/docs/intro-MPI-C.shtml) is a good introduction to MPI in C. See below for instructions on running an MPI program on the cluster.
 
-When compiling your program, it's best to connect to infosphere \(the login node explained in the section above\), so that your code is compiled in a similar environment to where it will be run. The login node should have all the necessary tools to do so, such as gcc, g++, and mpicc/mpixx.
+When compiling your program, it's best to connect to `infosphere` \(the login node explained in the section above\), so that your code is compiled in a similar environment to where it will be run. The login node should have all the necessary tools to do so, such as gcc, g++, and mpicc/mpixx.
 
 **Important note: You won't be able to run mpicc or other special compilation tools until you load the appropriate programs into your environment. For MPI, the command to do so is** `module load mpi`**.** The reason for this is different compiler systems can conflict with each other, and the module system gives you the flexibility to use whatever compiler you want by loading the appropriate modules.
 
@@ -67,7 +67,7 @@ Salloc allocates resources for a generic job and, by default, creates a shell wi
 
 This is the simplest method, and is probably what you want to start out with. All you have to do is run `srun -n (processes) (path_to_program)`, where `(processes)` is the number of instances of your program that you want to run, and `(path_to_program)` is, you guessed it, the path to the program you want to run. If your program is an MPI program, you should not use `srun`, and instead use the `salloc` method described above.
 
-If your command is successful, you should see "srun: jobid \(x\) submitted". You can check on the status of your job by running `sacct`. You will receive any output of your program to the console. For more resource options, run `man srun` or use the official Slurm documentation.
+If your command is successful, you should see `srun: jobid (x) submitted`. You can check on the status of your job by running `sacct`. You will receive any output of your program to the console. For more resource options, run `man srun` or use the official Slurm documentation.
 
 #### `sbatch`
 

@@ -12,13 +12,13 @@ Do the standard steps to add new entries for a node \(or block of nodes\) to DHC
 
 Also make sure the switches/routers/cables are set up right.
 
-## Install CentOS
+## Install Ubuntu
 
-The preferred method is to use Netboot, but a regular CentOS install stick works as well. If installing from an USB stick make sure your hostname matches the one specified in DNS/DHCP.
+The preferred method is to use Netboot, but a regular Ubuntu install stick works as well. If installing from an USB stick make sure your hostname matches the one specified in DNS/DHCP.
 
 ## Install SSH Server
 
-`yum install openssh openssh-server`. 'Nuf said.
+`apt install openssh-server`. 'Nuf said.
 
 ## Run the Ansible play
 

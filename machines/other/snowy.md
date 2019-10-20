@@ -6,7 +6,7 @@ _THE_ single most powerful machine in the lab. Probably even outpaces the [Clust
 
 | Field | Value |
 | :--- | :--- |
-| **Server Type** | It's a desktop, not a server dummy |
+| **Server Type** | It's a desktop \(a documentation writer's worst nightmare\) |
 | **CPU** | AMD Ryzen Threadripper 1950X 16-Core Processor |
 | **RAM** | 64 GB |
 | **GPU** | 3x NVIDIA RTX 2080 |
@@ -17,7 +17,7 @@ _THE_ single most powerful machine in the lab. Probably even outpaces the [Clust
 
 Snowy was a purchase order as part of Arya Kumar's 2019 Senior Research project. He went through a bunch of different names as the case kept getting delayed in the mail, eventually arriving 3 months late.
 
-Snowy currently lives in Room 202, but we have plans to move it permanently into the Server Room where it can be part of the Cluster.
+Snowy is currently sitting in the HPC rack on top of the HPC nodes. Its ethernet cable comes from the Sun Rack and power is a mess.
 
 ## Trivia
 

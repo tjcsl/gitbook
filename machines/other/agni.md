@@ -1,6 +1,6 @@
 # Agni
 
-**Agni** is a box sitting on the floor in the CSL Machine Room. It is currently the lab's primary [NTP](../../technologies/networking/ntp.md) server.
+**Agni** is a box sitting on the floor in the CSL Machine Room between the Borg/NASA Rack and VM Rack 0. It is currently the lab's primary [NTP](../../technologies/networking/ntp.md) server.
 
 ## Technical Specifications
 
@@ -16,5 +16,5 @@
 
 ## History
 
-Agni was received as a part of the 2008 Sun Academic Excellence Grant and was originally used as an emergency access workstation running Solaris 10 \(it did not rely on Kerberos or AFS\). Later it became the Lab's backup server running OpenSolaris.
+Agni was received as a part of the 2008 Sun Academic Excellence Grant and was originally used as an emergency access workstation running Solaris 10 \(it did not rely on Kerberos or AFS\). Later, it became the Lab's backup server running OpenSolaris. It is now being used as our primary NTP server.
 

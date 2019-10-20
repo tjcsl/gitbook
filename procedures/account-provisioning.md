@@ -2,10 +2,6 @@
 
 Even though we have integrated authentication for accounts, user provisioning still needs to occur in every system independently.
 
-## Windows/Active Directory
-
-The Windows IT staff takes care of this. Sysadmins \(starting with the graduating class of 2006\) are moved into a separate ou \(organizational unit\) before this occurs and will have their accounts preserved, but passwords are still subject to expire annually.
-
 ## Unix accounts
 
 We have a script called `create_user.sh` that provisions all necessary accounts. It takes the username. first name. and last name as the arguments.
