@@ -164,7 +164,7 @@
     * [Duke](machines/other/duke.md)
     * [Snowy](machines/other/snowy.md)
     * [Agni](machines/other/agni.md)
-    * [Pitcairn](machines/other/pitcairn.md)
+    * [Sauron](machines/other/pitcairn.md)
     * [Moon](machines/other/moon.md)
     * [Gandalf](machines/other/gandalf.md)
   * [Switches](machines/switches/README.md)

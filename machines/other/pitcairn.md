@@ -1,6 +1,6 @@
-# Pitcairn
+# Sauron
 
-**Pitcairn** is a physical machine residing in the CSL Machine room. It currently acts as ns1, our main [DNS](../../technologies/networking/dns/) and [DHCP](../../technologies/networking/dhcp.md) server.
+**Sauron** is a physical machine residing in the CSL Machine room. It currently acts as ns1, our main [DNS](../../technologies/networking/dns/) and [DHCP](../../technologies/networking/dhcp.md) server.
 
 ## Technical Specifications
 
@@ -15,5 +15,5 @@
 
 ## History
 
-Pitcairn was previously named Sauron and was one of three servers running VMware ESXi used to host JCIRN.
+Sauron was one of three servers running VMware ESXi used to host JCIRN.
 
