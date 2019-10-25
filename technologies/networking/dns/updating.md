@@ -11,6 +11,9 @@ To update a DNS record, you must go through the following steps:
   * If you are changing RDNS then just do `[record]_rdns`
   * For example, `ion.tjhsst.edu_rdns`
 * Edit the correct zone file \(most likely `tjhsst/tjhsst.edu`\)
+* Bump the serial number. The serial is in the form `YYYYMMDDNN`
+  * The serial should reflect the day of the change and a two digit number indicating the change number on that day. The change number begins with `00` and increments by 1 with every change. This allows up to 100 changes to DNS per day.
+  * **It is important you follow the convention** because otherwise our DNS resolution could fail.
 * Push your branch and verify that the build passes
 * Create a merge request and mark the Lead Sysadmins + Faculty Sponsor as reviewers
 * If your merge request looks good, it will be merged as soon as possible
