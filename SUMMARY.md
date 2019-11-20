@@ -219,6 +219,7 @@
   * [Onboarding](procedures/onboarding/README.md)
     * [New Sysadmin Onboarding](procedures/onboarding/new-sysadmin-onboarding.md)
 * [Guides](guides/README.md)
+  * [VM Creation](guides/vm-creation.md)
   * [sshuttle Usage](guides/using-sshuttle.md)
   * [Linux Wifi Setup](guides/linux-wifi-setup.md)
   * [VNC Usage](guides/how-to-use-vnc.md)
