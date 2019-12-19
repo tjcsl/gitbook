@@ -22,7 +22,7 @@
 
 | Area | Lead\(s\) |
 | :--- | :--- |
-| ​[Ion](../services/ion/)​ | Theo Ouzhinski |
+| ​[Ion](../services/ion/)​ | John Beutner |
 | ​[Director](../services/director/)​ | Theo Ouzhinski |
 | ​[Storage](../technologies/storage/)​ | Theo Ouzhinski |
 | Networking | Keegan Lanzillotta |
@@ -45,7 +45,7 @@ All teams and their responsibilities are [available here](organization.md).
 
 | Team Name | Members |
 | :--- | :--- |
-| Ion | Theo Ouzhinski \(Lead\), John Beutner \(Deputy\), Vikram Raghu, Akash Bhave, Lauren Delwiche |
+| Ion | John Beutner \(Lead\), Theo Ouzhinski \(Lead Emeritus\), Vikram Raghu, Akash Bhave, Lauren Delwiche |
 | Director | Theo Ouzhinski \(Lead\), John Beutner \(Deputy\), Vikram Raghu, Akash Bhave, Lauren Delwiche |
 | TJ Website | Keegan Lanzillotta \(Supervisor\), John Beutner \(Supervisor\), Akash Bhave, Vikram Raghu, Lauren Delwiche |
 | Storage | Theo Ouzhinski \(Lead\), Anup Bagali |
