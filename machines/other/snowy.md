@@ -9,9 +9,9 @@ _THE_ single most powerful machine in the lab. Probably even outpaces the [Clust
 | **Server Type** | It's a desktop \(a documentation writer's worst nightmare\) |
 | **CPU** | AMD Ryzen Threadripper 1950X 16-Core Processor |
 | **RAM** | 64 GB |
-| **GPU** | 3x NVIDIA RTX 2080 |
+| **GPU** | 3x NVIDIA GeForce RTX 2080 |
 | **Hard Disks** | 1TB SSD |
-| **OS** | Ubuntu Desktop 16.04 LTS |
+| **OS** | Ubuntu Desktop 18.04.3 LTS |
 
 ## History
 
