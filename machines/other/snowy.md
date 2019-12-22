@@ -11,7 +11,7 @@ _THE_ single most powerful machine in the lab. Probably even outpaces the [Clust
 | **RAM** | 64 GB |
 | **GPU** | 3x NVIDIA GeForce RTX 2080 |
 | **Hard Disks** | 1TB SSD |
-| **OS** | Ubuntu Desktop 18.04.3 LTS |
+| **OS** | Ubuntu Desktop 18.04 LTS |
 
 ## History
 
@@ -25,4 +25,3 @@ Snowy is currently sitting in the HPC rack on top of the HPC nodes. Its ethernet
 * After completing the build, someone posted a picture of it to [https://old.reddit.com/r/PCMasterRace](https://old.reddit.com/r/PCMasterRace). It quickly amassed 12.3k upvotes.
 * The middle RTX 2080 gets too hot sometimes and thermal throttles. Even with the blower style cards.
 * Nearly everything in the case has RGB LEDs on it, except for the CPU.
-
