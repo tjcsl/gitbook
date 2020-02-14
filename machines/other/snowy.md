@@ -10,6 +10,7 @@ _THE_ single most powerful machine in the lab. Probably even outpaces the [Clust
 | **CPU** | AMD Ryzen Threadripper 1950X 16-Core Processor |
 | **RAM** | 64 GB |
 | **GPU** | 3x NVIDIA GeForce RTX 2080 |
+| **Networking** | Ethernet must be connected to the topmost Ethernet port |
 | **Hard Disks** | 1TB SSD |
 | **OS** | Ubuntu Desktop 18.04 LTS |
 
@@ -25,3 +26,5 @@ Snowy is currently sitting in the HPC rack on top of the HPC nodes. Its ethernet
 * After completing the build, someone posted a picture of it to [https://old.reddit.com/r/PCMasterRace](https://old.reddit.com/r/PCMasterRace). It quickly amassed 12.3k upvotes.
 * The middle RTX 2080 gets too hot sometimes and thermal throttles. Even with the blower style cards.
 * Nearly everything in the case has RGB LEDs on it, except for the CPU.
+* The Cluster lead wanted the Ethernet port information to be put here.
+
