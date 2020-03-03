@@ -2,15 +2,6 @@
 
 **Cocos** is a physical server residing in the CSL Machine Room that currently serves [KVM Virtual machines](../../technologies/virtualization-stack/).
 
-## Virtual Machines on this Host
-
-| Machine |  |
-| :--- | :--- |
-| openldap1 |  |
-| director |  |
-| postgres1 |  |
-| openafs5 |  |
-
 ## Technical Specifications
 
 | **Field** | Value |

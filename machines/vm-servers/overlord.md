@@ -2,12 +2,6 @@
 
 **Overlord** is a physical server residing in the CSL Machine Room that will serve [KVM Virtual machines](../../technologies/virtualization-stack/).
 
-## Virtual Machines on this Host
-
-| Machine |  |
-| :--- | :--- |
-| None |  |
-
 ## Technical Specifications
 
 | **Field** | Value |

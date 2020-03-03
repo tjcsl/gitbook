@@ -2,15 +2,6 @@
 
 **Gorgona** is a physical server residing in the CSL Machine Room that currently serves [KVM Virtual machines](../../technologies/virtualization-stack/).
 
-## Virtual Machines on this Host
-
-| Machine |  |
-| :--- | :--- |
-| casey |  |
-| openafs1 |  |
-| steeltoe |  |
-| ras2 |  |
-
 ## Technical Specifications
 
 | **Field** | Value |

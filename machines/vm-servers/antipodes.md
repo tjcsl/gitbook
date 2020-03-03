@@ -2,15 +2,6 @@
 
 **Antipodes** is a physical server residing in the CSL Machine Room that currently serves [KVM Virtual machines](../../technologies/virtualization-stack/).
 
-## Virtual Machines on this Host
-
-| Machine |
-| :--- |
-| ras1 |
-| openafs3 |
-| cups2 |
-| mysql1 |
-
 ## Technical Specifications
 
 | Field | Value |
