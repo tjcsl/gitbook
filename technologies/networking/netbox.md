@@ -57,5 +57,8 @@ Using netbox is pretty straightforward; navigating through the web page is prett
     4. Finally, when the `interface` is created, scroll to the bottom of the `device`'s overview page and click the green "+" box and add an `ip` there.
 
 It is **much** easier to mass create devices through netbox's API, available at [https://netbox.tjhsst.edu/api](https://netbox.tjhsst.edu/api).  
-In order to use the API, however, you must first create an API token [here](https://netbox.tjhsst.edu/user/api-tokens/).
+In order to use the API, however, you must first create an API token [here](https://netbox.tjhsst.edu/user/api-tokens/).  
+
+
+Some \(messy\) scripts that were used to bulk create the `borg` devices and workstations are available at [https://gitlab.tjhsst.edu/sysadmins/docs/netbox-scripts.git](https://gitlab.tjhsst.edu/sysadmins/docs/netbox-scripts.git)
 
