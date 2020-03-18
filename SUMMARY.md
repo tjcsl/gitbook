@@ -111,6 +111,7 @@
     * [MPI](technologies/advanced-computing/mpi.md)
     * [Tensorflow](technologies/advanced-computing/tensorflow.md)
   * [Networking](technologies/networking/README.md)
+    * [Netbox](technologies/networking/netbox.md)
     * [Cisco](technologies/networking/cisco.md)
     * [OpenVPN](technologies/networking/openvpn.md)
     * [Netboot](technologies/networking/netboot.md)
