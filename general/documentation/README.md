@@ -23,7 +23,7 @@ The CSL's documentation is organized into five main sections:
 There are two ways to contribute to the GitBook documentation:
 
 * tjcsl.gitbook.io
-  * This is the preferred  Ask a GitBook admin for an invite link on Mattermost if you don't have one.
+  * This is the preferred  Ask a GitBook admin for an invite link on Slack if you don't have one.
 * GitHub
   * You can open up a pull request to change the documentation.  It will be synced to GitBook once it is merged into master.
 

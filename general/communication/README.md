@@ -2,107 +2,58 @@
 
 ## Overview
 
-Communication is important to the effective functioning of the Lab. We use Mattermost as our primary form of communication within the Sysadmins. Communication through e-mail is used to communicate with various stakeholders in the TJ community. IRC is used as a fallback form of communication in the event Slack is down. Sending mass notifications to the whole school is done through Ion announcements.
-
-Communication is important to the effective functioning of the Lab. We use Mattermost as our primary form of communication within the Sysadmins. Communication through e-mail is used to communicate with various stakeholders in the TJ community. IRC is used as a fallback form of communication in the event Slack is down. Sending mass notifications to the whole school is done through Ion announcements.
-
-## Mattermost
-
-## Mattermost
-
-Mattermost \([https://mattermost.com](https://mattermost.com)\) is open source software for team collaboration. It bills itself as a "Slack alternative".
-
-Mattermost \([https://mattermost.com](https://mattermost.com)\) is open source software for team collaboration. It bills itself as a "Slack alternative".
-
-In informal conversation, we may use "Mmost".
-
-In informal conversation, we may use "Mmost".
-
-### Best Practices
-
-### Best Practices
-
-* Keep conversations in relevant channels.
-  * Don't talk about account recovery in the Signage channel, etc.
-* Don't spam.
-  * Don't make people annoyed with notifications from a channel to the point where they mute the channel.
-* Use proper etiquette and be respectful.
-  * There is no need to be disrespectful in the Mattermost channels.
-* Keep private conversations in DM.
-  * Don't pollute channels with unnecessary messages that could just be communicated directly.
-* Use emotes to react to messages.
-  * This reduces overall clutter and makes it easier to find stuff.
-* Keep conversations in relevant channels.
-  * Don't talk about account recovery in the Signage channel, etc.
-* Don't spam.
-  * Don't make people annoyed with notifications from a channel to the point where they mute the channel.
-* Use proper etiquette and be respectful.
-  * There is no need to be disrespectful in the Mattermost channels.
-* Keep private conversations in DM.
-  * Don't pollute channels with unnecessary messages that could just be communicated directly.
-* Use emotes to react to messages.
-  * This reduces overall clutter and makes it easier to find stuff.
-
-### Channels
-
-### Channels
-
-Conversations in Mattermost are organized into public and private channels. You can join a public channel by clicking on the`+` icon. Private \(invite-only\) channels require an invite from someone within the channel. Use invite-only channels for sensitive or non-public discussions.
-
-Conversations in Mattermost are organized into public and private channels. You can join a public channel by clicking on the`+` icon. Private \(invite-only\) channels require an invite from someone within the channel. Use invite-only channels for sensitive or non-public discussions.
-
-Some channels include:
-
-Some channels include:
-
-* \#general: For general discussions
-* \#random: For random discussions
-* \#ion: For discussion of Ion
-* \#director: For discussion of Director
-* \#sysadmins \(private\): For internal Sysadmin-only discussions
-* \#notifications \(private\): For 
-* and other channels
-* \#general: For general discussions
-* \#random: For random discussions
-* \#ion: For discussion of Ion
-* \#director: For discussion of Director
-* \#sysadmins \(private\): For internal Sysadmin-only discussions
-* \#notifications \(private\): For 
-* and other channels
-
-### Roles
-
-### Roles
-
-System admins have full administrative access to the Mattermost server. The Lead Sysadmins and Faculty Sponsor should be system admins and should designate other system admins they find necessary.
-
-System admins have full administrative access to the Mattermost server. The Lead Sysadmins and Faculty Sponsor should be system admins and should designate other system admins they find necessary.
-
-Server members can join, write, and read in public channels. They can also join, write, and read in invite-only channels. They can also create new public or invite-only channels.
-
-Server members can join, write, and read in public channels. They can also join, write, and read in invite-only channels. They can also create new public or invite-only channels.
-
-The workspace membership should be restricted to people with an `@tjhsst.edu` e-mail.
-
-The workspace membership should be restricted to people with an `@tjhsst.edu` e-mail.
-
-## Slack
+Communication is important to the effective functioning of the Lab. We use Slack as our primary form of communication within the Sysadmins. Communication through e-mail is used to communicate with various stakeholders in the TJ community. IRC is used as a fallback form of communication in the event Slack is down. Sending mass notifications to the whole school is done through Ion announcements.
 
 ## Slack
 
 Slack \([https://slack.com](https://slack.com)\) is a proprietary set of tools for team collaboration. It offers various integration with different services. We have a workspace at [https://tjcsl.slack.com](https://tjcsl.slack.com). The CSL's first widespread use of the Slack workspace began in August of 2018. Slack became the official form of communication under the direction of Omkar Kulkarni.
 
-### Roles
+### Channels
+
+Conversations in Slack are organized into public and private channels. You can join a public channel by clicking on the`+` icon. Private \(invite-only\) channels require an invite from someone within the channel. Use invite-only channels for sensitive or non-public discussions.
+
+Some channels include:
+
+* \#general: For general discussions
+* \#random: For random discussions
+* \#ion: For discussion of Ion
+* \#director: For discussion of Director
+* \#sysadmins \(private\): For internal Sysadmin-only discussions
+* \#notifications \(private\): For 
+* and other channels
+
+### Applications
+
+Workspace members can add applications to the channels to improve the workflow of the Sysadmins. Some examples of integrated applications include:
+
+* Sentry: Notifies Sysadmins of errors/events on web applications
+
+{% page-ref page="../../technologies/monitoring/sentry.md" %}
+
+* Uptime Robot: Notifies Sysadmins of downtime on critical public-facing CSL maintained webpages
+
+{% page-ref page="../../technologies/monitoring/uptime-robot.md" %}
+
+### Best Practices
+
+* Keep conversations in relevant channels.
+  * Don't talk about account recovery in the Signage channel, etc.
+* Don't spam.
+  * Don't make people annoyed with notifications from a channel to the point where they mute the channel.
+* Use proper etiquette and be respectful.
+  * There is no need to be disrespectful in the Slack channels.
+* Keep private conversations in DM.
+  * Don't pollute channels with unnecessary messages that could just be communicated directly.
+* Use emotes to react to messages.
+  * This reduces overall clutter and makes it easier to find stuff.
 
 ### Roles
 
-The Faculty Sponsor should be "Primary Owner".
+Workspace owners have full administrative access to the workspace. The owners can remove members and change workspace settings. The lead Sysadmin\(s\) and Faculty Sponsor should be owners and should designate other owners they find necessary. The Faculty Sponsor should be "Primary Owner".
 
-The Faculty Sponsor should be "Primary Owner".
+Workspace members can join, write, and read in public channels.. They can also join, write, and read in invite-only channels. They can also create new public or invite-only channels.
 
-### 
-
-### 
+The workspace membership should be restricted to people with an `@tjhsst.edu` e-mail.
 
 ## E-mail
 

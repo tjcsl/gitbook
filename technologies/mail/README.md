@@ -16,9 +16,7 @@ When mail is first received by the mail system, it is processed by postfix. If b
 
 ## Authentication/Authorization
 
-Authentication is handled by the kerberos PAM module, similar to most other systems in the lab. Dovecot is configured to user PAM.
-
-Instead of using the Lab's LDAP tree for user information, account information is stored locally on each server in the form of standard UNIX accounts. A mail management script, described below, synchronizes the AD user information with the local UNIX accounts. The UID for the local UNIX account is a hash of the username. This allows each server to run the mail synchronization script independently and not worry about UID conflicts on the shared NFS storage.
+Authentication is handled as described in our [runbooks](../../general/documentation/runbooks.md).
 
 ## Postfix
 
@@ -58,43 +56,11 @@ Very little needs to be done to Amavis to get it running besides making sure tha
 
 Logging information is sent to syslog, which typically appends it to /var/log/mail.log. In this will be indicated whether the emails passed or were infected, and in the case of the latter, which virus/ii were involved.
 
-## Mailman
-
-E-mail distribution lists are provided on the domain lists.tjhsst.edu by Mailman, a highly popular software package. Most list administration takes place through an easy online interface at [https://lists.tjhsst.edu/](https://lists.tjhsst.edu/), though many functions are also available through email, such as list subscription and some message handling.
-
-### Configuration
-
-Configuration for this software package is minimal; the main parameters that must be specified are the urls and domains to be used. A modified version of the main postfix+amavisd-new configuration files are used. Integration with Postfix is achieved through the postfix-to-mailman.py script, which provides the necessary functionality.
-
-### Running
-
-Postfix pipes any email with a destination of lists.tjhsst.edu to this script, which runs the necessary Mailman commands to deliver the email. Mailman, of course, ends up sending mails back to Postfix, destined for the actual recipients. Postfix will then deliver these mails to the mail mail systems or forward them to the appropriate mail server.
-
-A few daemons must be running for Mailman to function properly. The first is `qrunner`, which processes any mail in Mailman's queue. If this is not running, e-mails to lists will be added to the queue but will never be delivered to recipients. This is started by the mailman init script. The other necessary daemon is `apache`, which provides the necessary online interface for list administration.
-
 ## Dovecot
 
 {% page-ref page="dovecot.md" %}
 
-## Account Management
-
-See [Account provisioning](https://github.com/tjcsl/gitbook/tree/b18eaea16346c14456040c32aa7980539eedfbc2/guides/account-provisioning.md) for information on running the synchronization script.
-
-The `mail.py` script is a python script responsible for syncing the local user information with the Active Directory user database. This script should be run on all mail servers, even though there is a common file storage.
-
-Users are stored in groups in AD according to whether a mail account is required and the desired quota. This information is compared to a local user database, `/etc/mailmanage/users`, a CSV file that lists all mail users past and present. Users in AD that are not in the local database will have accounts created. Users in the local database but not in AD will have their account disabled unless an override is specified. Currently it is necessary to edit this file directly to override a quota or keep an account enabled.
-
-CSV fields:
-
-1. The username
-2. The quota, before the multiplication value is taken into effect
-3. Source of the user account
-   * There are two values: ldap and override. A ldap source means the user comes from ldap and user attributes should be overridden on sync. A type of override means the local values should not be replace by those in AD. This is useful for overriding quotas or keeping accounts enabled that would otherwise be disabled.
-4. Enabled/disabled state
-
-The script is commented, so its internal workings will not be copied here. However, of particular note is the `perform_actions` variable at the top of the parameters section of the script. This variable should be set to 0 for an initial test run, in order to perform a sanity check of the output. The script will print all actions it will perform, including exact commands that it will run. Setting this variable to 1 will result in the script actually running these commands.
-
 ## Storage
 
-They're stored somewhere, that's for sure. During the \[\[Cephpocalypse\]\] they were put in local storage on Casey. If you happen to know where all the mail files are stored now, please help by filling this section out!
+Mail is stored as described in our [runbooks](../../general/documentation/runbooks.md).
 
