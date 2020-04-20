@@ -22,9 +22,13 @@ Instead of using the Lab's LDAP tree for user information, account information i
 
 ## Postfix
 
+{% page-ref page="postfix.md" %}
+
 ## Amavis
 
 Amavisd-new is used to scan all incoming and outgoing mail for virii and spam. It serves as an interface between the MTA, Postfix, and the various scanning utilities: Clam Antivirus for virus protection, and SpamAssassin for spam detection.
+
+When Postfix receives mail on port 25, it is passed to Amavis for screening on port 10024, and is re-injected into Postfix on port 10025 for final delivery.
 
 ### Clam Antivirus
 
@@ -36,13 +40,21 @@ The virus definitions are updated about five times a day off the Internet throug
 
 SpamAssassin is used to scan all mail coming into the lab for its likelihood of spam, and all messages are given points for certain key phrases that are common in spam. With our configuration, very little user-level configuration is available. Additional rule files have been added under /etc/spamassassin/. SpamAssassin can be run as a daemon, but the mail system is configured to use the spamassassin tool directly.
 
+SpamAssassin can be trained - move spam mails to a folder and ham mails to another folder \(or keep them in Inbox\) and, for instance:
+
+```text
+sa-learn --no-sync --progress --spam /mail/[USERNAME]/Maildir/.Junk/{cur,new}
+sa-learn --no-sync --progress --ham /mail/[USERNAME]/Maildir/{cur,new}
+sa-learn --sync
+```
+
 ### Configuration
 
 Configuration of Amavis is relatively simple and commented well, thus its configuration file will not be repeated here. Virtually all configuration is found in the files in /etc/amavis/conf.d/. Files are processed in order.
 
 ### Running
 
-Very little needs to be done to Amavis to get it running besides making sure that all necessary daemons are running, specifically clamd, freshclam, and amavisd-new. When Amavis receives a new mail on its socket, it will pass it through the virus scanner and then either discard the email or approve it and add an email header that indicates it was passed. It will then run the email through SpamAssassin and add any necessary headers indicating spam level. No spam will automatically be discarded; it is up to the user to filter as s/he wishes. Dovecot will automatically put spam in a spam folder.
+Very little needs to be done to Amavis to get it running besides making sure that all necessary daemons are running, specifically clamd, freshclam, and amavisd-new. When Amavis receives a new mail on its socket, it will pass it through the virus scanner and then either discard the email or approve it and add an email header that indicates it was passed. It will then run the email through SpamAssassin and add any necessary headers indicating spam level. Currently, Amavis is configured to drop mail that was flagged as infected by ClamAV and deliver mail that have bad headers or have been flagged as spam by SpamAssassin \(to a spam folder, but that is handled by Dovecot\). Regardless, if there is any flag on the message, the message is copied to `/var/virusmails`.
 
 Logging information is sent to syslog, which typically appends it to /var/log/mail.log. In this will be indicated whether the emails passed or were infected, and in the case of the latter, which virus/ii were involved.
 
@@ -61,6 +73,8 @@ Postfix pipes any email with a destination of lists.tjhsst.edu to this script, w
 A few daemons must be running for Mailman to function properly. The first is `qrunner`, which processes any mail in Mailman's queue. If this is not running, e-mails to lists will be added to the queue but will never be delivered to recipients. This is started by the mailman init script. The other necessary daemon is `apache`, which provides the necessary online interface for list administration.
 
 ## Dovecot
+
+{% page-ref page="dovecot.md" %}
 
 ## Account Management
 

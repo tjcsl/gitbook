@@ -8,3 +8,7 @@ The Dovecot documentation can be found at [https://www.dovecot.org/documentation
 
 Source code for Dovecot can be found [on GitHub](https://github.com/dovecot/core).
 
+### Spam Message Processing
+
+There is a sieve rule `/var/lib/dovecot/sieve/spam.sieve` which files mail that has been tagged as spam by Spamassassin or tagged as "bad header" by Amavis into a Junk folder.
+
