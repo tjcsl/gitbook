@@ -18,17 +18,20 @@ Source: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-s
 
 Add the following lines to `/etc/bind/named.conf.options` within the `options` block:
 
-{% code title="/etc/bind/named.conf.options \(excerpt\)" %}
+{% code-tabs %}
+{% code-tabs-item title="/etc/bind/named.conf.options \(excerpt\)" %}
 ```text
 dnssec-enable yes;
 dnssec-validation yes;
 dnssec-lookaside auto;
 ```
-{% endcode %}
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 Run `/etc/bind/generate_production_keys.sh`
 
-{% code title="generate\_production\_keys.sh" %}
+{% code-tabs %}
+{% code-tabs-item title="generate\_production\_keys.sh" %}
 ```bash
 #!/bin/bash
 # Keegan Lanzillotta, Oct. 2018 -- based on generate_testing_keys.sh
@@ -47,7 +50,8 @@ for f in tjhsst/tjhsst.edu tjhsst/revpub/*.arpa; do
     dnssec-signzone -S -K keys/$zone -o $zone $f
 done
 ```
-{% endcode %}
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 This generates a Key Signing Key \(KSK\) keypair on line `13` and Zone Signing Key \(ZSK\) keypair on line `14` for each zone \(`tjhsst/tjhsst.edu` and `tjhsst/revpub/*.arpa`\). Line `15` then signs the Zone file, producing a `*.signed` file for each zone.
 
@@ -65,7 +69,8 @@ total 1.9M
 
 These `*.signed` files contain RRSIG records. We need to tell BIND to serve these records. To do this, edit `/etc/bind/tjhsst.conf` and change the `file` attribute for each zone to point to the signed file. For 
 
-{% code title="example:/etc/bind/tjhsst.conf \(old\)" %}
+{% code-tabs %}
+{% code-tabs-item title="example:/etc/bind/tjhsst.conf \(old\)" %}
 ```text
 zone "tjhsst.edu" {
     type master;
@@ -73,9 +78,11 @@ zone "tjhsst.edu" {
     allow-query { any; };
 }
 ```
-{% endcode %}
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
-{% code title="/etc/bind/tjhsst.conf \(new\)" %}
+{% code-tabs %}
+{% code-tabs-item title="/etc/bind/tjhsst.conf \(new\)" %}
 ```text
 zone "tjhsst.edu" {
     type master;
@@ -83,7 +90,8 @@ zone "tjhsst.edu" {
     allow-query { any; };
 }
 ```
-{% endcode %}
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 Run `rndc reload` to load the edited configuration. To confirm that the RRSIG records are being served properly, `dig A ion.tjhsst.edu. @localhost +dnssec +multiline`. The output's `;; ANSWER SECTION` should contain a `RRSIG` record response below the `A` record response.
 
@@ -99,12 +107,14 @@ This step only applies to the tjhsst.edu zone, because the other zones are not r
 
 When `/etc/bind/generate_production_keys.sh` ran, `dnssec-signzone` created files called `dsset-*` in `/etc/bind/`. The only one we need is `/etc/bind/dnsset-tjhsst.edu.`
 
-{% code title="/etc/bind/dnsset-tjhsst.edu." %}
+{% code-tabs %}
+{% code-tabs-item title="/etc/bind/dnsset-tjhsst.edu." %}
 ```text
 tjhsst.edu.		IN DS 8092 8 1 0FFA63442D1158C84D789D1D612E78100B86B616
 tjhsst.edu.		IN DS 8092 8 2 7EDA9DB2804E4D0F17E7C66C526234624F6D1755D127EC2C05F97A89 2502A010
 ```
-{% endcode %}
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 These are the DS records for `tjhsst.edu`, and they need to be sent to the domain registrar to establish the trust tree.
 
