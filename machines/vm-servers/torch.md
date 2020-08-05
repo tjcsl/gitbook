@@ -6,8 +6,8 @@
 
 | **Field** | Value |
 | :--- | :--- |
-| **Server Type** |  |
-| **CPU** |  |
+| **Server Type** | HP ProLiant DL385 Gen10 |
+| **CPU** | AMD EPYC 7301 16-Core Processor |
 | **RAM** |  |
 | **Hard Disks** |  |
 | **OS** | Ubuntu 18.04 |
