@@ -44,7 +44,9 @@ To manage your Vagrant box, you should use the following commands:
     </tr>
   </thead>
   <tbody></tbody>
-</table>To manage the Vagrant box within the box, you should use the following commands:
+</table>
+
+To manage the Vagrant box within the box, you should use the following commands:
 
 | Command | Description |
 | :--- | :--- |

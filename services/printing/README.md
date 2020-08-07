@@ -31,5 +31,5 @@ Each workstations uses the CUPS server at `cups2.csl.tjhsst.edu` to manage jobs 
 
 ## Abuse Protection
 
-Jobs are limited to 15 pages. Abuse of printing privileges may result in appropriate punishment as determined by the Faculty Sponsor and lead Sysadmins.
+Jobs are limited to 10 pages. Abuse of printing privileges may result in appropriate punishment as determined by the Faculty Sponsor and lead Sysadmins.
 

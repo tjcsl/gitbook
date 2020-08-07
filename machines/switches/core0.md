@@ -34,7 +34,9 @@ One important consideration when connecting systems to Core0 is that each module
       <td style="text-align:left">Spring 2008</td>
     </tr>
   </tbody>
-</table>## History
+</table>
+
+## History
 
 Core0 replaced an older Cisco 4006 switch running in hybrid mode \(CatOS on the SP and IOS on the RP\) as the core switch and router for the CSL. While it was being installed, a fire alarm went off; interrupting the install.
 

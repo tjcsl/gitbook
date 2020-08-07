@@ -8,5 +8,5 @@
 * TJ Website
 * Webmail
 
-Our status page is at [https://status.tjhsst.edu/](https://status.tjhsst.edu/).  We get notified by Uptime Robot on Slack if services go down \(based on a check conducted every five minutes\).
+Our status page is at [https://status.tjhsst.edu/](https://status.tjhsst.edu/).  We get notified by Uptime Robot on Mattermost if services go down \(based on a check conducted every five minutes\).
 
