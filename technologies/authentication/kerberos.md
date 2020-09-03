@@ -36,9 +36,7 @@ In fall 2018, Cross-realm authentication was temporarily removed altogether due 
 
 ### `/etc/krb5.conf`
 
-This is the primary configuration file for a kerberos client. On Solaris systems, this file is located at `/etc/krb5/krb5.conf`. On OpenBSD systems, this file is located at `/etc/kerberosV/krb5.conf`.
-
-Add or modify the following lines in the `[libdefaults]` section. This will set the default realm of the system to CSL.TJHSST.EDU and set a bunch of other desirable options. \(someone want to explain more idk why most of these are here\)
+This is the primary configuration file for a Kerberos clients.
 
 ```text
 [libdefaults]
@@ -48,42 +46,20 @@ Add or modify the following lines in the `[libdefaults]` section. This will set 
     dns_lookup_realm = true
     dns_lookup_kdc = true
     udp_preference_limit = 1
-```
+    allow_weak_crypto = false
+    supported_enctypes = aes256-cts-hmac-sha1-96:normal aes128-cts-hmac-sha1-96:normal
 
-Add the following lines to the `[realms]` section to allow the clients to find the KDCs for each server.
-
-```text
 [realms]
     CSL.TJHSST.EDU = {
-        admin_server = kerberos.tjhsst.edu
-        auth_to_local = RULE:[1:$1@$0](^.*@LOCAL\.TJHSST\.EDU$)s/@.*$//
-        auth_to_local =  DEFAULT
+            admin_server = kerberos.tjhsst.edu
+            kdc = kerberos.tjhsst.edu
     }
-    LOCAL.TJHSST.EDU = {
-        kdc = tj07.local.tjhsst.edu
-        kdc = tjvdc1.local.tjhsst.edu
-    }
-```
 
-Add the following lines to the `[domain_realm]` section to allow clients to map DNS names to kerberos realms.
-
-```text
 [domain_realm]
     tjhsst.edu = CSL.TJHSST.EDU
     .tjhsst.edu = CSL.TJHSST.EDU
     csl.tjhsst.edu = CSL.TJHSST.EDU
     .csl.tjhsst.edu = CSL.TJHSST.EDU
-    local.tjhsst.edu = LOCAL.TJHSST.EDU
-    .local.tjhsst.edu = LOCAL.TJHSST.EDU
-```
-
-Add the following to the `[appdefaults]` section so that the pam\_krb5 module will not attempt to authenticate system accounts.
-
-```text
-[appdefaults]
-    pam = {
-        minimum_uid = 1000
-    }
 ```
 
 ### `/etc/krb5.keytab`
