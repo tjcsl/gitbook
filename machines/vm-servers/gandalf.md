@@ -8,7 +8,7 @@
 | :--- | :--- |
 | **Server Type** | HP Proliant DL380 G6 |
 | **CPU** | 2x Intel Xeon E5540 Hexa-Core @ 2.53 GHz |
-| **RAM** | 24 GB |
+| **RAM** | 70 GB |
 | **Hard Disks** | 2x 146GB 2.5in 15K SAS, RAID 1 |
 | **OS** | Ubuntu 20.04 |
 | **Purchase Date** | Unknown |
