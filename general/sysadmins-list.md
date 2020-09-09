@@ -17,6 +17,11 @@
 | Ethan Nguyen | 2021enguyen | Monitoring Team Member |
 | Shreyas Mayya | 2022smayya | Monitoring Team Member |
 | Lauren Delwiche | 2022ldelwich | Web Team Member |
+| Raffu Khondaker | 2022rkhondak | TBD |
+| Darius Kianersi | 2022dkianersi | TBD |
+| Rushil Umaretiya | 2023rumareti | TBD |
+| Nathaniel Kenschaft | 2023nkenscha | TBD |
+| Praneeth Bhandaru | 2023pbhandar | TBD |
 
 ## Current Leads <a id="current-leads"></a>
 
