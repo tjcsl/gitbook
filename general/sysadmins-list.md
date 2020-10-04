@@ -4,19 +4,15 @@
 
 | Name | Username | Position |
 | :--- | :--- | :--- |
-| Theo Ouzhinski | 2020touzhins | Lead Sysadmin & Infrastructure Lead |
-| Keegan Lanzillotta | 2020klanzill | Lead Sysadmin |
-| John Beutner | 2020jbeutner | Academic Services/Workstations/Signage Lead |
-| Parthiv Chigurupati | 2020pchiguru | Advanced Computing Hardware Lead |
+| Ethan Nguyen | 2021enguyen | Lead Sysadmin & Infrastructure Lead |
+| Anup Bagali | 2021abagali | Lead Sysadmin  |
 | Akash Bhave | 2021abhave | Web Team Member |
 | Alexander Black | 2021ablack | Printing Lead/Cluster Co-Lead |
 | Ryan Kim | 2021rkim | Documentation Lead/Networking Team Member |
 | Vikram Raghu | 2021vraghu | Web Team Member |
 | Shreepa Parthaje | 2021sparthaj | Cluster Co-Lead |
-| Anup Bagali | 2021abagali | Networking Team Member/Monitoring Team Member |
-| Ethan Nguyen | 2021enguyen | Monitoring Team Member |
 | Shreyas Mayya | 2022smayya | Monitoring Team Member |
-| Lauren Delwiche | 2022ldelwich | Web Team Member |
+| Lauren Delwiche | 2022ldelwich | Ion Lead |
 | Raffu Khondaker | 2022rkhondak | TBD |
 | Darius Kianersi | 2022dkianersi | TBD |
 | Rushil Umaretiya | 2023rumareti | TBD |
@@ -27,21 +23,21 @@
 
 | Area | Lead\(s\) |
 | :--- | :--- |
-| ​[Ion](../services/ion/)​ | John Beutner |
-| ​[Director](../services/director/)​ | Theo Ouzhinski |
-| ​[Storage](../technologies/storage/)​ | Theo Ouzhinski |
-| Networking | Keegan Lanzillotta |
-| ​[Workstations](../services/workstations.md)​ | John Beutner |
-| ​[Cluster](../services/cluster/)​ | Alexander Black/Shreepa Parthaje |
-| ​[Web Content/WWW](../services/www/)​ | Keegan Lanzillotta |
-| ​[Signage](../services/signage/)​ | John Beutner |
+| ​[Ion](../services/ion/)​ | Lauren Delwiche |
+| ​[Director](../services/director/)​ | Ethan Nguyen |
+| ​[Storage](../technologies/storage/)​ | Ethan Nguyen |
+| Networking | Ryan Kim |
+| ​[Workstations](../services/workstations.md)​ | Shreyas Mayya |
+| ​[Cluster](../services/cluster/)​ | Anup Bagali |
+| ​[Web Content/WWW](../services/www/)​ | Anup Bagali |
+| ​[Signage](../services/signage/)​ | Anup Bagali |
 | ​[Documentation](documentation/)​ | Ryan Kim |
-| Security | Theo Ouzhinski |
+| Security | Anup Bagali |
 | Automation | Theo Ouzhinski |
 | Advanced Computing Hardware | Parthiv Chigurupati |
 | ​[Printing](../services/printing/)​ | Alexander Black |
-| Monitoring | TBD |
-| Academic Services | John Beutner |
+| Monitoring | Shreyas Mayya |
+| Academic Services | Anup Bagali |
 | Understudy | Alexander Black |
 
 ## Team Membership <a id="teams"></a>
@@ -50,14 +46,13 @@ All teams and their responsibilities are [available here](organization.md).
 
 | Team Name | Members |
 | :--- | :--- |
-| Ion | John Beutner \(Lead\), Theo Ouzhinski \(Lead Emeritus\), Vikram Raghu, Akash Bhave, Lauren Delwiche |
-| Director | Theo Ouzhinski \(Lead\), John Beutner \(Deputy\), Vikram Raghu, Akash Bhave, Lauren Delwiche |
-| TJ Website | Keegan Lanzillotta \(Supervisor\), John Beutner \(Supervisor\), Akash Bhave, Vikram Raghu, Lauren Delwiche |
-| Storage | Theo Ouzhinski \(Lead\), Anup Bagali |
-| Workstations | John Beutner \(Lead\) |
-| Networking | Keegan Lanzillotta \(Lead\), Ryan Kim, Anup Bagali |
-| Monitoring | Theo Ouzhinski \(Interim Lead\), Anup Bagali, Shreyas Mayya, Ethan Nguyen |
-| Cluster | Alexander Black \(Co-Lead\), Shreepa Parthaje \(Co-Lead\), Ethan Nguyen \(Deputy\) |
+| Ion | Lauren Delwiche \(Lead\), Theo Ouzhinski \(Lead Emeritus\), Vikram Raghu, Akash Bhave,  |
+| Director | Ethan Nguyen\(Lead\), Anup Bagali\(Deputy\), Vikram Raghu, Akash Bhave, Lauren Delwiche |
+| Storage | Lauren Delwiche \(Lead\), Anup Bagali |
+| Workstations | Shreyas Mayya \(Lead\) |
+| Networking | Ryan Kim \(Lead\), Anup Bagali |
+| Monitoring | Shreyas Mayya \(Lead\) |
+| Cluster | Anup Bagali \(Lead\) Alexander Black \(Co-Lead\), Shreepa Parthaje \(Co-Lead\) |
 | Documentation | Ryan Kim \(Lead\) |
 
 ## Workgroups <a id="workgroups"></a>
@@ -78,12 +73,12 @@ The Sysadmin Faculty Sponsor is Mr. White \(`pewhite`\).
 
 | Group | POC |
 | :--- | :--- |
-| Eighth Period Office | Theo Ouzhinski |
-| SGA \(Elections\) | Theo Ouzhinski |
-| SGA \(Other Matters\) | Keegan Lanzillotta |
-| Security Office | Keegan Lanzillotta |
-| Web Development Classes | Theo Ouzhinski |
-| CSL Lab Directors | [Mr. White](sysadmins-list.md#faculty-sponsor)/Theo Ouzhinski |
+| Eighth Period Office | Ethan Nguyen |
+| SGA \(Elections\) | Ethan Nguyen |
+| SGA \(Other Matters\) | Ethan Nguyen |
+| Security Office | Anup Bagali |
+| Web Development Classes | Anup Bagali |
+| CSL Lab Directors | [Dr. White](sysadmins-list.md#faculty-sponsor) |
 
 ## Previous Student Systems Administrators
 
@@ -127,6 +122,9 @@ These alumni were head/lead Sysadmins in the Lab in the past.
 * Samuel Damashek, Class of 2017
 * Omkar Kulkarni, Class of 2019
 * Dylan Jones, Class of 2019
+* Theo Ouzhinski, Class of 2020
+* John Beutner, Class of 2020
+* Keegan Lanzillotta, Class of 2020
 
 ### Webmasters/Intranet maintainers
 
@@ -153,6 +151,8 @@ These alumni managed a version of Intranet or websites in the past.
 * James Houghton, Class of 2017
 * Naitian Zhou, Class of 2018
 * Omkar Kulkarni, Class of 2019
+* Theo Ouzhinski, Class of 2020
+  * John Beutner, Class of 2020
 
 ### Full Student Systems Administrators
 
@@ -252,6 +252,7 @@ These alumni were full-fledged Student Systems Administrator.
 * William Zhang, Class of 2018
 * Jack Duvall, Class of 2019
 * Alexander Hayden, Class of 2019
+* Parthiv Chigurupati, Class of 2020
 
 ### Underclassmen Systems Administrators
 
