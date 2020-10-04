@@ -26,7 +26,7 @@
 | ​[Ion](../services/ion/)​ | Lauren Delwiche |
 | ​[Director](../services/director/)​ | Ethan Nguyen |
 | ​[Storage](../technologies/storage/)​ | Ethan Nguyen |
-| Networking | Ryan Kim |
+| [Networking](../technologies/networking/) | Ryan Kim |
 | ​[Workstations](../services/workstations.md)​ | Shreyas Mayya |
 | ​[Cluster](../services/cluster/)​ | Anup Bagali |
 | ​[Web Content/WWW](../services/www/)​ | Anup Bagali |
@@ -36,9 +36,9 @@
 | Automation | Theo Ouzhinski |
 | Advanced Computing Hardware | Parthiv Chigurupati |
 | ​[Printing](../services/printing/)​ | Alexander Black |
-| Monitoring | Shreyas Mayya |
-| Academic Services | Anup Bagali |
-| Understudy | Alexander Black |
+| [Monitoring](../technologies/monitoring/) | Shreyas Mayya |
+| [Academic Services](../services/academic-services/) | Anup Bagali |
+| [Understudy](understudies.md) | Alexander Black |
 
 ## Team Membership <a id="teams"></a>
 
