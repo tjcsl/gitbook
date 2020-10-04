@@ -1,5 +1,5 @@
 ---
-description: CSL desktop  workstations
+description: CSL desktop workstations
 ---
 
 # Workstations
