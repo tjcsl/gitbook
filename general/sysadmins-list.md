@@ -194,7 +194,7 @@ These alumni were full-fledged Student Systems Administrator.
 * Andrew Smith \(asmith1\), Class of 2006
 * Barnett Trzcinski \(btrzcins\), Class of 2007
 * Andy Street \(astreet\), Class of 2007
-* Andrew Stebbins \(astebbin\), Class of 2008
+* Andrew Stebbins, Class of 2008
 * Martin Elthon \(melthon\), Class of 2008
 * Michael Lowman \(mlowman\), Class of 2008
 * Brett Jones \(bjones\), Class of 2008
