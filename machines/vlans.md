@@ -16,7 +16,7 @@ The following is a list of VLANs and the corresponding address spaces for refere
 * IPv4 Gateway: 198.38.17.254
 * IPv6: 2001:468:cc0:1600::/64
 * IPv6 Gateway: 2001:468:cc0:1600::
-* Note: In general, virtual services are assigned 198.38.17.0/24 addresses, and physical servers \(such as VM Servers and Storage endpoints\) are assigned 198.38.17.0/24 addresses. 
+* Note: In general, virtual services are assigned 198.38.16.0/24 addresses, and physical servers \(such as VM Servers and Storage endpoints\) are assigned 198.38.17.0/24 addresses. 
 * Please contact the lead Sysadmins before assigning addresses in the range 198.38.17.128/27
 
 ## 1800
