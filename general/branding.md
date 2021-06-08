@@ -10,7 +10,7 @@
 
  Alternatively, the wordmark logo can also be used.
 
- The logo can be used together with the unabbreviated "Computer Systems Lab", as shown, but should not be used with the wordmark logo.
+ The logo can be used together with the unabbreviated "Computer Systems Laboratory", as shown, but should not be used with the wordmark logo.
 
 When using on a white background, the logo or text should be \#484848.
 

@@ -66,7 +66,7 @@ Workgroups are groups of related teams that work closely together due to the nat
 
 ## Faculty Sponsor <a id="faculty-sponsor"></a>
 
-The Sysadmin Faculty Sponsor is TBD \(`tbd`\).
+The Sysadmin Faculty Sponsor is Mr. Eckel \(`mceckel`\).
 
 ## Points of Contact
 
