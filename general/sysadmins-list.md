@@ -4,41 +4,38 @@
 
 | Name | Username | Position |
 | :--- | :--- | :--- |
-| Ethan Nguyen | 2021enguyen | Lead Sysadmin & Infrastructure Lead |
-| Anup Bagali | 2021abagali | Lead Sysadmin  |
-| Akash Bhave | 2021abhave | Web Team Member |
-| Alexander Black | 2021ablack | Printing Lead/Cluster Co-Lead |
-| Ryan Kim | 2021rkim | Documentation Lead/Networking Team Member |
-| Vikram Raghu | 2021vraghu | Web Team Member |
-| Shreepa Parthaje | 2021sparthaj | Cluster Co-Lead |
-| Shreyas Mayya | 2022smayya | Monitoring Team Member |
-| Lauren Delwiche | 2022ldelwich | Ion Lead |
-| Raffu Khondaker | 2022rkhondak | TBD |
-| Darius Kianersi | 2022dkianersi | TBD |
-| Rushil Umaretiya | 2023rumareti | TBD |
-| Nathaniel Kenschaft | 2023nkenscha | TBD |
-| Praneeth Bhandaru | 2023pbhandar | TBD |
+| Shreyas Mayya | 2022smayya | Lead Sysadmin, Infrastructure Lead |
+| Lauren Delwiche | 2022ldelwich | Lead Sysadmin, Ion Lead |
+| Raffu Khondaker | 2022rkhondak | Cluster Co-Lead, Advanced Computing Hardware Co-Lead |
+| Darius Kianersi | 2022dkianersi | Director Lead, Printing Lead |
+| Rushil Umaretiya | 2023rumareti | Cluster Co-Lead, Advanced Computing Hardware Co-Lead |
+| Nathaniel Kenschaft | 2023nkenscha | Monitoring Lead, Documentation Lead |
+| Praneeth Bhandaru | 2023pbhandar | Mail Lead, Workstations Lead |
+| Kedar Prasad | 2024kprasad | Junior Admin |
+| Krishnan Shankar | 2024kshankar | Junior Admin |
+| Bradley Cao | 2023bcao | Junior Admin |
+| Saloni Shah | 2023sshah | Junior Admin |
+| Ram Reddy | 2023rreddy | Junior Admin |
 
 ## Current Leads <a id="current-leads"></a>
 
 | Area | Lead\(s\) |
 | :--- | :--- |
 | ​[Ion](../services/ion/)​ | Lauren Delwiche |
-| ​[Director](../services/director/)​ | Ethan Nguyen |
-| ​[Storage](../technologies/storage/)​ | Ethan Nguyen |
-| [Networking](../technologies/networking/) | Ryan Kim |
-| ​[Workstations](../services/workstations.md)​ | Shreyas Mayya |
-| ​[Cluster](../services/cluster/)​ | Anup Bagali |
-| ​[Web Content/WWW](../services/www/)​ | Anup Bagali |
-| ​[Signage](../services/signage/)​ | Anup Bagali |
-| ​[Documentation](documentation/)​ | Ryan Kim |
-| Security | Anup Bagali |
-| Automation | Theo Ouzhinski |
-| Advanced Computing Hardware | Parthiv Chigurupati |
-| ​[Printing](../services/printing/)​ | Alexander Black |
-| [Monitoring](../technologies/monitoring/) | Shreyas Mayya |
-| [Academic Services](../services/academic-services/) | Anup Bagali |
-| [Understudy](understudies.md) | Alexander Black |
+| ​[Director](../services/director/)​ | Darius Kianersi |
+| ​[Storage](../technologies/storage/)​ | Shreyas Mayya |
+| [Networking](../technologies/networking/) | Shreyas Mayya |
+| ​[Workstations](../services/workstations.md)​ | Chinmay Bhandaru |
+| ​[Cluster](../services/cluster/)​ | Rushil Umaretiya, Raffu Khondaker |
+| ​[Web Content/WWW](../services/www/)​ | Lauren Delwiche |
+| ​[Signage](../services/signage/)​ | Lauren Delwiche |
+| ​[Documentation](documentation/)​ | Nathaniel Kenschaft |
+| Security | Shreyas Mayya |
+| Advanced Computing Hardware | Rushil Umaretiya, Raffu Khondaker |
+| ​[Printing](../services/printing/)​ | Darius Kianersi |
+| [Monitoring](../technologies/monitoring/) | Nathaniel Kenschaft |
+| [Academic Services](../services/academic-services/) | Lauren Delwiche |
+| [Understudy](understudies.md) | Shreyas Mayya, Lauren Delwiche |
 
 ## Team Membership <a id="teams"></a>
 
@@ -46,14 +43,16 @@ All teams and their responsibilities are [available here](organization.md).
 
 | Team Name | Members |
 | :--- | :--- |
-| Ion | Lauren Delwiche \(Lead\), Theo Ouzhinski \(Lead Emeritus\), Vikram Raghu, Akash Bhave,  |
-| Director | Ethan Nguyen\(Lead\), Anup Bagali\(Deputy\), Vikram Raghu, Akash Bhave, Lauren Delwiche |
-| Storage | Lauren Delwiche \(Lead\), Anup Bagali |
-| Workstations | Shreyas Mayya \(Lead\) |
-| Networking | Ryan Kim \(Lead\), Anup Bagali |
-| Monitoring | Shreyas Mayya \(Lead\) |
-| Cluster | Anup Bagali \(Lead\) Alexander Black \(Co-Lead\), Shreepa Parthaje \(Co-Lead\) |
-| Documentation | Ryan Kim \(Lead\) |
+| Ion | Lauren Delwiche \(Lead\), Shreyas Mayya \(Deputy\) |
+| Director | Darius Kianersi \(Lead\), Lauren Delwiche \(Deputy\) |
+| Storage | Shreyas Mayya \(Lead\), Lauren Delwiche \(Deputy\) |
+| Workstations | Chinmay Bhandaru \(Lead\), Shreyas Mayya \(Deputy\) |
+| Networking | Shreyas Mayya \(Lead\), Lauren Delwiche \(Deputy\) |
+| Monitoring | Nathaniel Kenschaft \(Lead\), Shreyas Mayya \(Deputy\) |
+| Cluster | Raffu Khondaker \(Co-Lead\), Rushil Umaretiya \(Co-Lead\), Shreyas Mayya \(Co-Deputy\), Lauren Delwiche \(Co-Deputy\) |
+| Documentation | Nathaniel Kenschaft \(Lead\), Lauren Delwiche \(Deputy\) |
+| Advanced Computing Hardware | Raffu Khondaker \(Co-Lead\), Rushil Umaretiya \(Co-Lead\), Shreyas Mayya \(Co-Deputy\), Lauren Delwiche \(Co-Deputy\) |
+| Academic Services | Lauren Delwiche \(Lead\), Shreyas Mayya \(Deputy\) |
 
 ## Workgroups <a id="workgroups"></a>
 
@@ -67,18 +66,18 @@ Workgroups are groups of related teams that work closely together due to the nat
 
 ## Faculty Sponsor <a id="faculty-sponsor"></a>
 
-The Sysadmin Faculty Sponsor is Mr. White \(`pewhite`\).
+The Sysadmin Faculty Sponsor is TBD \(`tbd`\).
 
 ## Points of Contact
 
 | Group | POC |
 | :--- | :--- |
-| Eighth Period Office | Ethan Nguyen |
-| SGA \(Elections\) | Ethan Nguyen |
-| SGA \(Other Matters\) | Ethan Nguyen |
-| Security Office | Anup Bagali |
-| Web Development Classes | Anup Bagali |
-| CSL Lab Directors | [Dr. White](sysadmins-list.md#faculty-sponsor) |
+| Eighth Period Office | Lauren Delwiche |
+| SGA \(Elections\) | Lauren Delwiche |
+| SGA \(Other Matters\) | Lauren Delwiche |
+| Security Office | Shreyas Mayya |
+| Web Development Classes | Lauren Delwiche |
+| CSL Lab Directors | Faculty Sponsor |
 
 ## Previous Student Systems Administrators
 
@@ -125,6 +124,8 @@ These alumni were head/lead Sysadmins in the Lab in the past.
 * Theo Ouzhinski, Class of 2020
 * John Beutner, Class of 2020
 * Keegan Lanzillotta, Class of 2020
+* Anup Bagali, Class of 2021
+* Ethan Nguyen, Class of 2021
 
 ### Webmasters/Intranet maintainers
 
@@ -152,7 +153,7 @@ These alumni managed a version of Intranet or websites in the past.
 * Naitian Zhou, Class of 2018
 * Omkar Kulkarni, Class of 2019
 * Theo Ouzhinski, Class of 2020
-  * John Beutner, Class of 2020
+* John Beutner, Class of 2020
 
 ### Full Student Systems Administrators
 
@@ -253,6 +254,10 @@ These alumni were full-fledged Student Systems Administrator.
 * Jack Duvall, Class of 2019
 * Alexander Hayden, Class of 2019
 * Parthiv Chigurupati, Class of 2020
+* Alexander Black, Class of 2021
+* Vikram Raghu, Class of 2021
+* Shreepa Parthaje, Class of 2021
+* Ryan Kim, Class of 2021
 
 ### Underclassmen Systems Administrators
 
