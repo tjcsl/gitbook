@@ -10,7 +10,7 @@
 | Darius Kianersi | 2022dkianersi | Director Lead, Printing Lead |
 | Rushil Umaretiya | 2023rumareti | Cluster Co-Lead, Advanced Computing Hardware Co-Lead |
 | Nathaniel Kenschaft | 2023nkenscha | Monitoring Lead, Documentation Lead |
-| Praneeth Bhandaru | 2023pbhandar | Mail Lead, Workstations Lead |
+| Chinmay Bhandaru | 2023pbhandar | Mail Lead, Workstations Lead |
 | Kedar Prasad | 2024kprasad | Junior Admin |
 | Krishnan Shankar | 2024kshankar | Junior Admin |
 | Bradley Cao | 2023bcao | Junior Admin |
