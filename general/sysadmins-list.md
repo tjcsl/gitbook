@@ -32,6 +32,7 @@
 | ​[Documentation](documentation/)​ | Nathaniel Kenschaft |
 | Security | Shreyas Mayya |
 | Advanced Computing Hardware | Rushil Umaretiya, Raffu Khondaker |
+| [Mail](../services/mail.md) | Chinmay Bhandaru |
 | ​[Printing](../services/printing/)​ | Darius Kianersi |
 | [Monitoring](../technologies/monitoring/) | Nathaniel Kenschaft |
 | [Academic Services](../services/academic-services/) | Lauren Delwiche |
@@ -49,6 +50,7 @@ All teams and their responsibilities are [available here](organization.md).
 | Workstations | Chinmay Bhandaru \(Lead\), Shreyas Mayya \(Deputy\) |
 | Networking | Shreyas Mayya \(Lead\), Lauren Delwiche \(Deputy\) |
 | Monitoring | Nathaniel Kenschaft \(Lead\), Shreyas Mayya \(Deputy\) |
+| Mail | Chinmay Bhandaru \(Lead\), Shreyas Mayya \(Deputy\) |
 | Cluster | Raffu Khondaker \(Co-Lead\), Rushil Umaretiya \(Co-Lead\), Shreyas Mayya \(Co-Deputy\), Lauren Delwiche \(Co-Deputy\) |
 | Documentation | Nathaniel Kenschaft \(Lead\), Lauren Delwiche \(Deputy\) |
 | Advanced Computing Hardware | Raffu Khondaker \(Co-Lead\), Rushil Umaretiya \(Co-Lead\), Shreyas Mayya \(Co-Deputy\), Lauren Delwiche \(Co-Deputy\) |
