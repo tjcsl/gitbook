@@ -11,12 +11,11 @@
 | Rushil Umaretiya | 2023rumareti | Cluster Co-Lead, Advanced Computing Hardware Co-Lead |
 | Nathaniel Kenschaft | 2023nkenscha | Monitoring Lead, Documentation Lead |
 | Chinmay Bhandaru | 2023pbhandar | Mail Lead, Workstations Lead |
+| Bradley Cao | 2023bcao | Junior Admin |
+| Ram Reddy | 2023rreddy | Junior Admin |
+| Saloni Shah | 2023sshah | Junior Admin |
 | Kedar Prasad | 2024kprasad | Junior Admin |
 | Krishnan Shankar | 2024kshankar | Junior Admin |
-| Om Duggineni | 2023oduggine | Junior Admin |
-| Bradley Cao | 2023bcao | Junior Admin |
-| Saloni Shah | 2023sshah | Junior Admin |
-| Ram Reddy | 2023rreddy | Junior Admin |
 
 ## Current Leads <a id="current-leads"></a>
 
