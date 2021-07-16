@@ -2,7 +2,9 @@
 
 ## Overview
 
-Communication is important to the effective functioning of the Lab. We use Mattermost as our primary form of communication within the Sysadmins. Communication through e-mail is used to communicate with various stakeholders in the TJ community. Slack is used as a fallback form of communication in the event Mattermost is down. Sending mass notifications to the whole school is done through Ion announcements.
+Communication is important to the effective functioning of the Lab. We use Mattermost as our primary form of communication within the Sysadmins. Communication through e-mail is used to communicate with various stakeholders in the TJ community. IRC is used as a fallback form of communication in the event Slack is down. Sending mass notifications to the whole school is done through Ion announcements.
+
+Communication is important to the effective functioning of the Lab. We use Mattermost as our primary form of communication within the Sysadmins. Communication through e-mail is used to communicate with various stakeholders in the TJ community. IRC is used as a fallback form of communication in the event Slack is down. Sending mass notifications to the whole school is done through Ion announcements.
 
 ## Mattermost
 
@@ -10,7 +12,13 @@ Communication is important to the effective functioning of the Lab. We use Matte
 
 Mattermost \([https://mattermost.com](https://mattermost.com)\) is open source software for team collaboration. It bills itself as a "Slack alternative".
 
-The tjCSL Mattermost instance is located at [https://mattermost.tjhsst.edu](https://mattermost.tjhsst.edu). This space is only for use by the Sysadmins and Faculty Sponsor.
+Mattermost \([https://mattermost.com](https://mattermost.com)\) is open source software for team collaboration. It bills itself as a "Slack alternative".
+
+In informal conversation, we may use "Mmost".
+
+In informal conversation, we may use "Mmost".
+
+### Best Practices
 
 ### Best Practices
 
@@ -37,7 +45,13 @@ The tjCSL Mattermost instance is located at [https://mattermost.tjhsst.edu](http
 
 ### Channels
 
+### Channels
+
 Conversations in Mattermost are organized into public and private channels. You can join a public channel by clicking on the`+` icon. Private \(invite-only\) channels require an invite from someone within the channel. Use invite-only channels for sensitive or non-public discussions.
+
+Conversations in Mattermost are organized into public and private channels. You can join a public channel by clicking on the`+` icon. Private \(invite-only\) channels require an invite from someone within the channel. Use invite-only channels for sensitive or non-public discussions.
+
+Some channels include:
 
 Some channels include:
 
@@ -58,17 +72,31 @@ Some channels include:
 
 ### Roles
 
+### Roles
+
+System admins have full administrative access to the Mattermost server. The Lead Sysadmins and Faculty Sponsor should be system admins and should designate other system admins they find necessary.
+
 System admins have full administrative access to the Mattermost server. The Lead Sysadmins and Faculty Sponsor should be system admins and should designate other system admins they find necessary.
 
 Server members can join, write, and read in public channels. They can also join, write, and read in invite-only channels. They can also create new public or invite-only channels.
 
+Server members can join, write, and read in public channels. They can also join, write, and read in invite-only channels. They can also create new public or invite-only channels.
+
 The workspace membership should be restricted to people with an `@tjhsst.edu` e-mail.
+
+The workspace membership should be restricted to people with an `@tjhsst.edu` e-mail.
+
+## Slack
 
 ## Slack
 
 Slack \([https://slack.com](https://slack.com)\) is a proprietary set of tools for team collaboration. It offers various integration with different services. We have a workspace at [https://tjcsl.slack.com](https://tjcsl.slack.com). The CSL's first widespread use of the Slack workspace began in August of 2018. Slack became the official form of communication under the direction of Omkar Kulkarni.
 
 ### Roles
+
+### Roles
+
+The Faculty Sponsor should be "Primary Owner".
 
 The Faculty Sponsor should be "Primary Owner".
 
