@@ -260,6 +260,7 @@ These alumni were full-fledged Student Systems Administrator.
 * Vikram Raghu, Class of 2021
 * Shreepa Parthaje, Class of 2021
 * Ryan Kim, Class of 2021
+* Akash Bhave, Class of 2021
 
 ### Underclassmen Systems Administrators
 
