@@ -10,7 +10,6 @@
 | Darius Kianersi | 2022dkianersi | Director Lead, Printing Lead |
 | Rushil Umaretiya | 2023rumareti | Cluster Co-Lead, Advanced Computing Hardware Co-Lead |
 | Nathaniel Kenschaft | 2023nkenscha | Monitoring Lead, Documentation Lead |
-| Chinmay Bhandaru | 2023pbhandar | Mail Lead, Workstations Lead |
 | Bradley Cao | 2023bcao | Junior Admin |
 | Ram Reddy | 2023rreddy | Junior Admin |
 | Saloni Shah | 2023sshah | Junior Admin |
@@ -25,14 +24,14 @@
 | ​[Director](../services/director/)​ | Darius Kianersi |
 | ​[Storage](../technologies/storage/)​ | Shreyas Mayya |
 | [Networking](../technologies/networking/) | Shreyas Mayya |
-| ​[Workstations](../services/workstations.md)​ | Chinmay Bhandaru |
+| ​[Workstations](../services/workstations.md)​ | Lauren Delwiche |
 | ​[Cluster](../services/cluster/)​ | Rushil Umaretiya, Raffu Khondaker |
 | ​[Web Content/WWW](../services/www/)​ | Lauren Delwiche |
 | ​[Signage](../services/signage/)​ | Lauren Delwiche |
 | ​[Documentation](documentation/)​ | Nathaniel Kenschaft |
 | Security | Shreyas Mayya |
 | Advanced Computing Hardware | Rushil Umaretiya, Raffu Khondaker |
-| [Mail](../services/mail.md) | Chinmay Bhandaru |
+| [Mail](../services/mail.md) | Shreyas Mayya |
 | ​[Printing](../services/printing/)​ | Darius Kianersi |
 | [Monitoring](../technologies/monitoring/) | Nathaniel Kenschaft |
 | [Academic Services](../services/academic-services/) | Lauren Delwiche |
@@ -47,10 +46,10 @@ All teams and their responsibilities are [available here](organization.md).
 | Ion | Lauren Delwiche \(Lead\), Shreyas Mayya \(Deputy\) |
 | Director | Darius Kianersi \(Lead\), Lauren Delwiche \(Deputy\) |
 | Storage | Shreyas Mayya \(Lead\), Lauren Delwiche \(Deputy\) |
-| Workstations | Chinmay Bhandaru \(Lead\), Shreyas Mayya \(Deputy\) |
+| Workstations | Lauren Delwiche \(Lead\), Shreyas Mayya \(Deputy\) |
 | Networking | Shreyas Mayya \(Lead\), Lauren Delwiche \(Deputy\) |
 | Monitoring | Nathaniel Kenschaft \(Lead\), Shreyas Mayya \(Deputy\) |
-| Mail | Chinmay Bhandaru \(Lead\), Shreyas Mayya \(Deputy\) |
+| Mail | Shreyas Mayya \(Lead\), Lauren Delwiche \(Deputy\) |
 | Cluster | Raffu Khondaker \(Co-Lead\), Rushil Umaretiya \(Co-Lead\), Shreyas Mayya \(Co-Deputy\), Lauren Delwiche \(Co-Deputy\) |
 | Documentation | Nathaniel Kenschaft \(Lead\), Lauren Delwiche \(Deputy\) |
 | Advanced Computing Hardware | Raffu Khondaker \(Co-Lead\), Rushil Umaretiya \(Co-Lead\), Shreyas Mayya \(Co-Deputy\), Lauren Delwiche \(Co-Deputy\) |
