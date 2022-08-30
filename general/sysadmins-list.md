@@ -18,7 +18,6 @@
 | Pratyush Saxena     | 2025psaxena  | Junior Admin                                                              |
 | Alan Zhu            | 2025azhu     | Junior Admin                                                              |
 | Diana Lin           | 2024dlin     | Junior Admin                                                              |
-| Elijah Guison-Dowdy | 2025eguisond | Junior Admin                                                              |
 
 ## Current Leads <a href="#current-leads" id="current-leads"></a>
 
