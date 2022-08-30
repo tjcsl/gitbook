@@ -6,11 +6,11 @@
 | ------------------- | ------------ | ------------------------------------------------------------------------- |
 | Rushil Umaretiya    | 2023rumareti | Lead Sysadmin, Infrastructure Lead, Academic Services Lead, Director Lead |
 | Nathaniel Kenschaft | 2023nkenscha | Lead Sysadmin, Mail Supervisor, Security Lead, Hardware Lead              |
-| Bradley Cao         | 2023bcao     | Workstations Lead, ACH Co-Lead, Cluster Co-Lead                           |
-| Ram Reddy           | 2023rreddy   | Monitoring Lead, ACH Co-Lead, Cluster Co-Lead                             |
+| Bradley Cao         | 2023bcao     | Workstations Co-Lead, ACH Co-Lead                                         |
+| Ram Reddy           | 2023rreddy   | Monitoring Lead, Cluster Co-Lead                                          |
 | Saloni Shah         | 2023sshah    | Intranet Lead, Documentation Lead                                         |
-| Kedar Prasad        | 2024kprasad  | Junior Admin                                                              |
-| Krishnan Shankar    | 2024kshankar | Junior Admin                                                              |
+| Kedar Prasad        | 2024kprasad  | Mail Supervisor, Cluster Co-Lead                                          |
+| Krishnan Shankar    | 2024kshankar | Workstations Co-Lead, ACH Co-Lead                                         |
 | Noah Kabiri         | 2024nkabiri  | Junior Admin                                                              |
 | Maribelle Chu       | 2024mchu     | Junior Admin                                                              |
 | Sami Elsayed        | 2025selsayed | Junior Admin                                                              |
