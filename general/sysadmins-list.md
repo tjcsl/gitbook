@@ -21,42 +21,42 @@
 
 ## Current Leads <a href="#current-leads" id="current-leads"></a>
 
-| Area                                                | Lead(s)                           |
-| --------------------------------------------------- | --------------------------------- |
-| ​[Ion](../services/ion/)​                           | Lauren Delwiche                   |
-| ​[Director](../services/director/)​                 | Darius Kianersi                   |
-| ​[Storage](../technologies/storage/)​               | Shreyas Mayya                     |
-| [Networking](../technologies/networking/)           | Shreyas Mayya                     |
-| ​[Workstations](../services/workstations.md)​       | Lauren Delwiche                   |
-| ​[Cluster](../services/cluster/)​                   | Rushil Umaretiya, Raffu Khondaker |
-| ​[Web Content/WWW](../services/www/)​               | Lauren Delwiche                   |
-| ​[Signage](../services/signage/)​                   | Lauren Delwiche                   |
-| ​[Documentation](documentation/)​                   | Nathaniel Kenschaft               |
-| Security                                            | Shreyas Mayya                     |
-| Advanced Computing Hardware                         | Rushil Umaretiya, Raffu Khondaker |
-| [Mail](../services/mail.md)                         | Shreyas Mayya                     |
-| ​[Printing](../services/printing/)​                 | Darius Kianersi                   |
-| [Monitoring](../technologies/monitoring/)           | Nathaniel Kenschaft               |
-| [Academic Services](../services/academic-services/) | Lauren Delwiche                   |
-| [Understudy](understudies.md)                       | Shreyas Mayya, Lauren Delwiche    |
+| Area                                                | Lead(s)                               |
+| --------------------------------------------------- | ------------------------------------- |
+| ​[Ion](../services/ion/)​                           | Saloni Shah                           |
+| ​[Director](../services/director/)​                 | Rushil Umaretiya                      |
+| ​[Storage](../technologies/storage/)​               | Rushil Umaretiya                      |
+| [Networking](../technologies/networking/)           | Nathaniel Kenschaft                   |
+| ​[Workstations](../services/workstations.md)​       | Bradley Cao, Krishnan Shankar         |
+| ​[Cluster](../services/cluster/)​                   | Ram Reddy, Kedar Prasad               |
+| ​[Web Content/WWW](../services/www/)​               | Rushil Umaretiya                      |
+| ​[Signage](../services/signage/)​                   | Rushil Umaretiya                      |
+| ​[Documentation](documentation/)​                   | Saloni Shah                           |
+| Security                                            | Nathaniel Kenschaft                   |
+| Advanced Computing Hardware                         | Ram Reddy, Krishnan Shankar           |
+| [Mail](../services/mail.md)                         | Nathaniel Kenschaft                   |
+| ​[Printing](../services/printing/)​                 | Bradley Cao                           |
+| [Monitoring](../technologies/monitoring/)           | Ram Reddy                             |
+| [Academic Services](../services/academic-services/) | Rushil Umaretiya                      |
+| [Understudy](understudies.md)                       | Rushil Umaretiya, Nathaniel Kenschaft |
 
 ## Team Membership <a href="#teams" id="teams"></a>
 
 All teams and their responsibilities are [available here](organization.md).
 
-| Team Name                   | Members                                                                                                       |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| Ion                         | Lauren Delwiche (Lead), Shreyas Mayya (Deputy)                                                                |
-| Director                    | Darius Kianersi (Lead), Lauren Delwiche (Deputy)                                                              |
-| Storage                     | Shreyas Mayya (Lead), Lauren Delwiche (Deputy)                                                                |
-| Workstations                | Lauren Delwiche (Lead), Shreyas Mayya (Deputy)                                                                |
-| Networking                  | Shreyas Mayya (Lead), Lauren Delwiche (Deputy)                                                                |
-| Monitoring                  | Nathaniel Kenschaft (Lead), Shreyas Mayya (Deputy)                                                            |
-| Mail                        | Shreyas Mayya (Lead), Lauren Delwiche (Deputy)                                                                |
-| Cluster                     | Raffu Khondaker (Co-Lead), Rushil Umaretiya (Co-Lead), Shreyas Mayya (Co-Deputy), Lauren Delwiche (Co-Deputy) |
-| Documentation               | Nathaniel Kenschaft (Lead), Lauren Delwiche (Deputy)                                                          |
-| Advanced Computing Hardware | Raffu Khondaker (Co-Lead), Rushil Umaretiya (Co-Lead), Shreyas Mayya (Co-Deputy), Lauren Delwiche (Co-Deputy) |
-| Academic Services           | Lauren Delwiche (Lead), Shreyas Mayya (Deputy)                                                                |
+| Team Name                   | Members                                                                                                          |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Ion                         | Saloni Shah (Lead), Rushil Umaretiya (Deputy)                                                                    |
+| Director                    | Rushil Umaretiya (Lead), Nathaniel Kenschaft (Deputy)                                                            |
+| Storage                     | Rushil Umaretiya (Lead), Nathaniel Kenschaft (Deputy)                                                            |
+| Workstations                | Bradley Cao (Lead), Krishnan Shankar (Deputy)                                                                    |
+| Networking                  | Nathaniel Kenschaft (Lead), Rushil Umaretiya (Deputy)                                                            |
+| Monitoring                  | Ram Reddy (Lead), Nathaniel Kenschaft (Deputy)                                                                   |
+| Mail                        | Nathaniel Kenschaft (Lead), Kedar Prasad (Deputy)                                                                |
+| Cluster                     | Ram Reddy (Co-Lead), Kedar Prasad (Co-Lead), Rushil Umaretiya (Deputy)                                           |
+| Documentation               | Saloni Shah (Lead), Nathaniel Kenschaft (Deputy)                                                                 |
+| Advanced Computing Hardware | Bradley Cao (Co-Lead), Krishnan Shankar (Co-Lead), Rushil Umaretiya (Co-Deputy), Nathaniel Kenschaft (Co-Deputy) |
+| Academic Services           | Rushil Umaretiya (Lead)                                                                                          |
 
 ## Workgroups <a href="#workgroups" id="workgroups"></a>
 
