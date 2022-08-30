@@ -6,7 +6,7 @@
     * [Development](services/ion/development/README.md)
       * [Setup](services/ion/development/setup/README.md)
         * [Docker Setup](services/ion/development/setup/docker-setup.md)
-        * [Vagrant Setup](services/ion/development/setup/vagrant-setup.md)
+        * [Vagrant Setup](services/ion/development/vagrant-setup.md)
       * [Environment](services/ion/development/environment.md)
       * [Fixtures](services/ion/development/fixtures.md)
       * [PR Workflow](services/ion/development/pr-workflow.md)
