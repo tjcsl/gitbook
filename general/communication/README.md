@@ -2,23 +2,15 @@
 
 ## Overview
 
-Communication is important to the effective functioning of the Lab. We use Mattermost as our primary form of communication within the Sysadmins. Communication through e-mail is used to communicate with various stakeholders in the TJ community. IRC is used as a fallback form of communication in the event Slack is down. Sending mass notifications to the whole school is done through Ion announcements.
-
-Communication is important to the effective functioning of the Lab. We use Mattermost as our primary form of communication within the Sysadmins. Communication through e-mail is used to communicate with various stakeholders in the TJ community. IRC is used as a fallback form of communication in the event Slack is down. Sending mass notifications to the whole school is done through Ion announcements.
+Communication is important to the effective functioning of the Lab. We use Mattermost as our primary form of communication within the Sysadmins. Communication through e-mail is used to communicate with various stakeholders in the TJ community. Slack is used as a fallback form of communication in the event Mattermost is down. Sending mass notifications to the whole school is done through Ion announcements.
 
 ## Mattermost
 
 ## Mattermost
 
-Mattermost \([https://mattermost.com](https://mattermost.com)\) is open source software for team collaboration. It bills itself as a "Slack alternative".
+Mattermost ([https://mattermost.com](https://mattermost.com)) is open source software for team collaboration. It bills itself as a "Slack alternative".
 
-Mattermost \([https://mattermost.com](https://mattermost.com)\) is open source software for team collaboration. It bills itself as a "Slack alternative".
-
-In informal conversation, we may use "Mmost".
-
-In informal conversation, we may use "Mmost".
-
-### Best Practices
+The tjCSL Mattermost instance is located at [https://mattermost.tjhsst.edu](https://mattermost.tjhsst.edu). This space is only for use by the Sysadmins and Faculty Sponsor.
 
 ### Best Practices
 
@@ -45,13 +37,7 @@ In informal conversation, we may use "Mmost".
 
 ### Channels
 
-### Channels
-
-Conversations in Mattermost are organized into public and private channels. You can join a public channel by clicking on the`+` icon. Private \(invite-only\) channels require an invite from someone within the channel. Use invite-only channels for sensitive or non-public discussions.
-
-Conversations in Mattermost are organized into public and private channels. You can join a public channel by clicking on the`+` icon. Private \(invite-only\) channels require an invite from someone within the channel. Use invite-only channels for sensitive or non-public discussions.
-
-Some channels include:
+Conversations in Mattermost are organized into public and private channels. You can join a public channel by clicking on the`+` icon. Private (invite-only) channels require an invite from someone within the channel. Use invite-only channels for sensitive or non-public discussions.
 
 Some channels include:
 
@@ -59,54 +45,40 @@ Some channels include:
 * \#random: For random discussions
 * \#ion: For discussion of Ion
 * \#director: For discussion of Director
-* \#sysadmins \(private\): For internal Sysadmin-only discussions
-* \#notifications \(private\): For 
+* \#sysadmins (private): For internal Sysadmin-only discussions
+* \#notifications (private): For&#x20;
 * and other channels
 * \#general: For general discussions
 * \#random: For random discussions
 * \#ion: For discussion of Ion
 * \#director: For discussion of Director
-* \#sysadmins \(private\): For internal Sysadmin-only discussions
-* \#notifications \(private\): For 
+* \#sysadmins (private): For internal Sysadmin-only discussions
+* \#notifications (private): For&#x20;
 * and other channels
 
 ### Roles
 
-### Roles
-
 System admins have full administrative access to the Mattermost server. The Lead Sysadmins and Faculty Sponsor should be system admins and should designate other system admins they find necessary.
-
-System admins have full administrative access to the Mattermost server. The Lead Sysadmins and Faculty Sponsor should be system admins and should designate other system admins they find necessary.
-
-Server members can join, write, and read in public channels. They can also join, write, and read in invite-only channels. They can also create new public or invite-only channels.
 
 Server members can join, write, and read in public channels. They can also join, write, and read in invite-only channels. They can also create new public or invite-only channels.
 
 The workspace membership should be restricted to people with an `@tjhsst.edu` e-mail.
 
-The workspace membership should be restricted to people with an `@tjhsst.edu` e-mail.
-
 ## Slack
 
-## Slack
-
-Slack \([https://slack.com](https://slack.com)\) is a proprietary set of tools for team collaboration. It offers various integration with different services. We have a workspace at [https://tjcsl.slack.com](https://tjcsl.slack.com). The CSL's first widespread use of the Slack workspace began in August of 2018. Slack became the official form of communication under the direction of Omkar Kulkarni.
-
-### Roles
+Slack ([https://slack.com](https://slack.com)) is a proprietary set of tools for team collaboration. It offers various integration with different services. We have a workspace at [https://tjcsl.slack.com](https://tjcsl.slack.com). The CSL's first widespread use of the Slack workspace began in August of 2018. Slack became the official form of communication under the direction of Omkar Kulkarni.
 
 ### Roles
 
 The Faculty Sponsor should be "Primary Owner".
 
-The Faculty Sponsor should be "Primary Owner".
+###
 
-### 
-
-### 
+###
 
 ## E-mail
 
-Communicating with TJ community members is primarily done through email. The Eighth Period Office, administration, TJ Tech Team, teachers, and students rely on these channels for communicating with the Sysadmin team. Hence, e-mail services in the CSL \(mail.tjhsst.edu and lists.tjhsst.edu\) are **mission-critical services**.
+Communicating with TJ community members is primarily done through email. The Eighth Period Office, administration, TJ Tech Team, teachers, and students rely on these channels for communicating with the Sysadmin team. Hence, e-mail services in the CSL (mail.tjhsst.edu and lists.tjhsst.edu) are **mission-critical services**.
 
 ### E-mail Responses
 
@@ -117,7 +89,7 @@ The person who is responsible for responding to an e-mail usually varies on a ca
 * Is it a support inquiry, complaint, question, or request?
 * Who sent it and what position to they have?
 * How important is it?
-* Which Sysadmin\(s\) has/have access to the systems necessary to complete the request?
+* Which Sysadmin(s) has/have access to the systems necessary to complete the request?
 * How much knowledge does the Sysadmin have of the functional area?
 
 In general, the lead or contact person for a specific functional area should respond to e-mails.
@@ -142,14 +114,14 @@ Most communication related to Director gets sent to [director@lists.tjhsst.edu](
 
 ## IRC
 
-Internet Relay Chat \(IRC\) is an application layer protocol that facilitates communication in the form of text. You can read more about the protocol [on Wikipedia](https://en.wikipedia.org/wiki/Irc). We use Freenode to facilitate communications. IRC had been the primary tool for communication among Sysadmins until the switch over to Slack.
+Internet Relay Chat (IRC) is an application layer protocol that facilitates communication in the form of text. You can read more about the protocol [on Wikipedia](https://en.wikipedia.org/wiki/Irc). We use Freenode to facilitate communications. IRC had been the primary tool for communication among Sysadmins until the switch over to Slack.
 
 ### Clients
 
 Multiple clients support IRC. We recommend one of the clients listed below:
 
 * TheLounge: A modern self-hosted IRC web client.   We host an instance at [lounge.tjhsst.edu](https://lounge.tjhsst.edu) on Director.  Their repository can be found at [https://github.com/thelounge/thelounge](https://github.com/thelounge/thelounge).  Login is done through LDAP.
-* Matrix through matrix-appservice-irc: Matrix is an open network for secure, decentralized communication.  [https://matrix.org](https://matrix.org), it's reference homeserver, hosts a Freenode IRC bridge.  One way to connect to Matrix is through their reference client, Riot \([https://about.riot.im/](https://about.riot.im/)\).  Instructions on how to connect can be found at [https://github.com/matrix-org/matrix-appservice-irc/wiki/End-user-FAQ](https://github.com/matrix-org/matrix-appservice-irc/wiki/End-user-FAQ).  The bridge's repository is located at [https://github.com/matrix-org/matrix-appservice-irc/](https://github.com/matrix-org/matrix-appservice-irc/).
+* Matrix through matrix-appservice-irc: Matrix is an open network for secure, decentralized communication.  [https://matrix.org](https://matrix.org), it's reference homeserver, hosts a Freenode IRC bridge.  One way to connect to Matrix is through their reference client, Riot ([https://about.riot.im/](https://about.riot.im/)).  Instructions on how to connect can be found at [https://github.com/matrix-org/matrix-appservice-irc/wiki/End-user-FAQ](https://github.com/matrix-org/matrix-appservice-irc/wiki/End-user-FAQ).  The bridge's repository is located at [https://github.com/matrix-org/matrix-appservice-irc/](https://github.com/matrix-org/matrix-appservice-irc/).
 * Hexchat: A local IRC client.  It is installed on most Linux distros.  Their website is [http://xchat.org/](http://xchat.org/).
 
 ### Channels
@@ -167,17 +139,16 @@ Using common sense, following server rules, and being respectful to others is go
 
 Most of these are well documented by IRC.
 
-| Command | Description |
-| :--- | :--- |
-| `/msg NickServ identify <username> <password>` | Authenticate to NickServ |
-| `/msg NickServ register <password> <email>` | Begin registration of current nick |
-| `/join <channel>` | Join a channel |
+| Command                                        | Description                        |
+| ---------------------------------------------- | ---------------------------------- |
+| `/msg NickServ identify <username> <password>` | Authenticate to NickServ           |
+| `/msg NickServ register <password> <email>`    | Begin registration of current nick |
+| `/join <channel>`                              | Join a channel                     |
 
 Sending messages is as easy as writing the message in the appropriate channel. You can reference others in the channel by mentioning their nick.
 
 ## Ion Announcements
 
-Posting general announcements to the TJ community \(such as extended downtime or school-wide announcements\) should generally be done through an Ion announcement. To approve an announcement, you must be an Ion admin. You can add an announcement by clicking the big `Add` button at the top of the dashboard.
+Posting general announcements to the TJ community (such as extended downtime or school-wide announcements) should generally be done through an Ion announcement. To approve an announcement, you must be an Ion admin. You can add an announcement by clicking the big `Add` button at the top of the dashboard.
 
 The announcement should be simple, concise, informative, and attributed to the right person or team.
-

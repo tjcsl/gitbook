@@ -1,10 +1,10 @@
 # DNSSEC
 
-## Background <a id="background"></a>
+## Background <a href="#background" id="background"></a>
 
-DNSSEC uses [PKI](https://en.wikipedia.org/wiki/Public_key_infrastructure) to ensure the authenticity of DNS results by signing all DNS records for a domain with that domain's DNSSEC certificates.
+DNSSEC uses [PKI](https://en.wikipedia.org/wiki/Public\_key\_infrastructure) to ensure the authenticity of DNS results by signing all DNS records for a domain with that domain's DNSSEC certificates.
 
-DNSSEC requires the following DNS Resource Records \(RRs\):
+DNSSEC requires the following DNS Resource Records (RRs):
 
 > * **DNSKEY** Holds the public key which resolvers use to verify.
 > * **RRSIG** Exists for each RR and contains the digital signature of a record.
@@ -12,14 +12,14 @@ DNSSEC requires the following DNS Resource Records \(RRs\):
 
 Source: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-setup-dnssec-on-an-authoritative-bind-dns-server--2)​
 
-## Setup <a id="setup"></a>
+## Setup <a href="#setup" id="setup"></a>
 
-### Master Server <a id="master-server"></a>
+### Master Server <a href="#master-server" id="master-server"></a>
 
 Add the following lines to `/etc/bind/named.conf.options` within the `options` block:
 
-{% code title="/etc/bind/named.conf.options \(excerpt\)" %}
-```text
+{% code title="/etc/bind/named.conf.options (excerpt)" %}
+```
 dnssec-enable yes;
 dnssec-validation yes;
 dnssec-lookaside auto;
@@ -28,7 +28,7 @@ dnssec-lookaside auto;
 
 Run `/etc/bind/generate_production_keys.sh`
 
-{% code title="generate\_production\_keys.sh" %}
+{% code title="generate_production_keys.sh" %}
 ```bash
 #!/bin/bash
 # Keegan Lanzillotta, Oct. 2018 -- based on generate_testing_keys.sh
@@ -49,7 +49,7 @@ done
 ```
 {% endcode %}
 
-This generates a Key Signing Key \(KSK\) keypair on line `13` and Zone Signing Key \(ZSK\) keypair on line `14` for each zone \(`tjhsst/tjhsst.edu` and `tjhsst/revpub/*.arpa`\). Line `15` then signs the Zone file, producing a `*.signed` file for each zone.
+This generates a Key Signing Key (KSK) keypair on line `13` and Zone Signing Key (ZSK) keypair on line `14` for each zone (`tjhsst/tjhsst.edu` and `tjhsst/revpub/*.arpa`). Line `15` then signs the Zone file, producing a `*.signed` file for each zone.
 
 ```bash
 ns1 bind (master*) # ll tjhsst/revpub
@@ -63,10 +63,10 @@ total 1.9M
 [...continued...]
 ```
 
-These `*.signed` files contain RRSIG records. We need to tell BIND to serve these records. To do this, edit `/etc/bind/tjhsst.conf` and change the `file` attribute for each zone to point to the signed file. For 
+These `*.signed` files contain RRSIG records. We need to tell BIND to serve these records. To do this, edit `/etc/bind/tjhsst.conf` and change the `file` attribute for each zone to point to the signed file. For&#x20;
 
-{% code title="example:/etc/bind/tjhsst.conf \(old\)" %}
-```text
+{% code title="example:/etc/bind/tjhsst.conf (old)" %}
+```
 zone "tjhsst.edu" {
     type master;
     file "/etc/bind/tjhsst/tjhsst.edu";
@@ -75,8 +75,8 @@ zone "tjhsst.edu" {
 ```
 {% endcode %}
 
-{% code title="/etc/bind/tjhsst.conf \(new\)" %}
-```text
+{% code title="/etc/bind/tjhsst.conf (new)" %}
+```
 zone "tjhsst.edu" {
     type master;
     file "/etc/bind/tjhsst/tjhsst.edu.signed";
@@ -87,9 +87,9 @@ zone "tjhsst.edu" {
 
 Run `rndc reload` to load the edited configuration. To confirm that the RRSIG records are being served properly, `dig A ion.tjhsst.edu. @localhost +dnssec +multiline`. The output's `;; ANSWER SECTION` should contain a `RRSIG` record response below the `A` record response.
 
-### Slave Server <a id="slave-server"></a>
+### Slave Server <a href="#slave-server" id="slave-server"></a>
 
-### Domain Name Registrar <a id="domain-name-registrar"></a>
+### Domain Name Registrar <a href="#domain-name-registrar" id="domain-name-registrar"></a>
 
 For the PKI element of DNSSEC, the keys we generated need to be signed by the domain registrar.
 
@@ -100,11 +100,10 @@ This step only applies to the tjhsst.edu zone, because the other zones are not r
 When `/etc/bind/generate_production_keys.sh` ran, `dnssec-signzone` created files called `dsset-*` in `/etc/bind/`. The only one we need is `/etc/bind/dnsset-tjhsst.edu.`
 
 {% code title="/etc/bind/dnsset-tjhsst.edu." %}
-```text
+```
 tjhsst.edu.		IN DS 8092 8 1 0FFA63442D1158C84D789D1D612E78100B86B616
 tjhsst.edu.		IN DS 8092 8 2 7EDA9DB2804E4D0F17E7C66C526234624F6D1755D127EC2C05F97A89 2502A010
 ```
 {% endcode %}
 
 These are the DS records for `tjhsst.edu`, and they need to be sent to the domain registrar to establish the trust tree.
-

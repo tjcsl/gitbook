@@ -10,12 +10,12 @@ With Vagrant and Virtualbox installed, clone the Ion repository onto the host co
 
 Note: if your host machine is running Windows, please run `git config core.autocrlf input` before cloning to prevent line ending issues.
 
-```text
+```
 $ git clone git@github.com:tjcsl/ion.git intranet
 $ cd intranet
 ```
 
-In the `config` directory, copy the file `devconfig.json.sample` to `devconfig.json` and edit the properties in `devconfig.json` as appropriate. Ensure `ssh_key` is set to the same SSH key registered with GitHub \(e.g. `id_rsa`\). Also make sure that `use_nfs` is set to `true` and `use_vpn` is set to `false`. This will prevent connecting to the CSL VPN.
+In the `config/vagrant` directory, copy the file `devconfig.json.sample` to `devconfig.json` and edit the properties in `devconfig.json` as appropriate. Ensure `ssh_key` is set to the same SSH key registered with GitHub (e.g. `id_rsa`). Also make sure that `use_nfs` is set to `true` and `use_vpn` is set to `false`. This will prevent connecting to the CSL VPN.
 
 {% hint style="info" %}
 The other values specified in `devconfig.json` are optional. The `ldap_simple_bind_password` is not needed and is a remnant of the old LDAP-based authentication scheme.
@@ -27,7 +27,7 @@ Connecting to the CSL VPN may be necessary to test Kerberos authentication or ot
 
 Run `vagrant plugin install vagrant-vbguest vagrant-bindfs` If you are on Windows, also run `vagrant plugin install vagrant-winnfsd`.
 
-Run `vagrant up && vagrant reload` and wait while the development environment is set up. When asked to select a network interface for bridging, enter the number corresponding to one that is active. To automatically select this interface in the future, set the "network\_interface" key in `devconfig.json` to the name of the interface you selected \(e.g. `"en0: Wi-Fi (AirPort)"`\). There may be repeated warnings similar to "`Remote connection disconnect` on the second `vagrant up`. After several minutes they will stop. Once the provisioning process is complete, run `vagrant ssh` to log in to the development box.
+Run `vagrant up && vagrant reload` and wait while the development environment is set up. When asked to select a network interface for bridging, enter the number corresponding to one that is active. To automatically select this interface in the future, set the "network\_interface" key in `devconfig.json` to the name of the interface you selected (e.g. `"en0: Wi-Fi (AirPort)"`). There may be repeated warnings similar to "`Remote connection disconnect` on the second `vagrant up`. After several minutes they will stop. Once the provisioning process is complete, run `vagrant ssh` to log in to the development box.
 
 Move into the `intranet` directory and run `workon ion` to load the Python dependencies. `workon ion` should always be the first thing you run after you SSH into the development box.
 
@@ -43,7 +43,7 @@ If you see a `Adding routes to host computer...` message, you probably forgot to
 
 After successfully setting up the Vagrant environment, you will want to actually access your sandbox.
 
-Start by connecting to the Vagrant box using `vagrant ssh`. \(Consider running all of the following in a `screen` or `tmux` session.\) Make sure you’re in the `intranet` directory, and run `python manage.py migrate`. This will set up the Postgres database.
+Start by connecting to the Vagrant box using `vagrant ssh`. (Consider running all of the following in a `screen` or `tmux` session.) Make sure you’re in the `intranet` directory, and run `python manage.py migrate`. This will set up the Postgres database.
 
 You can then start the built-in Django web server with `fab runserver`. Now that you are running the development server, open a browser to [http://127.0.0.1:8080](http://127.0.0.1:8080) and log in. If it fails, check the output of `manage.py runserver`.
 
@@ -88,4 +88,3 @@ With any RAM lower than the default 2048MB, you may run into performance constra
 ## Reasons for Vagrant Setup
 
 The Ion developers decided to use Vagrant to manage Ion's development environment because it closely modeled Ion's production server. Vagrant also enables the quick creation of VMs with various customizations possible.
-

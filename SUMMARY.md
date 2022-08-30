@@ -4,7 +4,9 @@
 * [Services](services/README.md)
   * [Ion](services/ion/README.md)
     * [Development](services/ion/development/README.md)
-      * [Vagrant Setup](services/ion/development/vagrant-setup.md)
+      * [Setup](services/ion/development/setup/README.md)
+        * [Docker Setup](services/ion/development/setup/docker-setup.md)
+        * [Vagrant Setup](services/ion/development/setup/vagrant-setup.md)
       * [Environment](services/ion/development/environment.md)
       * [Fixtures](services/ion/development/fixtures.md)
       * [PR Workflow](services/ion/development/pr-workflow.md)
@@ -232,4 +234,3 @@
   * [Upgrade Policy](policies/upgrade-policy.md)
   * [Account Policy](policies/account-policy.md)
   * [Election Policy](policies/student-leadership-election-policy.md)
-

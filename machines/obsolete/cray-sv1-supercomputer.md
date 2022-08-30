@@ -4,25 +4,25 @@
 This page contains information on systems that are in happy retirement from the Computer Systems Lab.
 {% endhint %}
 
-The **Cray SV1 Supercomputer** \(**Cray** or **Seymour** \([https://en.wikipedia.org/wiki/Seymour\_Cray](https://en.wikipedia.org/wiki/Seymour_Cray)\)\) used to be our supercomputer. Now, its shell can be found near the AudLob by the bus signage.
+The **Cray SV1 Supercomputer** (**Cray** or **Seymour** ([https://en.wikipedia.org/wiki/Seymour\_Cray](https://en.wikipedia.org/wiki/Seymour\_Cray))) used to be our supercomputer. Now, its shell can be found near the AudLob by the bus signage.
 
 ## History
 
 The CSL used to have an ETA-10P supercomputer that was won through the SuperQuest competition. However, the supercomputer was damaged due to a roof leak. The only remains of the original supercomputer are the original floorplans, which are taped inside of the machine room electrical panel, and the honeywell rack, which is believed to have held hard drives. The trophy from the SuperQuest competition can still be seen in the windows of the machine room from the hallway in front of the systems lab.
 
-In 2002, Cray donated the current SV1 supercomputer, seymour \(or simply "the cray"\). Although largely outdated by modern computers, the Cray is still an integral part of the lab and the machine room.
+In 2002, Cray donated the current SV1 supercomputer, seymour (or simply "the cray"). Although largely outdated by modern computers, the Cray is still an integral part of the lab and the machine room.
 
 ## Overview
 
 ### Mainframe Cabinet
 
-This is the main cabinet of the Cray. The front faces the hallway windows, while the back faces the lab. The I/O and CPU reset switches are located at the top of the rear of the cabinet \(see boot-up\). The front has one of the main power switches.
+This is the main cabinet of the Cray. The front faces the hallway windows, while the back faces the lab. The I/O and CPU reset switches are located at the top of the rear of the cabinet (see boot-up). The front has one of the main power switches.
 
 ### I/O Cabinet
 
 This is the smaller cabinet off to the side of the mainframe cabinet. At the rear is the small text display and running lights. The front houses all of the I/O connections for the various modules, as well as network and serial connections. There is actually a small network hub at the base of the front of the cabinet. In addition, the power supplies for the case lights sit in an empty part of this cabinet.
 
-### System Workstations \(SWS\)
+### System Workstations (SWS)
 
 The system workstation, or SWS, is the Sun SPARCstation 5 known as scadmin that sits adjacent to the main cabinets of the cray. In addition to providing direct serial access to the cray, the workstation has a direct ethernet connection that must be functioning in order for the cray to boot. The ethernet connection to the Cray should be connected to network port 0 on the back of the SWS. The main network connection to CSL network should be connected to network port 1. The two serial lines, A and B, should be connected to their respective ports, Serial A and Serial B.
 
@@ -41,45 +41,42 @@ During normal operation, the lights in the I/O cabinet should be running back an
 ### Boot-up Sequence
 
 * Switch on Mains Disconnect at the bottom of the back of the I/O cabinet
-* Flip breaker \(to ON\) at the bottom of the front of the mainframe cabinet
+* Flip breaker (to ON) at the bottom of the front of the mainframe cabinet
 * Press the blue "Reset I/O" button at the top of the back of the mainframe cabinet.
 * Press "Reset CPU" button, also blue, next to the "Reset I/O" button.
-* On SWS, run
+*   On SWS, run
 
-  ```text
-  bootsys -c -H
-  ```
+    ```
+    bootsys -c -H
+    ```
+*   If running commands remotely, omit the -c option. It opens a console in an xterm. Instead, after finishing the next instruction, run
 
-* If running commands remotely, omit the -c option. It opens a console in an xterm. Instead, after finishing the next instruction, run
+    ```
+    mfcon
+    ```
 
-  ```text
-  mfcon
-  ```
+    to start the console for the Cray.
+*   Still on the SWS, run
 
-  to start the console for the Cray.
+    ```
+    dring -initnode
+    ```
+*   On the Cray, run
 
-* Still on the SWS, run
+    ```
+    /etc/init 2
+    ```
 
-  ```text
-  dring -initnode
-  ```
+    to start multiuser mode.
 
-* On the Cray, run
-
-  ```text
-  /etc/init 2
-  ```
-
-  to start multiuser mode.
-
-  * The Cray will ask if the system date is correct. It usually is not, so enter a date in the MMDDhhmm\[\[CC\]YY\] format.
-  * If the Cray complains about not mounting a filesystem because of filesystem errors, go back to runlevel 1 and fsck the filesystems in question.
+    * The Cray will ask if the system date is correct. It usually is not, so enter a date in the MMDDhhmm\[\[CC]YY] format.
+    * If the Cray complains about not mounting a filesystem because of filesystem errors, go back to runlevel 1 and fsck the filesystems in question.
 
 #### SWS PATH
 
 The Cray executables are not in the path by default. Add "/opt/CYRIops/bin" to the PATH. If using csh, execute
 
-```text
+```
 setterm PATH "/opt/CYRIops/bin:$PATH"
 ```
 
@@ -89,7 +86,7 @@ Don't shut it down. The only exception being that whenever a power outage happen
 
 To drop to single user mode from the SWS, run
 
-```text
+```
 levelsys -r shutdown
 ```
 
@@ -99,11 +96,11 @@ If the system really needs to be shutdown, the instructions are printed inside t
 
 ### Setting the System Date and Time
 
-When booting, the system will ask "is the date dow MM dd hh:mm:ss tz yyy correct? \(y or n\)." If you wish to change the date, enter the correct date in the "MMddhhmm\[yy\[ss\]\]" format. MM is the month, dd is the day of the month, hh is the hour in 24-hour time, mm is the minute, yy is the last 2 digits of the year, and ss is the second. The date can also be changed while the system is running with the date command.
+When booting, the system will ask "is the date dow MM dd hh:mm:ss tz yyy correct? (y or n)." If you wish to change the date, enter the correct date in the "MMddhhmm\[yy\[ss]]" format. MM is the month, dd is the day of the month, hh is the hour in 24-hour time, mm is the minute, yy is the last 2 digits of the year, and ss is the second. The date can also be changed while the system is running with the date command.
 
 ### Setting the Time Zone
 
-To change the time zone, edit the tz line in /etc/inittab. For Eastern time, the string "tz::timezone:TZ=EST5EDT" should be used. /usr/src/lib/libc/gen/ctime.c determines daylight savings time rules. This file might need to be changed with the \(relatively\) recent daylight savings time changes. Alternatively, the daylight savings timeperiods can be specified in the tz variable. Append the string ",M3.5.0,M9.5.0" to the tz string, where the first number is the month, the second number is the week, and the last number is the day \(0 = Sunday\) of the week that daylight savings time is active. The above example is from the last Sunday in March through the last Sunday in September.
+To change the time zone, edit the tz line in /etc/inittab. For Eastern time, the string "tz::timezone:TZ=EST5EDT" should be used. /usr/src/lib/libc/gen/ctime.c determines daylight savings time rules. This file might need to be changed with the (relatively) recent daylight savings time changes. Alternatively, the daylight savings timeperiods can be specified in the tz variable. Append the string ",M3.5.0,M9.5.0" to the tz string, where the first number is the month, the second number is the week, and the last number is the day (0 = Sunday) of the week that daylight savings time is active. The above example is from the last Sunday in March through the last Sunday in September.
 
 ### Adding/Removing User Accounts
 
@@ -123,7 +120,7 @@ sn3313-mpn0, sn3313-fcn{0,1}, and the SWS are all connected via a local network 
 
 ### Network addresses
 
-* 10.1.124.200 sws3313-private \(qe0 interface on the SWS\)
+* 10.1.124.200 sws3313-private (qe0 interface on the SWS)
 * 10.1.124.201 sn3313-mpn0
 * 10.1.124.203 sn3313-fcn1
 * 10.1.124.202 sn3313-fcn0
@@ -134,5 +131,4 @@ During the summer months, the air conditioning cannot cool the Cray, sun machine
 
 ## External Links
 
-[Cray, Inc.\'s official website](http://www.cray.com/)
-
+[Cray, Inc.\\'s official website](http://www.cray.com/)

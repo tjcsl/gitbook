@@ -35,7 +35,7 @@ python -m virtualenv <venv-folder>
 
 in the directory you want to create a `venv-folder/` in.
 
-Then, you must `source activate venv-folder/bin/activate` \(or, if you are on Windows, `venv-folder\Scripts\activate.bat`\) in order to activate the virtual environment.
+Then, you must `source activate venv-folder/bin/activate` (or, if you are on Windows, `venv-folder\Scripts\activate.bat`) in order to activate the virtual environment.
 
 **Which packages tho**
 
@@ -51,7 +51,7 @@ to install all the packages it specifies. This is better than reading the file y
 
 A sample `requirements.txt` is listed below:
 
-```text
+```
 daphne
 django
 requests
@@ -71,26 +71,26 @@ For the rest of this section, we will assume your project is called `your_projec
 Let's say you are in the root directory of your new Django project/git repository. You should see these files/folders:
 
 * `manage.py`: the main helper script for developing with Django. Can start the server, run db operations, etc
-* `your-project/`: Your main project folder, where all of your code goes. This will have a few sub-files, as denoted by sub-bullets \(sub-folders are discussed in a later section\)
+* `your-project/`: Your main project folder, where all of your code goes. This will have a few sub-files, as denoted by sub-bullets (sub-folders are discussed in a later section)
   * `settings.py`: Where all of Django's settings are stored. This file is massive, an absolute unit. Specifics discussed later.
-  * `urls.py`: Where Django looks for all the URLs it should handle. URLs can be manually specified, included from other files, and all correspond to Views defined in Apps \(next section\)
+  * `urls.py`: Where Django looks for all the URLs it should handle. URLs can be manually specified, included from other files, and all correspond to Views defined in Apps (next section)
   * `wsgi.py`: A small file containing everything needed for a Django server to actually server your app. Doesn't really need to be edited
 
 There can be more files in here, but they will be project-specific.
 
 **Apps**
 
-Now, let's move on to what actually makes Django cool: **Apps**! Apps are small, supposedly independent modules that take care of one task. Every app is a subfolder \(`the_app/`\) in the main project directory \(\) In the Othello Server, for example, there is one app each dedicated to:
+Now, let's move on to what actually makes Django cool: **Apps**! Apps are small, supposedly independent modules that take care of one task. Every app is a subfolder (`the_app/`) in the main project directory () In the Othello Server, for example, there is one app each dedicated to:
 
-* Authentication \(`auth`\)
-* User sessions \(`users`\)
-* Running games \(`games`, the biggest one\)
+* Authentication (`auth`)
+* User sessions (`users`)
+* Running games (`games`, the biggest one)
 
 Because apps are what makes up the meat of a Django project, they contain the most sub-files. The automatically created ones are listed below, but apps can contain as many sub-files as they want to get the functionality they need.
 
 **views.py**
 
-This is where you write the code to handle what happens when someone visits a page. Views \(really just Python functions that return HTML with Django helpers\) defined in this file are referenced from the main `urls.py` file or, for more complicated apps, an app-specific `the-app/urls.py` file which in turn is included in bulk in the main `urls.py` file. Got it?
+This is where you write the code to handle what happens when someone visits a page. Views (really just Python functions that return HTML with Django helpers) defined in this file are referenced from the main `urls.py` file or, for more complicated apps, an app-specific `the-app/urls.py` file which in turn is included in bulk in the main `urls.py` file. Got it?
 
 **models.py**
 
@@ -111,11 +111,11 @@ class TheAppConfig(AppConfig):
 
 **admin.py and tests.py**
 
-Unless you do stuff on Ion or Director these don't really matter. `admin.py` defines models accessible from django-admin, and `tests.py` defines testcases so you have a less chance of breaking your code by accident \(super lame\).
+Unless you do stuff on Ion or Director these don't really matter. `admin.py` defines models accessible from django-admin, and `tests.py` defines testcases so you have a less chance of breaking your code by accident (super lame).
 
 **Templates**
 
-The folder `your_project/templates/` contains all the [Jinja2](http://jinja.pocoo.org/) templates for you Django project. Basically stores all the HTML/JS/CSS that should be dynamically rendered \(mostly HTML\).
+The folder `your_project/templates/` contains all the [Jinja2](http://jinja.pocoo.org/) templates for you Django project. Basically stores all the HTML/JS/CSS that should be dynamically rendered (mostly HTML).
 
 If you want good text highlighting, you might want to name these ending in `.j2` instead of `.html`. We don't really do that yet though.
 
@@ -143,84 +143,80 @@ There are a ton more variables, but most are simple enough to understand/are par
 
 As an example to demonstrate the knowledge mountain that has been piled upon thee by the above sections, let's walk through adding a simple templated page to an existing project `your_project`
 
-1. Add the file at `your_project/templates/sample-page.html`
+1.  Add the file at `your_project/templates/sample-page.html`
 
-   ```markup
-    <html>
-      <head>
-        <title>A page!</title>
-      </head>
-      <body>
-        <h1>
-          Your random number is: {{ the_number }}
-        </h1>
-      </body>
-    </html>
-   ```
+    ```markup
+     <html>
+       <head>
+         <title>A page!</title>
+       </head>
+       <body>
+         <h1>
+           Your random number is: {{ the_number }}
+         </h1>
+       </body>
+     </html>
+    ```
+2.  Add the app using `manage.py`
 
-2. Add the app using `manage.py`
+    ```bash
+     python manage.py startapp the_app
+    ```
+3.  Add the view to the app
 
-   ```bash
-    python manage.py startapp the_app
-   ```
+    &#x20;\`\`\`python
 
-3. Add the view to the app
+    **your\_project/apps/the\_app/views.py**
 
-    \`\`\`python
+    &#x20;from django.shortcuts import render
 
-   **your\_project/apps/the\_app/views.py**
+    &#x20;from random import randint
 
-    from django.shortcuts import render
-
-    from random import randint
-
-```text
+````
 def sample_view(request):
   n = str(randint(1, 100))
   return render(request, "sample-page.html", {'the_number': n})
 ```
-```
+````
 
-1. Add the view to `urls.py`
+1.  Add the view to `urls.py`
 
-   ```python
-    # your_project/urls.py
-    """big django comment"""
-    from django.conf.urls import url, include
-    from django.contrib import admin
+    ```python
+     # your_project/urls.py
+     """big django comment"""
+     from django.conf.urls import url, include
+     from django.contrib import admin
 
-    from .apps.the_app import views as the_app_views
+     from .apps.the_app import views as the_app_views
 
-    urlpatterns = [
-      url(r'^randnum$', the_app_views.sample_view, name="sample"),
-    ]
-   ```
+     urlpatterns = [
+       url(r'^randnum$', the_app_views.sample_view, name="sample"),
+     ]
+    ```
+2.  Add the app to `settings.py`
 
-2. Add the app to `settings.py`
+    ```python
+     # your_project/settings.py
 
-   ```python
-    # your_project/settings.py
+     """
+     ...
+     A bunch of stuff
+     ...
+     """
 
-    """
-    ...
-    A bunch of stuff
-    ...
-    """
+     INSTALLED_APPS = [
+       # All the existing apps
+       "your_project",
+       "your_project.apps.the_app",
+     ]
 
-    INSTALLED_APPS = [
-      # All the existing apps
-      "your_project",
-      "your_project.apps.the_app",
-    ]
-
-    """
-    ...
-    A bunch more stuff
-    ...
-    """
-   ```
-
-3. You're done! Start the server using `python manage.py runserver 8001` and go to `http://localhost:8001/randnum` to \(hopefully\) see your random number!
+     """
+     ...
+     A bunch more stuff
+     ...
+     """
+    ```
+3. You're done! Start the server using `python manage.py runserver 8001` and go to `http://localhost:8001/randnum` to (hopefully) see your random number!
 
 #### Django Channels
 
@@ -250,11 +246,11 @@ In production, we need to have a few more things set up.
 
 **Static files**
 
-Django doesn't like to serve static files \(because it is Python and slow\), so it wants something else like [Nginx](nginx.md) to take care of that for it. How the whole proxying setup works is explained in the [Nginx](nginx.md) page.
+Django doesn't like to serve static files (because it is Python and slow), so it wants something else like [Nginx](nginx.md) to take care of that for it. How the whole proxying setup works is explained in the [Nginx](nginx.md) page.
 
 **A better webserver**
 
-There are a ton better, much more performant [WSGI](https://wsgi.readthedocs.io/en/latest/what.html)/[ASGI](https://github.com/django/asgiref/blob/master/specs/asgi.rst)-compatible webservers than the one Django comes with. Good WSGI-only ones include [Gunicorn](https://gunicorn.org/) and [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), while ASGI \(websocket-compatible\) ones include [Daphne](https://github.com/django/daphne) and [Uvicorn](https://www.uvicorn.org/). Choose one and set it up in your virtual environment.
+There are a ton better, much more performant [WSGI](https://wsgi.readthedocs.io/en/latest/what.html)/[ASGI](https://github.com/django/asgiref/blob/master/specs/asgi.rst)-compatible webservers than the one Django comes with. Good WSGI-only ones include [Gunicorn](https://gunicorn.org/) and [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/), while ASGI (websocket-compatible) ones include [Daphne](https://github.com/django/daphne) and [Uvicorn](https://www.uvicorn.org/). Choose one and set it up in your virtual environment.
 
 **A nice startup script**
 
@@ -268,7 +264,7 @@ source $VENV/bin/activate
 daphne -b 0.0.0.0 -p 8001 django_project.asgi:application
 ```
 
-Assuming you have everything set up right \(including static file proxying\), running this script should make the server accessible through the proxied port.
+Assuming you have everything set up right (including static file proxying), running this script should make the server accessible through the proxied port.
 
 Now you can add `ExecStart=/usr/bin/bash your-script.sh` to a systemd unit to make it the server at boot if that's what you want.
 
@@ -278,4 +274,3 @@ Now you can add `ExecStart=/usr/bin/bash your-script.sh` to a systemd unit to ma
 * You can remember how to pronounce "Django" by remembering that "**Jango** Fett died in Star Wars Episode II: Attack of the Clones"
   * You should never say "duh-Jango" because that makes you sound weird
 * Django is pretty resource intensive and spawns a heck ton of threads, which can especially bog down older laptops so be careful.
-

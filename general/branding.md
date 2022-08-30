@@ -6,15 +6,15 @@
 
 **Logos**
 
- tjCSL uses the flat TJ icon logo.
+&#x20;tjCSL uses the flat TJ icon logo.
 
- Alternatively, the wordmark logo can also be used.
+&#x20;Alternatively, the wordmark logo can also be used.
 
- The logo can be used together with the unabbreviated "Computer Systems Laboratory", as shown, but should not be used with the wordmark logo.
+&#x20;The logo can be used together with the unabbreviated "Computer Systems Lab", as shown, but should not be used with the wordmark logo.
 
-When using on a white background, the logo or text should be \#484848.
+When using on a white background, the logo or text should be #484848.
 
-The logo can also be used on the blue \#0048AB background.
+The logo can also be used on the blue #0048AB background.
 
 **Type**
 
@@ -34,15 +34,15 @@ For eyecatching material, use the extra-bold weight. This weight should not be u
 * to the point
 * eyecatching
 
- Do: - overlay on images - keep the message short - use color to increase contrast
+&#x20;Do: - overlay on images - keep the message short - use color to increase contrast
 
- Don't: - use for body text - have illegible line spacing
+&#x20;Don't: - use for body text - have illegible line spacing
 
 #### Color
 
-The main CSL color is \#0048AB.
+The main CSL color is #0048AB.
 
-Text should be \#484848.
+Text should be #484848.
 
 #### Naming Conventions
 
@@ -52,11 +52,11 @@ The computer systems lab should be referred to as "the tjCSL".
 
 Do:
 
-* Add "the" when using "tjCSL" to refer to the location or organization \(ex: "We visited the tjCSL"\).
+* Add "the" when using "tjCSL" to refer to the location or organization (ex: "We visited the tjCSL").
 
 Don't:
 
-* Capitalize "The" \(ex: "We visited The tjCSL"\).
+* Capitalize "The" (ex: "We visited The tjCSL").
 
 Do:
 
@@ -67,7 +67,7 @@ Don't:
 
 * Insert spaces "tj CSL"
 
-Projects can be namespaced \(for instance, on IRC\):
+Projects can be namespaced (for instance, on IRC):
 
 > tjcsl-ion, tjcsl-director
 
@@ -96,5 +96,4 @@ Examples of misuse of the name:
   * "IONGlance"
   * "ionGlance"
 
-Note that there should be no spaces in the names of related projects \(e.g. "IonTap" is correct, "Ion Tap" is not\)
-
+Note that there should be no spaces in the names of related projects (e.g. "IonTap" is correct, "Ion Tap" is not)
