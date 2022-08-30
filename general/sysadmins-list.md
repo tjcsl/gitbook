@@ -2,27 +2,23 @@
 
 ## Current Sysadmins <a href="#current-sysadmins" id="current-sysadmins"></a>
 
-| Name                | Username      | Position                                             |
-| ------------------- | ------------- | ---------------------------------------------------- |
-| Shreyas Mayya       | 2022smayya    | Lead Sysadmin, Infrastructure Lead                   |
-| Lauren Delwiche     | 2022ldelwich  | Lead Sysadmin, Ion Lead                              |
-| Raffu Khondaker     | 2022rkhondak  | Cluster Co-Lead, Advanced Computing Hardware Co-Lead |
-| Darius Kianersi     | 2022dkianersi | Director Lead, Printing Lead                         |
-| Rushil Umaretiya    | 2023rumareti  | Cluster Co-Lead, Advanced Computing Hardware Co-Lead |
-| Nathaniel Kenschaft | 2023nkenscha  | Monitoring Lead, Documentation Lead                  |
-| Bradley Cao         | 2023bcao      | Junior Admin                                         |
-| Ram Reddy           | 2023rreddy    | Junior Admin                                         |
-| Saloni Shah         | 2023sshah     | Junior Admin                                         |
-| Kedar Prasad        | 2024kprasad   | Junior Admin                                         |
-| Krishnan Shankar    | 2024kshankar  | Junior Admin                                         |
-| Noah Kabiri         | 2024nkabiri   | Junior Admin                                         |
-| Maribelle Chu       | 2024mchu      | Junior Admin                                         |
-| Sami Elsayed        | 2025selsayed  | Junior Admin                                         |
-| Justin Lee          | 2025jlee      | Junior Admin                                         |
-| Pratyush Saxena     | 2025psaxena   | Junior Admin                                         |
-| Alan Zhu            | 2025azhu      | Junior Admin                                         |
-| Diana Lin           | 2024dlin      | Junior Admin                                         |
-| Elijah Guison-Dowdy | 2025eguisond  | Junior Admin                                         |
+| Name                | Username     | Position                                                                  |
+| ------------------- | ------------ | ------------------------------------------------------------------------- |
+| Rushil Umaretiya    | 2023rumareti | Lead Sysadmin, Infrastructure Lead, Academic Services Lead, Director Lead |
+| Nathaniel Kenschaft | 2023nkenscha | Lead Sysadmin, Mail Supervisor, Security Lead, Hardware Lead              |
+| Bradley Cao         | 2023bcao     | Workstations Lead, ACH Co-Lead, Cluster Co-Lead                           |
+| Ram Reddy           | 2023rreddy   | Monitoring Lead, ACH Co-Lead, Cluster Co-Lead                             |
+| Saloni Shah         | 2023sshah    | Intranet Lead, Documentation Lead                                         |
+| Kedar Prasad        | 2024kprasad  | Junior Admin                                                              |
+| Krishnan Shankar    | 2024kshankar | Junior Admin                                                              |
+| Noah Kabiri         | 2024nkabiri  | Junior Admin                                                              |
+| Maribelle Chu       | 2024mchu     | Junior Admin                                                              |
+| Sami Elsayed        | 2025selsayed | Junior Admin                                                              |
+| Justin Lee          | 2025jlee     | Junior Admin                                                              |
+| Pratyush Saxena     | 2025psaxena  | Junior Admin                                                              |
+| Alan Zhu            | 2025azhu     | Junior Admin                                                              |
+| Diana Lin           | 2024dlin     | Junior Admin                                                              |
+| Elijah Guison-Dowdy | 2025eguisond | Junior Admin                                                              |
 
 ## Current Leads <a href="#current-leads" id="current-leads"></a>
 
@@ -79,14 +75,13 @@ The Sysadmin Faculty Sponsor is Mr. Eckel (`mceckel`).
 
 ## Points of Contact
 
-| Group                   | POC             |
-| ----------------------- | --------------- |
-| Eighth Period Office    | Lauren Delwiche |
-| SGA (Elections)         | Lauren Delwiche |
-| SGA (Other Matters)     | Lauren Delwiche |
-| Security Office         | Shreyas Mayya   |
-| Web Development Classes | Lauren Delwiche |
-| CSL Lab Directors       | Faculty Sponsor |
+| Eighth Period Office    | Rushil Umaretiya    |
+| ----------------------- | ------------------- |
+| SGA (Elections)         | Nathaniel Kenschaft |
+| SGA (Other Matters)     | Rushil Umaretiya    |
+| Security Office         | Nathaniel Kenschaft |
+| Web Development Classes | Rushil Umaretiya    |
+| CSL Lab Directors       | Faculty Sponsor     |
 
 ## Previous Student Systems Administrators
 
@@ -135,6 +130,8 @@ These alumni were head/lead Sysadmins in the Lab in the past.
 * Keegan Lanzillotta, Class of 2020
 * Anup Bagali, Class of 2021
 * Ethan Nguyen, Class of 2021
+* Shreyas Mayya, Class of 2022
+* Lauren Delwiche, Class of 2022
 
 ### Webmasters/Intranet maintainers
 
@@ -163,6 +160,8 @@ These alumni managed a version of Intranet or websites in the past.
 * Omkar Kulkarni, Class of 2019
 * Theo Ouzhinski, Class of 2020
 * John Beutner, Class of 2020
+* Ethan Nguyen, Class of 2021
+* Lauren Delwiche, Class of 2022
 
 ### Full Student Systems Administrators
 
@@ -268,6 +267,8 @@ These alumni were full-fledged Student Systems Administrator.
 * Shreepa Parthaje, Class of 2021
 * Ryan Kim, Class of 2021
 * Akash Bhave, Class of 2021
+* Raffu Khondaker, Class of 2022
+* Darius Kianersi, Class of 2022
 
 ### Underclassmen Systems Administrators
 
