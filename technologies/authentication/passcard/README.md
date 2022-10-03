@@ -15,7 +15,7 @@ To use the passcard system, you must have the following:
 
 ### Accessing the Passcard
 
-The git repository is accessible via GitLab at [gitlab.tjhsst.edu/sysadmins/passcard](https://gitlab.tjhsst.edu/sysadmins/passcard). To clone the repository, run the following command: `git clone git@gitlab.tjhsst.edu:sysadmins/passcard.git`. You can clone it from outside the TJ network, but to access the passcard repository you MUST have a GitLab account.
+The git repository is accessible via GitLab at [gitlab.tjhsst.edu/sysadmins/passcard](https://gitlab.tjhsst.edu/sysadmins/passcard). To clone the repository, run the following command: `git clone git@gitlab.tjhsst.edu:sysadmins/keybase-passcard.git`. You can clone it from outside the TJ network, but to access the passcard repository you MUST have a GitLab account.
 
 ### Using the Passcard
 
