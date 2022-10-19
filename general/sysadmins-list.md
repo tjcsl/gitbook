@@ -13,11 +13,12 @@
 | Krishnan Shankar    | 2024kshankar | Workstations Co-Lead, ACH Co-Lead                                         |
 | Noah Kabiri         | 2024nkabiri  | Junior Admin                                                              |
 | Maribelle Chu       | 2024mchu     | Junior Admin                                                              |
+| Diana Lin           | 2024dlin     | Junior Admin                                                              |
 | Sami Elsayed        | 2025selsayed | Junior Admin                                                              |
 | Justin Lee          | 2025jlee     | Junior Admin                                                              |
 | Pratyush Saxena     | 2025psaxena  | Junior Admin                                                              |
 | Alan Zhu            | 2025azhu     | Junior Admin                                                              |
-| Diana Lin           | 2024dlin     | Junior Admin                                                              |
+| Elijah Guison-Dowdy | 2025eguisond | Junior Admin                                                              |
 
 ## Current Leads <a href="#current-leads" id="current-leads"></a>
 
