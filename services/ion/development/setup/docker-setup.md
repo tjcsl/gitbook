@@ -2,7 +2,7 @@
 
 ## Setting up Docker
 
-Docker is one of the two options you have for managing Ion's development environment. Docker is software platform that used to build applications using containers. If you want to learn more about Docker, refer to its [documentation](https://docs.docker.com/).
+Docker is one of the two options you have for managing Ion's development environment. Docker is a software platform that is used to build applications using containers. If you want to learn more about Docker, refer to its [documentation](https://docs.docker.com/).
 
 First, download and install Git from [here](https://git-scm.com/downloads) if you are on Windows. Ensure you have an SSH key set up with GitHub by running `ssh -T git@github.com`. You should be greeted by your username. If not, set up an SSH key with GitHub by following [these instructions](https://help.github.com/articles/generating-an-ssh-key/).
 
