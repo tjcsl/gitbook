@@ -29,7 +29,7 @@ Navigate to [http://localhost:8080](http://localhost:8080/) in the web browser o
 
 #### Interacting with the application:
 
-If you need to run a Django command like `makemigrations`, `collectstatic` or `shell_plus`, run `docker exec -it application bash` in your terminal. That will give you a shell into the application container. You can also use this to run scripts like `build_sources.sh`. If you need to view the output from or restart `runserver`, run `docker attach application`.
+If you need to run a Django command like `makemigrations`, `collectstatic` or `shell_plus`, run `docker exec -it intranet bash` in your terminal. That will give you a shell into the application container. You can also use this to run scripts like `build_sources.sh`. If you need to view the output from or restart `runserver`, run `docker attach application`.
 
 ### History
 
