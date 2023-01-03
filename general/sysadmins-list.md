@@ -74,13 +74,13 @@ The Sysadmin Faculty Sponsor is Mr. Eckel (`mceckel`).
 
 ## Points of Contact
 
-| Eighth Period Office    | Rushil Umaretiya    |
-| ----------------------- | ------------------- |
-| SGA (Elections)         | Nathaniel Kenschaft |
-| SGA (Other Matters)     | Rushil Umaretiya    |
-| Security Office         | Nathaniel Kenschaft |
-| Web Development Classes | Rushil Umaretiya    |
-| CSL Lab Directors       | Faculty Sponsor     |
+| Eighth Period Office    | Bradley Cao                      |
+| ----------------------- | -------------------------------- |
+| SGA (Elections)         | Nathaniel Kenschaft, Bradley Cao |
+| SGA (Other Matters)     | Nathaniel Kenschaft, Bradley Cao |
+| Security Office         | Nathaniel Kenschaft              |
+| Web Development Classes | Bradley Cao                      |
+| CSL Lab Directors       | Faculty Sponsor                  |
 
 ## Previous Student Systems Administrators
 
