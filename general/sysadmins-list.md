@@ -4,12 +4,11 @@
 
 | Name                | Username     | Position                                                                  |
 | ------------------- | ------------ | ------------------------------------------------------------------------- |
-| Rushil Umaretiya    | 2023rumareti | Lead Sysadmin, Infrastructure Lead, Academic Services Lead, Director Lead |
 | Nathaniel Kenschaft | 2023nkenscha | Lead Sysadmin, Mail Supervisor, Security Lead, Hardware Lead              |
-| Bradley Cao         | 2023bcao     | Workstations Co-Lead, ACH Co-Lead                                         |
-| Ram Reddy           | 2023rreddy   | Monitoring Lead, Cluster Co-Lead                                          |
+| Bradley Cao         | 2023bcao     | Lead Sysadmin, Infrastructure Lead, Academic Services Lead, Director Lead |
+| Ram Reddy           | 2023rreddy   | Monitoring Lead, Cluster Co-Lead, ACH Co-Lead                             |
 | Saloni Shah         | 2023sshah    | Intranet Lead, Documentation Lead                                         |
-| Kedar Prasad        | 2024kprasad  | Mail Supervisor, Cluster Co-Lead                                          |
+| Kedar Prasad        | 2024kprasad  | Mail Supervisor, Cluster Co-Lead, Workstations Co-Lead                    |
 | Krishnan Shankar    | 2024kshankar | Workstations Co-Lead, ACH Co-Lead                                         |
 | Noah Kabiri         | 2024nkabiri  | Junior Admin                                                              |
 | Maribelle Chu       | 2024mchu     | Junior Admin                                                              |
@@ -22,42 +21,42 @@
 
 ## Current Leads <a href="#current-leads" id="current-leads"></a>
 
-| Area                                                | Lead(s)                               |
-| --------------------------------------------------- | ------------------------------------- |
-| ​[Ion](../services/ion/)​                           | Saloni Shah                           |
-| ​[Director](../services/director/)​                 | Rushil Umaretiya                      |
-| ​[Storage](../technologies/storage/)​               | Rushil Umaretiya                      |
-| [Networking](../technologies/networking/)           | Nathaniel Kenschaft                   |
-| ​[Workstations](../services/workstations.md)​       | Bradley Cao, Krishnan Shankar         |
-| ​[Cluster](../services/cluster/)​                   | Ram Reddy, Kedar Prasad               |
-| ​[Web Content/WWW](../services/www/)​               | Rushil Umaretiya                      |
-| ​[Signage](../services/signage/)​                   | Rushil Umaretiya                      |
-| ​[Documentation](documentation/)​                   | Saloni Shah                           |
-| Security                                            | Nathaniel Kenschaft                   |
-| Advanced Computing Hardware                         | Ram Reddy, Krishnan Shankar           |
-| [Mail](../services/mail.md)                         | Nathaniel Kenschaft                   |
-| ​[Printing](../services/printing/)​                 | Bradley Cao                           |
-| [Monitoring](../technologies/monitoring/)           | Ram Reddy                             |
-| [Academic Services](../services/academic-services/) | Rushil Umaretiya                      |
-| [Understudy](understudies.md)                       | Rushil Umaretiya, Nathaniel Kenschaft |
+| Area                                                | Lead(s)                          |
+| --------------------------------------------------- | -------------------------------- |
+| ​[Ion](../services/ion/)​                           | Saloni Shah                      |
+| ​[Director](../services/director/)​                 | Bradley Cao                      |
+| ​[Storage](../technologies/storage/)​               | Bradley Cao                      |
+| [Networking](../technologies/networking/)           | Nathaniel Kenschaft              |
+| ​[Workstations](../services/workstations.md)​       | Krishnan Shankar, Kedar Prasad   |
+| ​[Cluster](../services/cluster/)​                   | Ram Reddy, Kedar Prasad          |
+| ​[Web Content/WWW](../services/www/)​               | Bradley Cao                      |
+| ​[Signage](../services/signage/)​                   | Bradley Cao                      |
+| ​[Documentation](documentation/)​                   | Saloni Shah                      |
+| Security                                            | Nathaniel Kenschaft              |
+| Advanced Computing Hardware                         | Ram Reddy, Krishnan Shankar      |
+| [Mail](../services/mail.md)                         | Nathaniel Kenschaft              |
+| ​[Printing](../services/printing/)​                 | Bradley Cao                      |
+| [Monitoring](../technologies/monitoring/)           | Ram Reddy                        |
+| [Academic Services](../services/academic-services/) | Bradley Cao                      |
+| [Understudy](understudies.md)                       | Bradley Cao, Nathaniel Kenschaft |
 
 ## Team Membership <a href="#teams" id="teams"></a>
 
 All teams and their responsibilities are [available here](organization.md).
 
-| Team Name                   | Members                                                                                                          |
-| --------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| Ion                         | Saloni Shah (Lead), Rushil Umaretiya (Deputy)                                                                    |
-| Director                    | Rushil Umaretiya (Lead), Nathaniel Kenschaft (Deputy)                                                            |
-| Storage                     | Rushil Umaretiya (Lead), Nathaniel Kenschaft (Deputy)                                                            |
-| Workstations                | Bradley Cao (Lead), Krishnan Shankar (Deputy)                                                                    |
-| Networking                  | Nathaniel Kenschaft (Lead), Rushil Umaretiya (Deputy)                                                            |
-| Monitoring                  | Ram Reddy (Lead), Nathaniel Kenschaft (Deputy)                                                                   |
-| Mail                        | Nathaniel Kenschaft (Lead), Kedar Prasad (Deputy)                                                                |
-| Cluster                     | Ram Reddy (Co-Lead), Kedar Prasad (Co-Lead), Rushil Umaretiya (Deputy)                                           |
-| Documentation               | Saloni Shah (Lead), Nathaniel Kenschaft (Deputy)                                                                 |
-| Advanced Computing Hardware | Bradley Cao (Co-Lead), Krishnan Shankar (Co-Lead), Rushil Umaretiya (Co-Deputy), Nathaniel Kenschaft (Co-Deputy) |
-| Academic Services           | Rushil Umaretiya (Lead)                                                                                          |
+| Team Name                   | Members                                                                         |
+| --------------------------- | ------------------------------------------------------------------------------- |
+| Ion                         | Saloni Shah (Lead), Nathaniel Kenschaft(Deputy)                                 |
+| Director                    | Bradley Cao (Lead), Nathaniel Kenschaft (Deputy)                                |
+| Storage                     | Bradley Cao (Lead), Nathaniel Kenschaft (Deputy)                                |
+| Workstations                | Krishnan Shankar (Lead), Kedar Prasad (Deputy)                                  |
+| Networking                  | Nathaniel Kenschaft (Lead), Bradley Cao (Deputy)                                |
+| Monitoring                  | Ram Reddy (Lead), Nathaniel Kenschaft (Deputy)                                  |
+| Mail                        | Nathaniel Kenschaft (Lead), Kedar Prasad (Deputy)                               |
+| Cluster                     | Ram Reddy (Co-Lead), Kedar Prasad (Co-Lead), Bradley Cao (Deputy)               |
+| Documentation               | Saloni Shah (Lead), Nathaniel Kenschaft (Deputy)                                |
+| Advanced Computing Hardware | Bradley Cao (Co-Lead), Krishnan Shankar (Co-Lead), Nathaniel Kenschaft (Deputy) |
+| Academic Services           | Bradley Cao (Lead)                                                              |
 
 ## Workgroups <a href="#workgroups" id="workgroups"></a>
 
