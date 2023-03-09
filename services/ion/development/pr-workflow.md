@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-Knowledge of Git is a good to have for Ion development since we store code in Git and use GitHub
+Knowledge of Git is good to have for Ion development given that we store code in Git and use GitHub.
 
 ## Branching
 
@@ -14,7 +14,7 @@ Non-Ion maintainers should develop on their own forks of the main GitHub reposit
 
 When you think your code is ready to reviewed, it is important to ensure your changes comply with the Ion code guidelines. Here are some general guidelines
 
-* First, you should review your code for compliance with the [Ion Style Guide](style-guide.md).  
+* First, you should review your code for compliance with the [Ion Style Guide](style-guide.md). &#x20;
 * Second, you should make sure that only changes you wanted to make exist in your branch.
 * Third, you should make sure your code will pass the build by running `./deploy` in the root directory. This will run tests, update `Ion.egg-info` and build the docs. At the end, you will probably get a message saying there are uncommitted changes. **This is fine**. As long as the script ends with an uncommitted changes message, you are ready to commit your code.
 
@@ -28,7 +28,7 @@ In order to merge into master, it is recommended to write tests for any new code
 
 The scope of your PR should be limited.
 
-You should not make PRs changing various unrelated portions of the code.  For example, a PR focused on adding a new feature to printing should not be removing a test case for user authentication  \(although you are free to open a separate PR for that\).  In addition, you should not fix failed CI tests in the same PR \(unless your code was the source of the errors\).
+You should not make PRs changing various unrelated portions of the code.  For example, a PR focused on adding a new feature to printing should not be removing a test case for user authentication  (although you are free to open a separate PR for that).  In addition, you should not fix failed CI tests in the same PR (unless your code was the source of the errors).
 
 ## Opening a PR
 
@@ -43,7 +43,7 @@ The _only_ people should open PRs with the `master` branch as the base branch sh
 
 * You must see a green check mark indicating that branch is able to merge.  If it is not, you should rebase and make the branch mergeable before proceeding.
 * Write an informative title and describe your changes briefly in the description box.
-  * Your changes should describe why you are changing something, how you are changing something, and what you are changing.  
+  * Your changes should describe why you are changing something, how you are changing something, and what you are changing. &#x20;
   * A good, informative PR description helps the maintainers review your changes faster.
 * Make sure only the changes you want to make are described in the PR.
 * Submit it!
@@ -58,11 +58,9 @@ After your PR has been submitted, an Ion maintainer will review your PR.  They c
 
 If your PR has been approved, there is no need to take any further action unless requested to.  The maintainer may wait for other maintainers to review your the code or may immediately merge the PR.
 
-If the PR has been closed, the reason is generally described by the closing maintainer.  
+If the PR has been closed, the reason is generally described by the closing maintainer. &#x20;
 
-If a maintainer has requested changes, you should correct your code per the recommendations and push additional commits to your head branch \(or just rebase your branch\).  
-
-
+If a maintainer has requested changes, you should correct your code per the recommendations and push additional commits to your head branch (or just rebase your branch). &#x20;
 
 
 

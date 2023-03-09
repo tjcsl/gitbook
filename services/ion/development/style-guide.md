@@ -28,41 +28,51 @@ The Ion code base generally follows the guidelines as set forth by [PEP8](https:
 
 Standard library imports:
 
-```text
+```
 from math import sqrt
 from os.path import abspath
 ```
 
 Core Django imports:
 
-```text
+```
 from django.db import models
 ```
 
 Third-party app imports
 
-```text
+```
 from django_extensions.db.models import TimeStampedModel
 ```
 
 Imports from your apps
 
-```text
+```
 from intranet.models import User
 ```
 
-Explicit relative importsUsed to avoid hardcoding a module's package. This greatly improves portability. Use these when importing from another module in the current app.Absolute importsUsed when importing outside the current app.Implicit relative importsDon't use these. Using them makes it very difficult to change the name of the app, reducing portability.
+Explicit relative imports:
+
+Used to avoid hardcoding a module's package. This greatly improves portability. Use these when importing from another module in the current app.
+
+Absolute imports:
+
+Used when importing outside the current app.
+
+Implicit relative imports:
+
+Don't use these. Using them makes it very difficult to change the name of the app, reducing portability.
 
 Good:
 
-```text
+```
 from .models import SomeModel  # explicit relative import
 from  otherdjangoapp.models import OtherModel  # absolute import
 ```
 
 Bad:
 
-```text
+```
 from currentapp.models import MyModel  # implicit relative import
 ```
 
@@ -72,4 +82,3 @@ from currentapp.models import MyModel  # implicit relative import
 * [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.xml).
 * [Google Javascript Style Guide](https://google.github.io/styleguide/javascriptguide.xml).
 * [PEP8 Official Python Style Guide](https://www.python.org/dev/peps/pep-0008/).
-
