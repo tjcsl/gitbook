@@ -4,11 +4,15 @@ To set up a new Cluster node, you should follow these steps:
 
 ## Network it
 
-Do the standard steps to add new entries for a node \(or block of nodes\) to DHCP and DNS.
+Do the standard steps to add new entries for a node (or block of nodes) to DHCP and DNS.
 
-{% page-ref page="../../technologies/networking/dns/" %}
+{% content-ref url="../../../technologies/networking/dns/" %}
+[dns](../../../technologies/networking/dns/)
+{% endcontent-ref %}
 
-{% page-ref page="../../technologies/networking/dhcp.md" %}
+{% content-ref url="../../../technologies/networking/dhcp.md" %}
+[dhcp.md](../../../technologies/networking/dhcp.md)
+{% endcontent-ref %}
 
 Also make sure the switches/routers/cables are set up right.
 
@@ -16,11 +20,10 @@ Also make sure the switches/routers/cables are set up right.
 
 The preferred method is to use Netboot, but a regular Ubuntu install stick works as well. If installing from an USB stick make sure your hostname matches the one specified in DNS/DHCP.
 
-## Install SSH Server
+## Setup SSH
 
-`apt install openssh-server`. 'Nuf said.
+See [SSH Setup](./#setup-ssh) page to learn more on how to setup SSH for the clusters.
 
 ## Run the Ansible play
 
 First, make sure you add the node to an existing/new host group that has the `cluster` role. Then, you can just run `ansible-playbook`, sit back, kick your feet up, and wait for the install to finish.
-
