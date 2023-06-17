@@ -235,6 +235,7 @@ These alumni were full-fledged Student Systems Administrator.
 * Raffu Khondaker, Class of 2022
 * Darius Kianersi, Class of 2022
 * Saloni Shah, Class of 2023
+* Ram Reddy, Class of 2023
 
 ### Underclassmen Systems Administrators
 
