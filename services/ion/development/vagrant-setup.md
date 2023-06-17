@@ -8,7 +8,9 @@ Ensure you have an SSH key set up with GitHub by running `ssh -T git@github.com`
 
 With Vagrant and Virtualbox installed, clone the Ion repository onto the host computer and `cd` into the new directory.
 
+{% hint style="info" %}
 Note: if your host machine is running Windows, please run `git config core.autocrlf input` before cloning to prevent line ending issues.
+{% endhint %}
 
 ```
 $ git clone git@github.com:tjcsl/ion.git intranet
