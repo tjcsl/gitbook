@@ -1,86 +1,49 @@
 # Sysadmins List
 
-## Current Sysadmins <a href="#current-sysadmins" id="current-sysadmins"></a>
-
-| Name                | Username     | Position                                                                  |
-| ------------------- | ------------ | ------------------------------------------------------------------------- |
-| Nathaniel Kenschaft | 2023nkenscha | Lead Sysadmin, Mail Supervisor, Security Lead, Hardware Lead              |
-| Bradley Cao         | 2023bcao     | Lead Sysadmin, Infrastructure Lead, Academic Services Lead, Director Lead |
-| Ram Reddy           | 2023rreddy   | Monitoring Lead, Cluster Co-Lead, ACH Co-Lead                             |
-| Saloni Shah         | 2023sshah    | Intranet Lead, Documentation Lead                                         |
-| Kedar Prasad        | 2024kprasad  | Mail Supervisor, Cluster Co-Lead, Workstations Co-Lead                    |
-| Krishnan Shankar    | 2024kshankar | Workstations Co-Lead, ACH Co-Lead                                         |
-| Noah Kabiri         | 2024nkabiri  | Junior Admin                                                              |
-| Maribelle Chu       | 2024mchu     | Junior Admin                                                              |
-| Diana Lin           | 2024dlin     | Junior Admin                                                              |
-| Sami Elsayed        | 2025selsayed | Junior Admin                                                              |
-| Justin Lee          | 2025jlee     | Junior Admin                                                              |
-| Pratyush Saxena     | 2025psaxena  | Junior Admin                                                              |
-| Alan Zhu            | 2025azhu     | Junior Admin                                                              |
-| Elijah Guison-Dowdy | 2025eguisond | Junior Admin                                                              |
-
-## Current Leads <a href="#current-leads" id="current-leads"></a>
-
-| Area                                                | Lead(s)                          |
-| --------------------------------------------------- | -------------------------------- |
-| ​[Ion](../services/ion/)​                           | Saloni Shah                      |
-| ​[Director](../services/director/)​                 | Bradley Cao                      |
-| ​[Storage](../technologies/storage/)​               | Bradley Cao                      |
-| [Networking](../technologies/networking/)           | Nathaniel Kenschaft              |
-| ​[Workstations](../services/workstations.md)​       | Krishnan Shankar, Kedar Prasad   |
-| ​[Cluster](../services/cluster/)​                   | Ram Reddy, Kedar Prasad          |
-| ​[Web Content/WWW](../services/www/)​               | Bradley Cao                      |
-| ​[Signage](../services/signage/)​                   | Bradley Cao                      |
-| ​[Documentation](documentation/)​                   | Saloni Shah                      |
-| Security                                            | Nathaniel Kenschaft              |
-| Advanced Computing Hardware                         | Ram Reddy, Krishnan Shankar      |
-| [Mail](../services/mail.md)                         | Nathaniel Kenschaft              |
-| ​[Printing](../services/printing/)​                 | Bradley Cao                      |
-| [Monitoring](../technologies/monitoring/)           | Ram Reddy                        |
-| [Academic Services](../services/academic-services/) | Bradley Cao                      |
-| [Understudy](understudies.md)                       | Bradley Cao, Nathaniel Kenschaft |
-
-## Team Membership <a href="#teams" id="teams"></a>
-
-All teams and their responsibilities are [available here](organization.md).
-
-| Team Name                   | Members                                                                         |
-| --------------------------- | ------------------------------------------------------------------------------- |
-| Ion                         | Saloni Shah (Lead), Nathaniel Kenschaft(Deputy)                                 |
-| Director                    | Bradley Cao (Lead), Nathaniel Kenschaft (Deputy)                                |
-| Storage                     | Bradley Cao (Lead), Nathaniel Kenschaft (Deputy)                                |
-| Workstations                | Krishnan Shankar (Lead), Kedar Prasad (Deputy)                                  |
-| Networking                  | Nathaniel Kenschaft (Lead), Bradley Cao (Deputy)                                |
-| Monitoring                  | Ram Reddy (Lead), Nathaniel Kenschaft (Deputy)                                  |
-| Mail                        | Nathaniel Kenschaft (Lead), Kedar Prasad (Deputy)                               |
-| Cluster                     | Ram Reddy (Co-Lead), Kedar Prasad (Co-Lead), Bradley Cao (Deputy)               |
-| Documentation               | Saloni Shah (Lead), Nathaniel Kenschaft (Deputy)                                |
-| Advanced Computing Hardware | Bradley Cao (Co-Lead), Krishnan Shankar (Co-Lead), Nathaniel Kenschaft (Deputy) |
-| Academic Services           | Bradley Cao (Lead)                                                              |
-
-## Workgroups <a href="#workgroups" id="workgroups"></a>
-
-Workgroups are groups of related teams that work closely together due to the nature of their work.
-
-| Workgroup          | Teams                                                             |
-| ------------------ | ----------------------------------------------------------------- |
-| Web Presence       | Web Services, Ion, Director, Academic Services                    |
-| Hardware           | Infrastructure, Networking, Printing, Advanced Computing Hardware |
-| Advanced Computing | Advanced Computing Hardware, Cluster, Academic Services           |
-
 ## Faculty Sponsor <a href="#faculty-sponsor" id="faculty-sponsor"></a>
 
 The Sysadmin Faculty Sponsor is Mr. Eckel (`mceckel`).
 
+## Current Sysadmins <a href="#current-sysadmins" id="current-sysadmins"></a>
+
+<table data-header-hidden><thead><tr><th width="254.33333333333331">Name</th><th width="183">Username</th><th>Positions</th></tr></thead><tbody><tr><td>Name</td><td>Username</td><td>Positions</td></tr><tr><td>Krishnan Shankar</td><td><code>2024kshankar</code></td><td><strong>Lead Sysadmin</strong><br>Infrastructure Lead<br>Web Services Lead<br>Storage Co-Lead</td></tr><tr><td>Kedar Prasad</td><td><code>2024kprasad</code></td><td><strong>Lead Sysadmin</strong><br>Networking Lead<br>Mail Lead<br>Cluster Co-Lead</td></tr><tr><td>Diana Lin</td><td><code>2024dlin</code></td><td>Cybersecurity Co-Lead<br>Director Co-Lead</td></tr><tr><td>Noah Kabiri</td><td><code>2024nkabiri</code></td><td>Monitoring Co-Lead<br>Signage Co-Lead</td></tr><tr><td>Alan Zhu</td><td><code>2025azhu</code></td><td>Cybersecurity Co-Lead<br>Monitoring Co-Lead<br>Intranet Co-Lead</td></tr><tr><td>Justin Lee</td><td><code>2025jlee</code></td><td>Intranet Co-Lead<br>Director Co-Lead<br>Storage Co-Lead</td></tr><tr><td>Sami Elsayed</td><td><code>2025selsayed</code></td><td>Documentation Co-Lead<br>Cluster Co-Lead<br>Workstations Co-Lead</td></tr><tr><td>Elijah Guison-Dowdy</td><td><code>2025eguisond</code></td><td>Workstations Co-Lead<br>Signage Co-Lead</td></tr><tr><td>Pratyush Saxena</td><td><code>2025psaxena</code></td><td>Documentation Co-Lead</td></tr><tr><td>Sophia Huang</td><td><code>2025shuang</code></td><td>Junior Admin</td></tr><tr><td>Rem Turatbekov</td><td><code>2025rturatbe</code></td><td>Junior Admin</td></tr><tr><td>Ansh Malhotra</td><td><code>2026amalhotr1</code></td><td>Junior Admin</td></tr><tr><td>Irmuun Bayart-Od</td><td><code>2026ibayarto</code></td><td>Junior Admin</td></tr><tr><td>Olivia Wu</td><td><code>2026owu</code></td><td>Junior Admin</td></tr></tbody></table>
+
+## Roles <a href="#current-leads" id="current-leads"></a>
+
+All roles and their responsibilities are [available here](organization.md#general-roles).
+
+| Area           | Lead(s)                                |
+| -------------- | -------------------------------------- |
+| Infrastructure | Krishnan Shankar                       |
+| Networking     | Kedar Prasad                           |
+| Cybersecurity  | <p>Diana Lin<br>Alan Zhu</p>           |
+| Monitoring     | <p>Noah Kabiri<br>Alan Zhu</p>         |
+| Documentation  | <p>Sami Elsayed<br>Pratyush Saxena</p> |
+
+## Teams <a href="#teams" id="teams"></a>
+
+All teams and their responsibilities are [available here](organization.md#teams).
+
+| Team Name    | Lead(s)                                    |
+| ------------ | ------------------------------------------ |
+| Intranet     | <p>Alan Zhu<br>Justin Lee</p>              |
+| Director     | <p>Diana Lin<br>Justin Lee</p>             |
+| Web Services | Krishnan Shankar                           |
+| Mail         | Kedar Prasad                               |
+| Storage      | <p>Krishnan Shankar<br>Justin Lee</p>      |
+| Cluster      | <p>Kedar Prasad<br>Sami Elsayed</p>        |
+| Workstations | <p>Sami Elsayed<br>Elijah Guison-Dowdy</p> |
+| Signage      | <p>Noah Kabiri<br>Elijah Guison-Dowdy</p>  |
+
 ## Points of Contact
 
-| Eighth Period Office    | Bradley Cao                      |
-| ----------------------- | -------------------------------- |
-| SGA (Elections)         | Nathaniel Kenschaft, Bradley Cao |
-| SGA (Other Matters)     | Nathaniel Kenschaft, Bradley Cao |
-| Security Office         | Nathaniel Kenschaft              |
-| Web Development Classes | Bradley Cao                      |
-| CSL Lab Directors       | Faculty Sponsor                  |
+| Eighth Period Office    | Alan Zhu               |
+| ----------------------- | ---------------------- |
+| SGA (Elections)         | Kedar Prasad, Alan Zhu |
+| SGA (Other Matters)     | Kedar Prasad, Alan Zhu |
+| Security Office         | Krishnan Shankar       |
+| Web Development Classes | Krishnan Shankar       |
+| CSL Lab Directors       | Faculty Sponsor        |
 
 ## Previous Student Systems Administrators
 
@@ -131,6 +94,8 @@ These alumni were head/lead Sysadmins in the Lab in the past.
 * Ethan Nguyen, Class of 2021
 * Shreyas Mayya, Class of 2022
 * Lauren Delwiche, Class of 2022
+* Nathaniel Kenschaft, Class of 2023
+* Bradley Cao, Class of 2023
 
 ### Webmasters/Intranet maintainers
 
@@ -161,6 +126,7 @@ These alumni managed a version of Intranet or websites in the past.
 * John Beutner, Class of 2020
 * Ethan Nguyen, Class of 2021
 * Lauren Delwiche, Class of 2022
+* Saloni Shah, Class of 2023
 
 ### Full Student Systems Administrators
 
@@ -268,6 +234,7 @@ These alumni were full-fledged Student Systems Administrator.
 * Akash Bhave, Class of 2021
 * Raffu Khondaker, Class of 2022
 * Darius Kianersi, Class of 2022
+* Saloni Shah, Class of 2023
 
 ### Underclassmen Systems Administrators
 
