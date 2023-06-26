@@ -82,7 +82,7 @@ These alumni were head/lead Sysadmins in the Lab in the past.
 * Derek Morris, Class of 2011
 * Anish Tondwalkar, Class of 2012
 * Peter Foley, Class of 2013
-* Fox Wilson, Class of 2016
+* Tris Wilson, Class of 2016
 * James Woglom, Class of 2016
 * Samuel Damashek, Class of 2017
 * Omkar Kulkarni, Class of 2019
@@ -109,7 +109,7 @@ These alumni managed a version of Intranet or websites in the past.
 * Matthew Colyer (mcolyer), Class of 2003
 * Evan Danaher (edanaher), Class of 2004
 * Andy Oxfeld (aoxfeld), Class of 2004
-* Dan Tran(The Intranet Master Man), Class of 2006
+* Dan Tran (The Intranet Master Man), Class of 2006
 * Victor Mircea (vmircea), Class of 2007
 * Josiah Boning (Dan Tran 2.0), Class of 2008
 * Michael Kremer (mkremer), Class of 2009
