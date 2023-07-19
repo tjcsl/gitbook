@@ -6,26 +6,27 @@ description: The CSL Signage displays
 
 **Signage** refers to the set of ten electronic displays located all over the school. A "Signage" refers to a display that displays useful information maintained by the CSL across the school.
 
-Currently, each Signage display shows:
+All signages (except for `cs-audlob`) have the same types of features which include:
 
-* a schedule
-* a map of school
-* announcements
-* a bus map
+* The schedule of the current school day.
+* Ion announcements
+* 8th period activities.
+* A bus map
+* A map of the whole school.
 
-The Signage displays also can show special event information.
+Signages can also showcase important announcements made by the Sysadmins or FCPS.
 
-The latest version of Signage is **Signage3**.
+The current version of Signage is **Signage3**.
 
-The core of Signage runs on Intel Compute Sticks \([official website](https://www.intel.com/content/www/us/en/products/boards-kits/compute-stick.html)\) running Ubuntu 16.04 LTS.
+The core of Signage runs on Intel Compute Sticks ([official website](https://www.intel.com/content/www/us/en/products/boards-kits/compute-stick.html)) running Ubuntu 16.04 LTS.
 
-The contact person for Signage is [the Signage Lead](../../general/sysadmins-list.md#current-leads) \(or, in the Lead's absence, the Intranet Lead\).
+The main contact for signages are our Signage Lead(s). The Intranet Lead(s) are usually the deputies for signages if the Signage Lead(s) are not present.
 
 ## History
 
 ### Signage1
 
-The first Signage displays were installed around the first release of Ion \([source](https://tjhsst.edu/~jwoglom/ion.pdf)\) \(around May 2016\). They were originally developed as a complement to Ion. These efforts were led by James Woglom. The Signage displays ran on a mixture of Raspberry Pi 1s, Raspberry Pi 2s, and Raspberry Pi 3s.
+The first Signage displays were installed around the first release of Ion ([source](https://tjhsst.edu/\~jwoglom/ion.pdf)) (around May 2016). They were originally developed as a complement to Ion. These efforts were led by James Woglom. The Signage displays ran on a mixture of Raspberry Pi 1s, Raspberry Pi 2s, and Raspberry Pi 3s.
 
 ![](../../.gitbook/assets/signage1.png)
 
@@ -33,30 +34,26 @@ The first Signage displays were installed around the first release of Ion \([sou
 
 Development of Signage2 began in April of 2017 to serve as a rewrite of Signage1 using Python's Kivy framework. Various limitations imposed by Kivy and slow performance led to the end of development around March of 2018.
 
-_Image omitted because Kivy is bad_
-
 ### Signage 3
 
 Development of Signage3 began in March of 2018 to serve as a rewrite of Signage as a webpage hosted on Ion. Signage3 was deployed on newly-arrived Intel Compute Sticks on April 12, 2018. Signage3 remains the current Signage deployed throughout the school.
 
 ## List
 
-The current deployed Signage displays are named \(and located\):
+The current deployed Signage displays are named (and located):
 
-* cs-nobel \(Nobel commons\)
-* cs-curie \(Curie commons\)
-* cs-galileo \(Galileo commons\)
-* cs-cafeteria \(Cafeteria\)
-* cs-gandhi-a \(Ghandi commons\)
-* cs-audlob \(Outside the audlob\)
-* cs-library \(Library hallway\)
-* cs-hopper \(Hopper commons\)
-* cs-cafe \(Cafe commons\)
-* cs-einstein-a \(Einstein commons\)
+* `cs-nobel` (Nobel commons)
+* `cs-curie` (Curie commons)
+* `cs-galileo` (Galileo commons)
+* `cs-cafeteria` (Cafeteria)
+* `cs-gandhi-a` (Ghandi commons)
+* `cs-audlob` (Outside the audlob)
+* `cs-library` (Library hallway)
+* `cs-hopper` (Hopper commons)
+* `cs-cafe` (Cafe commons)
+* `cs-einstein-a` (Einstein commons)
 
 ## Current Setup
 
-Each Signage display has their own Intel Compute Stick which runs Ubuntu Server 16.04 LTS. Using getty, each Signage display logs in as `user` and opens up a specific web page on Ion \(`https://ion.tjhsst.edu/signage/display/<display_name>`\) in Chromium. The Signage pages can be rendered server-side or as iframes. The code for Signage can be found [here](https://github.com/tjcsl/ion/tree/master/intranet/apps/signage).
-
-
+Each Signage display has their own Intel Compute Stick which runs Ubuntu Server 20.04 LTS. Using getty, each Signage display logs in as `user` and opens up a specific web page on Ion (`https://ion.tjhsst.edu/signage/display/<display_name>`) in Chromium. The Signage pages can be rendered server-side or as iframes. The code for Signage can be found [here](https://github.com/tjcsl/ion/tree/master/intranet/apps/signage).
 
