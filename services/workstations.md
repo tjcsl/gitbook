@@ -4,11 +4,11 @@ description: CSL desktop workstations
 
 # Workstations
 
-The CSL has over 50 HP Z240 Tower Workstation located in rooms 200 and 202. These workstations are used by a number of offered computer science classes including computer vision and artificial intelligence.
+In the CSL, **workstations** are a group of computers that are maintained by the Sysadmins to provide TJ students and staff a Linux environment. Currently there are over 50 **HP Z240 Tower Workstations** that are located in rooms 200 and 202. These workstations are often used by computer science classes which includes Computer Vision and Artificial Intelligence. Seniors, who are enrolled in doing research for the Syslab or Web/Mobile App Development, often use our workstations as well.
 
 ## Technical Specifications
 
-There are over 50 HP Z240 Tower workstations with **similar** specifications:
+Most workstations have **similar** specifications listed below:
 
 | Specification | Description                             |
 | ------------- | --------------------------------------- |
@@ -19,75 +19,95 @@ There are over 50 HP Z240 Tower workstations with **similar** specifications:
 | Hard Disks    | 1 Terabyte HDD                          |
 | OS            | Ubuntu 20.04 LTS                        |
 
-## Workstation List
+## The Pit Workstations
 
-### Reserved
+**The Pit Workstations** are workstations located in the Pit that are mainly intended for Sysadmin use. Some of the workstations below don't have the same specifications that are listed above.
 
-* Thompson
-* Torvalds
-* Ravel
+* **`mozart`** - Runs Ubuntu 20.04, has the same specifications as other workstations.
+* **`bourne`** - Has the same specifications as other workstations hardware-wise, but runs Fedora Linux, which makes it the only workstation in the Syslab that runs a RHEL-based distribution.
+* **`torbert`** - Runs Ubuntu 20.04, has the same specifications as other workstations.
+* **`asm`** - Not a workstation, but it is located in the Pit. `asm` is the **most powerful** "workstation" in the Syslab. It runs Arch Linux which also makes it the only workstation in the Syslab that runs an Arch-based distribution.
 
-### Free to Use
+## Room 200
 
-#### Room 200 <a href="#200" id="200"></a>
+Almost half of our workstations are located in Rm 200. These workstations are used mainly for AI and senior research.
 
-* Stallman
-* Hopper
-* Beethoven
-* Kurtz
-* Liskov
-* Hartmanis
-* Wall
-* Allen
-* Street
-* Betz
-* Dandar
-* Heitner
-* Wienckowski
-* Yilma
-* Donkeykong
-* Coblenz
-* Quentmeyer
-* Haspel
+* **`stallman`**
+* **`hopper`**
+* **`beethoven`**
+* **`kurtz`**
+* **`liskov`**
+* **`hartmanis`**
+* **`wall`**
+* **`allen`**
+* **`street`**
+* **`betz`**
+* **`dandar`**
+* **`heitner`**
+* **`wienckowski`**
+* **`yilma`**
+* **`donkeykong`**
+* **`coblenz`**
+* **`quentmeyer`**
+* **`haspel`**
+* **`thompson`**
+* **`torvalds`**
+* **`ravel`**
+* **`macisaac`**
 
-#### Room 202 <a href="#202" id="202"></a>
+## Room 202 <a href="#202" id="202"></a>
 
-* Puccini
-* Prokofiev
-* Rachmaninoff
-* Wagner
-* Schumann
-* Handel
-* Gershwin
-* Faure
-* Satie
-* Scarlatti
-* Schubert
-* Berlioz
-* Haydn
-* Tchaikovsky
-* Mahler
-* Holst
-* Vivaldi
-* Hindemith
-* Debussy
-* Chopin
-* Bernstein
-* Bach
-* Lizst
+The other half of our workstations are located in Room 202. These workstations are used mainly for computer vision and senior research.
 
-### Unplugged
+* **`puccini`**
+* **`prokofiev`**
+* **`rachmaninoff`**
+* **`wagner`**
+* **`schumann`**
+* **`handel`**
+* **`gershwin`**
+* **`faure`**
+* **`satie`**
+* **`scarlatti`**
+* **`schubert`**
+* **`berlioz`**
+* **`haydn`**
+* **`tchaikovsky`**
+* **`mahler`**
+* **`holst`**
+* **`vivaldi`**
+* **`hindemith`**
+* **`debussy`**
+* **`chopin`**
+* **`bernstein`**
+* **`bach`**
+* **`lizst`**
 
-* Chamberlin
-* Danaher
-* Dijkstra
-* Feghali
-* Gosling
-* Kahn
-* Kleinrock
-* Lerdorf
-* Matsumoto
-* Postel
-* Ritchie
+## Unplugged Workstations
 
-More specific information on CSL workstations are located in [our runbooks](../general/documentation/runbooks.md).
+These workstations listed below are workstations that are not in current use. They are unplugged and some run an older version of Ubuntu.
+
+* **`chamberlin`**
+* **`danaher`**
+* **`dijkstra`**
+* **`feghali`**
+* **`gosling`**
+* **`kahn`**
+* **`kleinrock`**
+* **`lerdorf`**
+* **`matsumoto`**
+* **`postel`**
+* **`ritchie`**
+
+## Accessing the Workstations
+
+Accessing is fairly simple when it comes to workstations. If your on VPN, just running `ssh <WORKSTATION_NAME>.csl.tjhsst.edu` should do the trick, however if your not on VPN, there are a few steps:
+
+{% hint style="info" %}
+Note that you should always check if the workstation is SSHable in the first place, by simply checking if it is pingable by running `ping <WORKSTATION_NAME>`. If it is not pingable, then it is likely off or broken. Ask the Workstations Lead(s) if you have questions.
+{% endhint %}
+
+1. Open the terminal and run `ssh <YOUR_ION_USERNAME>.remote.tjhsst.edu`. This is our remote access servers, which allows you to access any CSL-related items outside of TJ. This should open a prompt that would asks you to type in your password.
+2. Once your in, you should just SSH into the workstatiosomen as so: `ssh <WORKSTATION_NAME>`.
+
+For more specific information on CSL workstations are located in [our runbooks](../general/documentation/runbooks.md).
