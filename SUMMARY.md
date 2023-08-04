@@ -80,6 +80,7 @@
       * [NSS LDAP Templates](technologies/authentication/nss-ldap/templates.md)
     * [SSHD](technologies/authentication/sshd/README.md)
       * [SSH Passwordless Login](technologies/authentication/sshd/ssh-passwordless-login.md)
+    * [FreeIPA](technologies/authentication/freeipa.md)
   * [Storage](technologies/storage/README.md)
     * [AFS](technologies/storage/afs/README.md)
       * [OpenAFS](technologies/storage/afs/openafs.md)
