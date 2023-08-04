@@ -28,7 +28,6 @@
     * [Production](services/director/production.md)
     * [Architecture](services/director/architecture.md)
   * [Workstations](services/workstations.md)
-  * [Mail](services/mail.md)
   * [Signage](services/signage/README.md)
     * [Setup](services/signage/setup.md)
     * [Administration](services/signage/administration.md)
