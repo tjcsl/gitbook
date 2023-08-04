@@ -73,7 +73,6 @@
     * [MySQL](technologies/dbs/mysql.md)
   * [Authentication](technologies/authentication/README.md)
     * [Kerberos](technologies/authentication/kerberos.md)
-    * [MRAC](technologies/authentication/mrac.md)
     * [Passcard](technologies/authentication/passcard/README.md)
       * [GPG Usage](technologies/authentication/passcard/gpg-usage.md)
     * [LDAP](technologies/authentication/ldap.md)
