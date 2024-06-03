@@ -30,7 +30,7 @@ The server has an address now, but it doesn't know where anything is, which is w
 
 Run `sudo route -n` to view the routing table. It should look like this:
 
-![](../../../.gitbook/assets/annotation-2019-04-29-122948.jpg)
+![](<../../../.gitbook/assets/Annotation 2019-04-29 122948.jpg>)
 
 If you're missing one or both of these, the syntax is `sudo route -net Destination gw Gateway netmask Genmask dev Iface`, where `Destination`, `Gateway`, `Genmask`, and `Iface` are replaced with their specific values shown in the picture.&#x20;
 

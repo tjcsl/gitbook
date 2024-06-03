@@ -20,8 +20,8 @@ Password resets on the FCPS domain are handled on the first day of school in hom
 
 The CSL domain is controlled by the TJHSST Student Systems Administrators. We use Kerberos to handle authentications in the CSL realm (CSL.TJHSST.EDU).
 
-{% content-ref url="../technologies/authentication/kerberos.md" %}
-[kerberos.md](../technologies/authentication/kerberos.md)
+{% content-ref url="../obsolete/kerberos.md" %}
+[kerberos.md](../obsolete/kerberos.md)
 {% endcontent-ref %}
 
 Students use their CSL domain password to access:

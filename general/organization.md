@@ -76,15 +76,11 @@ The Infrastructure Lead is **NOT** a person who takes on all responsibility. Ins
 
 ### Networking
 
-The Networking team is responsible for managing the [CSL's network infrastructure](../technologies/networking/), including switches, networking connections, [OpenVPN](../technologies/networking/openvpn.md), [NTP](../technologies/networking/ntp.md), [DNS](../technologies/networking/dns/), and [DHCP](../technologies/networking/dhcp.md). They are responsible for the smooth flow of network traffic. They are also the people to ask when diagnosing networking connections on CSL systems.
+The Networking team is responsible for managing the [CSL's network infrastructure](../technologies/networking/), including switches, networking connections, [OpenVPN](../obsolete/openvpn.md), [NTP](../technologies/networking/ntp.md), [DNS](../technologies/networking/dns.md), and [DHCP](../technologies/networking/dhcp.md). They are responsible for the smooth flow of network traffic. They are also the people to ask when diagnosing networking connections on CSL systems.
 
-### Cybersecurity
+### Cybersecurity & Monitoring
 
-The Cybersecurity team is responsible for ensuring that proper cybersecurity procedures are being followed throughout the Lab, and quickly responding to any vulnerabilities detected. They are also responsible for communication with FCPS's Office of Cybersecurity (OCS).
-
-### Monitoring
-
-The Monitoring team is responsible for [observability in the CSL](../technologies/monitoring/), including logging, alerts, and metrics. They are responsible for maintaining systems that provide monitoring capability such as [Grafana](../technologies/monitoring/grafana.md) and Prometheus.
+The Cybersecurity team is responsible for ensuring that proper cybersecurity procedures are being followed throughout the Lab, and quickly responding to any vulnerabilities detected. They are also responsible for communication with FCPS's Office of Cybersecurity (OCS). They are also responsible for [observability in the CSL](../technologies/monitoring/), including logging, alerts, and metrics. They are responsible for maintaining systems that provide monitoring capability such as [Grafana](../technologies/monitoring/grafana.md) and Prometheus.
 
 ### Documentation
 
@@ -110,7 +106,7 @@ The Mail team is responsible for maintaining TJ's mail servers, list servers, an
 
 ### Storage
 
-The Storage team is responsible for the storage of data in the Lab including [Ceph](../technologies/storage/ceph/) and [OpenAFS](../technologies/storage/afs/openafs.md). They are also responsible for the CSL's data backups.
+The Storage team is responsible for the storage of data in the Lab including [Ceph](../technologies/storage/ceph/) and [OpenAFS](../obsolete/afs/openafs.md). They are also responsible for the CSL's data backups.
 
 ### Cluster
 
@@ -123,3 +119,7 @@ The Workstations team is responsible for TJ's workstations in rooms 200 and 202.
 ### Signage
 
 The Signage team is responsible for maintaining TJ's [Signage displays](../services/signage/). They work closely with the Ion team in this regard.
+
+### Printing
+
+The Printing team is responsible for maintaining TJ's [Printers](../services/printing/). They use CUPS and maintain the availability of printers. They work closely with the Ion team in this regard.

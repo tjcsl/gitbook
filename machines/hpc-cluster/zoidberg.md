@@ -1,6 +1,6 @@
 # Zoidberg
 
-**Zoidberg** is part of the [HPC Cluster](./) in name and location only. It's treated as mostly separate, and can be used outside of [Slurm](../../services/cluster/slurm.md). Zoidberg is by far the most powerful HPC node as well, potentially the most powerful machine in the entire CSL.
+**Zoidberg** is part of the [HPC Cluster](./) in name and location only. It's treated as mostly separate, and can be used outside of [Slurm](../../services/cluster/slurm.md). Zoidberg is by far the most powerful HPC node as well. However, it's currently being used to power Ion instead of any cluster workloads.
 
 ## Technical Specifications
 

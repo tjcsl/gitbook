@@ -4,10 +4,10 @@ description: Or how I learned to stop worrying and love the machine
 
 # VM Creation
 
-## Prerequisites 
+## Prerequisites&#x20;
 
-* Root permission on a [VM Host](../machines/vm-servers/) server. 
-* Read \(at least\) access to the DNS and DHCP gitlab repos
+* Root permission on a [VM Host](../machines/vm-servers/) server.&#x20;
+* Read (at least) access to the DNS and DHCP gitlab repos
 
 ## Steps
 
@@ -19,15 +19,15 @@ Each VM needs to connect to the network.  Determine which VLAN the VM should be 
 For a list of all VLANs [see VLANs](../machines/vlans.md).
 {% endhint %}
 
-Pick an IP Address that is unused from the correct subnet.  **Do Not Reuse IP Addresses**. 
+Pick an IP Address that is unused from the correct subnet.  **Do Not Reuse IP Addresses**.&#x20;
 
-> The internet doesn't like it when DNS goes down or you change IPs 
+> The internet doesn't like it when DNS goes down or you change IPs&#x20;
 >
-> -- Mr. Morasca
+> \-- Mr. Morasca
 
 Be sure that an IP is not a conflict:
 
-```text
+```
 remote.tjhsst.edu> host <IP>
 Host <IP>.in-addr.arpa. not found: 3(NXDOMAIN)
 remote.tjhsst.edu> ping <IP>
@@ -37,15 +37,17 @@ PING <IP> ([ip]) 56(84) bytes of data.
 2 packets transmitted, 0 received, 100% packet loss, time 1028ms
 ```
 
-This is a good result.  Now add this IP to DNS.  Make an `A` record for IPV4, `AAAA` for IPV6, and `PTR` record for reverse DNS \(one for v4, one for v6\).
+This is a good result.  Now add this IP to DNS.  Make an `A` record for IPV4, `AAAA` for IPV6, and `PTR` record for reverse DNS (one for v4, one for v6).
 
-{% page-ref page="../technologies/networking/dns/updating.md" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
 With this IP, we can now generate a MAC address.  Use the `create_mac.sh` script, passing the IP as the only argument. It takes the IP, removes all `.` to make it one number, then converts that to hex and adds `02:00:` to the beginning.
 
 Add this MAC to [DHCP](../technologies/networking/dhcp.md).  Make sure it is added in the correct subnet. For example, the IP 198.38.16.150 should go inside this subnet block:
 
-```text
+```
 ## Server subnet ##
 subnet 198.38.16.0 netmask 255.255.254.0 {
 ```
@@ -56,7 +58,7 @@ Connect to a [VM Host ](../machines/vm-servers/)server as root.
 
 First we need to create the RBD image
 
-```text
+```
 rbd --user libvirt create --pool virtual-machines --size <SIZE> <IMGNAME>
 ```
 
@@ -64,7 +66,7 @@ Specify size in megabytes/gigabytes/terabytes with M/G/T suffixes, respectively.
 
 XML files are stored in a git repo at `/qemuconfig/<HOST NAME>/`.  `cd` into this directory and dump the config for an existing VM to use as the base for the new VM.  `virsh dumpxml <EXISTING> > <NEW>.xml`
 
-Generate a UUID by running `uuidgen` and replace the UUID in the XML file with this new one.  **Don't** change the UUID for Ceph.  While editing the file, also make any changes needed to CPU count or RAM for the VM.  Also change the RBD image to the one you just made.
+Generate a UUID by running `uuidgen` and replace the UUID in the XML file with this new one. **Don't** change the UUID for Ceph.  While editing the file, also make any changes needed to CPU count or RAM for the VM.  Also change the RBD image to the one you just made.
 
 ```markup
 <name>[NAME]</name>
@@ -100,9 +102,9 @@ Start the VM with `vish define <NAME>.xml && virsh start <NAME>`
 
 ### Install OS
 
-Run `virsh domdisplay <NAME>` on the host to find what port VNC is using \(you will need to add 5900 to the port displayed, so if the result is `vnc://localhost:4` that really means `:5904)`
+Run `virsh domdisplay <NAME>` on the host to find what port VNC is using (you will need to add 5900 to the port displayed, so if the result is `vnc://localhost:4` that really means `:5904)`
 
-```text
+```
 your-computer> ssh -L <PORT>:localhost:<PORT> <user>@remote.tjhsst.edu
 remote.tjhsst.edu> kinit <user>/root
 remote.tjhsst.edu> ssh -L <PORT>:localhost:<PORT> root@<VM HOST>
@@ -123,4 +125,3 @@ PermitRootLogin yes
 `systemctl restart sshd` to apply changes.
 
 Once the OS is installed, properly passcard it
-

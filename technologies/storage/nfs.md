@@ -1,0 +1,3 @@
+# NFS
+
+The Network File System (or NFS), is, as the name suggests, a network file system. In this case, we export a CephFS directory over the network to store user data. NFS has been used for this purpose at various points in the CSL's history (it's mentioned in documentation since 1996!), though AFS has been the predominant choice for the use case over the last 20 years. However, AFS has become slow and hard to maintain, so the decision was made to switch to NFS in August 2023, especially since it integrates with FreeIPA and automatically only mounts directories that are in use (e.g. logged-in users' home directories instead of all 2000 of them, which is a big difference!) The NFS share is located at `/nfs` within CephFS and at `/csl` on all clients.

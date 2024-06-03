@@ -1,6 +1,6 @@
 # VM Servers
 
-**VM Servers** \(also known as VM hosts\) host virtual machines for the various CSL services we maintain.  The VM Servers themselves run off a local hard disk \(often in a RAID configuration?\).
+**VM Servers** (also known as VM hosts) host virtual machines for the various CSL services we maintain.  The VM Servers themselves run off a local hard disk (often in a RAID configuration?).
 
 ## Reasoning
 
@@ -11,8 +11,6 @@ Although VM servers have existed for multiple years in the Lab, complete virtual
 Various services are not virtualized at this time and probably should never be.
 
 * [NTP](../../technologies/networking/ntp.md) is an extremely critical machine since it provides time for the whole Lab.
-* [ns1](../../technologies/networking/dns/) is not virtualized because it provides DNS to not only VMS but also to the main Ceph backend
-* [centauri ](../sun-servers/centauri.md)is not virtualized because it provides critical authentication services to the rest of the Lab \(and also the VM hosts themselves\)
-
-
+* [ns1](../../technologies/networking/dns.md) is not virtualized because it provides DNS to not only VMS but also to the main Ceph backend
+* [centauri ](../other/sun-servers/centauri.md)is not virtualized because it provides critical authentication services to the rest of the Lab (and also the VM hosts themselves)
 

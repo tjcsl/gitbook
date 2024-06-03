@@ -36,10 +36,7 @@ You can access the netbox web page at [https://netbox.tjhsst.edu](https://netbox
 
 ### Creating User Accounts
 
-In order to edit any content on netbox, you must have an user account on netbox. Unfortunately, netbox does not support generic oauth at the moment, so users are authenticated against the netbox's `postgres` database through the django authentication framework. You can create user accounts in two ways:
-
-1. Through the admin interface at [https://netbox.tjhsst.edu/admin](https://netbox.tjhsst.edu/admin) , (requires another sysadmin to log in with their admin account)
-2. Through `manage.py createsuperuser` directly on the `netbox` VM
+Netbox has SSO support. Use that to log in.
 
 ### Interacting with Netbox
 

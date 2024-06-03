@@ -1,5 +1,7 @@
 ---
 description: The TJ Intranet platform
+cover: ../../.gitbook/assets/ion.png
+coverY: 0
 ---
 
 # Ion

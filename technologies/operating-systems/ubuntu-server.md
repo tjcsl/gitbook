@@ -2,11 +2,11 @@
 
 Ubuntu Server is a Linux distribution developed by Canonical Inc., noted for its stability and ease of use. You can find out more on [the Ubuntu Wiki](https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes).
 
-Almost all of the CSL runs on Ubuntu Server, except for [Workstations](../../services/workstations.md) which run Ubuntu Desktop, [The Cluster](../../services/cluster/) which used to run [CentOS](centos.md), also runs in Ubuntu Server. Other critical servers runs \*BSD.
+Almost all of the CSL runs on Ubuntu Server, except for [Workstations](../../services/workstations.md) (which run Debian) and FreeIPA (which runs AlmaLinux).
 
 ## Notable Features
 
-* Easy-to-use installer ISO (link to [the latest ISO package](https://ubuntu.com/download/server))
+* Easy-to-use installer ISO
 * Extremely large, if not _the_ largest, package ecosystem
 * Has included some unpopular software, including (but not limited to):
   1. The Unity desktop environment
@@ -25,4 +25,3 @@ Almost all of the CSL runs on Ubuntu Server, except for [Workstations](../../ser
 * The default version of Python is currently 3 on all Ubuntu releases.
 * `nano`is installed as the default text editor.
 * Netplan can act as a configuration proxy for NetworkManager or systemd-networkd, in case you ever wanted to double the amount of cancer you handle.
-* 16.04.5 LTS (**Xenial Xerus**) will always be the best release in my heart <3

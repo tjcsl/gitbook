@@ -14,7 +14,7 @@ description: Describes how to set up wifi on a Linux machine
 
     a. You could also sign in as a guest, that just changes the password you use in a later step.
 
-    ![Select Login Category](<../.gitbook/assets/linux-wifi-setup-2 (1).png>)
+    ![Select Login Category](../.gitbook/assets/linux-wifi-setup-2.png)
 6.  Enter your FCPS Student ID and Password
 
     ![Enter Password](<../.gitbook/assets/linux-wifi-setup-3 (1).png>)
@@ -31,7 +31,7 @@ description: Describes how to set up wifi on a Linux machine
     Make sure to select “TLS” as the authentication type and not “TTLS”.\
     As of somewhere around `NetworkManager` version 1.36.x (which ships by default in Ubuntu 22.04 LTS, Fedora 36, and probably some other major Linux distributions), `NetworkManager` will fail to connect if `Domain` is not properly set to `xprsscnctvm.fcps.edu` and will give **NO** helpful information about why.
 
-![Network Manager](../.gitbook/assets/fairfax-wifi-linux.png)
+![Network Manager](<../.gitbook/assets/fairfax-wifi-linux (1).png>)
 
 1.  If you are a cool person who uses `wpa_supplicant`, put this instead in your `/etc/wpa_supplicant/wpa_supplicant-<interface>.conf`
 

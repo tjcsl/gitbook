@@ -6,8 +6,8 @@ To set up a new Cluster node, you should follow these steps:
 
 Do the standard steps to add new entries for a node (or block of nodes) to DHCP and DNS.
 
-{% content-ref url="../../../technologies/networking/dns/" %}
-[dns](../../../technologies/networking/dns/)
+{% content-ref url="../../../technologies/networking/dns.md" %}
+[dns.md](../../../technologies/networking/dns.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../../technologies/networking/dhcp.md" %}
