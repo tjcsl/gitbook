@@ -28,7 +28,7 @@ All teams and their responsibilities are [available here](organization.md#teams)
 | Intranet     | <p>Alan Zhu<br>Justin Lee</p>           |
 | Director     | <p>Justin Lee<br>Ansh Malhorta</p>      |
 | Web Services | Alan Zhu                                |
-| Mail         | <p>Sami Elsayed<br>Sophia Huang</p>     |
+| Mail         | <p>Sami Elsayed<br>Irmuun Bayart-Od</p> |
 | Storage      | Justin Lee                              |
 | Cluster      | <p>Sami Elsayed<br>Irmuun Bayart-Od</p> |
 | Workstations | <p>Irmuun Bayart-Od<br>Olivia Wu</p>    |
@@ -238,6 +238,7 @@ These alumni were full-fledged Student Systems Administrator.
 * Ram Reddy, Class of 2023
 * Diana Lin, Class of 2024
 * Noah Kabiri, Class of 2024
+* Elijah Gusion-Dowdy, Class of 2025
 
 ### Underclassmen Systems Administrators
 
