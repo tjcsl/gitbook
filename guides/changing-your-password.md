@@ -19,6 +19,14 @@ Before changing your password, please be aware that your password must meet the 
 
 We recommend that you use a unique password for your TJHSST Network Account. Please remember that you are responsible for _**ALL**_ activity on your account, even if you get hacked due to a weak password.
 
+## Through `resetter.tjhsst.edu`
+
+This is the preferred method of change your password. Authenticate with your fcps email and follow the instructions there to reset your password.
+
+## Through [Ion](https://ion.tjhsst.edu/reset\_password)
+
+This is also a simple way—just fill out the form to change your password.
+
 ## Through `remote.tjhsst.edu`
 
 ### Using Windows
@@ -92,7 +100,3 @@ Note: this will not change your _**CSL**_ password, only your _**LOCAL**_ passwo
 12. Type in the same new password again and then press enter
 13. If you see a message `Success : Password changed` then you have successfully changed your password, you may close the Terminal Application.
 14. If you see a message `Verify failure` then you did not type the same new password at steps 9 and 10, please return to step 7 and try again.
-
-## Through Ion
-
-You can't change your password through Ion. Please use one of the other methods listed here.
