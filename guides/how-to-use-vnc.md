@@ -4,7 +4,7 @@ This is useful for setting up/debugging [Virtual Machines](../technologies/virtu
 
 ## Installation
 
-You'll first want to install a VNC client on your computer. I recommend TigerVNC. To install TigerVNC on Ubuntu, run the following command:
+You'll first want to install a VNC client on your computer—we recommend TigerVNC. To install TigerVNC on Ubuntu, run the following command:
 
 ```
 sudo apt install tigervnc

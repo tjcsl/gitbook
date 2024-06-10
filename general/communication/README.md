@@ -24,20 +24,10 @@ The tjCSL Mattermost instance is located at [https://mattermost.tjhsst.edu](http
   * Don't pollute channels with unnecessary messages that could just be communicated directly.
 * Use emotes to react to messages.
   * This reduces overall clutter and makes it easier to find stuff.
-* Keep conversations in relevant channels.
-  * Don't talk about account recovery in the Signage channel, etc.
-* Don't spam.
-  * Don't make people annoyed with notifications from a channel to the point where they mute the channel.
-* Use proper etiquette and be respectful.
-  * There is no need to be disrespectful in the Mattermost channels.
-* Keep private conversations in DM.
-  * Don't pollute channels with unnecessary messages that could just be communicated directly.
-* Use emotes to react to messages.
-  * This reduces overall clutter and makes it easier to find stuff.
 
 ### Channels
 
-Conversations in Mattermost are organized into public and private channels. You can join a public channel by clicking on the`+` icon. Private (invite-only) channels require an invite from someone within the channel. Use invite-only channels for sensitive or non-public discussions.
+Conversations in Mattermost are organized into public and private channels. You can join a public channel by clicking on the `+` icon. Private (invite-only) channels require an invite from someone within the channel. Use invite-only channels for sensitive or non-public discussions.
 
 Some channels include:
 
@@ -46,15 +36,7 @@ Some channels include:
 * \#ion: For discussion of Ion
 * \#director: For discussion of Director
 * \#sysadmins (private): For internal Sysadmin-only discussions
-* \#notifications (private): For&#x20;
-* and other channels
-* \#general: For general discussions
-* \#random: For random discussions
-* \#ion: For discussion of Ion
-* \#director: For discussion of Director
-* \#sysadmins (private): For internal Sysadmin-only discussions
-* \#notifications (private): For&#x20;
-* and other channels
+* \#notifications (private): For activity notifications (like GitLab pushes)
 
 ### Roles
 
@@ -72,10 +54,6 @@ Slack ([https://slack.com](https://slack.com)) is a proprietary set of tools for
 
 The Faculty Sponsor should be "Primary Owner".
 
-###
-
-###
-
 ## E-mail
 
 Communicating with TJ community members is primarily done through email. The Eighth Period Office, administration, TJ Tech Team, teachers, and students rely on these channels for communicating with the Sysadmin team. Hence, e-mail services in the CSL (mail.tjhsst.edu and lists.tjhsst.edu) are **mission-critical services**.
@@ -86,10 +64,10 @@ To keep everyone happy, responding to e-mails quickly is preferred.
 
 The person who is responsible for responding to an e-mail usually varies on a case-by-case basis and based on various factors. Some of these factors include:
 
-* Is it a support inquiry, complaint, question, or request?
-* Who sent it and what position to they have?
+* Is it a support inquiry, complaint, question or request?
+* Who sent it and what position do they have?
 * How important is it?
-* Which Sysadmin(s) has/have access to the systems necessary to complete the request?
+* Which Sysadmin(s) has access to the systems necessary to complete the request?
 * How much knowledge does the Sysadmin have of the functional area?
 
 In general, the lead or contact person for a specific functional area should respond to e-mails.

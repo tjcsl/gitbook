@@ -10,7 +10,7 @@ The cluster was purchased by the Computer Systems Lab to serve the Parallel Comp
 
 ## Specifications
 
-The HPC cluster currently (as of 2016) consists of four physical nodes (three compute units and one GPU unit), a top-of-rack switch, and two UPSes. This setup occupies half of a rack; the other half of the rack is currently unoccupied and left empty in case of future HPC cluster expansion. Compute units are currently named after [robots from Futurama](https://en.wikipedia.org/wiki/List\_of\_Futurama\_characters). The name of the login virtual machine is a reference to [an episode of the series](https://en.wikipedia.org/wiki/The\_Why\_of\_Fry) in which The Infosphere, a colossal memory bank, attempts to catalog all of the information in the universe.
+The CSL cluster (as of 2024) consists of 12 HPC cluster nodes, 40 Borg nodes, and 3 dedicated GPU nodes (snowy, unicron, zoidberg). This setup occupies almost 3 full racks in the server room. The Borg nodes are named borg\[1-40] consecutively, the HPC nodes are named hpc\[1-12] and the login node is `infocube`.
 
 ### Uninterruptible Power Supplies (UPSes)
 
