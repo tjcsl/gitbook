@@ -2,7 +2,7 @@
 
 ## Faculty Sponsor <a href="#faculty-sponsor" id="faculty-sponsor"></a>
 
-The Sysadmin Faculty Sponsor is Mr. Eckel (`mceckel`).
+The Sysadmin Faculty Sponsor is Ms. Stewart (`jstewart`).
 
 ## Current Sysadmins <a href="#current-sysadmins" id="current-sysadmins"></a>
 
