@@ -2,7 +2,7 @@
 
 ## Faculty Sponsor <a href="#faculty-sponsor" id="faculty-sponsor"></a>
 
-The Sysadmin Faculty Sponsor is Ms. Stewart (`jstewart`).
+The Sysadmin Faculty Sponsor is Ms. Jean-Marie Stewart (`jstewart`).
 
 ## Current Sysadmins <a href="#current-sysadmins" id="current-sysadmins"></a>
 
@@ -239,6 +239,21 @@ These alumni were full-fledged Student Systems Administrator.
 * Diana Lin, Class of 2024
 * Noah Kabiri, Class of 2024
 * Elijah Gusion-Dowdy, Class of 2025
+
+### Faculty Sponsors
+
+These teachers/staff member are/were faculty sponsors or contributors in the Lab:
+
+* Ms. Allison Agee
+* Mrs. Joan Burch
+* Dr. Morasca
+* Mr. Bryan Phillips
+* Mr. Leo Resquin
+* Ms. Marie Lauducci
+* Mr. Andrew Hamilton
+* Dr. Shane Torbert
+* Dr. Patrick White
+* Mr. Malcolm Eckel
 
 ### Underclassmen Systems Administrators
 
