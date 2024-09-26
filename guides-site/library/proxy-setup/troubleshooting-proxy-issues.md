@@ -1,5 +1,9 @@
 # Troubleshooting Proxy Issues
 
+{% hint style="danger" %}
+**DEPRECATED:** The tjCSL Library Proxy has been deprecated. The information on this site is preserved for documentation and historical purposes.
+{% endhint %}
+
 ## On all operating systems:
 
 1. Make sure you've cleared your cache as per the instructions for your browser/operating system.

@@ -6,3 +6,6 @@ description: >-
 
 # Proxy Setup
 
+{% hint style="danger" %}
+**DEPRECATED:** The tjCSL Library Proxy has been deprecated. The information on this site is preserved for documentation and historical purposes.
+{% endhint %}

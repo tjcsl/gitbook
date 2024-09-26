@@ -1,5 +1,9 @@
 # Android
 
+{% hint style="danger" %}
+**DEPRECATED:** The tjCSL Library Proxy has been deprecated. The information on this site is preserved for documentation and historical purposes.
+{% endhint %}
+
 {% hint style="info" %}
 You MUST have set your Ion/CSL password before you can set up your TJ Proxy.
 {% endhint %}

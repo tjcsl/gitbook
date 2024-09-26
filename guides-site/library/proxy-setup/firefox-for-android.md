@@ -1,5 +1,9 @@
 # Firefox for Android
 
+{% hint style="danger" %}
+**DEPRECATED:** The tjCSL Library Proxy has been deprecated. The information on this site is preserved for documentation and historical purposes.
+{% endhint %}
+
 For anyone wondering, yes, Firefox on Android is very different from desktop Firefox.  This is especially true for setting up the proxy.
 
 ## Clearing Cache
