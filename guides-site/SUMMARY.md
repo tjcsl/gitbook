@@ -5,7 +5,7 @@
 ## Library
 
 * [CASA](library/casa.md)
-* [Proxy Setup](library/proxy-setup/README.md)
+* [Proxy Setup (DEPRECATED)](library/proxy-setup/README.md)
   * [Android](library/proxy-setup/android.md)
   * [Mac OS X](library/proxy-setup/macos.md)
   * [Windows](library/proxy-setup/windows.md)
