@@ -7,5 +7,5 @@ description: >-
 # Proxy Setup
 
 {% hint style="danger" %}
-**DEPRECATED:** The tjCSL Library Proxy has been deprecated. The information on this site is preserved for documentation and historical purposes.
+**DEPRECATED:** The tjCSL Library Proxy has been deprecated. The information on this site is preserved for documentation and historical purposes. Please check the Google CASA setup [here](../casa.md).
 {% endhint %}
