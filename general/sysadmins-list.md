@@ -242,7 +242,6 @@ These alumni were full-fledged Student Systems Administrator.
 * Diana Lin, Class of 2024
 * Noah Kabiri, Class of 2024
 * Elijah Gusion-Dowdy, Class of 2025
-* Justin Lee, Class of 2025
 * Sophia Huang, Class of 2025
 
 ### Faculty Sponsors
@@ -259,6 +258,7 @@ These teachers/staff member are/were faculty sponsors or contributors in the Lab
 * Dr. Shane Torbert
 * Dr. Patrick White
 * Mr. Malcolm Eckel
+* Ms. Jean-Marie Stewart
 
 ### Underclassmen Systems Administrators
 
