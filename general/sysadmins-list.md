@@ -95,6 +95,7 @@ These alumni were head/lead Sysadmins in the Lab in the past.
 * Krishnan Shankar, Class of 2024
 * Kedar Prasad, Class of 2024
 * Alan Zhu, Class of 2025
+* Justin Lee, Class of 2025
 * Sami Elsayed, Class of 2025
 
 ### Webmasters/Intranet maintainers
