@@ -6,42 +6,40 @@ The Sysadmin Faculty Sponsor is Ms. Jean-Marie Stewart (`jstewart`).
 
 ## Current Sysadmins <a href="#current-sysadmins" id="current-sysadmins"></a>
 
-<table data-header-hidden><thead><tr><th width="254.33333333333331">Name</th><th width="183">Username</th><th>Positions</th></tr></thead><tbody><tr><td>Name</td><td>Username</td><td>Positions</td></tr><tr><td>Sami Elsayed</td><td><code>2025selsayed</code></td><td><strong>Lead Sysadmin</strong><br>Networking Lead<br>Cluster Co-Lead<br>Mail Co-Lead</td></tr><tr><td>Alan Zhu</td><td><code>2025azhu</code></td><td><strong>Lead Sysadmin</strong><br>Intranet Co-Lead<br>Web Services Lead<br>Cybersecurity &#x26; Monitoring Lead</td></tr><tr><td>Justin Lee</td><td><code>2025jlee</code></td><td>Infrastructure Lead<br>Intranet Co-Lead<br>Storage Co-Lead<br>Director Co-Lead</td></tr><tr><td>Pratyush Saxena</td><td><code>2025psaxena</code></td><td>Documentation Co-Lead</td></tr><tr><td>Sophia Huang</td><td><code>2025shuang</code></td><td>Printing Co-Lead<br>Signage Co-Lead</td></tr><tr><td>Rem Turatbekov</td><td><code>2025rturatbe</code></td><td>Documentation Co-Lead</td></tr><tr><td>Ansh Malhotra</td><td><code>2026amalhotr1</code></td><td>Director Co-Lead<br>Printing Co-Lead</td></tr><tr><td>Irmuun Bayart-Od</td><td><code>2026ibayarto</code></td><td>Workstations Co-Lead<br>Mail Co-Lead<br>Cluster Co-Lead</td></tr><tr><td>Olivia Wu</td><td><code>2026owu</code></td><td>Workstations Co-Lead<br>Signage Co-Lead</td></tr><tr><td>Henry Stievater</td><td><code>2026hstievat</code></td><td>Junior Admin</td></tr><tr><td>Devin Park</td><td><code>2026dpark</code></td><td>Junior Admin</td></tr><tr><td>Leo Lim</td><td><code>2026llim</code></td><td>Junior Admin</td></tr><tr><td>Aarush Deshpande</td><td><code>2027adeshpan</code></td><td>Junior Admin</td></tr><tr><td>Aarush Chaurasia</td><td><code>2027achauras</code></td><td>Junior Admin</td></tr><tr><td>Catelyn Dao</td><td><code>2027tdao</code></td><td>Junior Admin</td></tr><tr><td>Shreyas Jain</td><td><code>2027sjain</code></td><td>Junior Admin</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="254.33333333333331">Name</th><th width="183">Username</th><th>Positions</th></tr></thead><tbody><tr><td>Name</td><td>Username</td><td>Positions</td></tr><tr><td>Aarush Deshpande</td><td><code>2027adeshpan</code></td><td><strong>Lead Sysadmin</strong><br>Infrastructure Lead<br>Web Services Lead<br>Director Co-Lead</td></tr><tr><td>Aarush Chaurasia</td><td><code>2027achauras</code></td><td><strong>Lead Sysadmin</strong><br>Intranet Co-Lead<br>Cybersecurity &#x26; Monitoring Lead<br>Director Co-Lead</td></tr><tr><td>Henry Stievater</td><td><code>2026hstievat</code></td><td><strong>Lead Sysadmin</strong><br>Mail Co-Lead<br>Printing Lead</td></tr><tr><td>Irmuun Bayart-Od</td><td><code>2026ibayarto</code></td><td>Workstations Co-Lead<br>Mail Co-Lead<br>Cluster Co-Lead</td></tr><tr><td>Devin Park</td><td><code>2026dpark</code></td><td>Networking Lead<br>Cluster Co-Lead<br>Workstations Co-Lead</td></tr><tr><td>Leo Lim</td><td><code>2026llim</code></td><td>Documentation Manager</td></tr><tr><td>Catelyn Dao</td><td><code>2027tdao</code></td><td>Storage Co-Lead</td></tr><tr><td>Shreyas Jain</td><td><code>2027sjain</code></td><td>Intranet Co-Lead<br>Storage Co-Lead</td></tr></tbody></table>
 
 ## Roles <a href="#current-leads" id="current-leads"></a>
 
 All roles and their responsibilities are [available here](organization.md#general-roles).
 
-| Area                       | Lead(s)                                  |
-| -------------------------- | ---------------------------------------- |
-| Infrastructure             | Justin Lee                               |
-| Networking                 | Sami Elsayed                             |
-| Cybersecurity & Monitoring | Alan Zhu                                 |
-| Documentation              | <p>Pratyush Saxena<br>Rem Turatbekov</p> |
+| Area                       | Lead(s)          |
+| -------------------------- | ---------------- |
+| Infrastructure             | Aarush Deshpande |
+| Networking                 | Devin Park       |
+| Cybersecurity & Monitoring | Aarush Chaurasia |
 
 ## Teams <a href="#teams" id="teams"></a>
 
 All teams and their responsibilities are [available here](organization.md#teams).
 
-| Team Name    | Lead(s)                                 |
-| ------------ | --------------------------------------- |
-| Intranet     | <p>Alan Zhu<br>Justin Lee</p>           |
-| Director     | <p>Justin Lee<br>Ansh Malhorta</p>      |
-| Web Services | Alan Zhu                                |
-| Mail         | <p>Sami Elsayed<br>Irmuun Bayart-Od</p> |
-| Storage      | Justin Lee                              |
-| Cluster      | <p>Sami Elsayed<br>Irmuun Bayart-Od</p> |
-| Workstations | <p>Irmuun Bayart-Od<br>Olivia Wu</p>    |
-| Signage      | <p>Sophia Huang<br>Olivia Wu</p>        |
+| Team Name    | Lead(s)                                     |
+| ------------ | ------------------------------------------- |
+| Intranet     | <p>Aarush Chaurasia<br>Shreyas Jain</p>     |
+| Director     | <p>Aarush Deshpande<br>Aarush Chaurasia</p> |
+| Web Services | Aarush Deshpande                            |
+| Mail         | <p>Irmuun Bayart-Od<br>Henry Stievater</p>  |
+| Storage      | <p>Shreyas Jain<br>Catelyn Dao</p>          |
+| Cluster      | <p>Irmuun Bayart-Od<br>Devin Park</p>       |
+| Workstations | <p>Irmuun Bayart-Od<br>Devin Park</p>       |
 
 ## Points of Contact
 
-| Eighth Period Office    | Alan Zhu        |
-| ----------------------- | --------------- |
-| SGA                     | Justin Lee      |
-| Security Office         | Alan Zhu        |
-| Web Development Classes | Alan Zhu        |
-| CSL Lab Directors       | Faculty Sponsor |
+| Eighth Period Office    | Aarush Chaurasia |
+| ----------------------- | ---------------- |
+| SGA                     | Aarush Chaurasia |
+| Security Office         | Aarush Chaurasia |
+| Web Development Classes | Aarush Deshpande |
+| CSL Lab Directors       | Faculty Sponsor  |
 
 ## Previous Student Systems Administrators
 
@@ -96,6 +94,8 @@ These alumni were head/lead Sysadmins in the Lab in the past.
 * Bradley Cao, Class of 2023
 * Krishnan Shankar, Class of 2024
 * Kedar Prasad, Class of 2024
+* Alan Zhu, Class of 2025
+* Sami Elsayed, Class of 2025
 
 ### Webmasters/Intranet maintainers
 
@@ -127,6 +127,8 @@ These alumni managed a version of Intranet or websites in the past.
 * Ethan Nguyen, Class of 2021
 * Lauren Delwiche, Class of 2022
 * Saloni Shah, Class of 2023
+* Alan Zhu, Class of 2025
+* Justin Lee, Class of 2025
 
 ### Full Student Systems Administrators
 
@@ -239,6 +241,8 @@ These alumni were full-fledged Student Systems Administrator.
 * Diana Lin, Class of 2024
 * Noah Kabiri, Class of 2024
 * Elijah Gusion-Dowdy, Class of 2025
+* Justin Lee, Class of 2025
+* Sophia Huang, Class of 2025
 
 ### Faculty Sponsors
 
