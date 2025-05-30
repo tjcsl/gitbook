@@ -6,7 +6,7 @@ The Sysadmin Faculty Sponsor is Ms. Jean-Marie Stewart (`jstewart`).
 
 ## Current Sysadmins <a href="#current-sysadmins" id="current-sysadmins"></a>
 
-<table data-header-hidden><thead><tr><th width="254.33333333333331">Name</th><th width="183">Username</th><th>Positions</th></tr></thead><tbody><tr><td>Name</td><td>Username</td><td>Positions</td></tr><tr><td>Aarush Deshpande</td><td><code>2027adeshpan</code></td><td><strong>Lead Sysadmin</strong><br>Infrastructure Lead<br>Web Services Lead<br>Director Co-Lead</td></tr><tr><td>Aarush Chaurasia</td><td><code>2027achauras</code></td><td><strong>Lead Sysadmin</strong><br>Intranet Co-Lead<br>Cybersecurity &#x26; Monitoring Lead<br>Director Co-Lead</td></tr><tr><td>Henry Stievater</td><td><code>2026hstievat</code></td><td><strong>Lead Sysadmin</strong><br>Mail Co-Lead<br>Printing Lead</td></tr><tr><td>Irmuun Bayart-Od</td><td><code>2026ibayarto</code></td><td>Workstations Co-Lead<br>Mail Co-Lead<br>Cluster Co-Lead</td></tr><tr><td>Devin Park</td><td><code>2026dpark</code></td><td>Networking Lead<br>Cluster Co-Lead<br>Workstations Co-Lead</td></tr><tr><td>Leo Lim</td><td><code>2026llim</code></td><td>Documentation Manager</td></tr><tr><td>Catelyn Dao</td><td><code>2027tdao</code></td><td>Storage Co-Lead</td></tr><tr><td>Shreyas Jain</td><td><code>2027sjain</code></td><td>Intranet Co-Lead<br>Storage Co-Lead</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="254.33333333333331">Name</th><th width="183">Username</th><th>Positions</th></tr></thead><tbody><tr><td>Name</td><td>Username</td><td>Positions</td></tr><tr><td>Aarush Deshpande</td><td><code>2027adeshpan</code></td><td><strong>Lead Sysadmin</strong><br>Infrastructure Lead<br>Web Services Lead<br>Director Co-Lead</td></tr><tr><td>Aarush Chaurasia</td><td><code>2027achauras</code></td><td><strong>Lead Sysadmin</strong><br>Intranet Co-Lead<br>Cybersecurity &#x26; Monitoring Co-Lead<br>Director Co-Lead</td></tr><tr><td>Henry Stievater</td><td><code>2026hstievat</code></td><td><strong>Lead Sysadmin</strong><br>Networking Lead<br>Mail Co-Lead<br>Printing Lead</td></tr><tr><td>Irmuun Bayart-Od</td><td><code>2026ibayarto</code></td><td>Workstations Co-Lead<br>Mail Co-Lead<br>Cluster Co-Lead</td></tr><tr><td>Devin Park</td><td><code>2026dpark</code></td><td>Cybersecurity Co-Lead<br>Cluster Co-Lead</td></tr><tr><td>Leo Lim</td><td><code>2026llim</code></td><td>Documentation Manager</td></tr><tr><td>Catelyn Dao</td><td><code>2027tdao</code></td><td>Storage Co-Lead<br>Workstations Co-Lead</td></tr><tr><td>Shreyas Jain</td><td><code>2027sjain</code></td><td>Intranet Co-Lead<br>Storage Co-Lead</td></tr></tbody></table>
 
 ## Roles <a href="#current-leads" id="current-leads"></a>
 
@@ -15,7 +15,7 @@ All roles and their responsibilities are [available here](organization.md#genera
 | Area                       | Lead(s)          |
 | -------------------------- | ---------------- |
 | Infrastructure             | Aarush Deshpande |
-| Networking                 | Devin Park       |
+| Networking                 | Henry Stievater  |
 | Cybersecurity & Monitoring | Aarush Chaurasia |
 
 ## Teams <a href="#teams" id="teams"></a>
@@ -30,7 +30,7 @@ All teams and their responsibilities are [available here](organization.md#teams)
 | Mail         | <p>Irmuun Bayart-Od<br>Henry Stievater</p>  |
 | Storage      | <p>Shreyas Jain<br>Catelyn Dao</p>          |
 | Cluster      | <p>Irmuun Bayart-Od<br>Devin Park</p>       |
-| Workstations | <p>Irmuun Bayart-Od<br>Devin Park</p>       |
+| Workstations | <p>Irmuun Bayart-Od<br>Catelyn Dao</p>      |
 
 ## Points of Contact
 
