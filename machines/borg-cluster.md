@@ -5,7 +5,7 @@ coverY: 0
 
 # Borg Cluster
 
-Acquired as a gift by NASA, the **Borg Cluster** is our second high performance computing cluster. It consists of 40 nodes, labeled `borgw2[01-40]`, the first 12 of which are currently plugged in (the power draw would be too large for our outlets).
+Acquired as a gift by NASA, the **Borg Cluster** is our second high performance computing cluster. It consists of 40 nodes, labeled `borgw2[01-40].`
 
 ## Technical Specifications
 
