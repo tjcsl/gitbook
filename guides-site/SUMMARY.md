@@ -38,6 +38,7 @@
 * [Matlab](research/matlab.md)
 * [Cluster Introduction](research/cluster-introduction.md)
 * [Slurm](research/using-infoprism.md)
+* [Migrating from JupyterHub to OnDemand](research/migrating-from-jupyterhub-to-ondemand.md)
 * [Open OnDemand](research/ondemand/README.md)
   * [QIIME2](research/ondemand/qiime2.md)
 * [Zoidberg](research/using-zoidberg.md)
