@@ -24,7 +24,7 @@ Here, choose the application you want. In the following, we assume you choose Ju
 
 Please only choose what you need. Depending on usage, it may take longer to spawn instances for higher resource allocations, and others may be prevented from using resources allocated to you if you are not using them.
 
-You will then be placed in a queue to wait for your own server to spawn. Our instance is configured such that your server may be spawned on one of 53 different machines. Even though your server is spawned on random machines, all your files are stored in a common location:  `/csl/useres/<username>`.&#x20;
+You will then be placed in a queue to wait for your own server to spawn. Our instance is configured such that your server may be spawned on one of 53 different machines. Even though your server is spawned on random machines, all your files are stored in a common location:  `/csl/users/<username>`.&#x20;
 
 The page will automatically update and show you the following screen once it has loaded:
 
