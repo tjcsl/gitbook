@@ -10,7 +10,7 @@ description: This document describes how to use TJ's JupyterHub instance
 
 ## How do I open an Application?
 
-TJ's OnDemand instance is available at[ https://jupyterhub.tjhsst.edu](https://ondemand.tjhsst.edu/). The first time you load the page, it may take a minute or two, and you will be redirected to Ion to authenticate. Then you will be presented with a screen that looks like this:
+TJ's OnDemand instance is available at[ https://ondemand.tjhsst.edu](https://ondemand.tjhsst.edu/). The first time you load the page, it may take a minute or two, and you will be redirected to Ion to authenticate. Then you will be presented with a screen that looks like this:
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
