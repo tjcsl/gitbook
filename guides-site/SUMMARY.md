@@ -37,9 +37,9 @@
 * [Mathematica](research/mathematica.md)
 * [Matlab](research/matlab.md)
 * [Cluster Introduction](research/cluster-introduction.md)
-* [Slurm](research/using-infocube.md)
-* [JupyterHub](research/jupyterhub/README.md)
-  * [QIIME2](research/jupyterhub/qiime2.md)
+* [Slurm](research/using-infoprism.md)
+* [Open OnDemand](research/ondemand/README.md)
+  * [QIIME2](research/ondemand/qiime2.md)
 * [Zoidberg](research/using-zoidberg.md)
 * [tmux](research/tmux.md)
 

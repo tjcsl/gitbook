@@ -12,21 +12,25 @@ Slurm is a free, open-source job scheduler which provides tools and functionalit
 
 ## How do you use it?
 
-Slurm is very user-friendly.  You don't necessarily have to have an academic use for the cluster, but keep in mind that any use of the HPC cluster is bound by the FCPS Acceptable Use Policy, just like the rest of TJ's computing resources, and academic jobs will have priority use of Cluster resources. All TJ students are granted cluster accounts in the beginning of the year. If you believe your cluster account does not exist or is broken email [cluster@tjhsst.edu](mailto:cluster@tjhsst.edu)
+Slurm is very user-friendly.  You don't necessarily have to have an academic use for the cluster, but keep in mind that any use of the HPC cluster is bound by the FCPS Acceptable Use Policy, just like the rest of TJ's computing resources, and academic jobs will have priority use of Cluster resources. All TJ students are granted cluster accounts in the beginning of the year. If you believe your cluster account does not exist or is broken email [sysadmins@tjhsst.edu](mailto:sysadmins@tjhsst.edu)
+
+{% hint style="info" %}
+As of 2027, the easiest way to use Slurm is via the "Job Composer" tab at [https://ondemand.tjhsst.edu/](https://ondemand.tjhsst.edu/) - see [ondemand](ondemand/ "mention")for more information
+{% endhint %}
 
 ### The Login Node
 
 {% hint style="warning" %}
-As of September 2020, the old login node, `infosphere`, has been decommissioned and replaced with the new login node: `infocube`. Running `ssh infosphere` may result in a weird SSH error, but it is safe to ignore this error.  Running `ssh infocube` bypasses this SSH error altogether.&#x20;
+As of October 2025, the old login node, `infocube`, has been decommissioned and replaced with the new login node: `infoprism`.
 {% endhint %}
 
-To get started with running jobs on the Cluster you should connect to the **login node**, which is `infocube` in this case. Any of the following commands while on `ras` or  TJ CSL computer will allow you to connect to `infocube`:
+To get started with running jobs on the Cluster you should connect to the **login node**, which is `infoprism` in this case. Any of the following commands while on `ras` or  TJ CSL computer will allow you to connect to `infoprism`:
 
 ```bash
-ssh infocube
+ssh infoprism
 ```
 
-After connecting to `infocube` you will be placed into your Cluster home directory (`/cluster/<username>`).  `infocube` is a virtual machine and does not have nearly the amount of resources as the entire Cluster does, so **do not run programs directly on infocube**. Instead, you want to tell Slurm to launch a **job**
+After connecting to `infoprism` you will be placed into your Cluster home directory (`/csl/users/<username>`).  `infoprism` is a virtual machine and does not have nearly the amount of resources as the entire Cluster does, so **do not run programs directly on infocube**. Instead, you want to tell Slurm to launch a **job**
 
 Jobs are how you can tell Slurm what processes you want run, and how many resources those processes should have. Slurm then goes out and launches your program on one or more of the actual HPC cluster nodes. This way, time consuming tasks can run in the background without requiring that you always be connected, and jobs can be queued to run at a later time.
 
@@ -63,9 +67,9 @@ JOBID  PARTITION   NAME     USER    ST      TIME   NODES  NODELIST(REASON)
 
 ### Creating Programs to Run of the HPC Cluster
 
-The HPC Cluster is comprised of 64-bit Ubuntu Linux systems. While you can run any old Linux program on the Cluster, to take advantage of the parallel processing capability that the Cluster has, it's _highly_ recommended to make use of a parallel programming interface. If you're taking or have taken Parallel Computing, you will know how to write and compile a program which uses MPI. If you aren't, [http://condor.cc.ku.edu/\~grobe/docs/intro-MPI-C.shtml](http://condor.cc.ku.edu/\~grobe/docs/intro-MPI-C.shtml) is a good introduction to MPI in C. See below for instructions on running an MPI program on the cluster.
+The HPC Cluster is comprised of 64-bit Ubuntu Linux systems. While you can run any old Linux program on the Cluster, to take advantage of the parallel processing capability that the Cluster has, it's _highly_ recommended to make use of a parallel programming interface. If you're taking or have taken Parallel Computing, you will know how to write and compile a program which uses MPI. If you aren't, [http://condor.cc.ku.edu/\~grobe/docs/intro-MPI-C.shtml](http://condor.cc.ku.edu/~grobe/docs/intro-MPI-C.shtml) is a good introduction to MPI in C. See below for instructions on running an MPI program on the cluster.
 
-When compiling your program, it's best to connect to `infocube` (the login node explained in the section above), so that your code is compiled in a similar environment to where it will be run. The login node should have all the necessary tools to do so, such as gcc, g++, and mpicc/mpixx.\
+When compiling your program, it's best to connect to `infoprism` (the login node explained in the section above), so that your code is compiled in a similar environment to where it will be run. The login node should have all the necessary tools to do so, such as gcc, g++, and mpicc/mpixx.\
 **WARNING:** compiling your program on a workstation/any other computer that is not part of the cluster and then transferring the generated executable over to the cluster **WILL NOT WORK**. This is called _CROSS COMPILATION_ and it **WILL NOT WORK**. This is not a challenge, it is a statement of fact&#x20;
 
 ### Running a Job

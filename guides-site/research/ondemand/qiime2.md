@@ -8,7 +8,7 @@ description: >-
 
 ## Disclaimer
 
-Before working with JupyterHub and the Cluster it is **highly** recommended that you read all the previous articles on the [Cluster](../cluster-introduction.md), [Slurm](../using-infocube.md), [JupyterHub](./), and [Conda](../using-zoidberg.md#conda), (official conda docs [here](https://docs.conda.io/en/latest/)). Running into the Cluster without knowing how the various features work will not be an enjoyable experience for you.
+Before working with JupyterLab and the Cluster it is **highly** recommended that you read all the previous articles on the [Cluster](../cluster-introduction.md), [Slurm](../using-infoprism.md), [JupyterHub](./), and [Conda](../using-zoidberg.md#conda), (official conda docs [here](https://docs.conda.io/en/latest/)). Running into the Cluster without knowing how the various features work will not be an enjoyable experience for you.
 
 ## Running Qiime2
 
@@ -45,6 +45,6 @@ Now you can run `qiime` to access Qiime2
 
 After logging into JupyterHub you should see the following on the JupyterHub "launcher":
 
-![Notice the Qiime2 options in Notebook and Console. Also notice the R(qiime2) options](../../.gitbook/assets/Screenshot\_20201001\_142837.png)
+![Notice the Qiime2 options in Notebook and Console. Also notice the R(qiime2) options](../../.gitbook/assets/Screenshot_20201001_142837.png)
 
 The `qiime2` options will spawn a Python Notebook or Console depending on what you choose. The `R(qiime2)` will spawn an R Notebook or Console depending on what you choose.

@@ -2,7 +2,7 @@
 
 ## What is Zoidberg
 
-Zoidberg is a very powerful server with **4 NVIDIA Telsa K80** GPUs. It is part of the HPC Cluster in name and location only. It's treated as mostly separate, and can be used outside of [Slurm](using-infocube.md). Zoidberg is by far the most powerful HPC node as well, potentially the most powerful machine in the entire CSL.
+Zoidberg is a very powerful server with **4 NVIDIA Telsa K80** GPUs. It is part of the HPC Cluster in name and location only. It's treated as mostly separate, and can be used outside of [Slurm](using-infoprism.md). Zoidberg is by far the most powerful HPC node as well, potentially the most powerful machine in the entire CSL.
 
 It can be used to run large machine learning projects that require a lot of power.
 
