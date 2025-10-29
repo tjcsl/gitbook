@@ -12,6 +12,10 @@ description: >-
 
 ## Installing Mathematica at home
 
+{% hint style="warning" %}
+As of October, 2025, Mathematica is no longer approved software by FCPS, and thus the following instructions may no longer work.
+{% endhint %}
+
 To install Mathematica on a personally-owned machine, please use the following instructions
 
 {% hint style="info" %}
