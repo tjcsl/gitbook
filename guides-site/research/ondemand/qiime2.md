@@ -29,9 +29,9 @@ module load qiime2
 
 Now you can run `qiime` to access Qiime2
 
-### Qiime2 Through JupyterHub
+### Qiime2 Through Jupyter
 
-After logging into JupyterHub you should see the following on the JupyterHub "launcher":
+After accessing Jupyter, you should see the following on the "launcher":
 
 ![Notice the Qiime2 options in Notebook and Console. Also notice the R(qiime2) options](../../.gitbook/assets/Screenshot_20201001_142837.png)
 

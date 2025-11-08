@@ -1,12 +1,12 @@
 ---
-description: This document describes how to use TJ's JupyterHub instance
+description: This document describes how to use TJ's Open OnDemand instance
 ---
 
 # Open OnDemand
 
 ## What is Open OnDemand?
 
-[Open OnDemand](https://openondemand.org/) is how you can access TJ's Cluster. It contains many different applications within it, including JupyterLab, a fully-online IDE that is very similar to Google's Colab interface. Additionally, it also contains other IDEs for other programming languages, including RStudio for R, a MATLAB setup, and even a fully online VS Code via Codeserver!
+[Open OnDemand](https://openondemand.org/) is how you can access TJ's Cluster. It contains many different applications within it, including JupyterLab, a fully-online IDE that is very similar to Google's Colab interface. Additionally, it also contains other IDEs for other programming languages, including a fully online VS Code via Codeserver! There are also plans to add more IDEs, such as RStudio and/or MATLAB in the near future.
 
 ## How do I open an Application?
 
@@ -14,7 +14,7 @@ TJ's OnDemand instance is available at[ https://ondemand.tjhsst.edu](https://ond
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-Here, choose the application you want. In the following, we assume you choose Jupyter Lab. You should then be asked for a Job Profile, with the following options:
+Here, choose the application you want. In the following, we assume you choose Jupyter. You should then be asked for a Job Profile, with the following options:
 
 * Default (4 CPUs, 8GB RAM)
 * Compute (8 CPUs, 16GB RAM)
@@ -77,7 +77,7 @@ To undo the loading of a module, simply run:
 module unload <name of environment>
 ```
 
-### Creating Pixi Environments
+### Creating Custom Pixi Environments
 
 Both the Python Notebook and Console are backed by [Pixi](https://pixi.sh/latest/) environments. Familiarize yourself with Pixi environments before reading on. If you're familiar with `conda`  environments, Pixi is a faster conda with more features.
 
