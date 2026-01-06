@@ -8,7 +8,7 @@ description: Using the Printing service on Ion
 
 The Printing feature on Ion is a service that the CSL provides to students and staff member to be able to print to the 3 Syslab printers and to the 9 commons printers around the school. It's a service made available to students who don't use/have a school-provided laptop, use one of our 60+ workstations in the CSL, or needs to print something on-the-go.
 
-The contact person for the printing service and associated infrastructure is [the Printing Lead](broken-reference).
+The contact person for the printing service and associated infrastructure is [the Printing Lead](/broken/pages/-LKawF93XlR59Em-5RiH#current-leads).
 
 ### Printers
 

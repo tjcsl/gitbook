@@ -46,4 +46,4 @@
 
 ## FCPS Wi-Fi Setup
 
-* [Linux Wi-Fi Setup](fcps-wi-fi-setup/untitled.md)
+* [FCPS Linux Wi-Fi Setup](fcps-wi-fi-setup/untitled.md)
