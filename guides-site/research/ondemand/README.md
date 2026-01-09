@@ -34,7 +34,7 @@ At this point, click on the blue "Connect to Jupyter" button to start the Jupyte
 
 ## Advanced Features
 
-### Python Interfaces
+### Python Interfaces for JupyterLab
 
 After logging in, you may be greeted with a "Launcher" tab. This tab will have multiple options, including:
 

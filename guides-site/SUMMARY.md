@@ -41,6 +41,7 @@
 * [Migrating from JupyterHub to OnDemand](research/migrating-from-jupyterhub-to-ondemand.md)
 * [Open OnDemand](research/ondemand/README.md)
   * [QIIME2](research/ondemand/qiime2.md)
+  * [Visual Studio Code (VS Code)](research/ondemand/visual-studio-code-vs-code.md)
 * [Zoidberg](research/using-zoidberg.md)
 * [tmux](research/tmux.md)
 
