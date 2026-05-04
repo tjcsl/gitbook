@@ -25,10 +25,14 @@ This section contains various other scripts to do useful things on [WWW](./).
 ### If SSL doesn't renew automatically
 
 The certbot command is `certbot certonly`\
-`--manual`\
-`--preferred-challenges dns`\
-`--manual-auth-hook /usr/local/bin/certbot-ipa-dns-update.sh`\
-`--manual-cleanup-hook /usr/local/bin/certbot-ipa-dns-cleanup.sh`\
-`--cert-name tjhsst.edu`
+`--manual \`\
+`--preferred-challenges dns \`\
+`--manual-auth-hook /usr/local/bin/certbot-ipa-dns-update.sh \`\
+`--deploy-hook "nginx -s reload" \`\
+`--manual-cleanup-hook /usr/local/bin/certbot-ipa-dns-cleanup.sh \`\
+`-d tjhsst.edu \`\
+`-d '*.tjhsst.edu' \`\
+`--non-interactive --agree-tos -m lead-sysadmins@tjhsst.edu --no-eff-email \`\
+`--expand`
 
 You can try running this manually to see the error. You can also look at the script in `/usr/local/bin/certbot-ipa-dns-update.sh`  to see what it's supposed to do.&#x20;
