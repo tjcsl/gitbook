@@ -10,7 +10,7 @@ The cluster was purchased by the Computer Systems Lab to serve the Parallel Comp
 
 ## Specifications
 
-The CSL cluster (as of 2024) consists of 12 HPC cluster nodes, 40 Borg nodes, and 3 dedicated GPU nodes (snowy, unicron, zoidberg). This setup occupies almost 3 full racks in the server room. The Borg nodes are named borg\[1-40] consecutively, the HPC nodes are named hpc\[1-12] and the login node is `infocube`.
+The CSL cluster (as of 2024) consists of 12 HPC cluster nodes, 40 Borg nodes, and 3 dedicated GPU nodes (snowy, unicron, zoidberg). This setup occupies almost 3 full racks in the server room. The Borg nodes are named borg\[1-40] consecutively, the HPC nodes are named hpc\[1-12] and the login node is `infoprism`.
 
 ### Uninterruptible Power Supplies (UPSes)
 
