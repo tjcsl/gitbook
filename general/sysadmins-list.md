@@ -97,6 +97,7 @@ These alumni were head/lead Sysadmins in the Lab in the past.
 * Alan Zhu, Class of 2025
 * Justin Lee, Class of 2025
 * Sami Elsayed, Class of 2025
+* Henry Stievater, Class of 2026
 
 ### Webmasters/Intranet maintainers
 
@@ -130,7 +131,6 @@ These alumni managed a version of Intranet or websites in the past.
 * Saloni Shah, Class of 2023
 * Alan Zhu, Class of 2025
 * Justin Lee, Class of 2025
-* Henry Stievater, Class of 2026
 
 ### Full Student Systems Administrators
 
