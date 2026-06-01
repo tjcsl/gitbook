@@ -6,7 +6,7 @@ The Sysadmin Faculty Sponsor is Ms. Jean-Marie Stewart (`jstewart`).
 
 ## Current Sysadmins <a href="#current-sysadmins" id="current-sysadmins"></a>
 
-<table data-header-hidden><thead><tr><th width="254.33333333333331">Name</th><th width="183">Username</th><th>Positions</th></tr></thead><tbody><tr><td>Name</td><td>Username</td><td>Positions</td></tr><tr><td>Aarush Deshpande</td><td><code>2027adeshpan</code></td><td><strong>Lead Sysadmin</strong><br>Infrastructure Lead<br>Web Services Lead<br>Director Co-Lead</td></tr><tr><td>Aarush Chaurasia</td><td><code>2027achauras</code></td><td><strong>Lead Sysadmin</strong><br>Intranet Co-Lead<br>Cybersecurity &#x26; Monitoring Co-Lead<br>Director Co-Lead</td></tr><tr><td>Henry Stievater</td><td><code>2026hstievat</code></td><td><strong>Lead Sysadmin</strong><br>Networking Lead<br>Mail Co-Lead<br>Printing Lead</td></tr><tr><td>Irmuun Bayart-Od</td><td><code>2026ibayarto</code></td><td>Workstations Co-Lead<br>Mail Co-Lead<br>Cluster Co-Lead</td></tr><tr><td>Devin Park</td><td><code>2026dpark</code></td><td>Cybersecurity Co-Lead<br>Cluster Co-Lead</td></tr><tr><td>Leo Lim</td><td><code>2026llim</code></td><td>Documentation Manager</td></tr><tr><td>Catelyn Dao</td><td><code>2027tdao</code></td><td>Storage Co-Lead<br>Workstations Co-Lead</td></tr><tr><td>Shreyas Jain</td><td><code>2027sjain</code></td><td>Intranet Co-Lead<br>Storage Co-Lead</td></tr><tr><td>Sroshsafa Shirzay</td><td><code>2027sshirzay</code></td><td>Junior Sysadmin</td></tr><tr><td>Mikaeel Taher</td><td><code>2027mtaher</code></td><td>Junior Sysadmin</td></tr><tr><td>Samuel Chow</td><td><code>2028schow</code></td><td>Junior Sysadmin</td></tr><tr><td>Bryce Conrad</td><td><code>2028bconrad</code></td><td>Junior Sysadmin</td></tr><tr><td>Tiger Deng</td><td><code>2028tdeng</code></td><td>Junior Sysadmin</td></tr><tr><td>Elijah Feldman</td><td><code>2028efeldman</code></td><td>Junior Sysadmin</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="254.33333333333331">Name</th><th width="183">Username</th><th>Positions</th></tr></thead><tbody><tr><td>Name</td><td>Username</td><td>Positions</td></tr><tr><td>Aarush Deshpande</td><td><code>2027adeshpan</code></td><td><strong>Lead Sysadmin</strong><br>Infrastructure Lead<br>Web Services Co-Lead</td></tr><tr><td>Aarush Chaurasia</td><td><code>2027achauras</code></td><td><strong>Lead Sysadmin</strong><br>Intranet Co-Lead<br>Cybersecurity &#x26; Monitoring Co-Lead</td></tr><tr><td>Catelyn Dao</td><td><code>2027tdao</code></td><td>Storage Co-Lead<br>Documentation Manager</td></tr><tr><td>Shreyas Jain</td><td><code>2027sjain</code></td><td>Intranet Co-Lead<br>Storage Co-Lead</td></tr><tr><td>Mikaeel Taher</td><td><code>2027mtaher</code></td><td>Cluster Co-Lead</td></tr><tr><td>Samuel Chow</td><td><code>2028schow</code></td><td>Web Services Co-Lead, Storage Co-Lead</td></tr><tr><td>Bryce Conrad</td><td><code>2028bconrad</code></td><td>Cybersecurity &#x26; Monitoring Co-Lead, Mail Co-Lead</td></tr><tr><td>Tiger Deng</td><td><code>2028tdeng</code></td><td>Director Lead, Workstations Lead</td></tr><tr><td>Elijah Feldman</td><td><code>2028efeldman</code></td><td>Cluster Co-Lead, Mail Co-Lead</td></tr><tr><td>Ethan You</td><td><code>2028eyou</code></td><td>Junior Admin</td></tr><tr><td>Robert Zhao</td><td><code>2028rzhao1</code></td><td>Junior Admin</td></tr><tr><td>Finnegan Adair</td><td><code>2029fadair</code></td><td>Junior Admin</td></tr><tr><td>Ben Ahn</td><td><code>2029yahn</code></td><td>Junior Admin</td></tr><tr><td>Tony Hsu</td><td><code>2029lhsu</code></td><td>Junior Admin</td></tr></tbody></table>
 
 ## Roles <a href="#current-leads" id="current-leads"></a>
 
@@ -15,22 +15,22 @@ All roles and their responsibilities are [available here](organization.md#genera
 | Area                       | Lead(s)          |
 | -------------------------- | ---------------- |
 | Infrastructure             | Aarush Deshpande |
-| Networking                 | Henry Stievater  |
+| Networking                 | Aarush Chaurasia |
 | Cybersecurity & Monitoring | Aarush Chaurasia |
 
 ## Teams <a href="#teams" id="teams"></a>
 
 All teams and their responsibilities are [available here](organization.md#teams).
 
-| Team Name    | Lead(s)                                     |
-| ------------ | ------------------------------------------- |
-| Intranet     | <p>Aarush Chaurasia<br>Shreyas Jain</p>     |
-| Director     | <p>Aarush Deshpande<br>Aarush Chaurasia</p> |
-| Web Services | Aarush Deshpande                            |
-| Mail         | <p>Irmuun Bayart-Od<br>Henry Stievater</p>  |
-| Storage      | <p>Shreyas Jain<br>Catelyn Dao</p>          |
-| Cluster      | <p>Irmuun Bayart-Od<br>Devin Park</p>       |
-| Workstations | <p>Irmuun Bayart-Od<br>Catelyn Dao</p>      |
+| Team Name    | Lead(s)                                           |
+| ------------ | ------------------------------------------------- |
+| Intranet     | <p>Aarush Chaurasia<br>Shreyas Jain</p>           |
+| Director     | Tiger Deng                                        |
+| Web Services | <p>Aarush Deshpande<br>Samuel Chow</p>            |
+| Mail         | <p>Bryce Conrad<br>Eli Feldman</p>                |
+| Storage      | <p>Shreyas Jain<br>Catelyn Dao<br>Samuel Chow</p> |
+| Cluster      | <p>Eli Feldman<br>Mikaeel Taher</p>               |
+| Workstations | Tiger Deng                                        |
 
 ## Points of Contact
 
@@ -130,6 +130,7 @@ These alumni managed a version of Intranet or websites in the past.
 * Saloni Shah, Class of 2023
 * Alan Zhu, Class of 2025
 * Justin Lee, Class of 2025
+* Henry Stievater, Class of 2026
 
 ### Full Student Systems Administrators
 
@@ -243,6 +244,9 @@ These alumni were full-fledged Student Systems Administrator.
 * Noah Kabiri, Class of 2024
 * Elijah Gusion-Dowdy, Class of 2025
 * Sophia Huang, Class of 2025
+* Irmuun Bayart-Od, Class of 2026
+* Devin Park, Class of 2026
+* Leo Lim, Class of 2026
 
 ### Faculty Sponsors
 
