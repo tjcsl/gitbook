@@ -28,9 +28,7 @@ Most workstations have **similar** specifications listed below:
 **The Pit Workstations** are workstations located in the Pit that are mainly intended for Sysadmin use. Some of the workstations below don't have the same specifications that are listed above.
 
 * **`mozart`** - Runs Ubuntu 22.04, has the same specifications as other workstations.
-* **`bourne`** - Runs Ubuntu 22.04, has the same specifications as other workstations.
 * **`turing`** - Runs Debian 12, has the same specifications as other workstations.
-* **`asm`** - Not a workstation, but it is located in the Pit. `asm` is the **most powerful** "workstation" in the Syslab. It runs Arch Linux which also makes it the only workstation in the Syslab that runs an Arch-based distribution. Currently it doesn't work.
 
 ## Room 200
 
@@ -66,18 +64,14 @@ Almost half of our workstations are located in Rm 200. These workstations are us
 
 ## Room 202 <a href="#id-202" id="id-202"></a>
 
-The other half of our workstations are located in Room 202. These workstations are used mainly for computer vision and senior research.
+The other half of our workstations are located in Room 202. These workstations can be accessed remotely through Guacamole, or used over ssh / in-person.
 
-* **`prokofiev`**
-* **`hindemith`**
 * **`puccini`**
 * **`rachmaninoff`**
 * **`wagner`**
 * **`vivaldi`**
-* **`stravinsky`**
 * **`schumann`**
 * **`handel`**
-* **`gershwin`**
 * **`faure`**
 * **`debussy`**
 * **`copland`**
@@ -98,22 +92,6 @@ The other half of our workstations are located in Room 202. These workstations a
 * **`vecchio`**
 * **`holst`**
 * **`liszt`**
-
-## Unplugged Workstations
-
-These workstations listed below are workstations that are not in current use. They are unplugged and some run an older version of Ubuntu.
-
-* **`chamberlin`**
-* **`danaher`**
-* **`dijkstra`**
-* **`feghali`**
-* **`gosling`**
-* **`kahn`**
-* **`kleinrock`**
-* **`lerdorf`**
-* **`matsumoto`**
-* **`postel`**
-* **`ritchie`**
 
 ## Accessing the Workstations
 
