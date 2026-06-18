@@ -20,6 +20,10 @@ Instructions for printing are posted by the library's Ricoh printer in the far c
 
 3\. Using FCPS Chromebook: choose PRINT, then use menu slider to choose MOBILITY PRINTING, then PRINT.
 
+4\. A window _may_ appear asking "Sign in to print". Do not enter anything into the Username or Password fields; instead, select "Sign in with Google" and use your fcpsschools.net Google account.
+
+You can double check if the print job was sent by going to [papercut.fcps.edu](https://papercut.fcps.edu). Log in with yout FCPS credentials and select "Jobs Pending Release" on the left after signing in and see if your document appears. Sometimes, you may see the job be sent even if step 4 appeared to fail.
+
 ## Retrieving Print Job
 
 1\. Go to Ricoh printer in the corner of the library.
