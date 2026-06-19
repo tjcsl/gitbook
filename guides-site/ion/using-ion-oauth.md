@@ -43,6 +43,8 @@ For a Django project add `AUTHENTICATION_BACKENDS = ['ion_oauth.oauth.IonOauth2'
 
 #### API Requests
 
+Note: This part is most likely contained inside your views.py file, remember to implement a callback view and login view for users.
+
 For a Python client, use `requests` with `requests-oauthlib`. If running locally (without HTTPS), override the SSL requirement for OAuth2.
 
 ```python
@@ -90,7 +92,31 @@ After 36,000 seconds (1 hour), the token will expire; you need to renew it. This
 args = { "client_id": CLIENT_ID, "client_secret": CLIENT_SECRET }
 token = oauth.refresh_token("https://ion.tjhsst.edu/oauth/token/", **args)
 ```
-
+#### 2026 - Updated Alternative
+A more modern alternative to these methods is by just doing a redirect in your login view. Remember to import the `requests` library.
+```python
+ion_auth_url = f"https://ion.tjhsst.edu/oauth/authorize?response_type=code&client_id={client_id}&redirect_uri={redirect_uri}&scope=read+openid" # change scope as needed.
+return redirect(ion_auth_url)
+```
+In your callback view, retrieve the code and use your client ID and secret to retrieve a token.
+```python
+code = req.GET.get("code")
+response = requests.post("https://ion.tjhsst.edu/oauth/token/", data={
+   "grant_type":"authorization_code",
+   "code":code,
+   "client_id":id,
+   "client_secret": secret,
+   "redirect_uri" : uri,
+   }
+data = response.json()
+access_token = data.get("access_token")
+```
+Here's an example of using that access token to get a user's profile. To replicate API requests, read the API documentation and format your requests from there.
+```python
+profile_response = requests.get("https://ion.tjhsst.edu/api/profile", headers={"Authorization": f"Bearer {access_token}"})
+profile_data = profile_response.json()
+username = profile_data.get("ion_username")
+```
 ### Node.js
 
 You can use the [simple-oauth2](https://github.com/lelylan/simple-oauth2) library to perform authentication. Below is some sample code.
