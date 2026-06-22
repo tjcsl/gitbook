@@ -1,17 +1,17 @@
 # ASM
 
-**ASM** is a machine residing in the CSL pit, right outside the machine room. It is currently being used by 2019jduvall to conduct senior research. Older brother of [Duke](duke.md)
+**ASM** is a machine residing in the CSL pit, right outside the machine room. It was previously used by 2019jduvall to conduct senior research. Older brother of [Duke](duke.md)
 
 ## Technical specifications
 
-| Field           | Value                                                                |
-| --------------- | -------------------------------------------------------------------- |
-| **Server Type** | It's a desktop, not a server dummy                                   |
-| **CPU**         | enough                                                               |
-| **RAM**         | 16 GB  (not enough)                                                  |
-| **GPU**         | 2x NVIDIA GeForce TITAN                                              |
-| **Hard Disks**  | 1TB Samsung 860 EVO (+ an unused 1TB HDD from some company or other) |
-| **OS**          | Arch Linux 😎                                                        |
+| Field           | Value                                     |
+| --------------- | ----------------------------------------- |
+| **Server Type** | Desktop                                   |
+| **CPU**         | Unknown Currently                         |
+| **RAM**         | 16 GB                                     |
+| **GPU**         | 2x NVIDIA GeForce TITAN                   |
+| **Hard Disks**  | 1TB Samsung 860 EVO (+ an unused 1TB HDD) |
+| **OS**          | Arch Linux 😎                             |
 
 ## History
 

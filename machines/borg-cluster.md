@@ -17,7 +17,7 @@ Every node in the cluster has the same specifications:
 | **CPU**           | Intel(R) Xeon(R) E5-2670 @ 2.60GHz |
 | **RAM**           | 32 GB                              |
 | **Hard Disks**    | 500GB                              |
-| **OS**            | CentOS 7                           |
+| **OS**            | Ubuntu 24.04 (as of June 2026)     |
 | **Purchase Date** | November 2016                      |
 
 ## History
